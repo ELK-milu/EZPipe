@@ -34,6 +34,7 @@ class PostChat:
         self.streamly = streamly
         self.response = requests.request("POST", url, json=self.payload, headers=headers,stream=streamly)
         self.response.encoding = 'utf-8'
+        return
         # 检查响应状态码
         if self.response.status_code == 200:
             if self.streamly:
@@ -41,7 +42,8 @@ class PostChat:
                 for chunk in self.response.iter_content(chunk_size=None):
                     if chunk:
                         # 处理每个 chunk（假设是 UTF-8 编码的文本）
-                        print(chunk.decode('utf-8'), end="")
+                        chunk.decode('utf-8')
+                        #print(chunk.decode('utf-8'), end="")
                 return
             else:
                 self.response_text = self.response.text
