@@ -16,26 +16,6 @@ from modules.LLM.DeepSeekPost import PostChat
 from modules.TTS.GPTSovit_TTS_Client import GetService as GetTTSService
 
 
-
-class StreamProcessor:
-    def __init__(self):
-        self._executor = ThreadPoolExecutor(max_workers=4)
-        self._futures = []
-
-    def process_stream(self, response):
-        future = self._executor.submit(handle_stream_response, response)
-        self._futures.append(future)
-        return future
-
-    def shutdown(self):
-        for future in as_completed(self._futures):
-            try:
-                future.result()
-            except Exception:
-                pass
-        self._executor.shutdown(wait=True)
-
-
 class Answer_Chunk:
     def __init__(self, text, user, streamly):
         self.text = text
@@ -46,7 +26,7 @@ class Answer_Chunk:
         self.response_string = ""
         self.full_content = ""
         self.Is_End = False
-        self.thread = None
+        self.thread: Thread = None
 
     def GetThinking(self) -> str:
         return self.think_string
@@ -59,22 +39,23 @@ class Answer_Chunk:
 
     def AppendResponse(self, content):
         self.response_string += content
-    def close(self):
-        """显式释放线程资源"""
-        if self.thread and self.thread.is_alive():
-            self.thread.join()  # 等待线程完成
-        print("对象资源已释放")
-    def __del__(self):
-        self.close()  # 确保资源释放
 
-def extract_think_response(answer: Answer_Chunk,response, streamly: bool) -> tuple:
+    def close(self):
+        if self.thread and self.thread.is_alive():
+            self.thread.join()
+            print("线程已释放")
+    def __del__(self):
+        print("对象被销毁")
+        # 释放线程
+        self.close()
+
+def extract_think_response(answer: Answer_Chunk,response:str, streamly: bool) -> tuple:
     """
     处理流式和非流式响应，提取思考内容和最终响应
     """
-
     if streamly:
         # 处理流式响应
-        if response.startswith("data: "):
+        if response:
             data = response[6:]
             data = json.loads(data)
             if "choices" in data and data["choices"]:
@@ -118,20 +99,21 @@ def extract_think_response(answer: Answer_Chunk,response, streamly: bool) -> tup
 
 def handle_stream_response(chat_response, answer: Answer_Chunk, invoke_func):
     try:
-        if answer.streamly:
+        if not answer.streamly:
             # 非流式传输则直接接收并处理
-            extract_think_response(answer, chat_response.text, streamly=False)
+            extract_think_response(answer, chat_response.text, answer.streamly)
             invoke_func(answer)
         else:
-            for chunk in chat_response.iter_content(chunk_size=4096):
+            for chunk in chat_response.iter_content(chunk_size=None):
                 if chunk:
                     try:
                         decoded = chunk.decode('utf-8')
                         # 处理业务逻辑
-                        extract_think_response(answer, decoded, True)
+                        extract_think_response(answer, decoded, answer.streamly)
                         invoke_func(answer)
                     except UnicodeDecodeError:
                         print(f"解码失败: {chunk.hex()}")
+
     except Exception as e:
         print(f"处理流时出错: {str(e)}")
     finally:
@@ -144,7 +126,6 @@ def GetService(streamly,user,text):
         user=user,
         text=text
     ).GetResponse()
-    response_string = ""
     answer = Answer_Chunk(text=text, user=user, streamly=streamly)
     answer.thread = Thread(target=handle_stream_response, args=(chat_Response, answer, on_stream_complete))
     answer.thread.start()
@@ -164,8 +145,7 @@ def on_stream_complete(answer: Answer_Chunk):
     print("Response:", answer.GetResponse())
     if answer.Is_End :
         GetTTSService(answer.streamly, answer.user, answer.GetResponse())
-        answer.close()
-
+        del answer
 
 def main():
     # 创建命令行参数解析器
@@ -174,18 +154,15 @@ def main():
     parser.add_argument("--user", type=str, default="user", help="用户标识")
     parser.add_argument("--text", type=str, required=True, help="输入文本")
     args = parser.parse_args()
-    GetService(args.streamly, args.user, args.text)
+    #GetService(args.streamly, args.user, args.text)
     # 使用线程池管理线程
     with ThreadPoolExecutor(max_workers=4) as executor:
-        future = executor.submit(GetService, streamly=True, user="test_user", text="Hello, world!")
+        future = executor.submit(GetService, streamly=args.streamly, user=args.user, text=args.text)
         answer = future.result()  # 获取 Answer_Chunk 对象
-
         # 主程序等待线程完成
         answer.thread.join()
-
         # 显式释放资源
         answer.close()
-
 
 if __name__ == "__main__":
     main()
