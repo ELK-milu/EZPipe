@@ -23,6 +23,10 @@ class PostChat:
                 "type": "text"
             },
             "messages": [
+                {
+                    "role": "system",
+                    "content": "你是一个AI语音助手，请帮助解决用户提出的问题，并限定回复字数在100字以内"
+                }
             ]
         }
 

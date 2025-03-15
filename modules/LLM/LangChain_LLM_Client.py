@@ -12,8 +12,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # 正确推导到pipeline目录（上溯两级）
 pipeline_dir = os.path.dirname(os.path.dirname(current_dir))  # D:\LCBot\LCBotDocker\pipeline
 sys.path.append(pipeline_dir)
-from modules.LLM.DeepSeekPost import PostChat
-from modules.TTS.GPTSovit_TTS_Client import GetService as GetTTSService
+from modules.LLM.LangChainChatchatPost import PostChat
+from modules.TTS.GPTSovit_API_Client import GetService as GetTTSService
 
 
 class Answer_Chunk:
@@ -45,7 +45,7 @@ class Answer_Chunk:
             self.thread.join()
             print("线程已释放")
     def __del__(self):
-        print("对象被销毁")
+        print(f"{self.__class__.__name__} 对象被销毁")
         # 释放线程
         self.close()
 
@@ -147,6 +147,15 @@ def on_stream_complete(answer: Answer_Chunk):
         GetTTSService(answer.streamly, answer.user, answer.GetResponse())
         del answer
 
+
+def external_call(streamly, user, text):
+    # 外部调用 GetService
+    answer = GetService(streamly, user, text)
+    # 等待线程完成
+    answer.thread.join()
+    # 显式释放资源
+    answer.close()
+
 def main():
     # 创建命令行参数解析器
     parser = argparse.ArgumentParser(description="LLM对话服务客户端")
@@ -164,5 +173,7 @@ def main():
         # 显式释放资源
         answer.close()
 
+
 if __name__ == "__main__":
+    # 启动 main 服务
     main()

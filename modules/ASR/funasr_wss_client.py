@@ -15,7 +15,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # 正确推导到pipeline目录（上溯两级）
 pipeline_dir = os.path.dirname(os.path.dirname(current_dir))  # D:\LCBot\LCBotDocker\pipeline
 sys.path.append(pipeline_dir)
-from modules.LLM.LangChain_LLM_Client import GetService
+import modules.LLM
+from modules.LLM.LangChain_LLM_Client import external_call
 
 import logging
 
@@ -394,7 +395,8 @@ async def stop_recording():
         print("Recording stopped.")
         print("Final recognized text:", text_print)  # 输出最终的识别结果
         # 启动transfer.py并传递text_print
-        GetService(False,"LLM",text_print)
+        external_call(True,"LLM",text_print)
+        text_print = ""
 
 
 def on_key_press(event):
