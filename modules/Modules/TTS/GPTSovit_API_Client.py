@@ -1,5 +1,4 @@
 import argparse
-import io
 import sys
 import os
 import threading
@@ -12,7 +11,7 @@ import pyaudio
 current_dir = os.path.dirname(os.path.abspath(__file__))
 pipeline_dir = os.path.dirname(os.path.dirname(current_dir))  # D:\LCBot\LCBotDocker\pipeline
 sys.path.append(pipeline_dir)
-from modules.TTS.SovitsPost import PostChat
+from modules.Modules.TTS.SovitsPost import PostChat
 
 
 class Answer_Chunk:

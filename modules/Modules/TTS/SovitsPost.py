@@ -69,7 +69,7 @@ class PostChat:
     def GetResponse(self):
         return self.response
     def PrintAnswer(self):
-        return self.response_text  # 返回存储的响应内容
+        return self.response.text  # 返回存储的响应内容
 
 if __name__ == "__main__":
     # 启动 main 服务

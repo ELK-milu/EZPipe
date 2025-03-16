@@ -110,7 +110,7 @@ Service_Process_Dictionary = {}
 
 
 def WakeUp_Service(module_name, start_command, service_path, dynamic_args):
-    module_path = "modules.module_base"  # 模块路径
+    module_path = "Modules.module_base"  # 模块路径
 
     try:
         # 动态导入模块

@@ -1,9 +1,7 @@
 import argparse
 import json
 import platform
-from asyncio import as_completed
 from concurrent.futures import ThreadPoolExecutor
-from typing import Generator, Union
 from threading import Thread
 import sys
 import os
@@ -12,8 +10,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # 正确推导到pipeline目录（上溯两级）
 pipeline_dir = os.path.dirname(os.path.dirname(current_dir))  # D:\LCBot\LCBotDocker\pipeline
 sys.path.append(pipeline_dir)
-from modules.LLM.LangChainChatchatPost import PostChat
-from modules.TTS.GPTSovit_API_Client import GetService as GetTTSService
+from modules.Modules.LLM.LangChainChatchatPost import PostChat
+from modules.Modules.TTS.GPTSovit_API_Client import GetService as GetTTSService
 
 
 class Answer_Chunk:

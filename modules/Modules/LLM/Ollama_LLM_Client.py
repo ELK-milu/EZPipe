@@ -1,9 +1,7 @@
 import argparse
 import json
 import platform
-from asyncio import as_completed
 from concurrent.futures import ThreadPoolExecutor
-from typing import Generator, Union
 from threading import Thread
 import sys
 import os
@@ -12,12 +10,10 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # 正确推导到pipeline目录（上溯两级）
 pipeline_dir = os.path.dirname(os.path.dirname(current_dir))  # D:\LCBot\LCBotDocker\pipeline
 sys.path.append(pipeline_dir)
-from modules.LLM.OllamaPost import PostChat
-from modules.TTS.GPTSovit_API_Client import GetService as GetTTSService
-
+from modules.Modules.LLM.OllamaPost import PostChat
 
 class Answer_Chunk:
-    def __init__(self, text, user, streamly):
+    def __init__(self, text, user, streamly, NextModel=None):
         self.text = text
         self.user = user
         self.streamly = streamly
@@ -26,6 +22,7 @@ class Answer_Chunk:
         self.response_string = ""
         self.full_content = ""
         self.Is_End = False
+        self.OutPut:BaseModel = NextModel
         self.thread: Thread = None
 
     def GetThinking(self) -> str:
@@ -126,7 +123,7 @@ def handle_stream_response(chat_response, answer: Answer_Chunk, invoke_func):
         print(f"处理流时出错: {str(e)}")
     finally:
         chat_response.close()  # 确保释放连接
-def GetService(streamly,user,text):
+def GetService(streamly:bool,user:str,text):
     print("GetLLMService")
     # 调用对话服务
     chat_Response = PostChat(
@@ -151,7 +148,7 @@ def on_stream_complete(answer: Answer_Chunk):
     print("Think:", answer.GetThinking())
     print("Response:", answer.GetResponse())
     if answer.Is_End :
-        GetTTSService(answer.streamly, answer.user, answer.GetResponse())
+        answer.NextModel.GetTTSService(answer.streamly, answer.user, answer.GetResponse())
         del answer
 
 
