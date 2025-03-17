@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:8080/tts"
+url = "http://127.0.0.1:8090/tts"
 
 headers = {
     "Authorization": "",

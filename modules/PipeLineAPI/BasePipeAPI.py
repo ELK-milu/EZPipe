@@ -1,10 +1,11 @@
+import asyncio
 import json
 from abc import abstractmethod, ABC
 from typing import Any, Dict
 from fastapi import FastAPI, HTTPException, APIRouter
 import uvicorn
 from pydantic import BaseModel
-from starlette.responses import JSONResponse
+from starlette.responses import JSONResponse, StreamingResponse
 
 from modules.PipeLine.BasePipeLine import PipeLine
 
@@ -44,9 +45,11 @@ class API_Service(ABC):
         @self.router.post(f"{self.post_router}")
         async def process_input(request: Dict[str, Any]):
             try:
-                # 请求参数验证
                 api_request = self.APIRequest(**request)
-                return await self._handle_request(api_request)
+                return StreamingResponse(
+                    content=self._handle_request_stream(api_request),
+                    media_type="text/event-stream"
+                )
             except Exception as e:
                 raise HTTPException(status_code=422, detail=str(e))
 
@@ -70,18 +73,51 @@ class API_Service(ABC):
         if hasattr(self.pipeline, "Destroy"):
             self.pipeline.Destroy()
 
-    async def _handle_request(self, request: APIRequest):
+    async def _handle_request_stream(self, request: APIRequest):
+        print(f"[API] Starting stream for {request.user}")
+        try:
+            # 清理之前的请求
+            self.pipeline._cleanup(request.user)
+
+            processed_data = self.HandleInput(request)
+            print(f"[API] Processed data: {processed_data[:20]}...")
+
+            # 使用新的异步任务
+            async def service_task():
+                try:
+                    self.pipeline.GetService(
+                        streamly=request.streamly,
+                        user=request.user,
+                        input_data=processed_data
+                    )
+                except Exception as e:
+                    print(f"Service error: {str(e)}")
+
+            # 在正确的事件循环中运行
+            task = asyncio.create_task(service_task())
+
+            # 流式响应
+            async for chunk in self.pipeline.ResponseOutput(request.user):
+                if task.done() and task.exception():
+                    raise task.exception()
+                yield f"data: {json.dumps({'chunk': chunk.decode('utf-8', errors='replace') if isinstance(chunk, bytes) else chunk})}\n\n"
+
+        except asyncio.CancelledError:
+            print(f"请求被取消: {request.user}")
+            raise
+        except Exception as e:
+            print(f"[API] Stream error: {str(e)}")
+            yield f"data: {json.dumps({'error': str(e)})}\n\n"
+        finally:
+            print(f"[API] Stream closed for {request.user}")
+
+    async def GetFinalOut(self, request: APIRequest):
         """统一请求处理流程"""
-        processed_data = self.HandleInput(request)
-        self.pipeline.GetService(
-            streamly=request.streamly,
-            user=request.user,
-            input_data=processed_data
-        )
         try:
             return await self.pipeline.Output(request.user)
         finally:
-            self.pipeline.Destroy()  # 确保无论是否异常都会执行销毁
+            pass
+            #self.pipeline.Destroy()  # 确保无论是否异常都会执行销毁
 
     @abstractmethod
     def HandleInput(self, request: APIRequest) -> Any:
@@ -89,11 +125,17 @@ class API_Service(ABC):
         pass
 
     def Run(self):
-        """启动API服务"""
-        uvicorn.run(
+        self.loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(self.loop)
+
+        # 关键修复：同步pipeline的事件循环
+        self.pipeline.main_loop = self.loop
+
+        config = uvicorn.Config(
             app=self.app,
             host=self.host,
             port=self.port,
-            workers=self.workers,
-            reload=False
+            loop="asyncio"
         )
+        server = uvicorn.Server(config)
+        self.loop.run_until_complete(server.serve())

@@ -19,12 +19,8 @@ POST:
     max_length:integer
 }
 ```
-RESP:
-成功: 直接返回 wav 音频流， http code 200
-失败: 返回包含错误信息的 json, http code 400
 '''
 
-#本台消息，国家主席习近平在中国龙年元宵节
 
 class PostChat:
     def __init__(self,streamly,user,text):
@@ -49,5 +45,6 @@ class PostChat:
 if __name__ == "__main__":
     # 启动 main 服务
     ps = PostChat(streamly=True,user="user",
-             text="1111")
-    print(ps.GetResponse().text)
+             text="你好啊").GetResponse()
+    for chunk in ps.iter_content(chunk_size=None):
+        print(str(chunk))
