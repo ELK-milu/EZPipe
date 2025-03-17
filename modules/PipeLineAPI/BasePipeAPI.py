@@ -80,7 +80,7 @@ class API_Service(ABC):
             self.pipeline._cleanup(request.user)
 
             processed_data = self.HandleInput(request)
-            print(f"[API] Processed data: {processed_data[:20]}...")
+            print(f"[API] Processed data: {processed_data}...")
 
             # 使用新的异步任务
             async def service_task():
@@ -100,7 +100,7 @@ class API_Service(ABC):
             async for chunk in self.pipeline.ResponseOutput(request.user):
                 if task.done() and task.exception():
                     raise task.exception()
-                yield f"data: {json.dumps({'chunk': chunk.decode('utf-8', errors='replace') if isinstance(chunk, bytes) else chunk})}\n\n"
+                yield f"{json.dumps({'chunk': str(chunk)})}\n"
 
         except asyncio.CancelledError:
             print(f"请求被取消: {request.user}")

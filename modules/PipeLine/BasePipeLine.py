@@ -55,11 +55,16 @@ class PipeLine:
             while True:
                 async with self.lock:
                     q = self.user_queues.get(user)
-                    active = self.active_users.get(user, False)
+                    active = self.active_users.get(user, None)
 
-                if not q and not active:
-                    print(f"[Response] No queue and inactive for {user}")
-                    break
+                if not q:
+                    if active is None:
+                        print(f"[Response] 等待{user}服务开启")
+                    elif active:
+                        print(f"[Response] {user}服务开启中,等待流式返回")
+                    elif not active:
+                        print(f"[Response] No queue and inactive for {user}")
+                        break
 
                 if q:
                     try:
@@ -151,6 +156,7 @@ class PipeLine:
 
     def GetService(self, streamly: bool, user: str, input_data: Any):
         with self.active_tasks:
+            print("[PipeLine] Start PipeLine Service")
             """带中断机制的入口"""
             # 延迟确保清理完成
             def delayed_start():
@@ -158,6 +164,7 @@ class PipeLine:
                 time.sleep(0.1)  # 等待100ms确保清理完成
                 if not self.modules:
                     raise ValueError("Unconfigured pipeline")
+                self.active_users[user] = True
                 self.modules[0].GetService(streamly, user, input_data)
 
             # 在新线程中启动
