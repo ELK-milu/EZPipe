@@ -87,11 +87,6 @@ class PipeLine:
         finally:
             pass
 
-    def _cleanup_user(self, user: str):
-        if user in self.user_queues:
-            del self.user_queues[user]
-        if user in self.active_users:
-            del self.active_users[user]
     def _link_instances(self):
         """连接实例链"""
         for i in range(len(self.modules)-1):
@@ -172,28 +167,44 @@ class PipeLine:
         """统一输出入口（修复版本）"""
         return self.modules[-1].GetOutPut(user)
 
-    def _cleanup(self, user: str):
-        """增强型资源清理"""
-        print(f"开始清理用户{user}的资源")
-        # 1. 终止所有模块的线程
-        for module in self.modules:
-            module._cleanup(user)
 
-        # 2. 清理管道级队列
-        async def async_cleanup():
+    async def _cleanup_user(self, user: str):
+        """异步用户清理入口"""
+        await asyncio.get_event_loop().run_in_executor(
+            None,
+            self._cleanup,
+            user
+        )
+
+    def _cleanup(self, user: str):
+        """增强容错性的管道级清理"""
+        print(f"[{self.__class__.__name__}] 开始清理用户{user}")
+        for module in self.modules:
+            try:
+                # 添加模块级清理保护
+                if hasattr(module, '_cleanup'):
+                    module._cleanup(user)
+            except KeyError as e:
+                print(f"模块 {type(module).__name__} 清理时出现预期外Key: {str(e)}")
+            except Exception as e:
+                print(f"模块清理错误: {str(e)}")
+
+        # 异步清理管道级资源
+        async def async_clean():
             async with self.lock:
                 if user in self.user_queues:
-                    while not self.user_queues[user].empty():
-                        try:
-                            self.user_queues[user].get_nowait()
-                        except queue.Empty:
-                            break
                     del self.user_queues[user]
                 if user in self.active_users:
                     del self.active_users[user]
 
-        # 在事件循环中执行清理
-        asyncio.run_coroutine_threadsafe(async_cleanup(), self.main_loop)
+        # 使用run_coroutine_threadsafe确保在主事件循环执行
+        future = asyncio.run_coroutine_threadsafe(async_clean(), self.main_loop)
+        try:
+            future.result(timeout=5)
+        except TimeoutError:
+            print(f"用户{user}资源清理超时")
+
+        print(f"[{self.__class__.__name__}] 完成清理用户{user}")
 
     def Destroy(self):
         """统一销毁资源"""

@@ -9,6 +9,7 @@ if TYPE_CHECKING:
 
 class BaseModule(ABC):
     def __init__(self):
+        self.stop_events: Dict[str, threading.Event] = {}  # 新增停止事件字典
         self.next_model: Optional["BaseModule"] = None
         self.pipeline: Optional["PipeLine"] = None
         self.user_queues: Dict[str, queue.Queue] = {}  # 实例级队列
@@ -61,13 +62,24 @@ class BaseModule(ABC):
     def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
         self._create_thread(streamly, user, input_data)
 
+    def _thread_wrapper(self, streamly: bool, user: str, input_data: Any):
+        try:
+            self.Thread_Task(streamly, user, input_data, self.Output)
+        finally:
+            self._cleanup(user)
+
     def _create_thread(self, streamly: bool, user: str, input_data: Any):
         if user in self.user_threads:
-            raise RuntimeError(f"User {user} already has active request")
+            self._cleanup(user)  # 创建新线程前先清理
+
+        self.stop_events[user] = threading.Event()  # 创建新事件
+        thread = threading.Thread(
+            target=self._thread_wrapper,
+            args=(streamly, user, input_data))
 
         self.user_queues[user] = queue.Queue()
         # 创建线程并启动
-        thread = threading.Thread(target=self.Thread_Task, args=(streamly, user, input_data, self.Output))
+        #thread = threading.Thread(target=self.Thread_Task, args=(streamly, user, input_data, self.Output))
         self.user_threads[user] = thread
         thread.start()
 
@@ -80,19 +92,17 @@ class BaseModule(ABC):
             raise TimeoutError(f"Timeout waiting for output from {self.__class__.__name__}")
 
     def _cleanup(self, user: str):
-        # 终止正在运行的线程
+        """增强型清理，添加存在性检查"""
+        if user in self.stop_events:
+            self.stop_events[user].set()  # 触发停止标志
+        # 清理线程
         if user in self.user_threads:
             thread = self.user_threads[user]
             if thread.is_alive():
-                # 安全终止线程
-                thread.join(timeout=0.2)  # 等待0.2秒
                 if thread.is_alive():
                     print(f"强制终止用户{user}的线程")
-                    # 这里可以添加更安全的终止逻辑
-                    self.user_threads[user].join()
-            del self.user_threads[user]
-
-        # 清空队列
+            del self.user_threads[user]  # 先删除线程记录
+        # 清理队列
         if user in self.user_queues:
             while not self.user_queues[user].empty():
                 try:
@@ -100,6 +110,10 @@ class BaseModule(ABC):
                 except queue.Empty:
                     break
             del self.user_queues[user]
+        # 清理停止标志
+        if user in self.stop_events:
+            del self.stop_events[user]
+
 
     def Destory(self):
         del self.user_threads

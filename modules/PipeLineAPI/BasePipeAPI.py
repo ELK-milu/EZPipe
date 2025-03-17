@@ -75,11 +75,23 @@ class API_Service(ABC):
         if hasattr(self.pipeline, "Destroy"):
             self.pipeline.Destroy()
 
+    async def _cleanup_user(self, user: str):
+        """新增异步清理方法"""
+        loop = asyncio.get_event_loop()
+        await loop.run_in_executor(
+            None,
+            lambda: self.pipeline._cleanup(user)
+        )
+
+
     async def _handle_request_stream(self, request: APIRequest):
         print(f"[API] Starting stream for {request.user}")
         try:
-            # 清理之前的请求
-            self.pipeline._cleanup(request.user)
+            # 强制等待清理完成
+            await asyncio.wait_for(
+                self.pipeline._cleanup_user(request.user),
+                timeout=5
+            )
 
             processed_data = self.HandleInput(request)
             print(f"[API] Processed data: {processed_data}...")
@@ -114,16 +126,18 @@ class API_Service(ABC):
                         "chunk": chunk
                     }) + "\n"
 
-
         except asyncio.CancelledError:
-            print(f"请求被取消: {request.user}")
+            print(f"客户端断开: {request.user}")
+            await self.pipeline._cleanup_user(request.user)
             raise
         except Exception as e:
             print(f"[API] Stream error: {str(e)}")
             yield f"data: {json.dumps({'error': str(e)})}\n\n"
         finally:
-            print(f"[API] Stream closed for {request.user}")
-            self.pipeline._cleanup(request.user)
+            try:
+                await self.pipeline._cleanup_user(request.user)
+            except KeyError:
+                print(f"用户{request.user}资源已提前释放")
 
     async def GetFinalOut(self, request: APIRequest):
         """统一请求处理流程"""

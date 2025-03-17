@@ -21,6 +21,10 @@ class GPTSoVit_TTSModule(BaseModule):
                 chunk_count = 0
                 for chunk in chat_response.iter_content(chunk_size=None):
                     if chunk:
+                        stop_event = self.stop_events[user]
+                        if stop_event.is_set():  # 检查停止标志
+                            print(f"[TTS] {user} 主动停止合成")
+                            break  # 直接中断循环
                         print(f"[TTS] Sending {user} chunk #{chunk_count} ({len(chunk)} bytes)")
                         invoke_func(streamly, user, chunk)
                         chunk_count += 1
@@ -33,3 +37,4 @@ class GPTSoVit_TTSModule(BaseModule):
         except Exception as e:
             print(f"[TTS] Error: {str(e)}")
             invoke_func(streamly, user, None)
+            chat_response.close()
