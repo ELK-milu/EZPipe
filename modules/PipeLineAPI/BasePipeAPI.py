@@ -1,4 +1,5 @@
 import asyncio
+import base64
 import json
 from abc import abstractmethod, ABC
 from typing import Any, Dict
@@ -46,6 +47,7 @@ class API_Service(ABC):
         async def process_input(request: Dict[str, Any]):
             try:
                 api_request = self.APIRequest(**request)
+                #TODO:因为流式传输中返回的是混合流，所以只能用text类型的来处理
                 return StreamingResponse(
                     content=self._handle_request_stream(api_request),
                     media_type="text/event-stream"
@@ -100,7 +102,18 @@ class API_Service(ABC):
             async for chunk in self.pipeline.ResponseOutput(request.user):
                 if task.done() and task.exception():
                     raise task.exception()
-                yield f"{json.dumps({'chunk': str(chunk)})}\n"
+                # 类型判断与数据封装
+                if isinstance(chunk, bytes):
+                    yield json.dumps({
+                        "type": "audio/wav",
+                        "chunk": base64.b64encode(chunk).decode("utf-8")
+                    }) + "\n"
+                elif isinstance(chunk, str):
+                    yield json.dumps({
+                        "type": "text",
+                        "chunk": chunk
+                    }) + "\n"
+
 
         except asyncio.CancelledError:
             print(f"请求被取消: {request.user}")
@@ -110,6 +123,7 @@ class API_Service(ABC):
             yield f"data: {json.dumps({'error': str(e)})}\n\n"
         finally:
             print(f"[API] Stream closed for {request.user}")
+            self.pipeline._cleanup(request.user)
 
     async def GetFinalOut(self, request: APIRequest):
         """统一请求处理流程"""

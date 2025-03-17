@@ -28,11 +28,13 @@ class BaseModule(ABC):
                 )
                 return
 
+
+            #TODO: 这段代码是有问题的，目前不知道怎么返回chunk块，所以用字符串组合来表示
             chunk = str(output_data)
             self.output += chunk
 
             asyncio.run_coroutine_threadsafe(
-                self.pipeline.add_chunk(user, chunk),
+                self.pipeline.add_chunk(user, output_data),
                 self.pipeline.main_loop
             )
 
@@ -83,10 +85,11 @@ class BaseModule(ABC):
             thread = self.user_threads[user]
             if thread.is_alive():
                 # 安全终止线程
-                thread.join(timeout=0.5)  # 等待0.5秒
+                thread.join(timeout=0.2)  # 等待0.2秒
                 if thread.is_alive():
                     print(f"强制终止用户{user}的线程")
                     # 这里可以添加更安全的终止逻辑
+                    self.user_threads[user].join()
             del self.user_threads[user]
 
         # 清空队列

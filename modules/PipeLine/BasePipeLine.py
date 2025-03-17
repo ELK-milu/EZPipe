@@ -27,7 +27,7 @@ class PipeLine:
         for i in range(len(self.modules)-1):
             self.modules[i].next_model = self.modules[i+1]
 
-    async def add_chunk(self, user: str, chunk: str):
+    async def add_chunk(self, user: str, chunk: Any):
         """向指定用户的队列添加数据块（异步线程安全）"""
         async with self.lock:
             if user not in self.user_queues:
@@ -72,7 +72,6 @@ class PipeLine:
                             None,
                             lambda: q.get(timeout=0.1)  # 增加短暂等待
                         )
-                        print(f"[Response] Yielding chunk for {user}: {chunk[:20]}...")
                         if chunk is None:
                             break
                         yield chunk
@@ -86,9 +85,7 @@ class PipeLine:
                 else:
                     await asyncio.sleep(0.1)
         finally:
-            print(f"[Response] Cleaning up {user}")
-            async with self.lock:
-                self._cleanup_user(user)
+            pass
 
     def _cleanup_user(self, user: str):
         if user in self.user_queues:

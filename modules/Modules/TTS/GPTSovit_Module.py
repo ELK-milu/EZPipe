@@ -32,5 +32,4 @@ class GPTSoVit_TTSModule(BaseModule):
                 chat_response.close()
         except Exception as e:
             print(f"[TTS] Error: {str(e)}")
-            invoke_func(streamly, user, f"ERROR: {str(e)}")
             invoke_func(streamly, user, None)
