@@ -24,5 +24,5 @@ if __name__ == "__main__":
         host="127.0.0.1",
         port=3421
     )
-    service.Print_Request_Schema()
+    #service.Print_Request_Schema()
     service.Run()

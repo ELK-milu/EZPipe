@@ -1,40 +1,77 @@
 import threading
-from asyncio import Queue
-from threading import Thread
-
-import pyaudio
-from starlette.responses import StreamingResponse
+from typing import Optional
 
 from ..BaseModule import BaseModule
-
 from .SovitsPost import PostChat
 
-"""语音合成模块（输入类型：str，输出类型：bytes）"""
 class GPTSoVit_TTSModule(BaseModule):
+    """语音合成模块（输入类型：str，输出类型：bytes）"""
+    
     def Thread_Task(self, streamly: bool, user: str, input_data: str, invoke_func) -> bytes:
-        print(f"[TTS] Starting task for {user} with input: {input_data[:20]}...")
+        """
+        处理文本到语音的转换任务
+        
+        Args:
+            streamly: 是否流式输出
+            user: 用户标识
+            input_data: 输入文本
+            invoke_func: 输出回调函数
+            
+        Returns:
+            bytes: 音频数据
+        """
+        print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}...")
+        chat_response = None
+        
         try:
+            # 发送文本到TTS服务
             chat_response = PostChat(streamly=streamly, user=user, text=input_data).GetResponse()
-            print(f"[TTS] Response status: {chat_response.status_code}")
-
-            try:
-                chunk_count = 0
-                for chunk in chat_response.iter_content(chunk_size=None):
-                    if chunk:
-                        stop_event = self.stop_events[user]
-                        if stop_event.is_set():  # 检查停止标志
-                            print(f"[TTS] {user} 主动停止合成")
-                            break  # 直接中断循环
-                        print(f"[TTS] Sending {user} chunk #{chunk_count} ({len(chunk)} bytes)")
-                        invoke_func(streamly, user, chunk)
-                        chunk_count += 1
-                    else:
-                        print("[TTS] Received empty chunk")
-            finally:
-                print(f"[TTS] Total sent {chunk_count} chunks")
-                invoke_func(streamly, user, None)
-                chat_response.close()
-        except Exception as e:
-            print(f"[TTS] Error: {str(e)}")
+            print(f"[TTS] 响应状态码: {chat_response.status_code}")
+            
+            # 用于统计处理的数据块
+            chunk_count = 0
+            total_bytes = 0
+            
+            # 循环处理响应中的数据块
+            for chunk in chat_response.iter_content(chunk_size=None):
+                if not chunk:  # 跳过空块
+                    print("[TTS] 收到空数据块")
+                    continue
+                    
+                # 检查是否应该停止处理
+                if user in self.stop_events and self.stop_events[user].is_set():
+                    print(f"[TTS] 用户 {user} 已请求停止处理")
+                    break
+                    
+                # 处理数据块
+                chunk_size = len(chunk)
+                total_bytes += chunk_size
+                print(f"[TTS] 发送数据块 #{chunk_count} 给用户 {user} ({chunk_size} 字节)")
+                
+                # 调用回调函数输出数据块
+                invoke_func(streamly, user, chunk)
+                chunk_count += 1
+                
+            # 输出统计信息
+            print(f"[TTS] 共发送 {chunk_count} 个数据块，总计 {total_bytes} 字节")
+            
+            # 标记处理完成
             invoke_func(streamly, user, None)
-            chat_response.close()
+            
+            return b''  # 返回空字节作为完成标记
+            
+        except Exception as e:
+            # 处理异常
+            error_msg = f"[TTS] 错误: {str(e)}"
+            print(error_msg)
+            
+            # 通知调用者出现错误
+            invoke_func(streamly, user, f"ERROR: {str(e)}".encode())
+            invoke_func(streamly, user, None)
+            
+            return b''  # 返回空字节作为完成标记
+            
+        finally:
+            # 确保关闭响应
+            if chat_response:
+                chat_response.close()

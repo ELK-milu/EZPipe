@@ -2,16 +2,19 @@ import asyncio
 import base64
 import json
 from abc import abstractmethod, ABC
-from typing import Any, Dict
-from fastapi import FastAPI, HTTPException, APIRouter
+from typing import Any, Dict, AsyncGenerator
+from fastapi import FastAPI, HTTPException, APIRouter, Request
 import uvicorn
 from pydantic import BaseModel
 from starlette.responses import JSONResponse, StreamingResponse
+from starlette.background import BackgroundTask
 
 from modules.PipeLine.BasePipeLine import PipeLine
 
+
 class API_Service(ABC):
-    def __init__(self, pipeline: PipeLine, host: str = "0.0.0.0", port: int = 8000, workers: int = 1,post_router: str = "/input"):
+    def __init__(self, pipeline: PipeLine, host: str = "0.0.0.0", port: int = 8000, workers: int = 1,
+                 post_router: str = "/input"):
         self.pipeline = pipeline
         self.host = host
         self.port = port
@@ -19,151 +22,167 @@ class API_Service(ABC):
         self.app = FastAPI(title="API Service")
         self.post_router = post_router
         self.router = APIRouter()
-        self.result = None
         self._register_routes()
+        # 用于跟踪活跃的连接
+        self.active_connections = set()
 
     class APIRequest(BaseModel):
-        streamly: bool = False
-        user: str
-        Input: Any  # 允许子类通过继承扩展字段
-
-    def Print_Request_Schema(self):
-        """打印API请求体的结构定义（可被子类重写）"""
-        schema = self.APIRequest.model_json_schema()
-        print("\n" + "="*35 + " API Request Structure " + "="*35)
-        print(json.dumps(schema, indent=2, ensure_ascii=False))
-        print("="*92 + "\n")
-
-    def Print_Request(self, request: APIRequest):
-        """打印请求体（可被子类重写）"""
-        print("\n" + "="*40 + " API Request " + "="*40)
-        print(request.model_dump())  # Pydantic v2+ 使用 model_dump()
-        # 若使用Pydantic v1可替换为 dict() 或 json()
-        print("="*93 + "\n")
-
+        """API请求模型"""
+        streamly: bool = False  # 是否流式输出
+        user: str  # 用户标识
+        Input: Any  # 输入数据
 
     def _register_routes(self):
+        """注册API路由"""
+
         @self.router.post(f"{self.post_router}")
-        async def process_input(request: Dict[str, Any]):
+        async def process_input(request: Dict[str, Any], req: Request):
+            # 跟踪请求用户ID
+            user_id = request.get("user", None)
+            if not user_id:
+                raise HTTPException(status_code=400, detail="必须提供用户ID")
+
+            # 为每个连接生成唯一标识符
+            connection_id = f"{user_id}_{id(req)}"
+            print(f"[API] 收到用户 {user_id} 的请求，连接ID: {connection_id}")
+
             try:
+                # 验证请求数据
                 api_request = self.APIRequest(**request)
-                #TODO:因为流式传输中返回的是混合流，所以只能用text类型的来处理
+
+                # 强制终止该用户之前的请求
+                await self.pipeline._force_cleanup_user(api_request.user)
+
+                # 添加到活跃连接集合
+                self.active_connections.add(connection_id)
+
+                # 创建后台任务清理资源
+                cleanup_task = BackgroundTask(self._cleanup_connection, connection_id, api_request.user)
+
+                # 返回流式响应
                 return StreamingResponse(
-                    content=self._handle_request_stream(api_request),
-                    media_type="text/event-stream"
+                    content=self._handle_request_stream(api_request, connection_id, req),
+                    media_type="text/event-stream",
+                    background=cleanup_task
                 )
             except Exception as e:
+                if connection_id in self.active_connections:
+                    self.active_connections.remove(connection_id)
                 raise HTTPException(status_code=422, detail=str(e))
 
         @self.router.get("/schema")
         async def get_schema():
-            """获取API请求结构定义"""
+            """返回API请求模式"""
             return JSONResponse(
                 content=self.APIRequest.model_json_schema(),
                 status_code=200
             )
 
+        # 注册路由到FastAPI应用
         self.app.include_router(self.router)
 
+    async def _cleanup_connection(self, connection_id: str, user_id: str):
+        """清理连接资源"""
+        print(f"[API] 清理连接 {connection_id} 的资源")
+        if connection_id in self.active_connections:
+            self.active_connections.remove(connection_id)
+        await self.pipeline._cleanup_user(user_id)
 
-    def _register_shutdown_handler(self):
-        # 注册FastAPI的shutdown事件处理器
-        self.app.add_event_handler("shutdown", self._shutdown_pipeline)
-
-    def _shutdown_pipeline(self):
-        """服务关闭时销毁pipeline"""
-        if hasattr(self.pipeline, "Destroy"):
-            self.pipeline.Destroy()
-
-    async def _cleanup_user(self, user: str):
-        """新增异步清理方法"""
-        loop = asyncio.get_event_loop()
-        await loop.run_in_executor(
-            None,
-            lambda: self.pipeline._cleanup(user)
-        )
-
-
-    async def _handle_request_stream(self, request: APIRequest):
-        print(f"[API] Starting stream for {request.user}")
+    async def _is_client_disconnected(self, request: Request) -> bool:
+        """检查客户端是否已断开连接"""
         try:
-            # 强制等待清理完成
-            await asyncio.wait_for(
-                self.pipeline._cleanup_user(request.user),
-                timeout=5
+            # 尝试读取客户端状态
+            return await request.is_disconnected()
+        except:
+            # 如果出现异常，假设客户端已断开
+            return True
+
+    async def _handle_request_stream(self, request: APIRequest, connection_id: str, client_request: Request) -> \
+    AsyncGenerator[str, None]:
+        """处理请求并返回流式响应"""
+        try:
+            # 处理输入数据
+            processed_data = self.HandleInput(request)
+
+            # 启动pipeline处理服务
+            self.pipeline.GetService(
+                streamly=request.streamly,
+                user=request.user,
+                input_data=processed_data
             )
 
-            processed_data = self.HandleInput(request)
-            print(f"[API] Processed data: {processed_data}...")
-
-            # 使用新的异步任务
-            async def service_task():
-                try:
-                    self.pipeline.GetService(
-                        streamly=request.streamly,
-                        user=request.user,
-                        input_data=processed_data
-                    )
-                except Exception as e:
-                    print(f"Service error: {str(e)}")
-
-            # 在正确的事件循环中运行
-            task = asyncio.create_task(service_task())
-
-            # 流式响应
+            # 流式输出结果
             async for chunk in self.pipeline.ResponseOutput(request.user):
-                if task.done() and task.exception():
-                    raise task.exception()
-                # 类型判断与数据封装
+                # 检查客户端是否断开连接
+                if connection_id not in self.active_connections or await self._is_client_disconnected(client_request):
+                    print(f"[API] 检测到客户端 {request.user} 已断开连接")
+                    raise asyncio.CancelledError("客户端已断开连接")
+
+                # 转换数据格式
+                response_data = None
                 if isinstance(chunk, bytes):
-                    yield json.dumps({
+                    # 二进制数据（如音频）编码为base64
+                    response_data = {
                         "type": "audio/wav",
                         "chunk": base64.b64encode(chunk).decode("utf-8")
-                    }) + "\n"
+                    }
                 elif isinstance(chunk, str):
-                    yield json.dumps({
+                    # 文本数据直接输出
+                    response_data = {
                         "type": "text",
                         "chunk": chunk
-                    }) + "\n"
+                    }
+                else:
+                    # 其他类型数据转换为字符串
+                    response_data = {
+                        "type": "text",
+                        "chunk": str(chunk)
+                    }
+
+                # 发送数据
+                yield json.dumps(response_data) + "\n"
 
         except asyncio.CancelledError:
-            print(f"客户端断开: {request.user}")
-            await self.pipeline._cleanup_user(request.user)
-            raise
+            # 处理取消请求
+            print(f"[API] 请求已取消: {request.user}")
+            # 从活跃连接中移除
+            if connection_id in self.active_connections:
+                self.active_connections.remove(connection_id)
+            # 强制清理资源
+            await self.pipeline._force_cleanup_user(request.user)
+            return
         except Exception as e:
-            print(f"[API] Stream error: {str(e)}")
-            yield f"data: {json.dumps({'error': str(e)})}\n\n"
+            # 处理其他异常
+            print(f"[API] 处理请求错误: {str(e)}")
+            yield json.dumps({"error": str(e)}) + "\n"
         finally:
-            try:
-                await self.pipeline._cleanup_user(request.user)
-            except KeyError:
-                print(f"用户{request.user}资源已提前释放")
-
-    async def GetFinalOut(self, request: APIRequest):
-        """统一请求处理流程"""
-        try:
-            return await self.pipeline.Output(request.user)
-        finally:
-            pass
-            #self.pipeline.Destroy()  # 确保无论是否异常都会执行销毁
+            # 确保清理资源
+            if connection_id in self.active_connections:
+                self.active_connections.remove(connection_id)
+            await self.pipeline._cleanup_user(request.user)
 
     @abstractmethod
     def HandleInput(self, request: APIRequest) -> Any:
-        """抽象方法，子类必须实现具体数据处理逻辑"""
+        """处理输入数据，子类必须实现"""
         pass
 
     def Run(self):
+        """启动API服务"""
+        # 创建新的事件循环
         self.loop = asyncio.new_event_loop()
         asyncio.set_event_loop(self.loop)
 
-        # 关键修复：同步pipeline的事件循环
+        # 设置pipeline的主事件循环
         self.pipeline.main_loop = self.loop
 
+        # 配置uvicorn服务器
         config = uvicorn.Config(
             app=self.app,
             host=self.host,
             port=self.port,
             loop="asyncio"
         )
+
+        # 启动服务器
         server = uvicorn.Server(config)
         self.loop.run_until_complete(server.serve())
