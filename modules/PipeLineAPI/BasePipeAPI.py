@@ -156,10 +156,11 @@ class API_Service(ABC):
             print(f"[API] 处理请求错误: {str(e)}")
             yield json.dumps({"error": str(e)}) + "\n"
         finally:
+            pass
             # 确保清理资源
-            if connection_id in self.active_connections:
-                self.active_connections.remove(connection_id)
-            await self.pipeline._cleanup_user(request.user)
+            #if connection_id in self.active_connections:
+                #self.active_connections.remove(connection_id)
+            #await self.pipeline._cleanup_user(request.user)
 
     @abstractmethod
     def HandleInput(self, request: APIRequest) -> Any:

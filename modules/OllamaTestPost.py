@@ -34,8 +34,33 @@ class PostChat:
 if __name__ == "__main__":
     # 启动 main 服务
     ps = PostChat(streamly=True,user="user",
-             text="你好啊").GetResponse()
+             text="你好啊,用100字介绍下你自己").GetResponse()
+
+    from queue import Queue
+    audio_queue = Queue()  # 示例队列
+
+    p = pyaudio.PyAudio()
+    stream = p.open(
+        format=pyaudio.paInt16,
+        channels=1,
+        rate=32000,  # 根据实际音频采样率调整
+        output=True
+    )
 
     for chunk in ps.iter_content(chunk_size=None):
         if chunk:
-            print(chunk.decode('utf-8'))
+            chunk_str = chunk.decode('utf-8').strip()
+            chunk_data = json.loads(chunk_str)
+            print(chunk_str)
+            if chunk_data.get("type") == "text" :
+                response_json = chunk_data.get("chunk")
+                final_json = json.loads(response_json)
+                final_think = final_json.get("think")
+                final_response = final_json.get("response")
+                #print(final_think + final_response)
+            elif chunk_data.get("type") == "audio/wav":
+                # 3. Base64解码
+                audio_bytes = base64.b64decode(chunk_data['chunk'])
+                # 4. 放入队列
+                audio_queue.put(audio_bytes)
+                stream.write(audio_bytes)

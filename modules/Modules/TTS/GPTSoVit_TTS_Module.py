@@ -6,14 +6,14 @@ from .SovitsPost import PostChat
 
 class GPTSoVit_TTS_Module(BaseModule):
     """语音合成模块（输入类型：str，输出类型：bytes）"""
-    def Thread_Task(self, streamly: bool, user: str, input_data: str, invoke_func) -> bytes:
+    def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> bytes:
         """
         处理文本到语音的转换任务
         Args:
             streamly: 是否流式输出
             user: 用户标识
             input_data: 输入文本
-            invoke_func: 输出回调函数
+            response_func: 输出回调函数
         Returns:
             bytes: 音频数据
         """
@@ -49,15 +49,19 @@ class GPTSoVit_TTS_Module(BaseModule):
                 print(f"[TTS] 发送数据块 #{chunk_count} 给用户 {user} ({chunk_size} 字节)")
                 
                 # 调用回调函数输出数据块
-                invoke_func(streamly, user, chunk)
+                response_func(streamly, user, chunk)
+                #next_func(streamly, user, chunk)
                 chunk_count += 1
                 
             # 输出统计信息
             print(f"[TTS] 共发送 {chunk_count} 个数据块，总计 {total_bytes} 字节")
             
             # 标记处理完成
-            invoke_func(streamly, user, None)
-            
+            response_func(streamly, user, None)
+
+            # 输出给下一个模块
+            next_func(streamly, user, None)
+
             return b''  # 返回空字节作为完成标记
             
         except Exception as e:
@@ -66,8 +70,8 @@ class GPTSoVit_TTS_Module(BaseModule):
             print(error_msg)
             
             # 通知调用者出现错误
-            invoke_func(streamly, user, f"ERROR: {str(e)}".encode())
-            invoke_func(streamly, user, None)
+            response_func(streamly, user, f"ERROR: {str(e)}".encode())
+            response_func(streamly, user, None)
             
             return b''  # 返回空字节作为完成标记
             

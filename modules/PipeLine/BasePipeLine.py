@@ -93,11 +93,11 @@ class PipeLine:
                         break
                         
                     # 使用超时避免无限等待
-                    chunk = await asyncio.wait_for(user_queue.get(), timeout=0.5)
+                    chunk = await asyncio.wait_for(user_queue.get(), timeout=2)
 
                     # None表示结束信号
                     if chunk is None:
-                        print(f"[Response] 用户 {user} 处理完成")
+                        print(f"[Response] 接收到终止信号,用户 {user} 处理完成")
                         break
 
                     yield chunk

@@ -17,6 +17,7 @@ from PipeLineAPI.ChildPipeAPI import SampleAPIService
 # 测试用例
 pipeline = PipeLine.create_pipeline(
     Ollama_LLM_Module,
+    GPTSoVit_TTS_Module
 )
 
 # 启动服务

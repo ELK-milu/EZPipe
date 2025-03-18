@@ -7,10 +7,10 @@ from modules.PipeLineAPI.BasePipeAPI import API_Service
 
 
 class TextProcessor(BaseModule):
-    def Thread_Task(self, streamly, user, input_data, invoke_func):
+    def Thread_Task(self, streamly, user, input_data, response_func):
         # 模拟流式处理
         for word in input_data.split(""):
-            invoke_func(streamly, user, word.upper())
+            response_func(streamly, user, word.upper())
             time.sleep(0.1)
 
 
