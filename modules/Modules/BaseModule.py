@@ -16,10 +16,15 @@ class BaseModule(ABC):
         self.user_threads: Dict[str, threading.Thread] = {}
         self.output: Any = None
         self.thread_timeout = 30.0  # 线程超时时间（秒）
+        self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
 
-    def Output(self, streamly: bool, user: str, response_data: Any,next_input: Any) -> None:
+    # 回调函数Output有两个输入值，这是为了拓展需求，如果用户希望API给出的流式返回值和进入下一个模块的返回值不一样的话可以设置不同的值
+    def Output(self, streamly: bool, user: str, response_data: Any,next_input: Any = None) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
         try:
+            # 只调用一个值时默认下一个模块的输入值和流式返回值相同
+            if next_input is None:
+                next_input = response_data
             # 检查是否已请求停止处理
             if user in self.stop_events and self.stop_events[user].is_set():
                 print(f"[Module] 用户 {user} 已请求停止处理，不再输出数据")
@@ -120,15 +125,13 @@ class BaseModule(ABC):
                 print(f"[Module] 无法发送错误消息给用户 {user}")
         finally:
             # 清理资源
-            self._cleanup(user)
+            if not streamly or user in self.stop_events and self.stop_events[user].is_set():
+                self._cleanup(user)
             # 取消定时器
             timer.cancel()
 
     def _create_thread(self, streamly: bool, user: str, input_data: Any) -> None:
         """创建新线程处理用户请求"""
-        # 清理可能存在的旧线程
-        self._cleanup(user)
-
         # 检查用户是否已断开连接
         try:
             future = asyncio.run_coroutine_threadsafe(
@@ -142,15 +145,22 @@ class BaseModule(ABC):
         except Exception as e:
             print(f"[Module] 检查用户连接状态时出错: {str(e)}")
 
+        # 如果是流式处理，检查是否已有活跃线程
+        if streamly and user in self.streaming_status and self.streaming_status[user]:
+            print(f"[Module] 用户 {user} 的流式处理正在进行中，跳过新线程创建")
+            return
+
         # 创建停止事件和线程
         self.stop_events[user] = threading.Event()
         thread = threading.Thread(
             target=self._thread_wrapper,
             args=(streamly, user, input_data),
-            daemon=True  # 使用守护线程，避免程序退出时线程仍在运行
+            daemon=True
         )
 
         self.user_threads[user] = thread
+        if streamly:
+            self.streaming_status[user] = True
         thread.start()
         print(f"[Module] 为用户 {user} 创建新线程: {thread.ident}")
 
@@ -170,8 +180,11 @@ class BaseModule(ABC):
             thread_id = thread.ident
             if thread.is_alive():
                 print(f"[Module] 终止用户 {user} 的线程 {thread_id}")
-                # 不再join线程，避免阻塞
             del self.user_threads[user]
+            
+        # 清理流式状态
+        if user in self.streaming_status:
+            del self.streaming_status[user]
             
         # 延迟删除停止事件，确保其他地方可以检查它
         if user in self.stop_events:
@@ -186,3 +199,4 @@ class BaseModule(ABC):
             self._cleanup(user)
         self.user_threads.clear()
         self.stop_events.clear()
+        self.streaming_status.clear()
