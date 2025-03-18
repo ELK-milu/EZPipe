@@ -36,8 +36,6 @@ RESP:
 失败: 返回包含错误信息的 json, http code 400
 '''
 
-#本台消息，国家主席习近平在中国龙年元宵节
-
 class PostChat:
     def __init__(self,streamly,user,text):
         self.payload = {
