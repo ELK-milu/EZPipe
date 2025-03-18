@@ -4,25 +4,22 @@ from typing import Optional
 from ..BaseModule import BaseModule
 from .SovitsPost import PostChat
 
-class GPTSoVit_TTSModule(BaseModule):
+class GPTSoVit_TTS_Module(BaseModule):
     """语音合成模块（输入类型：str，输出类型：bytes）"""
-    
     def Thread_Task(self, streamly: bool, user: str, input_data: str, invoke_func) -> bytes:
         """
         处理文本到语音的转换任务
-        
         Args:
             streamly: 是否流式输出
             user: 用户标识
             input_data: 输入文本
             invoke_func: 输出回调函数
-            
         Returns:
             bytes: 音频数据
         """
         print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
-        
+
         try:
             # 发送文本到TTS服务
             chat_response = PostChat(streamly=streamly, user=user, text=input_data).GetResponse()

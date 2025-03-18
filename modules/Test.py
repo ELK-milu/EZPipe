@@ -3,18 +3,20 @@ import sys
 
 from pathlib import Path
 
+
 # 获取项目根目录路径
 
 project_root = Path(__file__).resolve().parent.parent
 
 sys.path.append(str(project_root))
-from Modules.TTS.GPTSovit_Module import GPTSoVit_TTSModule
+from Modules.TTS.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
+from Modules.LLM.Ollama_LLM_Module import Ollama_LLM_Module
 from PipeLine.BasePipeLine import PipeLine
 from PipeLineAPI.ChildPipeAPI import SampleAPIService
 
 # 测试用例
 pipeline = PipeLine.create_pipeline(
-    GPTSoVit_TTSModule
+    Ollama_LLM_Module,
 )
 
 # 启动服务

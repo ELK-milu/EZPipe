@@ -18,15 +18,15 @@ class PipeLine:
         self.lock = asyncio.Lock()
         self.main_loop = asyncio.get_event_loop()
         self.disconnect_events: Dict[str, asyncio.Event] = {}  # 用户断开连接事件
-        
+        self.validated:bool = False    #当前pipe是否可用的指示位
         # 设置模块的pipeline引用
         for module in self.modules:
             module.pipeline = self
             
         # 任务并发控制
         self.active_tasks = threading.BoundedSemaphore(5)
-        
-        # 验证pipeline配置
+
+        self.validated:bool = False
         print(self.Validate())
 
     def _link_instances(self) -> None:
@@ -132,8 +132,10 @@ class PipeLine:
         try:
             self._validate_pipeline()
             status.append("✅ Pipeline验证通过")
+            self.validated = True
         except Exception as e:
             status.append(f"❌ 验证失败: {str(e)}")
+            self.validated = False
 
         pipe_structure = " -> ".join(
             [f"{type(inst).__name__}" for inst in self.modules]
@@ -174,6 +176,7 @@ class PipeLine:
         return cls(list(modules))
 
     async def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
+
         """启动Pipeline服务处理"""
         with self.active_tasks:
             # 直接等待清理完成

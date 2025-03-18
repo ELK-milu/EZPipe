@@ -168,6 +168,12 @@ class API_Service(ABC):
 
     def Run(self):
         """启动API服务"""
+        # 首先检查pipeline是否通过验证
+        if not self.pipeline.validated:
+            print("Pipeline未通过验证，无法启动API服务")
+            import sys
+            sys.exit(1)
+
         # 创建新的事件循环
         self.loop = asyncio.new_event_loop()
         asyncio.set_event_loop(self.loop)

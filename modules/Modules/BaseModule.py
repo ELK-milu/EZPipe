@@ -17,7 +17,7 @@ class BaseModule(ABC):
         self.output: Any = None
         self.thread_timeout = 30.0  # 线程超时时间（秒）
 
-    def Output(self, streamly: bool, user: str, output_data: Any) -> None:
+    def Output(self, streamly: bool, user: str, response_data: Any,next_input: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
         try:
             # 检查是否已请求停止处理
@@ -26,7 +26,7 @@ class BaseModule(ABC):
                 return
 
             # 如果输出为None，标记任务完成
-            if output_data is None:
+            if response_data is None:
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.mark_complete(user),
                     self.pipeline.main_loop
@@ -34,7 +34,7 @@ class BaseModule(ABC):
                 return
 
             # 保存输出并发送到Pipeline
-            self.output = output_data
+            self.output = response_data
             
             # 检查用户是否已断开连接
             future = asyncio.run_coroutine_threadsafe(
@@ -51,13 +51,13 @@ class BaseModule(ABC):
             
             # 用户仍然连接，发送数据
             asyncio.run_coroutine_threadsafe(
-                self.pipeline.add_chunk(user, output_data),
+                self.pipeline.add_chunk(user, response_data),
                 self.pipeline.main_loop
             )
 
             # 如果有下一个模块，传递输出
             if self.next_model and not (user in self.stop_events and self.stop_events[user].is_set()):
-                self.next_model._create_thread(streamly, user, output_data)
+                self.next_model._create_thread(streamly, user, next_input)
 
         except Exception as e:
             # 处理错误
@@ -115,7 +115,7 @@ class BaseModule(ABC):
         except Exception as e:
             print(f"[Module] {self.__class__.__name__} 线程执行错误: {str(e)}")
             try:
-                self.Output(streamly, user, f"ERROR: {str(e)}")
+                self.Output(streamly, user, f"[ERROR]: {str(e)}",f"[ERROR]")
             except:
                 print(f"[Module] 无法发送错误消息给用户 {user}")
         finally:
