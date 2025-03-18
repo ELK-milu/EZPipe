@@ -56,6 +56,9 @@ class BaseModule(ABC):
                 )
                 return
 
+            if response_data is None:
+                print(f"[{self.__class__.__name__}] 下一个模块是 [{self.next_model.__class__.__name__}] ")
+
             # 保存输出并发送到Pipeline
             self.output = response_data
             
@@ -73,15 +76,19 @@ class BaseModule(ABC):
                 return
 
 
-            # 如果输出为None且没有后续模块，直接返回，不用把终止信号None输出到PipeLine
+            # 如果输出为None且没有后续模块,把终止信号None输出到PipeLine
             if response_data is None and self.next_model is None:
-                return
-
-            # 用户仍然连接，发送数据
-            asyncio.run_coroutine_threadsafe(
-                self.pipeline.add_chunk(user, response_data),
-                self.pipeline.main_loop
-            )
+                # 用户仍然连接，发送数据
+                asyncio.run_coroutine_threadsafe(
+                    self.pipeline.add_chunk(user, response_data),
+                    self.pipeline.main_loop
+                )
+            elif response_data is not None:
+                # 用户仍然连接，发送数据
+                asyncio.run_coroutine_threadsafe(
+                    self.pipeline.add_chunk(user, response_data),
+                    self.pipeline.main_loop
+                )
 
 
         except Exception as e:

@@ -51,13 +51,12 @@ if __name__ == "__main__":
         if chunk:
             chunk_str = chunk.decode('utf-8').strip()
             chunk_data = json.loads(chunk_str)
-            print(chunk_str)
             if chunk_data.get("type") == "text" :
                 response_json = chunk_data.get("chunk")
                 final_json = json.loads(response_json)
                 final_think = final_json.get("think")
                 final_response = final_json.get("response")
-                #print(final_think + final_response)
+                print(final_think + final_response)
             elif chunk_data.get("type") == "audio/wav":
                 # 3. Base64解码
                 audio_bytes = base64.b64decode(chunk_data['chunk'])
