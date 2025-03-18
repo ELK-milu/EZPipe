@@ -47,7 +47,7 @@ class PipeLine:
                 self.active_users[user] = True
                 self.disconnect_events[user] = asyncio.Event()
             
-            # 直接使用异步队列，不需要run_in_executor
+            # 数据正常处理
             await self.user_queues[user].put(chunk)
             print(f"[Pipeline] 为用户 {user} at {time.time()} 添加数据块: {type(chunk)} {len(str(chunk))} bytes")
 
@@ -57,7 +57,7 @@ class PipeLine:
             print(f"[Pipeline] 标记用户 {user} 的任务完成")
             self.active_users[user] = False
             if user in self.user_queues:
-                await self.user_queues[user].put(None)  # 发送结束信号
+                await self.add_chunk(user,None)  # 发送结束信号
 
     async def mark_disconnected(self, user: str) -> None:
         """标记用户已断开连接"""
@@ -94,12 +94,12 @@ class PipeLine:
                         
                     # 使用超时避免无限等待
                     chunk = await asyncio.wait_for(user_queue.get(), timeout=0.5)
-                    
+
                     # None表示结束信号
                     if chunk is None:
                         print(f"[Response] 用户 {user} 处理完成")
                         break
-                        
+
                     yield chunk
                     print(f"[Response] 发送给用户 {user} 数据块: {type(chunk)}")
                     
@@ -173,30 +173,25 @@ class PipeLine:
         """创建新的Pipeline实例"""
         return cls(list(modules))
 
-    def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
+    async def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
         """启动Pipeline服务处理"""
         with self.active_tasks:
-            async def async_start_service() -> None:
-                # 清理之前的用户资源
-                await self._force_cleanup_user(user)
-                
-                # 标记用户为活跃状态
-                async with self.lock:
-                    self.active_users[user] = True
-                    if user in self.disconnect_events:
-                        self.disconnect_events[user].clear()
-                    else:
-                        self.disconnect_events[user] = asyncio.Event()
-                
-                # 启动第一个模块处理
-                if not self.modules:
-                    raise ValueError("未配置Pipeline")
-                
-                # 启动处理
-                self.modules[0].GetService(streamly, user, input_data)
-            
-            # 在事件循环中调度异步任务
-            asyncio.run_coroutine_threadsafe(async_start_service(), self.main_loop)
+            # 直接等待清理完成
+            await self._force_cleanup_user(user)
+
+            # 标记用户为活跃状态
+            async with self.lock:
+                self.active_users[user] = True
+                if user in self.disconnect_events:
+                    self.disconnect_events[user].clear()
+                else:
+                    self.disconnect_events[user] = asyncio.Event()
+
+            # 启动第一个模块处理
+            if not self.modules:
+                raise ValueError("未配置Pipeline")
+            # 启动处理
+            self.modules[0].GetService(streamly, user, input_data)
 
     async def Output(self, user: str) -> Any:
         """获取用户的最终输出"""

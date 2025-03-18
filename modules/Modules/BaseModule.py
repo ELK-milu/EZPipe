@@ -152,7 +152,7 @@ class BaseModule(ABC):
 
         self.user_threads[user] = thread
         thread.start()
-        print(f"[Module] 为用户 {user} 创建新线程: {thread.name}")
+        print(f"[Module] 为用户 {user} 创建新线程: {thread.ident}")
 
     def GetOutPut(self, user: str) -> Any:
         """获取最后一次输出"""

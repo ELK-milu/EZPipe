@@ -104,8 +104,8 @@ class API_Service(ABC):
             # 处理输入数据
             processed_data = self.HandleInput(request)
 
-            # 启动pipeline处理服务
-            self.pipeline.GetService(
+            # 等待pipeline服务启动完成
+            await self.pipeline.GetService(
                 streamly=request.streamly,
                 user=request.user,
                 input_data=processed_data
