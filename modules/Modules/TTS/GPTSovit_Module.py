@@ -34,6 +34,9 @@ class GPTSoVit_TTSModule(BaseModule):
             
             # 循环处理响应中的数据块
             for chunk in chat_response.iter_content(chunk_size=None):
+                if self.stop_events[user].is_set():
+                    break
+
                 if not chunk:  # 跳过空块
                     print("[TTS] 收到空数据块")
                     continue
