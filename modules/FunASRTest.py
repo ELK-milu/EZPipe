@@ -114,6 +114,7 @@ class ASRTester:
             "streamly": True,
             "user": "test_user",
             "Input": None,
+            "Entry":0,
             "temperature": 0.7,
             "max_length": 100
         }
@@ -133,6 +134,7 @@ class ASRTester:
                     chunk_payload = {
                         "streamly": True,
                         "user": "test_user",
+                        "Entry": 0,
                         "Input": audio_chunk.hex(),
                         "temperature": 0.7,
                         "max_length": 100
@@ -149,7 +151,8 @@ class ASRTester:
             end_payload = {
                 "streamly": True,
                 "user": "test_user",
-                "Input": None,
+                "Input": b"ENDASR",
+                "Entry": 0,
                 "temperature": 0.7,
                 "max_length": 100
             }

@@ -3,7 +3,7 @@ import json
 import threading
 import logging
 from asyncio import AbstractEventLoop, Task
-from typing import Optional, Dict
+from typing import Optional, Dict, Any
 import time
 
 from ..BaseModule import BaseModule
@@ -25,6 +25,7 @@ class FunASR_ASR_Module(BaseModule):
         self.last_activity : Dict[str, float] = {}  # 记录用户最后活动时间
         self.activity_timeout = 30  # 30秒无活动则清理资源
         self.loops : Dict[str, AbstractEventLoop] = {}  # 存储每个用户的事件循环
+        self.lock = threading.Lock()  # 添加线程锁
         logger.debug("FunASR 客户端字典已初始化")
 
     def _check_client_timeout(self, user: str):
@@ -39,10 +40,14 @@ class FunASR_ASR_Module(BaseModule):
 
     def _get_or_create_loop(self, user: str) -> AbstractEventLoop:
         """获取或创建用户的事件循环"""
-        if user not in self.loops:
-            self.loops[user] = asyncio.new_event_loop()
-            asyncio.set_event_loop(self.loops[user])
-        return self.loops[user]
+        with self.lock:
+            if user not in self.loops:
+                self.loops[user] = asyncio.new_event_loop()
+                asyncio.set_event_loop(self.loops[user])
+            return self.loops[user]
+
+    def HandleInput(self, request: Any) -> bytes:
+        return request.Input
 
     def Thread_Task(self, streamly: bool, user: str, input_data: bytes, response_func, next_func) -> str:
         """
@@ -71,43 +76,48 @@ class FunASR_ASR_Module(BaseModule):
             loop = self._get_or_create_loop(user)
 
             # 获取或创建FunASR客户端
-            if user not in self.funasr_client or self.funasr_client[user] is None:
-                logger.info(f"为用户 {user} 创建新的 FunASR 客户端")
-                self.funasr_client[user] = FunASRClient()
-                try:
-                    logger.debug(f"正在连接 FunASR 服务器...")
-                    # 使用事件循环运行异步连接
-                    loop.run_until_complete(self.funasr_client[user].connect())
-                    logger.info(f"FunASR 服务器连接成功")
-                except Exception as e:
-                    logger.error(f"连接 FunASR 服务器失败: {str(e)}")
-                    raise
+            with self.lock:
+                if user not in self.funasr_client or self.funasr_client[user] is None:
+                    logger.info(f"为用户 {user} 创建新的 FunASR 客户端")
+                    self.funasr_client[user] = FunASRClient()
+                    try:
+                        logger.debug(f"正在连接 FunASR 服务器...")
+                        # 使用事件循环运行异步连接
+                        loop.run_until_complete(self.funasr_client[user].connect())
+                        logger.info(f"FunASR 服务器连接成功")
+                    except Exception as e:
+                        logger.error(f"连接 FunASR 服务器失败: {str(e)}")
+                        raise
 
             # 检查是否是结束信号
             if input_data == b"ENDASR":
                 logger.info(f"收到用户 {user} 的结束信号")
                 try:
-                    # 使用事件循环运行异步停止录音
-                    final_text = loop.run_until_complete(self.funasr_client[user].stop_recording())
-                    logger.info(f"用户 {user} 的最终识别结果: {final_text}")
-                    
-                    # 发送最终结果
-                    if final_text:
-                        logger.debug(f"发送最终结果到下一个模块: {final_text}")
-                        next_func(streamly, user, final_text)
-                    
-                    return "ENDASR"
+                    with self.lock:
+                        if user in self.funasr_client and self.funasr_client[user]:
+                            # 使用事件循环运行异步停止录音
+                            final_text = loop.run_until_complete(self.funasr_client[user].stop_recording())
+                            logger.info(f"用户 {user} 的最终识别结果: {final_text}")
+                            
+                            # 发送最终结果
+                            if final_text:
+                                logger.debug(f"发送最终结果到下一个模块: {final_text}")
+                                next_func(streamly, user, final_text)
+                            
+                            return "ENDASR"
                 except Exception as e:
                     logger.error(f"处理结束信号时出错: {str(e)}")
                     raise
 
             # 发送音频数据
             logger.debug(f"发送音频数据到 FunASR 服务器，数据长度: {len(input_data)}")
-            # 使用事件循环运行异步发送音频
-            loop.run_until_complete(self.funasr_client[user].send_audio(input_data))
+            with self.lock:
+                if user in self.funasr_client and self.funasr_client[user]:
+                    # 使用事件循环运行异步发送音频
+                    loop.run_until_complete(self.funasr_client[user].send_audio(input_data))
 
             # 获取当前识别文本
-            current_text = self.funasr_client[user].recognized_text
+            current_text = self.funasr_client[user].recognized_text if user in self.funasr_client else ""
 
             if current_text:
                 logger.debug(f"当前识别文本: {current_text}")
@@ -134,26 +144,35 @@ class FunASR_ASR_Module(BaseModule):
         """销毁模块，清理所有资源"""
         logger.info(f"开始清理用户 {user} 的资源")
         try:
-            # 关闭FunASR客户端
-            if user in self.funasr_client and self.funasr_client[user]:
-                logger.debug(f"关闭用户 {user} 的 FunASR 客户端")
-                # 使用事件循环运行异步停止录音
+            with self.lock:
+                # 关闭FunASR客户端
+                if user in self.funasr_client and self.funasr_client[user]:
+                    logger.debug(f"关闭用户 {user} 的 FunASR 客户端")
+                    try:
+                        # 使用事件循环运行异步停止录音
+                        if user in self.loops:
+                            self.loops[user].run_until_complete(self.funasr_client[user].stop_recording())
+                    except Exception as e:
+                        logger.error(f"停止录音时出错: {str(e)}")
+                    finally:
+                        del self.funasr_client[user]
+                
+                # 清理活动时间记录
+                if user in self.last_activity:
+                    del self.last_activity[user]
+                
+                # 清理事件循环
                 if user in self.loops:
-                    self.loops[user].run_until_complete(self.funasr_client[user].stop_recording())
-                del self.funasr_client[user]
-            
-            # 清理活动时间记录
-            if user in self.last_activity:
-                del self.last_activity[user]
-            
-            # 清理事件循环
-            if user in self.loops:
-                self.loops[user].close()
-                del self.loops[user]
-            
-            # 调用父类的Destroy方法
-            super()._cleanup(user)
-            logger.info(f"用户 {user} 的资源清理完成")
+                    try:
+                        self.loops[user].close()
+                    except Exception as e:
+                        logger.error(f"关闭事件循环时出错: {str(e)}")
+                    finally:
+                        del self.loops[user]
+                
+                # 调用父类的Destroy方法
+                super()._cleanup(user)
+                logger.info(f"用户 {user} 的资源清理完成")
         except Exception as e:
             logger.error(f"清理用户 {user} 资源时出错: {str(e)}")
             raise

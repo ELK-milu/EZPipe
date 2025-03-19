@@ -14,7 +14,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # 正确推导到pipeline目录（上溯两级）
 pipeline_dir = os.path.dirname(os.path.dirname(current_dir))  # D:\LCBot\LCBotDocker\pipeline
 sys.path.append(pipeline_dir)
-from modules.TestPost import PostChat
+from modules.TTS_TestPost import PostChat
 
 import logging
 

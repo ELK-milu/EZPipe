@@ -14,16 +14,17 @@ from Modules.TTS.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
 from Modules.LLM.Ollama_LLM_Module import Ollama_LLM_Module
 from PipeLine.BasePipeLine import PipeLine
 from PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
+from PipeLineAPI.ASR_LLM_TTS_pipeAPI import ASR_LLM_TTS_pipeAPI
 
 # 测试用例
 pipeline = PipeLine.create_pipeline(
-    Ollama_LLM_Module,
-    GPTSoVit_TTS_Module
+    FunASR_ASR_Module,
+    #GPTSoVit_TTS_Module
 )
 
 # 启动服务
 if __name__ == "__main__":
-    service = TextToSpeechAPIService(
+    service = ASR_LLM_TTS_pipeAPI(
         pipeline=pipeline,
         host="127.0.0.1",
         port=3421

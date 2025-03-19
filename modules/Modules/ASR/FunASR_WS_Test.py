@@ -87,6 +87,7 @@ class FunASRClient:
         """连接到FunASR服务器"""
         import websockets
         import ssl
+        import time
 
         if self.ssl_enabled:
             ssl_context = ssl.SSLContext()
@@ -98,27 +99,47 @@ class FunASRClient:
             ssl_context = None
             
         print(f"连接到 {uri}")
-        self.websocket = await websockets.connect(
-            uri, subprotocols=["binary"], ping_interval=None, ssl=ssl_context
-        )
-        self.is_connected = True
         
-        # 发送初始化消息
-        init_message = json.dumps({
-            "mode": self.mode,
-            "chunk_size": self.chunk_size,
-            "chunk_interval": self.chunk_interval,
-            "encoder_chunk_look_back": self.encoder_chunk_look_back,
-            "decoder_chunk_look_back": self.decoder_chunk_look_back,
-            "wav_name": "microphone",
-            "is_speaking": True,
-            "hotwords": self.hotwords,
-            "itn": self.use_itn,
-        })
-        await self.websocket.send(init_message)
-        
-        # 启动接收消息的任务
-        self.ws_task = asyncio.create_task(self.receive_messages())
+        # 添加重试机制
+        max_retries = 3
+        retry_delay = 1
+        for attempt in range(max_retries):
+            try:
+                self.websocket = await websockets.connect(
+                    uri, 
+                    subprotocols=["binary"], 
+                    ping_interval=None, 
+                    ssl=ssl_context,
+                    close_timeout=10
+                )
+                self.is_connected = True
+                
+                # 发送初始化消息
+                init_message = json.dumps({
+                    "mode": self.mode,
+                    "chunk_size": self.chunk_size,
+                    "chunk_interval": self.chunk_interval,
+                    "encoder_chunk_look_back": self.encoder_chunk_look_back,
+                    "decoder_chunk_look_back": self.decoder_chunk_look_back,
+                    "wav_name": "microphone",
+                    "is_speaking": True,
+                    "hotwords": self.hotwords,
+                    "itn": self.use_itn,
+                })
+                await self.websocket.send(init_message)
+                
+                # 启动接收消息的任务
+                self.ws_task = asyncio.create_task(self.receive_messages())
+                return
+                
+            except Exception as e:
+                print(f"连接尝试 {attempt + 1}/{max_retries} 失败: {str(e)}")
+                if attempt < max_retries - 1:
+                    print(f"等待 {retry_delay} 秒后重试...")
+                    await asyncio.sleep(retry_delay)
+                    retry_delay *= 2  # 指数退避
+                else:
+                    raise Exception(f"连接失败，已重试 {max_retries} 次: {str(e)}")
         
     async def receive_messages(self):
         """接收并处理来自FunASR服务器的消息"""
