@@ -30,6 +30,13 @@ class BaseModule(ABC):
     class Module_Config:
         streamly: bool = False
 
+
+    # 每个子模块需要实现的抽象方法，自定义输入数据，返回处理后的数据
+    @abstractmethod
+    def HandleInput(self, request: Any) -> Any:
+        processed_data = request
+        return processed_data
+
     # 有时我们希望API给出的流式返回值和进入下一个模块的输入值不一样，因此设置了两个回调函数
     def Next_output(self, streamly: bool, user: str, output: Any):
         # 如果有下一个模块，且next_input非空,传递输出

@@ -31,6 +31,7 @@ class API_Service(ABC):
         streamly: bool = False  # 是否流式输出
         user: str  # 用户标识
         Input: Any  # 输入数据
+        Entry: int
 
     def _register_routes(self):
         """注册API路由"""
@@ -162,10 +163,8 @@ class API_Service(ABC):
                 #self.active_connections.remove(connection_id)
             #await self.pipeline._cleanup_user(request.user)
 
-    @abstractmethod
-    def HandleInput(self, request: APIRequest) -> Any:
-        """处理输入数据，子类必须实现"""
-        pass
+    def HandleInput(self, request: APIRequest) -> Any:  # 注意这里使用子类的APIRequest类型
+        return self.pipeline.modules[request.Entry].HandleInput(request)
 
     def Run(self):
         """启动API服务"""
