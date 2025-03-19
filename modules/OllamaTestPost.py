@@ -18,6 +18,7 @@ class PostChat:
             "user": user,
             "Input": text,
             "text": text,
+            "Entry": 0,
             "temperature": 1,
             "max_length": 1024,
         }

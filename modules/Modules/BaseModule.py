@@ -7,7 +7,7 @@ import time
 
 if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine
-
+    from modules.PipeLineAPI.BasePipeAPI import API_Service
 
 class BaseModule(ABC):
     def __init__(self):
@@ -33,7 +33,7 @@ class BaseModule(ABC):
 
     # 每个子模块需要实现的抽象方法，自定义输入数据，返回处理后的数据
     @abstractmethod
-    def HandleInput(self, request: Any) -> Any:
+    def HandleInput(self,request: Any) -> Any:
         processed_data = request
         return processed_data
 

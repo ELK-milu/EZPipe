@@ -1,10 +1,14 @@
 import threading
-from typing import Optional
+from typing import Optional, Any
 
 from ..BaseModule import BaseModule
 from .SovitsPost import PostChat
 
 class GPTSoVit_TTS_Module(BaseModule):
+
+    def HandleInput(self, request: Any) -> bytes:
+        return request.Input
+
     """语音合成模块（输入类型：str，输出类型：bytes）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> bytes:
         """

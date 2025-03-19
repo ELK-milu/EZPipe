@@ -17,8 +17,8 @@ from PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
 
 # 测试用例
 pipeline = PipeLine.create_pipeline(
-    FunASR_ASR_Module,
-
+    Ollama_LLM_Module,
+    GPTSoVit_TTS_Module
 )
 
 # 启动服务
