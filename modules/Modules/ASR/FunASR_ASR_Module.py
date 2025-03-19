@@ -47,7 +47,21 @@ class FunASR_ASR_Module(BaseModule):
             return self.loops[user]
 
     def HandleInput(self, request: Any) -> bytes:
-        return request.Input
+        """处理输入数据"""
+        try:
+            input_data = request.Input
+            if isinstance(input_data, str):
+                # 如果是十六进制字符串，转换为字节
+                if input_data == "ENDASR":
+                    return b"ENDASR"
+                try:
+                    return bytes.fromhex(input_data)
+                except ValueError:
+                    return input_data.encode('utf-8')
+            return input_data if input_data is not None else b""
+        except Exception as e:
+            logger.error(f"处理输入数据时出错: {str(e)}")
+            return b""
 
     def Thread_Task(self, streamly: bool, user: str, input_data: bytes, response_func, next_func) -> str:
         """
@@ -65,6 +79,11 @@ class FunASR_ASR_Module(BaseModule):
         logger.debug(f"输入参数: streamly={streamly}, user={user}, input_data长度={len(input_data) if input_data else 0}")
 
         try:
+            # 如果输入数据为空，直接返回
+            if not input_data:
+                logger.debug("输入数据为空，跳过处理")
+                return None
+
             # 更新最后活动时间
             self.last_activity[user] = time.time()
 
@@ -83,7 +102,11 @@ class FunASR_ASR_Module(BaseModule):
                     try:
                         logger.debug(f"正在连接 FunASR 服务器...")
                         # 使用事件循环运行异步连接
-                        loop.run_until_complete(self.funasr_client[user].connect())
+                        future = asyncio.run_coroutine_threadsafe(
+                            self.funasr_client[user].connect(),
+                            loop
+                        )
+                        future.result(timeout=10)  # 等待连接完成，设置超时
                         logger.info(f"FunASR 服务器连接成功")
                     except Exception as e:
                         logger.error(f"连接 FunASR 服务器失败: {str(e)}")
@@ -95,8 +118,12 @@ class FunASR_ASR_Module(BaseModule):
                 try:
                     with self.lock:
                         if user in self.funasr_client and self.funasr_client[user]:
-                            # 使用事件循环运行异步停止录音
-                            final_text = loop.run_until_complete(self.funasr_client[user].stop_recording())
+                            # 使用异步运行停止录音
+                            future = asyncio.run_coroutine_threadsafe(
+                                self.funasr_client[user].stop_recording(),
+                                loop
+                            )
+                            final_text = future.result(timeout=5)  # 设置超时
                             logger.info(f"用户 {user} 的最终识别结果: {final_text}")
                             
                             # 发送最终结果
@@ -113,8 +140,12 @@ class FunASR_ASR_Module(BaseModule):
             logger.debug(f"发送音频数据到 FunASR 服务器，数据长度: {len(input_data)}")
             with self.lock:
                 if user in self.funasr_client and self.funasr_client[user]:
-                    # 使用事件循环运行异步发送音频
-                    loop.run_until_complete(self.funasr_client[user].send_audio(input_data))
+                    # 使用异步运行发送音频
+                    future = asyncio.run_coroutine_threadsafe(
+                        self.funasr_client[user].send_audio(input_data),
+                        loop
+                    )
+                    future.result(timeout=5)  # 设置超时
 
             # 获取当前识别文本
             current_text = self.funasr_client[user].recognized_text if user in self.funasr_client else ""
@@ -149,9 +180,13 @@ class FunASR_ASR_Module(BaseModule):
                 if user in self.funasr_client and self.funasr_client[user]:
                     logger.debug(f"关闭用户 {user} 的 FunASR 客户端")
                     try:
-                        # 使用事件循环运行异步停止录音
+                        # 使用异步运行停止录音
                         if user in self.loops:
-                            self.loops[user].run_until_complete(self.funasr_client[user].stop_recording())
+                            future = asyncio.run_coroutine_threadsafe(
+                                self.funasr_client[user].stop_recording(),
+                                self.loops[user]
+                            )
+                            future.result(timeout=5)  # 设置超时
                     except Exception as e:
                         logger.error(f"停止录音时出错: {str(e)}")
                     finally:
@@ -164,6 +199,7 @@ class FunASR_ASR_Module(BaseModule):
                 # 清理事件循环
                 if user in self.loops:
                     try:
+                        self.loops[user].stop()
                         self.loops[user].close()
                     except Exception as e:
                         logger.error(f"关闭事件循环时出错: {str(e)}")
