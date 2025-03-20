@@ -41,9 +41,9 @@ class PostChat:
         self.payload = {
             "text": text,
             "text_lang": "zh",
-            "ref_audio_path": "./GPT_SoVITS/models/戴因斯雷布_疑惑.wav",
+            "ref_audio_path": "./GPT_SoVITS/models/派蒙_中立.wav",
             "aux_ref_audio_paths": [],
-            "prompt_text": "看你们的表情，好像刚经历过什么怪异的事？",
+            "prompt_text": "可恶，怎么又是盗宝团！海灯节就快到了，也不知道安分一点。",
             "prompt_lang": "zh",
             "top_k": 5,
             "top_p": 1,

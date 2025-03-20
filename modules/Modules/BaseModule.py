@@ -30,12 +30,17 @@ class BaseModule(ABC):
     class Module_Config:
         streamly: bool = False
 
-
-    # 每个子模块需要实现的抽象方法，自定义输入数据，返回处理后的数据
+    # 每个子模块需要实现的抽象方法，自定义输入数据，返回服务端请求体处理后的数据
     @abstractmethod
     def HandleInput(self,request: Any) -> Any:
         processed_data = request
         return processed_data
+
+    @abstractmethod
+    def Thread_Task(self, streamly: bool, user: str, input_data: Any, response_func, next_func) -> Any:
+        """模块的主要处理逻辑，子类必须实现"""
+        # 在定义这个方法的时候需要指定input_data和函数输出的类型，用于pipeline检验当前模块所需的输入输出类型
+        pass
 
     # 有时我们希望API给出的流式返回值和进入下一个模块的输入值不一样，因此设置了两个回调函数
     def Next_output(self, streamly: bool, user: str, output: Any):
@@ -122,10 +127,7 @@ class BaseModule(ABC):
         # 检查断开连接事件
         return user in self.pipeline.disconnect_events and self.pipeline.disconnect_events[user].is_set()
 
-    @abstractmethod
-    def Thread_Task(self, streamly: bool, user: str, input_data: Any, response_func, next_func) -> Any:
-        """模块的主要处理逻辑，子类必须实现"""
-        pass
+
 
     def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
         """为用户创建新线程处理任务"""
