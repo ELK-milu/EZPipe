@@ -5,6 +5,8 @@ import queue
 import threading
 import time
 
+import requests
+
 if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine
     from modules.PipeLineAPI.BasePipeAPI import API_Service
@@ -16,9 +18,28 @@ class BaseModule(ABC):
         self.pipeline: Optional["PipeLine"] = None
         self.user_threads: Dict[str, threading.Thread] = {}
         self.output: Any = None
-        self.thread_timeout = 30.0  # 线程超时时间（秒）
+        self.thread_timeout = 120.0  # 线程超时时间（秒）
         self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
         self.answer_chunk = None
+        self.session : requests.Session = None  # 会话管理，用于长连接
+
+
+    # 初始化方法，用于模块被添加进PipeLine并启动API服务后自动调用
+    def StartUp(self):
+        pass
+
+    # Update方法，用于一些持续性的输出，例如心跳连接
+    def Update(self):
+        '''
+        while self.session:
+            try:
+                # 发送HEAD请求（轻量级，不下载响应体）
+                self.session.head("http://localhost/v1", timeout=10)
+            except requests.exceptions.RequestException as e:
+                print(f"Heartbeat failed: {e}")
+            time.sleep(0.5)
+        '''
+        pass
 
     # 一个简单的用于处理线程任务内数据的类，如有需要可拓展和使用
     class Answer_Chunk:
@@ -53,7 +74,6 @@ class BaseModule(ABC):
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
         try:
-            print(f"[{self.__class__.__name__}] response_data:{response_data}")
             # 检查是否已请求停止处理
             if user in self.stop_events and self.stop_events[user].is_set():
                 print(f"[{self.__class__.__name__}] 用户 {user} 已请求停止处理，不再输出数据")
@@ -236,3 +256,5 @@ class BaseModule(ABC):
         self.user_threads.clear()
         self.stop_events.clear()
         self.streaming_status.clear()
+        if self.session:
+            self.session.close()

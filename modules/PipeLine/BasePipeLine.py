@@ -34,6 +34,11 @@ class PipeLine:
         for i in range(len(self.modules) - 1):
             self.modules[i].next_model = self.modules[i + 1]
 
+    def StartUp(self):
+        print("管线初始化")
+        for module in self.modules:
+            module.StartUp()
+
     async def add_chunk(self, user: str, chunk: Any) -> None:
         """添加数据块到用户队列"""
         async with self.lock:

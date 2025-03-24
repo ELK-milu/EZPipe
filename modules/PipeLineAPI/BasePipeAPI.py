@@ -180,7 +180,6 @@ class API_Service(ABC):
 
         # 设置pipeline的主事件循环
         self.pipeline.main_loop = self.loop
-
         # 配置uvicorn服务器
         config = uvicorn.Config(
             app=self.app,
@@ -188,7 +187,7 @@ class API_Service(ABC):
             port=self.port,
             loop="asyncio"
         )
-
+        self.pipeline.StartUp()
         # 启动服务器
         server = uvicorn.Server(config)
         self.loop.run_until_complete(server.serve())

@@ -29,7 +29,7 @@ args = parser.parse_args()
 
 pipeline = PipeLine.create_pipeline(
     Dify_LLM_Module,
-    #GPTSoVit_TTS_Module
+    GPTSoVit_TTS_Module
 )
 
 # 启动服务

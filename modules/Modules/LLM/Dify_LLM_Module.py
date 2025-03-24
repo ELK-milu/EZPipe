@@ -2,8 +2,10 @@ import json
 import threading
 from typing import Optional, Any
 
+import requests
+
 from ..BaseModule import BaseModule
-from .DifyPost import PostChat
+from .DifyPost import PostChat,session
 
 
 
@@ -18,6 +20,7 @@ class Dify_LLM_Module(BaseModule):
             self.response_string = ""
             self.full_content = ""
             self.Is_End = False
+            self.session: requests.Session = None  # 单会话，用于长连接，暂未使用多会话
 
         def GetThinking(self) -> str:
             return self.think_string
@@ -31,6 +34,12 @@ class Dify_LLM_Module(BaseModule):
         def AppendResponse(self, content):
             self.response_string += content
 
+    def Update(self):
+        self.session = session
+
+    def StartUp(self):
+        if self.session is None:
+            self.session = session
 
     def HandleInput(self, request: Any) -> str:
         return request.Input
@@ -51,6 +60,8 @@ class Dify_LLM_Module(BaseModule):
         print(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
         try:
+            if self.session is None:
+                self.session = session
             chat_response = PostChat(streamly=streamly, user=user, text=input_data).GetResponse()
             print(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
