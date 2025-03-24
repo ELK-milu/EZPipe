@@ -13,6 +13,7 @@ sys.path.append(str(project_root))
 from modules.Modules.ASR.FunASR_ASR_Module import FunASR_ASR_Module
 from modules.Modules.TTS.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
 from modules.Modules.LLM.Ollama_LLM_Module import Ollama_LLM_Module
+from modules.Modules.LLM.Dify_LLM_Module import Dify_LLM_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
 from modules.PipeLineAPI.ASR_LLM_TTS_pipeAPI import ASR_LLM_TTS_pipeAPI
@@ -27,8 +28,8 @@ args = parser.parse_args()
 
 
 pipeline = PipeLine.create_pipeline(
-    Ollama_LLM_Module,
-    GPTSoVit_TTS_Module
+    Dify_LLM_Module,
+    #GPTSoVit_TTS_Module
 )
 
 # 启动服务
