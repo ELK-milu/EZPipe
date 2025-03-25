@@ -34,19 +34,31 @@ class Dify_LLM_Module(BaseModule):
         def AppendResponse(self, content):
             self.response_string += content
 
-    def Update(self):
-        self.session = session
+    def HeartBeat(self,user:str):
+        if self.session:
+            try:
+                # 发送HEAD请求（轻量级，不下载响应体）
+                self.session.head("http://localhost/v1/conversations", timeout=10)
+                return {
+                    "status": "success",
+                }
+            except requests.exceptions.RequestException as e:
+                print(f"Heartbeat failed: {e}")
+
 
     def StartUp(self):
         if self.session is None:
             self.session = session
 
     def HandleInput(self, request: Any) -> str:
-        return request.Input
+        json_str = request.model_dump_json()
+        print(json_str)
+        return json_str
 
     """LLM对话模块（输入类型：str，输出类型：str）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> str:
-        self.answer_chunk = self.Answer_Chunk(text=input_data, user=user, streamly=streamly)
+        data = json.loads(input_data)
+        self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=streamly)
         """
         处理LLM模型对话的服务
         Args:
@@ -60,9 +72,10 @@ class Dify_LLM_Module(BaseModule):
         print(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
         try:
-            if self.session is None:
+            if not self.session:
                 self.session = session
-            chat_response = PostChat(streamly=streamly, user=user, text=input_data).GetResponse()
+            print(f"[Dify] 开始请求对话: {data['Input']},对话ID: {data['conversation_id']}")
+            chat_response = PostChat(streamly=streamly, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
             print(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0

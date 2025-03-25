@@ -12,7 +12,7 @@ headers = {
 }
 
 class PostChat:
-    def __init__(self,streamly,user,text):
+    def __init__(self,streamly,user,text,conversation_id):
         self.payload = {
             "streamly": streamly,
             "user": user,
@@ -21,6 +21,7 @@ class PostChat:
             "Entry": 0,
             "temperature": 1,
             "max_length": 1024,
+            "conversation_id":conversation_id,
         }
         self.streamly = streamly
         self.response = requests.request("POST", url, json=self.payload, headers=headers,stream=streamly)
@@ -35,7 +36,7 @@ class PostChat:
 if __name__ == "__main__":
     # 启动 main 服务
     ps = PostChat(streamly=True,user="user",
-             text="你好啊,用100字介绍下你自己").GetResponse()
+             text="你好啊,用100字介绍下你自己",conversation_id="ac2e4933-25a9-4f08-ba67-9de3e025f093").GetResponse()
 
     from queue import Queue
     audio_queue = Queue()  # 示例队列

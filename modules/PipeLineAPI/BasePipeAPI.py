@@ -79,6 +79,10 @@ class API_Service(ABC):
                 status_code=200
             )
 
+        @self.router.get("/heartbeat")
+        async def process_input(user: str):
+            return self.pipeline.HeartBeat(user)
+
         # 注册路由到FastAPI应用
         self.app.include_router(self.router)
 

@@ -29,7 +29,7 @@ class BaseModule(ABC):
         pass
 
     # Update方法，用于一些持续性的输出，例如心跳连接
-    def Update(self):
+    def HeartBeat(self,user:str):
         '''
         while self.session:
             try:

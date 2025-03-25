@@ -8,15 +8,16 @@ session = requests.Session()
 session.headers.update({
     'Authorization': 'Bearer app-vskz5McIRNmySfIek7cReqgC',
     'Content-Type': 'application/json',
+    'Connection': 'Keep-Alive'
 })
 
 class PostChat:
-    def __init__(self, streamly, user, text):
+    def __init__(self, streamly,conversation_id,user, text):
         self.payload = {
             "inputs": {},
             "query": text,
             "response_mode": "streaming",
-            "conversation_id": "fb82baaa-383e-4958-8316-e1333df65154",
+            "conversation_id": conversation_id,
             "user": user,
             "files": []
         }

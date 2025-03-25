@@ -34,6 +34,12 @@ class PipeLine:
         for i in range(len(self.modules) - 1):
             self.modules[i].next_model = self.modules[i + 1]
 
+
+    def HeartBeat(self,user:str):
+        print("管线心跳")
+        for module in self.modules:
+            module.HeartBeat(user)
+
     def StartUp(self):
         print("管线初始化")
         for module in self.modules:
