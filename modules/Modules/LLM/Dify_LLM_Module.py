@@ -1,6 +1,6 @@
 import json
 import threading
-from typing import Optional, Any
+from typing import Optional, Any, Dict
 
 import requests
 
@@ -45,10 +45,61 @@ class Dify_LLM_Module(BaseModule):
             except requests.exceptions.RequestException as e:
                 print(f"Heartbeat failed: {e}")
 
+    def register_module_routes(self):
+        @self.router.get("/messages")
+        async def get_conversations(user:str, conversation_id: str):
+            """获取历史会话"""
+            # 调用Dify API获取数据（示例实现）
+            result = self.session.get(url = f"http://localhost/v1/messages?user={user}&conversation_id={conversation_id}")
+            return result.json()
+        @self.router.get("/conversations")
+        async def get_conversations(user:str, last_id: str = None,limit: int = 20):
+            """获取用户会话列表"""
+            result = self.session.get(url = f"http://localhost/v1/conversations?user={user}&last_id={last_id}&limit={limit}")
+            # 调用Dify API获取数据（示例实现）
+            return result.json()
+
+        @self.router.delete("/conversations/delete")
+        async def delete_conversation(request: Dict[str, Any]):
+            """删除指定会话"""
+            user = request.get("user", None)
+            conversation_id = request.get("conversation_id", None)
+            payload = {
+                "user": user
+            }
+            result = self.session.delete(url = f"http://localhost/v1/conversations/{conversation_id}",json = payload)
+                # 调用Dify API删除会话
+            return result.json()
+
+        @self.router.post("/conversations/rename")
+        async def rename_conversation(request: Dict[str, Any]):
+            """会话重命名"""
+            name = request.get("name", None)
+            user = request.get("user", None)
+            conversation_id = request.get("conversation_id", None)
+            payload = {
+                "name": name,
+                "auto_generate": False,
+                "user": user
+            }
+            """会话重命名"""
+            result = self.session.post(url=f"http://localhost/v1/conversations/{conversation_id}/name", json=payload)
+            # 调用Dify API更新会话名称
+            return result.json()
+
+        @self.router.get("/messages/suggested")
+        async def rename_conversation(user:str,conversation_id: str):
+            """会话重命名"""
+            result = self.session.get(url=f"http://localhost/v1/messages/{conversation_id}/suggested?user={user}")
+            # 调用Dify API更新会话名称
+            return result.json()
+
+
 
     def StartUp(self):
         if self.session is None:
             self.session = session
+        #self.HeartBeat("")
 
     def HandleInput(self, request: Any) -> str:
         json_str = request.model_dump_json()

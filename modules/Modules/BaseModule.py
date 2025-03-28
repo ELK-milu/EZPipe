@@ -6,6 +6,7 @@ import threading
 import time
 
 import requests
+from fastapi import APIRouter
 
 if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine
@@ -22,10 +23,24 @@ class BaseModule(ABC):
         self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
         self.answer_chunk = None
         self.session : requests.Session = None  # 会话管理，用于长连接
+        # 新增路由相关属性
+        self.router: APIRouter = APIRouter()
+        self.RegisterRoutes()
 
 
     # 初始化方法，用于模块被添加进PipeLine并启动API服务后自动调用
     def StartUp(self):
+        pass
+
+
+    def RegisterRoutes(self):
+        """模块自定义路由注册入口"""
+        self.register_module_routes()
+
+    # 注册路由方法，可以由子类实现，用于注册模块专属的API
+    # 子类可重写此方法添加自定义路由
+    def register_module_routes(self):
+        """供子类重写的路由注册方法"""
         pass
 
     # Update方法，用于一些持续性的输出，例如心跳连接

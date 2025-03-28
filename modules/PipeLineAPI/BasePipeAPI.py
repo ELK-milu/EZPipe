@@ -38,7 +38,7 @@ class API_Service(ABC):
 
         @self.router.post(f"{self.post_router}")
         async def process_input(request: Dict[str, Any], req: Request):
-            # 跟踪请求用户ID
+            """调用管线服务"""
             user_id = request.get("user", None)
             if not user_id:
                 raise HTTPException(status_code=400, detail="必须提供用户ID")
@@ -81,7 +81,16 @@ class API_Service(ABC):
 
         @self.router.get("/heartbeat")
         async def process_input(user: str):
+            """心跳请求"""
             return self.pipeline.HeartBeat(user)
+
+        # 收集所有模块路由
+        for module in self.pipeline.modules:
+            self.app.include_router(
+                module.router,
+                #prefix=f"/{module.__class__.__name__}",  # 添加模块名前缀
+                #tags=[module.__class__.__name__]
+            )
 
         # 注册路由到FastAPI应用
         self.app.include_router(self.router)
