@@ -21,6 +21,8 @@ class Dify_LLM_Module(BaseModule):
             self.full_content = ""
             self.Is_End = False
             self.session: requests.Session = None  # 单会话，用于长连接，暂未使用多会话
+            self.message_id = ""
+            self.conversation_id = ""
 
         def GetThinking(self) -> str:
             return self.think_string
@@ -153,6 +155,8 @@ class Dify_LLM_Module(BaseModule):
                 final_json = json.dumps({
                     "think": self.answer_chunk.GetThinking(),
                     "response": self.answer_chunk.GetResponse(),
+                    "conversation_id": self.answer_chunk.conversation_id,
+                    "message_id": self.answer_chunk.message_id,
                     "Is_End": self.answer_chunk.Is_End
                 })
                 response_func(streamly, user, final_json)
@@ -196,6 +200,10 @@ class Dify_LLM_Module(BaseModule):
             if response:
                 data = response[6:]
                 data = json.loads(data)
+                if(answer.conversation_id == ""):
+                    answer.conversation_id = data['conversation_id']
+                if(answer.message_id == ""):
+                    answer.message_id = data['message_id']
                 if data['event'] == 'message':
                     message = str(data['answer'])
                     print(message)

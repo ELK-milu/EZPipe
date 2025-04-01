@@ -393,8 +393,7 @@ async def stop_recording():
         print("Recording stopped.")
         print("Final recognized text:", text_print)  # 输出最终的识别结果
         # 启动transfer.py并传递text_print
-        PostChat(streamly=True, user="user",
-                 text=text_print)
+        ##PostChat(streamly=True, user="user",text=text_print)
         text_print = ""
 
 

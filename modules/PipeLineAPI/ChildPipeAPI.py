@@ -16,6 +16,7 @@ class TextToSpeechAPIService(API_Service):
         temperature: float = 0.7  # 带默认值的新参数
         max_length: int = 100
         conversation_id: str = ""
+        message_id: str = ""
         class Config:
             extra = "allow"  # 允许额外字段（可选）
 
