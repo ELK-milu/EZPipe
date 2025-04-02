@@ -24,7 +24,7 @@ class GPTSoVit_TTS_Module(BaseModule):
         print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
 
-        try:
+        try :
             # 发送文本到TTS服务
             chat_response = PostChat(streamly=streamly, user=user, text=input_data).GetResponse()
             print(f"[TTS] 响应状态码: {chat_response.status_code}")
@@ -54,17 +54,17 @@ class GPTSoVit_TTS_Module(BaseModule):
                 
                 # 调用回调函数输出数据块
                 response_func(streamly, user, chunk)
-                #next_func(streamly, user, chunk)
+                next_func(streamly, user, chunk)
                 chunk_count += 1
                 
             # 输出统计信息
             print(f"[TTS] 共发送 {chunk_count} 个数据块，总计 {total_bytes} 字节")
             
             # 标记处理完成
-            response_func(streamly, user, None)
+            #response_func(streamly, user, None)
 
             # 输出给下一个模块
-            next_func(streamly, user, None)
+            #next_func(streamly, user, None)
 
             return b''  # 返回空字节作为完成标记
             
@@ -75,11 +75,6 @@ class GPTSoVit_TTS_Module(BaseModule):
             
             # 通知调用者出现错误
             response_func(streamly, user, f"ERROR: {str(e)}".encode())
-            response_func(streamly, user, None)
+            next_func(streamly, user, self.ENDSIGN)
             
             return b''  # 返回空字节作为完成标记
-            
-        finally:
-            # 确保关闭响应
-            if chat_response:
-                chat_response.close()

@@ -22,6 +22,8 @@ class PostChat:
             "temperature": 1,
             "max_length": 1024,
             "conversation_id":conversation_id,
+            "message_id" : "",
+            "LLM":{"streamly":True},
         }
         self.streamly = streamly
         self.response = requests.request("POST", url, json=self.payload, headers=headers,stream=streamly)

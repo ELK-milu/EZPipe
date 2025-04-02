@@ -18,6 +18,7 @@ class BaseModule(ABC):
         self.next_model: Optional["BaseModule"] = None
         self.pipeline: Optional["PipeLine"] = None
         self.user_threads: Dict[str, threading.Thread] = {}
+        self.user_InputQueue: Dict[str, queue.Queue] = {} # 接受输入的队列
         self.output: Any = None
         self.thread_timeout = 120.0  # 线程超时时间（秒）
         self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
@@ -25,6 +26,7 @@ class BaseModule(ABC):
         self.session : requests.Session = None  # 会话管理，用于长连接
         # 新增路由相关属性
         self.router: APIRouter = APIRouter()
+        self.ENDSIGN = None
         self.RegisterRoutes()
 
 
@@ -81,10 +83,10 @@ class BaseModule(ABC):
     # 有时我们希望API给出的流式返回值和进入下一个模块的输入值不一样，因此设置了两个回调函数
     def Next_output(self, streamly: bool, user: str, output: Any):
         # 如果有下一个模块，且next_input非空,传递输出
-        if self.next_model and not (user in self.stop_events and self.stop_events[user].is_set()):
-            self.next_model._create_thread(streamly, user, output)
-            self.output = output
-        return output
+        if self.next_model:
+            # 确保下一个模块有输入队列
+            self.next_model.GetService(streamly, user, output)
+            print(f"[{self.__class__.__name__}] 添加数据{str(output)}到 {self.next_model.__class__.__name__} 输入队列")
 
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
@@ -94,8 +96,8 @@ class BaseModule(ABC):
                 print(f"[{self.__class__.__name__}] 用户 {user} 已请求停止处理，不再输出数据")
                 return
 
-            # 如果输出为None,且没有后续模块,标记任务完成
-            if response_data is None and self.next_model is None:
+            # 如果输出为None,且没有后续模块,且当前队列里没有待处理的内容,标记任务完成
+            if response_data == self.ENDSIGN and self.next_model is None:
                 print(f"[{self.__class__.__name__}] 用户 {user} 已处理完成，不再输出数据")
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.mark_complete(user),
@@ -103,7 +105,7 @@ class BaseModule(ABC):
                 )
                 return
 
-            if response_data is None:
+            if response_data == self.ENDSIGN:
                 print(f"[{self.__class__.__name__}] 下一个模块是 [{self.next_model.__class__.__name__}] ")
 
             # 保存输出并发送到Pipeline
@@ -124,13 +126,13 @@ class BaseModule(ABC):
 
 
             # 如果输出为None且没有后续模块,把终止信号None输出到PipeLine
-            if response_data is None and self.next_model is None:
+            if response_data == self.ENDSIGN and self.next_model is None:
                 # 用户仍然连接，发送数据
                 asyncio.run_coroutine_threadsafe(
-                    self.pipeline.add_chunk(user, response_data),
+                    self.pipeline.add_chunk(user, self.pipeline.ENDSIGN),
                     self.pipeline.main_loop
                 )
-            elif response_data is not None:
+            elif response_data != self.ENDSIGN:
                 # 用户仍然连接，发送数据
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.add_chunk(user, response_data),
@@ -170,38 +172,37 @@ class BaseModule(ABC):
 
     def _thread_wrapper(self, streamly: bool, user: str, input_data: Any) -> None:
         """线程的包装函数，确保资源清理"""
-        start_time = time.time()
-        
+        """重构线程包装函数"""
         try:
-            # 设置超时定时器
-            def check_timeout():
-                if time.time() - start_time > self.thread_timeout:
-                    print(f"[{self.__class__.__name__}] 用户 {user} 处理超时，强制终止")
-                    if user in self.stop_events:
-                        self.stop_events[user].set()
-            
-            # 启动定时器线程
-            timer = threading.Timer(self.thread_timeout, check_timeout)
-            timer.daemon = True
-            timer.start()
-            
-            # 执行任务
-            self.Thread_Task(streamly, user, input_data, self.Response_output,self.Next_output)
-            
-        except Exception as e:
-            print(f"[{self.__class__.__name__}] {self.__class__.__name__} 线程执行错误: {str(e)}")
-            try:
-                self.Response_output(streamly, user, f"[ERROR]: {str(e)}")
-            except:
-                print(f"[{self.__class__.__name__}] 无法发送错误消息给用户 {user}")
+            while True:
+                try:
+                    # 设置带超时的队列获取
+                    input_data = self.user_InputQueue[user].get(timeout=3)
+
+                    # 检查停止事件
+                    if self.stop_events[user].is_set():
+                        print(f"[{self.__class__.__name__}] 检测到停止信号，终止处理")
+                        break
+
+                    # 执行实际任务
+                    self.Thread_Task(streamly, user, input_data,
+                                     self.Response_output,
+                                     self.Next_output)
+
+                except queue.Empty:
+                    # 队列超时后直接退出
+                    print(f"[{self.__class__.__name__}] 输入队列已空且超时")
+                    break
         finally:
-            # 清理资源
-            if not streamly or user in self.stop_events and self.stop_events[user].is_set():
-                self._cleanup(user)
-            # 取消定时器
-            timer.cancel()
+            # 发送结束信号
+            self.Response_output(streamly, user, self.ENDSIGN)
+            self._cleanup(user)
 
     def _create_thread(self, streamly: bool, user: str, input_data: Any) -> None:
+        if(user not in self.user_InputQueue):
+            self.user_InputQueue[user] = queue.Queue()
+
+        self.user_InputQueue[user].put(input_data)
         """创建新线程处理用户请求"""
         # 检查用户是否已断开连接
         try:
@@ -209,7 +210,7 @@ class BaseModule(ABC):
                 self._check_if_disconnected(user),
                 self.pipeline.main_loop
             )
-            
+
             if future.result(timeout=1.0):
                 print(f"[{self.__class__.__name__}] 用户 {user} 已断开连接，不创建新线程")
                 return
@@ -244,6 +245,9 @@ class BaseModule(ABC):
         # 设置停止事件
         if user in self.stop_events:
             self.stop_events[user].set()
+
+        if user in self.user_InputQueue:
+            del self.user_InputQueue[user]
             
         # 清理线程
         if user in self.user_threads:

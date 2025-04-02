@@ -19,6 +19,7 @@ class PipeLine:
         self.main_loop = asyncio.get_event_loop()
         self.disconnect_events: Dict[str, asyncio.Event] = {}  # 用户断开连接事件
         self.validated:bool = False    #当前pipe是否可用的指示位
+        self.ENDSIGN = None
         # 设置模块的pipeline引用
         for module in self.modules:
             module.pipeline = self
@@ -68,7 +69,7 @@ class PipeLine:
             print(f"[Pipeline] 标记用户 {user} 的任务完成")
             self.active_users[user] = False
             if user in self.user_queues:
-                await self.add_chunk(user,None)  # 发送结束信号
+                await self.add_chunk(user,self.ENDSIGN)  # 发送结束信号
 
     async def mark_disconnected(self, user: str) -> None:
         """标记用户已断开连接"""
@@ -107,7 +108,7 @@ class PipeLine:
                     chunk = await asyncio.wait_for(user_queue.get(), timeout=2)
 
                     # None表示结束信号
-                    if chunk is None:
+                    if chunk == self.ENDSIGN:
                         print(f"[Response] 接收到终止信号,用户 {user} 处理完成")
                         break
 

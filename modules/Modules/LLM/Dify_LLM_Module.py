@@ -1,4 +1,5 @@
 import json
+import re
 import threading
 from typing import Optional, Any, Dict
 
@@ -23,6 +24,52 @@ class Dify_LLM_Module(BaseModule):
             self.session: requests.Session = None  # 单会话，用于长连接，暂未使用多会话
             self.message_id = ""
             self.conversation_id = ""
+            self.final_json= ""
+
+            self.tempResponse = ""
+            self.sentences = []
+            self.IsFirst = True
+
+        def GetTempMsg(self):
+            # 使用正向预查分割保留标点符号
+            split_pattern = r'(?<=[，,!?。！？])'
+            fragments = re.split(split_pattern, self.tempResponse)
+
+            # 收集完整句子和未完成部分
+            complete_sentences = []
+            pending_fragment = ''
+
+            for frag in fragments:
+                if re.search(r'[，,!?。！？]$', frag):
+                    complete_sentences.append(frag)
+                else:
+                    pending_fragment = frag
+                    break  # 遇到未完成片段即停止
+
+            # 第一次需要攒满3个完整句子
+            if self.IsFirst:
+                if len(complete_sentences) >= 3:
+                    self.IsFirst = False
+                    # 保留未处理部分继续累积
+                    self.tempResponse = ''.join(fragments[len(complete_sentences):])
+                    self.sentences = complete_sentences[:3]
+                else:
+                    # 不足3句时保留所有内容继续累积
+                    self.tempResponse = self.tempResponse
+                    self.sentences = []
+            else:
+                # 非首次处理直接返回所有完整句子
+                self.tempResponse = pending_fragment
+                self.sentences = complete_sentences
+
+            return self.sentences
+
+        # 判断是否准备好返回
+        def ReadyToResponse(self) -> bool:
+            if(self.GetTempMsg() == []):
+                return False
+            else:
+                return True
 
         def GetThinking(self) -> str:
             return self.think_string
@@ -34,6 +81,7 @@ class Dify_LLM_Module(BaseModule):
             self.think_string += content
 
         def AppendResponse(self, content):
+            self.tempResponse += content
             self.response_string += content
 
     def HeartBeat(self,user:str):
@@ -111,7 +159,9 @@ class Dify_LLM_Module(BaseModule):
     """LLM对话模块（输入类型：str，输出类型：str）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> str:
         data = json.loads(input_data)
-        self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=streamly)
+        print("LLM:" + str(data["LLM"]["streamly"]))
+        temp_streamly : bool = data["LLM"]["streamly"]
+        self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=temp_streamly)
         """
         处理LLM模型对话的服务
         Args:
@@ -128,14 +178,14 @@ class Dify_LLM_Module(BaseModule):
             if not self.session:
                 self.session = session
             print(f"[Dify] 开始请求对话: {data['Input']},对话ID: {data['conversation_id']}")
-            chat_response = PostChat(streamly=streamly, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
+            chat_response = PostChat(streamly=temp_streamly, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
             print(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0
             # 循环处理响应中的数据块
             for chunk in chat_response.iter_content(chunk_size=None):
                 decoded = chunk.decode('utf-8')
-                self.extract_think_response(self.answer_chunk, decoded, streamly)
+                self.extract_think_response(self.answer_chunk, decoded, temp_streamly)
                 print(f"[Dify] think:{self.answer_chunk.GetThinking()}\nResponse:{self.answer_chunk.GetResponse()}")
 
                 if self.stop_events[user].is_set():
@@ -152,22 +202,38 @@ class Dify_LLM_Module(BaseModule):
                 # 调用回调函数输出数据块,回调响应流式但不传输给下一个模块
 
                 # 服务端替客户端处理成Json再返回
-                final_json = json.dumps({
+                self.answer_chunk.final_json = json.dumps({
                     "think": self.answer_chunk.GetThinking(),
                     "response": self.answer_chunk.GetResponse(),
                     "conversation_id": self.answer_chunk.conversation_id,
                     "message_id": self.answer_chunk.message_id,
                     "Is_End": self.answer_chunk.Is_End
                 })
-                response_func(streamly, user, final_json)
+
+                # 流式传输给下一个模块
+                if temp_streamly and self.answer_chunk.ReadyToResponse():
+                    for sentence in self.answer_chunk.sentences:
+                        print(f"[Dify] 发送句子: {sentence}")
+                        next_func(streamly, user, sentence)
+
+                # 流式返回
+                if streamly :
+                    response_func(streamly, user, self.answer_chunk.final_json)
+
                 chunk_count += 1
             # 输出统计信息
             print(f"[Dify] 共发送 {chunk_count} 个数据块，最终输出:")
+            if not streamly:
+                response_func(streamly, user, self.answer_chunk.final_json)
             # 标记处理完成,并返回LLM最终的响应结果
-            response_func(streamly, user, None)
+            # response_func(streamly, user, None)
 
             # 只返回给下一个模块最终的回复，不包含思考过程，当然这部分可通过一些模块参数自定义
-            next_func(streamly, user, self.answer_chunk.GetResponse())
+            if not self.answer_chunk.streamly:
+                next_func(streamly, user, self.answer_chunk.GetResponse())
+            # 当流式返回给下一个模块，但是还有剩余的数据块时，将剩余的数据块返回给下一个模块
+            elif self.answer_chunk.tempResponse is not None:
+                next_func(streamly, user, self.answer_chunk.tempResponse)
 
             return ""  # 返回空字符作为完成标记
 
@@ -177,14 +243,9 @@ class Dify_LLM_Module(BaseModule):
             print(error_msg)
             # 通知调用者出现错误
             response_func(streamly, user, f"ERROR: {str(e)}".encode())
-            next_func(streamly, user, None)
+            next_func(streamly, user, self.ENDSIGN)
 
             return ""  # 返回空字节作为完成标记
-
-        finally:
-            # 确保关闭响应
-            if chat_response:
-                chat_response.close()
 
     def extract_think_response(self,answer: Answer_Chunk, response: str, streamly: bool) -> tuple:
         """
