@@ -26,9 +26,11 @@ class Dify_LLM_Module(BaseModule):
             self.conversation_id = ""
             self.final_json= ""
 
+
             self.tempResponse = ""
             self.sentences = []
             self.IsFirst = True
+            self.WaitCount = 2
 
         def GetTempMsg(self):
             # 使用正向预查分割保留标点符号
@@ -48,11 +50,11 @@ class Dify_LLM_Module(BaseModule):
 
             # 第一次需要攒满3个完整句子
             if self.IsFirst:
-                if len(complete_sentences) >= 3:
+                if len(complete_sentences) >= self.WaitCount:
                     self.IsFirst = False
                     # 保留未处理部分继续累积
                     self.tempResponse = ''.join(fragments[len(complete_sentences):])
-                    self.sentences = complete_sentences[:3]
+                    self.sentences = complete_sentences[:self.WaitCount]
                 else:
                     # 不足3句时保留所有内容继续累积
                     self.tempResponse = self.tempResponse
@@ -178,14 +180,14 @@ class Dify_LLM_Module(BaseModule):
             if not self.session:
                 self.session = session
             print(f"[Dify] 开始请求对话: {data['Input']},对话ID: {data['conversation_id']}")
-            chat_response = PostChat(streamly=temp_streamly, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
+            chat_response = PostChat(streamly=True, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
             print(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0
             # 循环处理响应中的数据块
             for chunk in chat_response.iter_content(chunk_size=None):
                 decoded = chunk.decode('utf-8')
-                self.extract_think_response(self.answer_chunk, decoded, temp_streamly)
+                self.extract_think_response(self.answer_chunk, decoded, True)
                 print(f"[Dify] think:{self.answer_chunk.GetThinking()}\nResponse:{self.answer_chunk.GetResponse()}")
 
                 if self.stop_events[user].is_set():
@@ -231,6 +233,7 @@ class Dify_LLM_Module(BaseModule):
             # 只返回给下一个模块最终的回复，不包含思考过程，当然这部分可通过一些模块参数自定义
             if not self.answer_chunk.streamly:
                 next_func(streamly, user, self.answer_chunk.GetResponse())
+                print(f"[Dify] 发送句子: {self.answer_chunk.GetResponse()}")
             # 当流式返回给下一个模块，但是还有剩余的数据块时，将剩余的数据块返回给下一个模块
             elif self.answer_chunk.tempResponse is not None:
                 next_func(streamly, user, self.answer_chunk.tempResponse)
