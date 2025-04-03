@@ -1,10 +1,24 @@
+import json
 import threading
 from typing import Optional, Any
+
+from fastapi import requests
 
 from ..BaseModule import BaseModule
 from .SovitsPost import PostChat
 
 class GPTSoVit_TTS_Module(BaseModule):
+
+    def HeartBeat(self,user:str):
+        if self.session:
+            try:
+                # 发送HEAD请求（轻量级，不下载响应体）
+                self.session.head("http://127.0.0.1:8090/", timeout=10)
+                return {
+                    "status": "success",
+                }
+            except requests.exceptions.RequestException as e:
+                print(f"Heartbeat failed: {e}")
 
     def HandleInput(self, request: Any) -> bytes:
         return request.Input
@@ -23,10 +37,11 @@ class GPTSoVit_TTS_Module(BaseModule):
         """
         print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
-
+        #data = json.loads(input_data)
+        #temp_streamly =   data["TTS"]["streamly"]
         try :
             # 发送文本到TTS服务
-            chat_response = PostChat(streamly=streamly, user=user, text=input_data).GetResponse()
+            chat_response = PostChat(streamly=False, user=user, text=input_data).GetResponse()
             print(f"[TTS] 响应状态码: {chat_response.status_code}")
             
             # 用于统计处理的数据块

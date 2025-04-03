@@ -2,11 +2,13 @@ import requests
 
 url = "http://127.0.0.1:8090/tts"
 
-headers = {
+# 在程序启动时创建全局Session并配置headers
+session = requests.Session()
+session.headers.update({
     "Authorization": "",
-    "Content-Type": "application/json"
-}
-
+    "Content-Type": "application/json",
+    'Connection': 'Keep-Alive'
+})
 '''
 POST:
 ```json
@@ -59,8 +61,8 @@ class PostChat:
             "repetition_penalty": 1.35
         }
         self.streamly = streamly
-        self.response = requests.request("POST", url, json=self.payload, headers=headers,stream=streamly)
-        self.response.encoding = 'utf-8'
+        # 使用全局session发送请求，复用TCP连接
+        self.response = session.post(url, json=self.payload, stream=streamly)
         return
 
 

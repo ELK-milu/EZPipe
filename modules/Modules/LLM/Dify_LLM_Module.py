@@ -30,7 +30,7 @@ class Dify_LLM_Module(BaseModule):
             self.tempResponse = ""
             self.sentences = []
             self.IsFirst = True
-            self.WaitCount = 2
+            self.WaitCount = 1
 
         def GetTempMsg(self):
             # 使用正向预查分割保留标点符号
@@ -64,6 +64,7 @@ class Dify_LLM_Module(BaseModule):
                 self.tempResponse = pending_fragment
                 self.sentences = complete_sentences
 
+            self.PrintSentences()
             return self.sentences
 
         # 判断是否准备好返回
@@ -72,6 +73,11 @@ class Dify_LLM_Module(BaseModule):
                 return False
             else:
                 return True
+
+        def PrintSentences(self):
+            # 打印完整句子
+            for sentence in self.sentences:
+                print(f"句子: {sentence}")
 
         def GetThinking(self) -> str:
             return self.think_string
