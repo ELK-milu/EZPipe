@@ -62,9 +62,11 @@ if __name__ == "__main__":
                 final_think = final_json.get("think")
                 final_response = final_json.get("response")
                 #print(final_think + final_response)
+                print(f"接收到文本")
             elif chunk_data.get("type") == "audio/wav":
                 # 3. Base64解码
                 audio_bytes = base64.b64decode(chunk_data['chunk'])
                 # 4. 放入队列
                 audio_queue.put(audio_bytes)
                 stream.write(audio_bytes)
+                print(f"接收到音频")

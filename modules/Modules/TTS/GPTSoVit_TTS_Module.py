@@ -35,6 +35,13 @@ class GPTSoVit_TTS_Module(BaseModule):
         Returns:
             bytes: 音频数据
         """
+        # 检查input_data是否为None
+        if input_data is None:
+            print(f"[TTS] 输入数据为None，无法处理")
+            response_func(streamly, user, f"ERROR: 输入数据为None".encode())
+            next_func(streamly, user, self.ENDSIGN)
+            return b''
+            
         print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
         #data = json.loads(input_data)
