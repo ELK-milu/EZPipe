@@ -5,10 +5,13 @@ from typing import Optional, Any
 from fastapi import requests
 
 from ..BaseModule import BaseModule
-from .SovitsPost import PostChat
+from .SovitsPost import PostChat,session
 
 class GPTSoVit_TTS_Module(BaseModule):
 
+    def StartUp(self):
+        if self.session is None:
+            self.session = session
     def HeartBeat(self,user:str):
         if self.session:
             try:
@@ -19,6 +22,9 @@ class GPTSoVit_TTS_Module(BaseModule):
                 }
             except requests.exceptions.RequestException as e:
                 print(f"Heartbeat failed: {e}")
+        else:
+            self.session = session
+            self.HeartBeat(user)
 
     def HandleInput(self, request: Any) -> bytes:
         return request.Input
@@ -46,6 +52,8 @@ class GPTSoVit_TTS_Module(BaseModule):
         chat_response = None
         #data = json.loads(input_data)
         #temp_streamly =   data["TTS"]["streamly"]
+        if self.session is None:
+            self.session = session
         try :
             # 发送文本到TTS服务
             chat_response = PostChat(streamly=False, user=user, text=input_data).GetResponse()
