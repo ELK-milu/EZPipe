@@ -84,9 +84,17 @@ class BaseModule(ABC):
     def Next_output(self, streamly: bool, user: str, output: Any):
         # 如果有下一个模块，且next_input非空,传递输出
         if self.next_model:
-            # 确保下一个模块有输入队列
-            self.next_model.GetService(streamly, user, output)
+            # 使用异步方式添加数据到下一个模块的输入队列
+            if user not in self.next_model.user_InputQueue:
+                self.next_model.user_InputQueue[user] = queue.Queue()
+            
+            # 直接添加数据到队列，不创建新线程
+            self.next_model.user_InputQueue[user].put(output)
             print(f"[{self.__class__.__name__}] 添加数据{str(output)}到 {self.next_model.__class__.__name__} 输入队列")
+            
+            # 如果下一个模块没有活跃线程，则创建一个
+            if user not in self.next_model.user_threads or not self.next_model.user_threads[user].is_alive():
+                self.next_model._create_thread(streamly, user, None)
 
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
@@ -175,11 +183,16 @@ class BaseModule(ABC):
     def _thread_wrapper(self, streamly: bool, user: str, input_data: Any) -> None:
         """实时响应式线程包装"""
         last_data_time = time.time()  # 新增时间跟踪
+        empty_queue_count = 0  # 空队列计数器
         try:
             while not self.stop_events[user].is_set():
                 try:
                     # 非阻塞式获取数据
                     input_data = self.user_InputQueue[user].get_nowait()
+                    
+                    # 重置空队列计数器和最后数据时间
+                    empty_queue_count = 0
+                    last_data_time = time.time()
 
                     # 立即处理单个数据块
                     self.Thread_Task(streamly, user, input_data,
@@ -190,20 +203,38 @@ class BaseModule(ABC):
                     self.user_InputQueue[user].task_done()
 
                 except queue.Empty:
-                    # 检查空队列持续时间
-                    if time.time() - last_data_time > 3:
-                        print(f"[{self.__class__.__name__}] 连续3秒无新数据，终止处理")
+                    # 增加空队列计数
+                    empty_queue_count += 1
+                    
+                    # 检查空队列持续时间或连续空队列次数
+                    if time.time() - last_data_time > 3 or empty_queue_count > 10:
+                        print(f"[{self.__class__.__name__}] 连续3秒无新数据或连续10次空队列，终止处理")
                         break
-                    time.sleep(0.1)  # 保持CPU低占用
+                        
+                    # 根据空队列次数动态调整睡眠时间
+                    sleep_time = min(0.1 * empty_queue_count, 0.5)
+                    time.sleep(sleep_time)  # 动态调整CPU占用
         finally:
+            # 清理资源前检查是否还有未处理的数据
+            try:
+                remaining_items = self.user_InputQueue[user].qsize()
+                if remaining_items > 0:
+                    print(f"[{self.__class__.__name__}] 清理前还有 {remaining_items} 个未处理的数据项")
+            except:
+                pass
+                
             self._cleanup(user)
 
     def _create_thread(self, streamly: bool, user: str, input_data: Any) -> None:
-        if(user not in self.user_InputQueue):
-            self.user_InputQueue[user] = queue.Queue()
-
-        self.user_InputQueue[user].put(input_data)
         """创建新线程处理用户请求"""
+        # 确保用户输入队列存在
+        if user not in self.user_InputQueue:
+            self.user_InputQueue[user] = queue.Queue()
+            
+        # 只有当input_data不为None时才添加到队列
+        if input_data is not None:
+            self.user_InputQueue[user].put(input_data)
+            
         # 检查用户是否已断开连接
         try:
             future = asyncio.run_coroutine_threadsafe(
@@ -221,8 +252,13 @@ class BaseModule(ABC):
         if streamly and user in self.streaming_status and self.streaming_status[user]:
             print(f"[{self.__class__.__name__}] 用户 {user} 的流式处理正在进行中，跳过新线程创建")
             return
+            
+        # 检查是否已有活跃线程
+        if user in self.user_threads and self.user_threads[user].is_alive():
+            print(f"[{self.__class__.__name__}] 用户 {user} 已有活跃线程，跳过新线程创建")
+            return
 
-        print(f"[{self.__class__.__name__}] 用户 {user} 创建  {self.__class__.__name__} 线程")
+        print(f"[{self.__class__.__name__}] 用户 {user} 创建 {self.__class__.__name__} 线程")
         # 创建停止事件和线程
         self.stop_events[user] = threading.Event()
         thread = threading.Thread(
