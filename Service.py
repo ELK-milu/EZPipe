@@ -17,6 +17,10 @@ from modules.Modules.LLM.Dify_LLM_Module import Dify_LLM_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
 from modules.PipeLineAPI.ASR_LLM_TTS_pipeAPI import ASR_LLM_TTS_pipeAPI
+from utils.logger import get_logger
+
+# 创建服务日志记录器
+logger = get_logger("Service")
 
 # 解析命令行参数
 parser = argparse.ArgumentParser()
@@ -34,6 +38,7 @@ pipeline = PipeLine.create_pipeline(
 
 # 启动服务
 if __name__ == "__main__":
+    logger.info(f"启动服务，主机: {args.host}, 端口: {args.port}")
     service = TextToSpeechAPIService(
         pipeline=pipeline,
         host=args.host,
