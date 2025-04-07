@@ -90,6 +90,7 @@ class BaseModule(ABC):
 
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
+        print(f"[{self.__class__.__name__}] 用户 {user} 处理完成，输出数据")
         try:
             # 检查是否已请求停止处理
             if user in self.stop_events and self.stop_events[user].is_set():
@@ -170,32 +171,31 @@ class BaseModule(ABC):
         """为用户创建新线程处理任务"""
         self._create_thread(streamly, user, input_data)
 
+    # 在BaseModule中修改线程包装逻辑
     def _thread_wrapper(self, streamly: bool, user: str, input_data: Any) -> None:
-        """线程的包装函数，确保资源清理"""
-        """重构线程包装函数"""
+        """实时响应式线程包装"""
+        last_data_time = time.time()  # 新增时间跟踪
         try:
-            while True:
+            while not self.stop_events[user].is_set():
                 try:
-                    # 设置带超时的队列获取
-                    input_data = self.user_InputQueue[user].get(timeout=3)
+                    # 非阻塞式获取数据
+                    input_data = self.user_InputQueue[user].get_nowait()
 
-                    # 检查停止事件
-                    if self.stop_events[user].is_set():
-                        print(f"[{self.__class__.__name__}] 检测到停止信号，终止处理")
-                        break
-
-                    # 执行实际任务
+                    # 立即处理单个数据块
                     self.Thread_Task(streamly, user, input_data,
                                      self.Response_output,
                                      self.Next_output)
 
+                    # 单个数据处理完成后立即标记完成
+                    self.user_InputQueue[user].task_done()
+
                 except queue.Empty:
-                    # 队列超时后直接退出
-                    print(f"[{self.__class__.__name__}] 输入队列已空且超时")
-                    break
+                    # 检查空队列持续时间
+                    if time.time() - last_data_time > 3:
+                        print(f"[{self.__class__.__name__}] 连续3秒无新数据，终止处理")
+                        break
+                    time.sleep(0.1)  # 保持CPU低占用
         finally:
-            # 发送结束信号
-            self.Response_output(streamly, user, self.ENDSIGN)
             self._cleanup(user)
 
     def _create_thread(self, streamly: bool, user: str, input_data: Any) -> None:
@@ -222,6 +222,7 @@ class BaseModule(ABC):
             print(f"[{self.__class__.__name__}] 用户 {user} 的流式处理正在进行中，跳过新线程创建")
             return
 
+        print(f"[{self.__class__.__name__}] 用户 {user} 创建  {self.__class__.__name__} 线程")
         # 创建停止事件和线程
         self.stop_events[user] = threading.Event()
         thread = threading.Thread(
