@@ -38,7 +38,7 @@ class PostChat:
 if __name__ == "__main__":
     # 启动 main 服务
     ps = PostChat(streamly=True,user="user",
-             text="你好啊,用100字介绍下你自己",conversation_id="").GetResponse()
+             text="介绍下博物馆展馆",conversation_id="").GetResponse()
 
     from queue import Queue
     audio_queue = Queue()  # 示例队列

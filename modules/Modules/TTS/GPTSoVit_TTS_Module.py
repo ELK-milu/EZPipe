@@ -95,11 +95,6 @@ class GPTSoVit_TTS_Module(BaseModule):
                 
             # 输出统计信息
             print(f"[TTS] 共发送 {chunk_count} 个数据块，总计 {total_bytes} 字节")
-            
-            # 如果没有下一个模块，标记处理完成
-            if not self.next_model:
-                response_func(streamly, user, self.ENDSIGN)
-                next_func(streamly, user, self.ENDSIGN)
 
             return b''  # 返回空字节作为完成标记
             

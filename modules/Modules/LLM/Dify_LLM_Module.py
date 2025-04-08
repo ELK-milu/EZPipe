@@ -26,7 +26,7 @@ class Dify_LLM_Module(BaseModule):
             self.message_id = ""
             self.conversation_id = ""
             self.final_json= ""
-
+            self.ENDSIGN = "LLMEND"
 
             self.tempResponse = ""
             self.sentences = []
@@ -244,11 +244,6 @@ class Dify_LLM_Module(BaseModule):
             # 当流式返回给下一个模块，但是还有剩余的数据块时，将剩余的数据块返回给下一个模块
             elif self.answer_chunk.tempResponse is not None:
                 next_func(streamly, user, self.answer_chunk.tempResponse)
-
-            # 如果没有下一个模块，标记处理完成
-            if not self.next_model:
-                response_func(streamly, user, self.ENDSIGN)
-                next_func(streamly, user, self.ENDSIGN)
 
             return ""  # 返回空字符作为完成标记
 

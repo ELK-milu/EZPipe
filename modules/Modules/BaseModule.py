@@ -242,28 +242,43 @@ class BaseModule(ABC):
                 self.Thread_Task(streamly, user, input_data,self.Response_output, self.Next_output)
             except Exception as e:
                 print(f"[{self.__class__.__name__}] 处理初始输入数据时出错: {str(e)}")
-        
+
         # 持续处理队列中的数据，直到收到停止信号
+        timeout_counter = 0  # 新增超时计数器
+        max_continuous_timeout = 10  # 最大连续超时次数（秒），可调整或作为配置参数
+
         while not self.stop_events[user].is_set():
             try:
                 # 从队列中获取数据，设置超时以便定期检查停止信号
                 try:
                     data = self.user_InputQueue[user].get(timeout=1)
                     print(f"[{self.__class__.__name__}] 从队列获取数据: {str(data)[:20]}")
-                    
+
                     # 处理获取到的数据
-                    self.Thread_Task(streamly, user, data,self.Response_output, self.Next_output)
-                    
+                    self.Thread_Task(streamly, user, data, self.Response_output, self.Next_output)
+
+                    timeout_counter = 0  # 成功获取数据后重置计数器
+
                 except queue.Empty:
-                    # 队列为空，继续等待
+                    # 队列为空，增加超时计数
+                    timeout_counter += 1
+                    print(f"[{self.__class__.__name__}] 连续空队列超时次数: {timeout_counter}/{max_continuous_timeout}")
+
+                    # 达到最大连续超时次数则退出循环
+                    if timeout_counter >= max_continuous_timeout:
+                        print(f"[{self.__class__.__name__}] 连续超时{max_continuous_timeout}次，退出处理循环")
+                        break
                     continue
-                    
+
             except Exception as e:
                 print(f"[{self.__class__.__name__}] 处理队列数据时出错: {str(e)}")
                 # 出错后短暂等待，避免CPU占用过高
                 time.sleep(0.1)
-        
+                timeout_counter = 0  # 发生异常时也重置计数器
+
         print(f"[{self.__class__.__name__}] 用户 {user} 的处理线程已停止")
+        self.Response_output(streamly, user, self.ENDSIGN)
+        self.Next_output(streamly, user, self.ENDSIGN)
 
     def _cleanup_thread(self, user: str) -> None:
         """清理线程资源，但不清理用户队列"""
