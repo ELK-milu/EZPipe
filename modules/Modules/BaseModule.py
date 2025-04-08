@@ -4,6 +4,8 @@ from typing import Optional, TYPE_CHECKING, Dict, Any
 import queue
 import threading
 import time
+import logging
+from datetime import datetime
 
 import requests
 from fastapi import APIRouter
@@ -27,6 +29,7 @@ class BaseModule(ABC):
         # 新增路由相关属性
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
+        self.logger : logging.Logger = None
         self.RegisterRoutes()
 
 
@@ -89,7 +92,7 @@ class BaseModule(ABC):
             if user not in self.next_model.user_threads:
                 # 使用asyncio.run_coroutine_threadsafe来在事件循环中执行异步方法
                 asyncio.run_coroutine_threadsafe(
-                    self.next_model.GetService(streamly, user, None),
+                    self.next_model.GetService(streamly, user, output),
                     self.pipeline.main_loop
                 )
 
@@ -98,20 +101,20 @@ class BaseModule(ABC):
             
             # 直接添加数据到队列，不创建新线程
             self.next_model.user_InputQueue[user].put(output)
-            print(f"[{self.__class__.__name__}] 添加数据{str(output)}到 {self.next_model.__class__.__name__} 输入队列")
+            self.logger.info(f"[{self.__class__.__name__}] 添加数据{str(output)}到 {self.next_model.__class__.__name__} 输入队列")
 
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
-        print(f"[{self.__class__.__name__}] 用户 {user} 处理完成，输出数据")
+        self.logger.info(f"[{self.__class__.__name__}] 用户 {user} 处理完成，输出数据")
         try:
             # 检查是否已请求停止处理
             if user in self.stop_events and self.stop_events[user].is_set():
-                print(f"[{self.__class__.__name__}] 用户 {user} 已请求停止处理，不再输出数据")
+                self.logger.info(f"[{self.__class__.__name__}] 用户 {user} 已请求停止处理，不再输出数据")
                 return
 
             # 如果输出为None,且没有后续模块,且当前队列里没有待处理的内容,标记任务完成
             if response_data == self.ENDSIGN and self.next_model is None:
-                print(f"[{self.__class__.__name__}] 用户 {user} 已处理完成，不再输出数据")
+                self.logger.info(f"[{self.__class__.__name__}] 用户 {user} 已处理完成，不再输出数据")
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.mark_complete(user),
                     self.pipeline.main_loop
@@ -119,7 +122,7 @@ class BaseModule(ABC):
                 return
 
             if response_data == self.ENDSIGN and self.next_model is not None:
-                print(f"[{self.__class__.__name__}]执行结束 下一个模块是 [{self.next_model.__class__.__name__}] ")
+                self.logger.info(f"[{self.__class__.__name__}]执行结束 下一个模块是 [{self.next_model.__class__.__name__}] ")
 
             # 保存输出并发送到Pipeline
             self.output = response_data
@@ -131,7 +134,7 @@ class BaseModule(ABC):
             )
             
             if future.result(timeout=1.0):
-                print(f"[{self.__class__.__name__}] 用户 {user} 已断开连接，停止处理")
+                self.logger.info(f"[{self.__class__.__name__}] 用户 {user} 已断开连接，停止处理")
                 # 设置停止事件
                 if user in self.stop_events:
                     self.stop_events[user].set()
@@ -156,19 +159,19 @@ class BaseModule(ABC):
         except Exception as e:
             # 处理错误
             error_chunk = f"ERROR: {str(e)}"
-            print(f"[{self.__class__.__name__}] 输出错误: {error_chunk}")
+            self.logger.error(f"[{self.__class__.__name__}] 输出错误: {error_chunk}")
             try:
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.add_chunk(user, error_chunk),
                     self.pipeline.main_loop
                 )
-                print("pipeline出现错误,强行终止")
+                self.logger.error("pipeline出现错误,强行终止")
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.mark_complete(user),
                     self.pipeline.main_loop
                 )
             except Exception as inner_e:
-                print(f"[{self.__class__.__name__}] 无法发送错误消息: {str(inner_e)}")
+                self.logger.error(f"[{self.__class__.__name__}] 无法发送错误消息: {str(inner_e)}")
 
     async def _check_if_disconnected(self, user: str) -> bool:
         """检查用户是否已断开连接"""
@@ -243,9 +246,12 @@ class BaseModule(ABC):
         # 如果有初始输入数据，直接处理
         if input_data is not None:
             try:
+                start_time = time.time()
                 self.Thread_Task(streamly, user, input_data,self.Response_output, self.Next_output)
+                end_time = time.time()
+                self.logger.info(f"[{self.__class__.__name__}] 处理初始输入数据完成，耗时: {end_time - start_time:.3f}秒")
             except Exception as e:
-                print(f"[{self.__class__.__name__}] 处理初始输入数据时出错: {str(e)}")
+                self.logger.error(f"[{self.__class__.__name__}] 处理初始输入数据时出错: {str(e)}")
 
         # 持续处理队列中的数据，直到收到停止信号
         timeout_counter = 0  # 新增超时计数器
@@ -256,31 +262,34 @@ class BaseModule(ABC):
                 # 从队列中获取数据，设置超时以便定期检查停止信号
                 try:
                     data = self.user_InputQueue[user].get(timeout=1)
-                    print(f"[{self.__class__.__name__}] 从队列获取数据: {str(data)[:20]}")
+                    self.logger.info(f"[{self.__class__.__name__}] 从队列获取数据: {str(data)[:20]}")
 
                     # 处理获取到的数据
+                    start_time = time.time()
                     self.Thread_Task(streamly, user, data, self.Response_output, self.Next_output)
+                    end_time = time.time()
+                    self.logger.info(f"[{self.__class__.__name__}] 处理队列数据完成，耗时: {end_time - start_time:.3f}秒")
 
                     timeout_counter = 0  # 成功获取数据后重置计数器
 
                 except queue.Empty:
                     # 队列为空，增加超时计数
                     timeout_counter += 1
-                    print(f"[{self.__class__.__name__}] 连续空队列超时次数: {timeout_counter}/{max_continuous_timeout}")
+                    self.logger.warning(f"[{self.__class__.__name__}] 连续空队列超时次数: {timeout_counter}/{max_continuous_timeout}")
 
                     # 达到最大连续超时次数则退出循环
                     if timeout_counter >= max_continuous_timeout:
-                        print(f"[{self.__class__.__name__}] 连续超时{max_continuous_timeout}次，退出处理循环")
+                        self.logger.info(f"[{self.__class__.__name__}] 连续超时{max_continuous_timeout}次，退出处理循环")
                         break
                     continue
 
             except Exception as e:
-                print(f"[{self.__class__.__name__}] 处理队列数据时出错: {str(e)}")
+                self.logger.error(f"[{self.__class__.__name__}] 处理队列数据时出错: {str(e)}")
                 # 出错后短暂等待，避免CPU占用过高
                 time.sleep(0.1)
                 timeout_counter = 0  # 发生异常时也重置计数器
 
-        print(f"[{self.__class__.__name__}] 用户 {user} 的处理线程已停止")
+        self.logger.info(f"[{self.__class__.__name__}] 用户 {user} 的处理线程已停止")
         self.Response_output(streamly, user, self.ENDSIGN)
         self.Next_output(streamly, user, self.ENDSIGN)
 

@@ -1,5 +1,6 @@
 import json
 import threading
+import logging
 from typing import Optional, Any
 
 from fastapi import requests
@@ -22,7 +23,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                     "status": "success",
                 }
             except Exception as e:
-                print(f"[TTS] 心跳失败: {e}")
+                self.logger.error(f"[TTS] 心跳失败: {e}")
                 return {
                     "status": "failed",
                     "error": str(e),
@@ -50,10 +51,10 @@ class GPTSoVit_TTS_Module(BaseModule):
         if input_data is None:
             # 预启动加载模型
             PostChat(streamly=False, user=user, text=input_data)
-            print(f"[TTS] 输入数据为None，无法处理")
+            self.logger.warning(f"[TTS] 输入数据为None，无法处理")
             return b''
             
-        print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}")
+        self.logger.info(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}")
         chat_response = None
         #data = json.loads(input_data)
         #temp_streamly =   data["TTS"]["streamly"]
@@ -62,7 +63,7 @@ class GPTSoVit_TTS_Module(BaseModule):
         try :
             # 发送文本到TTS服务
             chat_response = PostChat(streamly=False, user=user, text=input_data).GetResponse()
-            print(f"[TTS] 响应状态码: {chat_response.status_code}")
+            self.logger.info(f"[TTS] 响应状态码: {chat_response.status_code}")
             
             # 用于统计处理的数据块
             chunk_count = 0
@@ -74,19 +75,19 @@ class GPTSoVit_TTS_Module(BaseModule):
                     break
 
                 if not chunk:  # 跳过空块
-                    print("[TTS] 收到空数据块")
+                    self.logger.warning("[TTS] 收到空数据块")
                     continue
                     
                 # 检查是否应该停止处理
                 if user in self.stop_events and self.stop_events[user].is_set():
-                    print(f"[TTS] 用户 {user} 已请求停止处理")
+                    self.logger.info(f"[TTS] 用户 {user} 已请求停止处理")
                     break
                     
                 # 处理数据块
                 chunk_size = len(chunk)
                 total_bytes += chunk_size
-                print(f"[TTS] 发送数据块 #{chunk_count} 给用户 {user} ({chunk_size} 字节)")
-                print(f"[TTS] 用户 {user} 的文本: {input_data}转语音处理完毕")
+                self.logger.info(f"[TTS] 发送数据块 #{chunk_count} 给用户 {user} ({chunk_size} 字节)")
+                self.logger.info(f"[TTS] 用户 {user} 的文本: {input_data}转语音处理完毕")
                 # 调用回调函数输出数据块
                 response_func(streamly, user, chunk)
                 
@@ -97,14 +98,14 @@ class GPTSoVit_TTS_Module(BaseModule):
                 chunk_count += 1
                 
             # 输出统计信息
-            print(f"[TTS] 共发送 {chunk_count} 个数据块，总计 {total_bytes} 字节")
+            self.logger.info(f"[TTS] 共发送 {chunk_count} 个数据块，总计 {total_bytes} 字节")
 
             return b''  # 返回空字节作为完成标记
             
         except Exception as e:
             # 处理异常
             error_msg = f"[TTS] 错误: {str(e)}"
-            print(error_msg)
+            self.logger.error(error_msg)
             
             # 通知调用者出现错误
             response_func(streamly, user, f"ERROR: {str(e)}".encode())

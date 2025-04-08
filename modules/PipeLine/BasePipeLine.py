@@ -2,6 +2,7 @@ import asyncio
 import queue
 import threading
 import time
+from logging import Logger
 from typing import List, Type, Any, Dict, Optional, AsyncGenerator, Set
 
 from modules.Modules.BaseModule import BaseModule
@@ -20,6 +21,7 @@ class PipeLine:
         self.disconnect_events: Dict[str, asyncio.Event] = {}  # 用户断开连接事件
         self.validated:bool = False    #当前pipe是否可用的指示位
         self.ENDSIGN = None
+        self.logger = None
         # 设置模块的pipeline引用
         for module in self.modules:
             module.pipeline = self
@@ -44,6 +46,7 @@ class PipeLine:
     def StartUp(self):
         print("管线初始化")
         for module in self.modules:
+            module.logger = self.logger
             module.StartUp()
 
     async def add_chunk(self, user: str, chunk: Any) -> None:
@@ -187,8 +190,9 @@ class PipeLine:
         """创建新的Pipeline实例"""
         return cls(list(modules))
 
-    async def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
+    async def GetService(self, streamly: bool, user: str, input_data: Any,logger:Logger) -> None:
 
+        self.logger = logger
         """启动Pipeline服务处理"""
         with self.active_tasks:
             # 直接等待清理完成

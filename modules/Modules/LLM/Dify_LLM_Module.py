@@ -2,6 +2,7 @@ import json
 import re
 import threading
 import time
+import logging
 from typing import Optional, Any, Dict
 
 import requests
@@ -9,7 +10,22 @@ import requests
 from ..BaseModule import BaseModule
 from .DifyPost import PostChat,session
 
+# 配置logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
+# 防止重复添加处理器
+if not logger.handlers:
+    # 创建控制台处理器
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+
+    # 创建格式化器
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(formatter)
+
+    # 添加处理器到logger
+    logger.addHandler(console_handler)
 
 class Dify_LLM_Module(BaseModule):
     class Answer_Chunk:
@@ -78,7 +94,7 @@ class Dify_LLM_Module(BaseModule):
         def PrintSentences(self):
             # 打印完整句子
             for sentence in self.sentences:
-                print(f"句子: {sentence}")
+                logger.info(f"句子: {sentence}")
 
         def GetThinking(self) -> str:
             return self.think_string
@@ -102,7 +118,7 @@ class Dify_LLM_Module(BaseModule):
                     "status": "success",
                 }
             except requests.exceptions.RequestException as e:
-                print(f"Heartbeat failed: {e}")
+                logger.error(f"Heartbeat failed: {e}")
 
     def register_module_routes(self):
         @self.router.get("/messages")
@@ -153,8 +169,6 @@ class Dify_LLM_Module(BaseModule):
             # 调用Dify API更新会话名称
             return result.json()
 
-
-
     def StartUp(self):
         if self.session is None:
             self.session = session
@@ -162,13 +176,13 @@ class Dify_LLM_Module(BaseModule):
 
     def HandleInput(self, request: Any) -> str:
         json_str = request.model_dump_json()
-        print(json_str)
+        logger.info(json_str)
         return json_str
 
     """LLM对话模块（输入类型：str，输出类型：str）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> str:
         data = json.loads(input_data)
-        print("LLM:" + str(data["LLM"]["streamly"]))
+        logger.info("LLM:" + str(data["LLM"]["streamly"]))
         temp_streamly : bool = data["LLM"]["streamly"]
         self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=temp_streamly)
         """
@@ -181,31 +195,31 @@ class Dify_LLM_Module(BaseModule):
         Returns:
             str: 字符串
         """
-        print(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
+        logger.info(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
         try:
             if not self.session:
                 self.session = session
-            print(f"[Dify] 开始请求对话: {data['Input']},对话ID: {data['conversation_id']}")
+            logger.info(f"[Dify] 开始请求对话: {data['Input']},对话ID: {data['conversation_id']}")
             chat_response = PostChat(streamly=True, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
-            print(f"[Dify] 响应状态码: {chat_response.status_code}")
+            logger.info(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0
             # 循环处理响应中的数据块
             for chunk in chat_response.iter_content(chunk_size=None):
                 decoded = chunk.decode('utf-8')
                 self.extract_think_response(self.answer_chunk, decoded, True)
-                print(f"[Dify] think:{self.answer_chunk.GetThinking()}\nResponse:{self.answer_chunk.GetResponse()}")
+                logger.info(f"[Dify] think:{self.answer_chunk.GetThinking()}\nResponse:{self.answer_chunk.GetResponse()}")
 
                 if self.stop_events[user].is_set():
                     break
 
                 if not chunk:  # 跳过空块
-                    print("[Dify] 收到空数据块")
+                    logger.warning("[Dify] 收到空数据块")
                     continue
                 # 检查是否应该停止处理
                 if user in self.stop_events and self.stop_events[user].is_set():
-                    print(f"[Dify] 用户 {user} 已请求停止处理")
+                    logger.info(f"[Dify] 用户 {user} 已请求停止处理")
                     break
                 # 处理数据块
                 # 调用回调函数输出数据块,回调响应流式但不传输给下一个模块
@@ -222,7 +236,7 @@ class Dify_LLM_Module(BaseModule):
                 # 流式传输给下一个模块
                 if temp_streamly and self.answer_chunk.ReadyToResponse():
                     for sentence in self.answer_chunk.sentences:
-                        print(f"[Dify] 发送句子: {sentence}")
+                        logger.info(f"[Dify] 发送句子: {sentence}")
                         next_func(streamly, user, sentence)
 
                 # 流式返回
@@ -231,7 +245,7 @@ class Dify_LLM_Module(BaseModule):
 
                 chunk_count += 1
             # 输出统计信息
-            print(f"[Dify] 共发送 {chunk_count} 个数据块，最终输出:")
+            logger.info(f"[Dify] 共发送 {chunk_count} 个数据块，最终输出:")
             if not streamly:
                 response_func(streamly, user, self.answer_chunk.final_json)
             # 标记处理完成,并返回LLM最终的响应结果
@@ -240,7 +254,7 @@ class Dify_LLM_Module(BaseModule):
             # 只返回给下一个模块最终的回复，不包含思考过程，当然这部分可通过一些模块参数自定义
             if not self.answer_chunk.streamly:
                 next_func(streamly, user, self.answer_chunk.GetResponse())
-                print(f"[Dify] 发送句子: {self.answer_chunk.GetResponse()}")
+                logger.info(f"[Dify] 发送句子: {self.answer_chunk.GetResponse()}")
             # 当流式返回给下一个模块，但是还有剩余的数据块时，将剩余的数据块返回给下一个模块
             elif self.answer_chunk.tempResponse is not None:
                 next_func(streamly, user, self.answer_chunk.tempResponse)
@@ -250,7 +264,7 @@ class Dify_LLM_Module(BaseModule):
         except Exception as e:
             # 处理异常
             error_msg = f"[Dify] 错误: {str(e)}"
-            print(error_msg)
+            logger.error(error_msg)
             # 通知调用者出现错误
             response_func(streamly, user, f"ERROR: {str(e)}".encode())
             next_func(streamly, user, self.ENDSIGN)
@@ -281,7 +295,7 @@ class Dify_LLM_Module(BaseModule):
 
                     # 检查是否进入 <think> 块
                     if "<think>" in message:
-                        print("进入思考块")
+                        logger.info("进入思考块")
                         answer.in_think_block = True
 
                     # 如果当前在 <think> 和 </think> 块中，将内容添加到 think_string

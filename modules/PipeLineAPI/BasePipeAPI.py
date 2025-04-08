@@ -1,6 +1,7 @@
 import asyncio
 import base64
 import json
+import logging
 from abc import abstractmethod, ABC
 from typing import Any, Dict, AsyncGenerator
 from fastapi import FastAPI, HTTPException, APIRouter, Request
@@ -11,6 +12,22 @@ from starlette.background import BackgroundTask
 
 from modules.PipeLine.BasePipeLine import PipeLine
 
+# 配置logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# 防止重复配置（新增）
+if not logger.handlers:
+    # 创建控制台处理器
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+
+    # 创建格式化器
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(formatter)
+
+    # 添加处理器到logger
+    logger.addHandler(console_handler)
 
 class API_Service(ABC):
     def __init__(self, pipeline: PipeLine, host: str = "0.0.0.0", port: int = 8000, workers: int = 1,
@@ -23,6 +40,7 @@ class API_Service(ABC):
         self.post_router = post_router
         self.router = APIRouter()
         self._register_routes()
+        self.logger = logger
         # 用于跟踪活跃的连接
         self.active_connections = set()
 
@@ -45,7 +63,7 @@ class API_Service(ABC):
 
             # 为每个连接生成唯一标识符
             connection_id = f"{user_id}_{id(req)}"
-            print(f"[API] 收到用户 {user_id} 的请求，连接ID: {connection_id}")
+            self.logger.info(f"[API] 收到用户 {user_id} 的请求，连接ID: {connection_id}")
 
             try:
                 # 验证请求数据
@@ -97,7 +115,7 @@ class API_Service(ABC):
 
     async def _cleanup_connection(self, connection_id: str, user_id: str):
         """清理连接资源"""
-        print(f"[API] 清理连接 {connection_id} 的资源")
+        self.logger.info(f"[API] 清理连接 {connection_id} 的资源")
         if connection_id in self.active_connections:
             self.active_connections.remove(connection_id)
         await self.pipeline._cleanup_user(user_id)
@@ -122,14 +140,15 @@ class API_Service(ABC):
             await self.pipeline.GetService(
                 streamly=request.streamly,
                 user=request.user,
-                input_data=processed_data
+                input_data=processed_data,
+                logger = self.logger
             )
 
             # 流式输出结果
             async for chunk in self.pipeline.ResponseOutput(request.user):
                 # 检查客户端是否断开连接
                 if connection_id not in self.active_connections or await self._is_client_disconnected(client_request):
-                    print(f"[API] 检测到客户端 {request.user} 已断开连接")
+                    self.logger.info(f"[API] 检测到客户端 {request.user} 已断开连接")
                     raise asyncio.CancelledError("客户端已断开连接")
 
                 # 转换数据格式
@@ -158,7 +177,7 @@ class API_Service(ABC):
 
         except asyncio.CancelledError:
             # 处理取消请求
-            print(f"[API] 请求已取消: {request.user}")
+            self.logger.info(f"[API] 请求已取消: {request.user}")
             # 从活跃连接中移除
             if connection_id in self.active_connections:
                 self.active_connections.remove(connection_id)
@@ -167,7 +186,7 @@ class API_Service(ABC):
             return
         except Exception as e:
             # 处理其他异常
-            print(f"[API] 处理请求错误: {str(e)}")
+            self.logger.error(f"[API] 处理请求错误: {str(e)}")
             yield json.dumps({"error": str(e)}) + "\n"
         finally:
             pass
@@ -183,7 +202,7 @@ class API_Service(ABC):
         """启动API服务"""
         # 首先检查pipeline是否通过验证
         if not self.pipeline.validated:
-            print("Pipeline未通过验证，无法启动API服务")
+            self.logger.error("Pipeline未通过验证，无法启动API服务")
             import sys
             sys.exit(1)
 
@@ -200,6 +219,7 @@ class API_Service(ABC):
             port=self.port,
             loop="asyncio"
         )
+        self.pipeline.logger = self.logger
         self.pipeline.StartUp()
         # 启动服务器
         server = uvicorn.Server(config)
