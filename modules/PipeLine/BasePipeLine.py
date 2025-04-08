@@ -2,13 +2,10 @@ import asyncio
 import queue
 import threading
 import time
+from logging import Logger
 from typing import List, Type, Any, Dict, Optional, AsyncGenerator, Set
 
 from modules.Modules.BaseModule import BaseModule
-from utils.logger import get_logger, track_time, track_module_time
-
-# 创建Pipeline日志记录器
-logger = get_logger("PipeLine")
 
 class PipeLine:
     def __init__(self, modules: List[Type[BaseModule]]):
@@ -23,7 +20,8 @@ class PipeLine:
         self.main_loop = asyncio.get_event_loop()
         self.disconnect_events: Dict[str, asyncio.Event] = {}  # 用户断开连接事件
         self.validated:bool = False    #当前pipe是否可用的指示位
-        self.ENDSIGN = None
+        self.ENDSIGN = "PipelineEnd"  # 结束信号
+        self.logger = None
         # 设置模块的pipeline引用
         for module in self.modules:
             module.pipeline = self
@@ -32,9 +30,7 @@ class PipeLine:
         self.active_tasks = threading.BoundedSemaphore(5)
 
         self.validated:bool = False
-        # 只记录验证结果，不打印
-        validation_result = self.Validate()
-        logger.info(validation_result)
+        print(self.Validate())
 
     def _link_instances(self) -> None:
         """链接模块实例"""
@@ -42,23 +38,23 @@ class PipeLine:
             self.modules[i].next_model = self.modules[i + 1]
 
 
-    def HeartBeat(self,user:str):
-        logger.info("管线心跳")
+    async def HeartBeat(self,user:str):
+        self.logger.info(f"心跳检测开始")
         for module in self.modules:
-            module.HeartBeat(user)
+            await module.HeartBeat(user)
 
     def StartUp(self):
-        logger.info("管线初始化")
+        print("管线初始化")
         for module in self.modules:
+            module.logger = self.logger
             module.StartUp()
 
-    @track_time(logger)
     async def add_chunk(self, user: str, chunk: Any) -> None:
         """添加数据块到用户队列"""
         async with self.lock:
             # 如果用户已断开，不再处理数据
             if user in self.disconnect_events and self.disconnect_events[user].is_set():
-                logger.info(f"[Pipeline] 用户 {user} 已断开连接，停止添加数据")
+                print(f"[Pipeline] 用户 {user} 已断开连接，停止添加数据")
                 return
                 
             if user not in self.user_queues:
@@ -68,12 +64,12 @@ class PipeLine:
             
             # 数据正常处理
             await self.user_queues[user].put(chunk)
-            logger.debug(f"[Pipeline] 为用户 {user} at {time.time()} 添加数据块: {type(chunk)} {len(str(chunk))} bytes")
+            print(f"[Pipeline] 为用户 {user} at {time.time()} 添加数据块: {type(chunk)} {len(str(chunk))} bytes")
 
     async def mark_complete(self, user: str) -> None:
         """标记用户任务完成"""
         async with self.lock:
-            logger.info(f"[Pipeline] 标记用户 {user} 的任务完成")
+            print(f"[Pipeline] 标记用户 {user} 的任务完成")
             self.active_users[user] = False
             if user in self.user_queues:
                 await self.add_chunk(user,self.ENDSIGN)  # 发送结束信号
@@ -81,12 +77,11 @@ class PipeLine:
     async def mark_disconnected(self, user: str) -> None:
         """标记用户已断开连接"""
         async with self.lock:
-            logger.info(f"[Pipeline] 标记用户 {user} 已断开连接")
+            print(f"[Pipeline] 标记用户 {user} 已断开连接")
             if user in self.disconnect_events:
                 self.disconnect_events[user].set()
             self.active_users[user] = False
 
-    @track_time(logger)
     async def ResponseOutput(self, user: str) -> AsyncGenerator[Any, None]:
         """流式返回用户数据"""
         try:
@@ -96,7 +91,7 @@ class PipeLine:
                     self.user_queues[user] = asyncio.Queue()
                     self.active_users[user] = True
                     self.disconnect_events[user] = asyncio.Event()
-                    logger.info(f"[Response] 为用户 {user} 创建新队列")
+                    print(f"[Response] 为用户 {user} 创建新队列")
                 
                 user_queue = self.user_queues[user]
                 
@@ -109,7 +104,7 @@ class PipeLine:
                 try:
                     # 检查用户是否已断开连接
                     if user in self.disconnect_events and self.disconnect_events[user].is_set():
-                        logger.info(f"[Response] 用户 {user} 已标记为断开连接，停止响应")
+                        print(f"[Response] 用户 {user} 已标记为断开连接，停止响应")
                         break
                         
                     # 使用超时避免无限等待
@@ -117,28 +112,28 @@ class PipeLine:
 
                     # None表示结束信号
                     if chunk == self.ENDSIGN:
-                        logger.info(f"[Response] 接收到终止信号,用户 {user} 处理完成")
+                        print(f"[Response] 接收到终止信号,用户 {user} 处理完成")
                         break
 
                     yield chunk
-                    logger.debug(f"[Response] 发送给用户 {user} 数据块: {type(chunk)}")
+                    print(f"[Response] 发送给用户 {user} 数据块: {type(chunk)}")
                     
                 except asyncio.TimeoutError:
                     # 检查用户是否仍然活跃
                     async with self.lock:
                         # 检查断开连接标记
                         if user in self.disconnect_events and self.disconnect_events[user].is_set():
-                            logger.info(f"[Response] 用户 {user} 已标记为断开连接，停止响应")
+                            print(f"[Response] 用户 {user} 已标记为断开连接，停止响应")
                             break
                             
                         # 检查活跃状态
                         if user not in self.active_users or not self.active_users[user]:
-                            logger.info(f"[Response] 用户 {user} 不再活跃，结束响应")
+                            print(f"[Response] 用户 {user} 不再活跃，结束响应")
                             break
                         # 否则继续等待
                         
                 except Exception as e:
-                    logger.error(f"[Response] 获取数据错误: {str(e)}")
+                    print(f"[Response] 获取数据错误: {str(e)}")
                     break
         finally:
             # 响应结束时清理资源并标记用户断开
@@ -151,10 +146,10 @@ class PipeLine:
         status = []
         try:
             self._validate_pipeline()
-            status.append("Pipeline验证通过")
+            status.append("✅ Pipeline验证通过")
             self.validated = True
         except Exception as e:
-            status.append(f"验证失败: {str(e)}")
+            status.append(f"❌ 验证失败: {str(e)}")
             self.validated = False
 
         pipe_structure = " -> ".join(
@@ -195,9 +190,9 @@ class PipeLine:
         """创建新的Pipeline实例"""
         return cls(list(modules))
 
-    @track_time(logger)
-    async def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
+    async def GetService(self, streamly: bool, user: str, input_data: Any,logger:Logger) -> None:
 
+        self.logger = logger
         """启动Pipeline服务处理"""
         with self.active_tasks:
             # 直接等待清理完成
@@ -215,16 +210,15 @@ class PipeLine:
             if not self.modules:
                 raise ValueError("未配置Pipeline")
             # 启动处理
-            self.modules[0].GetService(streamly, user, input_data)
+            await self.modules[0].GetService(streamly, user, input_data)
 
     async def Output(self, user: str) -> Any:
         """获取用户的最终输出"""
         return self.modules[-1].GetOutPut(user)
 
-    @track_time(logger)
     async def _force_cleanup_user(self, user: str) -> None:
         """强制清理用户资源，用于新请求前终止旧请求"""
-        logger.info(f"[Pipeline] 强制清理用户 {user} 的资源")
+        print(f"[Pipeline] 强制清理用户 {user} 的资源")
         
         # 首先标记用户断开
         await self.mark_disconnected(user)
@@ -235,7 +229,7 @@ class PipeLine:
                 if hasattr(module, '_cleanup'):
                     module._cleanup(user)
             except Exception as e:
-                logger.error(f"[Pipeline] 模块 {type(module).__name__} 强制清理错误: {str(e)}")
+                print(f"[Pipeline] 模块 {type(module).__name__} 强制清理错误: {str(e)}")
         
         # 清理Pipeline中的用户资源
         async with self.lock:
@@ -256,11 +250,11 @@ class PipeLine:
                 self.disconnect_events[user].set()
         
         # 等待一小段时间确保清理完成
-        await asyncio.sleep(0.1)  # 减少等待时间，从0.2秒减少到0.1秒
+        await asyncio.sleep(0.2)
 
     async def _cleanup_user(self, user: str) -> None:
         """清理用户资源"""
-        logger.info(f"[Pipeline] 清理用户 {user} 的资源")
+        print(f"[Pipeline] 清理用户 {user} 的资源")
         
         # 清理模块中的用户资源
         for module in self.modules:
@@ -268,9 +262,9 @@ class PipeLine:
                 if hasattr(module, '_cleanup'):
                     module._cleanup(user)
             except KeyError as e:
-                logger.error(f"[Pipeline] 模块 {type(module).__name__} 清理时键错误: {str(e)}")
+                print(f"[Pipeline] 模块 {type(module).__name__} 清理时键错误: {str(e)}")
             except Exception as e:
-                logger.error(f"[Pipeline] 模块清理错误: {str(e)}")
+                print(f"[Pipeline] 模块清理错误: {str(e)}")
 
         # 清理Pipeline中的用户资源
         async with self.lock:
