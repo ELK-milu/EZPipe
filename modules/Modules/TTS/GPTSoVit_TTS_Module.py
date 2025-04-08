@@ -5,6 +5,7 @@ import time
 from typing import Optional, Any
 
 from fastapi import requests
+import numpy as np
 
 from ..BaseModule import BaseModule
 from .SovitsPost import PostChat,session
@@ -128,3 +129,23 @@ class GPTSoVit_TTS_Module(BaseModule):
                     response_func(streamly, user, f"ERROR: {str(e)}".encode())
                     next_func(streamly, user, self.ENDSIGN)
                     return b''  # 返回空字节作为完成标记
+
+    def ProcessAudio(self, audio_data):
+        try:
+            # 直接处理音频数据，不进行额外的格式转换
+            if isinstance(audio_data, bytes):
+                audio_data = np.frombuffer(audio_data, dtype=np.int16)
+            
+            # 使用更高效的音频处理方式
+            audio_data = audio_data.astype(np.float32) / 32768.0
+            
+            # 减少音频处理步骤
+            if len(audio_data) > 0:
+                # 直接返回处理后的音频数据
+                return audio_data.tobytes()
+            
+            return None
+            
+        except Exception as e:
+            self.logger.error(f"音频处理失败: {str(e)}")
+            return None

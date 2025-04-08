@@ -106,7 +106,6 @@ class BaseModule(ABC):
 
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
-        self.logger.info(f"[{self.__class__.__name__}] 用户 {user} 处理完成，输出数据")
         try:
             # 检查是否已请求停止处理
             if user in self.stop_events and self.stop_events[user].is_set():

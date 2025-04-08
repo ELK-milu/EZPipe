@@ -34,7 +34,7 @@ class Dify_LLM_Module(BaseModule):
             self.tempResponse = ""
             self.sentences = []
             self.IsFirst = True
-            self.WaitCount = 1
+            self.WaitCount = 1  # 减少等待的句子数量，从3改为1
 
         def GetTempMsg(self):
             # 使用正向预查分割保留标点符号
@@ -48,27 +48,18 @@ class Dify_LLM_Module(BaseModule):
             for frag in fragments:
                 if re.search(r'[，,!?。！？]$', frag):
                     complete_sentences.append(frag)
+                    # 一旦有完整句子就返回，不再等待更多句子
+                    if len(complete_sentences) >= self.WaitCount:
+                        self.sentences = complete_sentences[:self.WaitCount]
+                        self.tempResponse = ''.join(fragments[len(complete_sentences):])
+                        return self.sentences
                 else:
                     pending_fragment = frag
-                    break  # 遇到未完成片段即停止
+                    break
 
-            # 第一次需要攒满3个完整句子
-            if self.IsFirst:
-                if len(complete_sentences) >= self.WaitCount:
-                    self.IsFirst = False
-                    # 保留未处理部分继续累积
-                    self.tempResponse = ''.join(fragments[len(complete_sentences):])
-                    self.sentences = complete_sentences[:self.WaitCount]
-                else:
-                    # 不足3句时保留所有内容继续累积
-                    self.tempResponse = self.tempResponse
-                    self.sentences = []
-            else:
-                # 非首次处理直接返回所有完整句子
-                self.tempResponse = pending_fragment
-                self.sentences = complete_sentences
-
-            self.PrintSentences()
+            # 如果没有完整句子，继续累积
+            self.tempResponse = self.tempResponse
+            self.sentences = []
             return self.sentences
 
         # 判断是否准备好返回
@@ -96,7 +87,7 @@ class Dify_LLM_Module(BaseModule):
             self.tempResponse += content
             self.response_string += content
 
-    def HeartBeat(self,user:str):
+    async def HeartBeat(self,user:str):
         if self.session:
             try:
                 # 发送HEAD请求（轻量级，不下载响应体）
@@ -172,6 +163,8 @@ class Dify_LLM_Module(BaseModule):
         logger.info("LLM:" + str(data["LLM"]["streamly"]))
         temp_streamly : bool = data["LLM"]["streamly"]
         self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=temp_streamly)
+        first_sentence_sent = False
+        request_start = time.time()
         """
         处理LLM模型对话的服务
         Args:
@@ -222,6 +215,11 @@ class Dify_LLM_Module(BaseModule):
 
                 # 流式传输给下一个模块
                 if temp_streamly and self.answer_chunk.ReadyToResponse():
+                    if not first_sentence_sent:
+                        # 计算首次响应时间
+                        elapsed = time.time() - request_start
+                        logger.info(f"[Dify] 首次响应耗时: {elapsed:.2f}s | 句子数: {len(self.answer_chunk.sentences)}")
+                        first_sentence_sent = True
                     for sentence in self.answer_chunk.sentences:
                         logger.info(f"[Dify] 发送句子: {sentence}")
                         next_func(streamly, user, sentence)
@@ -232,7 +230,7 @@ class Dify_LLM_Module(BaseModule):
 
                 chunk_count += 1
             # 输出统计信息
-            logger.info(f"[Dify] 共发送 {chunk_count} 个数据块，最终输出:")
+            #logger.info(f"[Dify] 共发送 {chunk_count} 个数据块，最终输出:")
             if not streamly:
                 response_func(streamly, user, self.answer_chunk.final_json)
             # 标记处理完成,并返回LLM最终的响应结果
@@ -282,7 +280,7 @@ class Dify_LLM_Module(BaseModule):
 
                     # 检查是否进入 <think> 块
                     if "<think>" in message:
-                        logger.info("进入思考块")
+                        #logger.info("进入思考块")
                         answer.in_think_block = True
 
                     # 如果当前在 <think> 和 </think> 块中，将内容添加到 think_string
