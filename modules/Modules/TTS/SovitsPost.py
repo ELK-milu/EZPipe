@@ -52,7 +52,7 @@ class PostChat:
             "temperature": 1,
             "text_split_method": "cut0",
             "return_fragment": False,
-            "batch_size": 1,
+            "batch_size": 2,
             "batch_threshold": 0.75,
             "split_bucket": True,
             "speed_factor":1.0,

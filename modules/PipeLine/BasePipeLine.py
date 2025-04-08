@@ -20,7 +20,7 @@ class PipeLine:
         self.main_loop = asyncio.get_event_loop()
         self.disconnect_events: Dict[str, asyncio.Event] = {}  # 用户断开连接事件
         self.validated:bool = False    #当前pipe是否可用的指示位
-        self.ENDSIGN = None
+        self.ENDSIGN = "PipelineEnd"  # 结束信号
         self.logger = None
         # 设置模块的pipeline引用
         for module in self.modules:
@@ -39,7 +39,7 @@ class PipeLine:
 
 
     def HeartBeat(self,user:str):
-        print("管线心跳")
+        self.logger.info(f"心跳检测开始")
         for module in self.modules:
             module.HeartBeat(user)
 

@@ -272,6 +272,8 @@ class BaseModule(ABC):
                     self.logger.info(f"[{self.__class__.__name__}] 处理队列数据完成，耗时: {end_time - start_time:.3f}秒")
 
                     timeout_counter = 0  # 成功获取数据后重置计数器
+                    # 避免连续处理
+                    time.sleep(0.1)
 
                 except queue.Empty:
                     # 队列为空，增加超时计数
