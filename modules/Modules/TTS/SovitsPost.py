@@ -42,7 +42,7 @@ class PostChat:
     def __init__(self,streamly,user,text):
         self.payload = {
             "text": text,
-            "text_lang": "zh",
+            "text_lang": "auto",
             "ref_audio_path": "./GPT_SoVITS/models/派蒙_中立.wav",
             "aux_ref_audio_paths": [],
             "prompt_text": "可恶，怎么又是盗宝团！海灯节就快到了，也不知道安分一点。",
@@ -50,10 +50,11 @@ class PostChat:
             "top_k": 5,
             "top_p": 1,
             "temperature": 1,
-            "text_split_method": "cut5",
+            "text_split_method": "cut0",
+            "return_fragment": False,
             "batch_size": 1,
             "batch_threshold": 0.75,
-            "split_bucket": False,
+            "split_bucket": True,
             "speed_factor":1.0,
             "streaming_mode": streamly,
             "seed": -1,

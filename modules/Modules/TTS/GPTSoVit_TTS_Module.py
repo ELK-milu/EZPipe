@@ -12,6 +12,7 @@ class GPTSoVit_TTS_Module(BaseModule):
     def StartUp(self):
         if self.session is None:
             self.session = session
+        self.HeartBeat("")
     def HeartBeat(self,user:str):
         if self.session:
             try:
@@ -47,6 +48,8 @@ class GPTSoVit_TTS_Module(BaseModule):
         """
         # 检查input_data是否为None
         if input_data is None:
+            # 预启动加载模型
+            PostChat(streamly=False, user=user, text=input_data)
             print(f"[TTS] 输入数据为None，无法处理")
             return b''
             
