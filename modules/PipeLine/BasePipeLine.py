@@ -206,7 +206,7 @@ class PipeLine:
             if not self.modules:
                 raise ValueError("未配置Pipeline")
             # 启动处理
-            self.modules[0].GetService(streamly, user, input_data)
+            await self.modules[0].GetService(streamly, user, input_data)
 
     async def Output(self, user: str) -> Any:
         """获取用户的最终输出"""

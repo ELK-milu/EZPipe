@@ -84,16 +84,21 @@ class BaseModule(ABC):
     def Next_output(self, streamly: bool, user: str, output: Any):
         # 如果有下一个模块，且next_input非空,传递输出
         if self.next_model:
-            # 使用异步方式添加数据到下一个模块的输入队列
+
+            # 如果下一个模块未开启处理线程，则开启处理线程
+            if user not in self.next_model.user_threads:
+                # 使用asyncio.run_coroutine_threadsafe来在事件循环中执行异步方法
+                asyncio.run_coroutine_threadsafe(
+                    self.next_model.GetService(streamly, user, None),
+                    self.pipeline.main_loop
+                )
+
             if user not in self.next_model.user_InputQueue:
                 self.next_model.user_InputQueue[user] = queue.Queue()
             
             # 直接添加数据到队列，不创建新线程
             self.next_model.user_InputQueue[user].put(output)
             print(f"[{self.__class__.__name__}] 添加数据{str(output)}到 {self.next_model.__class__.__name__} 输入队列")
-            
-            # 为每个输入创建新线程，实现真正的并行处理
-            self.next_model._create_thread(streamly, user, None)
 
     def Response_output(self, streamly: bool, user: str, response_data: Any) -> None:
         """将模块输出发送到Pipeline并传递给下一个模块"""
@@ -175,30 +180,90 @@ class BaseModule(ABC):
 
 
 
-    def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
-        """为用户创建新线程处理任务"""
-        self._create_thread(streamly, user, input_data)
-
-    # 修改线程包装逻辑，使其处理单个输入后退出
-    def _thread_wrapper(self, streamly: bool, user: str, input_data: Any) -> None:
-        """处理单个输入数据的线程包装"""
+    async def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
+        """
+        启动服务，为指定用户创建处理线程
+        
+        Args:
+            streamly: 是否流式输出
+            user: 用户标识
+            input_data: 输入数据
+        """
         try:
-            # 如果input_data为None，尝试从队列中获取数据
-            if input_data is None and user in self.user_InputQueue:
-                try:
-                    input_data = self.user_InputQueue[user].get_nowait()
-                    print(f"[{self.__class__.__name__}] 从队列获取数据: {str(input_data)[:20]}")
-                except queue.Empty:
-                    print(f"[{self.__class__.__name__}] 队列为空，无法获取数据")
-                    return
+            # 确保用户有对应的停止事件
+            if user not in self.stop_events:
+                self.stop_events[user] = threading.Event()
             
-            # 处理单个数据块
-            self.Thread_Task(streamly, user, input_data,
-                             self.Response_output,
-                             self.Next_output)
-        finally:
-            # 处理完成后清理资源
-            self._cleanup_thread(user)
+            # 确保用户有对应的输入队列
+            if user not in self.user_InputQueue:
+                self.user_InputQueue[user] = queue.Queue()
+            
+            # 如果有输入数据，添加到队列
+            if input_data is not None:
+                self.user_InputQueue[user].put(input_data)
+                print(f"[{self.__class__.__name__}] 添加初始数据到用户 {user} 的输入队列")
+            
+            # 创建并启动处理线程
+            if user not in self.user_threads or not self.user_threads[user].is_alive():
+                self.user_threads[user] = threading.Thread(
+                    target=self._create_thread,
+                    args=(streamly, user, None),
+                    daemon=True
+                )
+                self.user_threads[user].start()
+                print(f"[{self.__class__.__name__}] 模块启动线程服务 :{user} {self.user_threads[user].ident}")
+
+
+        except Exception as e:
+            print(f"[{self.__class__.__name__}] 启动服务时出错: {str(e)}")
+            # 确保在出错时清理资源
+            await self._cleanup(user)
+
+    def _create_thread(self, streamly: bool, user: str, input_data: Any) -> None:
+        """
+        创建并运行处理线程，持续从队列中获取数据并处理，直到收到停止信号
+        
+        Args:
+            streamly: 是否流式输出
+            user: 用户标识
+            input_data: 初始输入数据，如果为None则从队列获取
+        """
+        # 确保用户有对应的停止事件
+        if user not in self.stop_events:
+            self.stop_events[user] = threading.Event()
+        
+        # 确保用户有对应的输入队列
+        if user not in self.user_InputQueue:
+            self.user_InputQueue[user] = queue.Queue()
+        
+        # 如果有初始输入数据，直接处理
+        if input_data is not None:
+            try:
+                self.Thread_Task(streamly, user, input_data,self.Response_output, self.Next_output)
+            except Exception as e:
+                print(f"[{self.__class__.__name__}] 处理初始输入数据时出错: {str(e)}")
+        
+        # 持续处理队列中的数据，直到收到停止信号
+        while not self.stop_events[user].is_set():
+            try:
+                # 从队列中获取数据，设置超时以便定期检查停止信号
+                try:
+                    data = self.user_InputQueue[user].get(timeout=1)
+                    print(f"[{self.__class__.__name__}] 从队列获取数据: {str(data)[:20]}")
+                    
+                    # 处理获取到的数据
+                    self.Thread_Task(streamly, user, data,self.Response_output, self.Next_output)
+                    
+                except queue.Empty:
+                    # 队列为空，继续等待
+                    continue
+                    
+            except Exception as e:
+                print(f"[{self.__class__.__name__}] 处理队列数据时出错: {str(e)}")
+                # 出错后短暂等待，避免CPU占用过高
+                time.sleep(0.1)
+        
+        print(f"[{self.__class__.__name__}] 用户 {user} 的处理线程已停止")
 
     def _cleanup_thread(self, user: str) -> None:
         """清理线程资源，但不清理用户队列"""
@@ -210,88 +275,85 @@ class BaseModule(ABC):
                 print(f"[{self.__class__.__name__}] 终止用户 {user} 的线程 {thread_id}")
             del self.user_threads[user]
 
-    def _create_thread(self, streamly: bool, user: str, input_data: Any) -> None:
-        """创建新线程处理用户请求"""
-        # 确保用户输入队列存在
-        if user not in self.user_InputQueue:
-            self.user_InputQueue[user] = queue.Queue()
-            
-        # 只有当input_data不为None时才添加到队列
-        if input_data is not None:
-            self.user_InputQueue[user].put(input_data)
-
-
-        '''
-        # 检查用户是否已断开连接
-        try:
-            future = asyncio.run_coroutine_threadsafe(
-                self._check_if_disconnected(user),
-                self.pipeline.main_loop
-            )
-
-            if future.result(timeout=1.0):
-                print(f"[{self.__class__.__name__}] 用户 {user} 已断开连接，不创建新线程")
-                return
-        except Exception as e:
-            print(f"[{self.__class__.__name__}] 检查用户连接状态时出错: {str(e)}")
-        '''
-
-        try:
-            # 创建停止事件和线程
-            self.stop_events[user] = threading.Event()
-            thread = threading.Thread(
-                target=self._thread_wrapper,
-                args=(streamly, user, input_data),
-                daemon=True
-            )
-
-            self.user_threads[user] = thread
-            if streamly:
-                self.streaming_status[user] = True
-            thread.start()
-            print(f"[{self.__class__.__name__}] 为用户 {user} 创建新线程: {thread.ident}")
-        except Exception as e:
-            print(f"[{self.__class__.__name__}] 创建线程时出错: {str(e)}")
-            self._cleanup(user)
 
     def GetOutPut(self, user: str) -> Any:
         """获取最后一次输出"""
         return self.output
 
     def _cleanup(self, user: str) -> None:
-        """清理用户相关资源"""
-        # 设置停止事件
+        """
+        清理用户相关资源
+        
+        Args:
+            user: 用户标识
+        """
+        print(f"[{self.__class__.__name__}] 开始清理用户 {user} 的资源")
+        
+        # 设置停止事件，通知处理线程停止
         if user in self.stop_events:
             self.stop_events[user].set()
-
-        if user in self.user_InputQueue:
-            del self.user_InputQueue[user]
-            
-        # 清理线程
-        if user in self.user_threads:
+            print(f"[{self.__class__.__name__}] 已设置用户 {user} 的停止事件")
+        
+        # 等待线程结束（设置超时避免无限等待）
+        if user in self.user_threads and self.user_threads[user].is_alive():
             thread = self.user_threads[user]
             thread_id = thread.ident
-            if thread.is_alive():
-                print(f"[{self.__class__.__name__}] 终止用户 {user} 的线程 {thread_id}")
-            del self.user_threads[user]
+            print(f"[{self.__class__.__name__}] 等待用户 {user} 的线程 {thread_id} 结束")
+            thread.join(timeout=5.0)  # 最多等待5秒
             
+            if thread.is_alive():
+                print(f"[{self.__class__.__name__}] 用户 {user} 的线程 {thread_id} 未能正常结束")
+        
+        # 清理线程资源
+        if user in self.user_threads:
+            del self.user_threads[user]
+            print(f"[{self.__class__.__name__}] 已删除用户 {user} 的线程资源")
+        
+        # 清理队列资源
+        if user in self.user_InputQueue:
+            # 清空队列中的所有数据
+            while not self.user_InputQueue[user].empty():
+                try:
+                    self.user_InputQueue[user].get_nowait()
+                except queue.Empty:
+                    break
+            del self.user_InputQueue[user]
+            print(f"[{self.__class__.__name__}] 已删除用户 {user} 的队列资源")
+        
         # 清理流式状态
         if user in self.streaming_status:
             del self.streaming_status[user]
-            
+            print(f"[{self.__class__.__name__}] 已删除用户 {user} 的流式状态")
+        
         # 延迟删除停止事件，确保其他地方可以检查它
         if user in self.stop_events:
             del self.stop_events[user]
+            print(f"[{self.__class__.__name__}] 已删除用户 {user} 的停止事件")
+        
+        print(f"[{self.__class__.__name__}] 用户 {user} 的资源清理完成")
 
     def Destroy(self) -> None:
-        """销毁模块，清理所有资源"""
-        print(f"[{self.__class__.__name__}] 销毁模块 {self.__class__.__name__}")
+        """
+        销毁模块，清理所有资源
+        """
+        print(f"[{self.__class__.__name__}] 开始销毁模块")
+        
         # 获取所有用户的副本，避免在迭代过程中修改字典
         users = list(self.user_threads.keys())
+        
+        # 清理每个用户的资源
         for user in users:
             self._cleanup(user)
+        
+        # 清理会话资源
+        if self.session:
+            self.session.close()
+            print(f"[{self.__class__.__name__}] 已关闭会话")
+        
+        # 清空所有字典
         self.user_threads.clear()
         self.stop_events.clear()
         self.streaming_status.clear()
-        if self.session:
-            self.session.close()
+        self.user_InputQueue.clear()
+        
+        print(f"[{self.__class__.__name__}] 模块销毁完成")

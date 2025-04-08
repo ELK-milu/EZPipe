@@ -282,7 +282,6 @@ class Dify_LLM_Module(BaseModule):
                     answer.message_id = data['message_id']
                 if data['event'] == 'message':
                     message = str(data['answer'])
-                    print(message)
                     answer.full_content += message
 
                     # 检查是否进入 <think> 块
