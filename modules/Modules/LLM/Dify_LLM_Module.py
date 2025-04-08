@@ -245,6 +245,11 @@ class Dify_LLM_Module(BaseModule):
             elif self.answer_chunk.tempResponse is not None:
                 next_func(streamly, user, self.answer_chunk.tempResponse)
 
+            # 如果没有下一个模块，标记处理完成
+            if not self.next_model:
+                response_func(streamly, user, self.ENDSIGN)
+                next_func(streamly, user, self.ENDSIGN)
+
             return ""  # 返回空字符作为完成标记
 
         except Exception as e:

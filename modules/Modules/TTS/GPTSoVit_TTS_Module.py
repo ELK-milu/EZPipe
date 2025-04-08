@@ -20,8 +20,12 @@ class GPTSoVit_TTS_Module(BaseModule):
                 return {
                     "status": "success",
                 }
-            except requests.exceptions.RequestException as e:
-                print(f"Heartbeat failed: {e}")
+            except Exception as e:
+                print(f"[TTS] 心跳失败: {e}")
+                return {
+                    "status": "failed",
+                    "error": str(e),
+                }
         else:
             self.session = session
             self.HeartBeat(user)
@@ -44,11 +48,9 @@ class GPTSoVit_TTS_Module(BaseModule):
         # 检查input_data是否为None
         if input_data is None:
             print(f"[TTS] 输入数据为None，无法处理")
-            response_func(streamly, user, f"ERROR: 输入数据为None".encode())
-            next_func(streamly, user, self.ENDSIGN)
             return b''
             
-        print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}...")
+        print(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}")
         chat_response = None
         #data = json.loads(input_data)
         #temp_streamly =   data["TTS"]["streamly"]
@@ -81,7 +83,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                 chunk_size = len(chunk)
                 total_bytes += chunk_size
                 print(f"[TTS] 发送数据块 #{chunk_count} 给用户 {user} ({chunk_size} 字节)")
-                
+                print(f"[TTS] 用户 {user} 的文本: {input_data}转语音处理完毕")
                 # 调用回调函数输出数据块
                 response_func(streamly, user, chunk)
                 

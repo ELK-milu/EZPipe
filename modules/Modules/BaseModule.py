@@ -113,8 +113,8 @@ class BaseModule(ABC):
                 )
                 return
 
-            if response_data == self.ENDSIGN:
-                print(f"[{self.__class__.__name__}] 下一个模块是 [{self.next_model.__class__.__name__}] ")
+            if response_data == self.ENDSIGN and self.next_model is not None:
+                print(f"[{self.__class__.__name__}]执行结束 下一个模块是 [{self.next_model.__class__.__name__}] ")
 
             # 保存输出并发送到Pipeline
             self.output = response_data
@@ -157,6 +157,7 @@ class BaseModule(ABC):
                     self.pipeline.add_chunk(user, error_chunk),
                     self.pipeline.main_loop
                 )
+                print("pipeline出现错误,强行终止")
                 asyncio.run_coroutine_threadsafe(
                     self.pipeline.mark_complete(user),
                     self.pipeline.main_loop
@@ -186,7 +187,7 @@ class BaseModule(ABC):
             if input_data is None and user in self.user_InputQueue:
                 try:
                     input_data = self.user_InputQueue[user].get_nowait()
-                    print(f"[{self.__class__.__name__}] 从队列获取数据: {str(input_data)[:20]}...")
+                    print(f"[{self.__class__.__name__}] 从队列获取数据: {str(input_data)[:20]}")
                 except queue.Empty:
                     print(f"[{self.__class__.__name__}] 队列为空，无法获取数据")
                     return
@@ -218,7 +219,9 @@ class BaseModule(ABC):
         # 只有当input_data不为None时才添加到队列
         if input_data is not None:
             self.user_InputQueue[user].put(input_data)
-            
+
+
+        '''
         # 检查用户是否已断开连接
         try:
             future = asyncio.run_coroutine_threadsafe(
@@ -231,20 +234,25 @@ class BaseModule(ABC):
                 return
         except Exception as e:
             print(f"[{self.__class__.__name__}] 检查用户连接状态时出错: {str(e)}")
+        '''
 
-        # 创建停止事件和线程
-        self.stop_events[user] = threading.Event()
-        thread = threading.Thread(
-            target=self._thread_wrapper,
-            args=(streamly, user, input_data),
-            daemon=True
-        )
+        try:
+            # 创建停止事件和线程
+            self.stop_events[user] = threading.Event()
+            thread = threading.Thread(
+                target=self._thread_wrapper,
+                args=(streamly, user, input_data),
+                daemon=True
+            )
 
-        self.user_threads[user] = thread
-        if streamly:
-            self.streaming_status[user] = True
-        thread.start()
-        print(f"[{self.__class__.__name__}] 为用户 {user} 创建新线程: {thread.ident}")
+            self.user_threads[user] = thread
+            if streamly:
+                self.streaming_status[user] = True
+            thread.start()
+            print(f"[{self.__class__.__name__}] 为用户 {user} 创建新线程: {thread.ident}")
+        except Exception as e:
+            print(f"[{self.__class__.__name__}] 创建线程时出错: {str(e)}")
+            self._cleanup(user)
 
     def GetOutPut(self, user: str) -> Any:
         """获取最后一次输出"""

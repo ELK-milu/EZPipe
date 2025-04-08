@@ -24,6 +24,7 @@ parser.add_argument(
     "--host", type=str, default="127.0.0.1", required=False, help="host ip, localhost, 0.0.0.0"
 )
 parser.add_argument("--port", type=int, default=3421, required=False, help="grpc server port")
+parser.add_argument("--workers", type=int, default=4, required=False, help="grpc server workers")
 args = parser.parse_args()
 
 
@@ -37,7 +38,8 @@ if __name__ == "__main__":
     service = TextToSpeechAPIService(
         pipeline=pipeline,
         host=args.host,
-        port=args.port
+        port=args.port,
+        workers=args.workers
     )
     #service.Print_Request_Schema()
     service.Run()
