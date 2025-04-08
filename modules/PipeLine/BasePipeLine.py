@@ -38,10 +38,10 @@ class PipeLine:
             self.modules[i].next_model = self.modules[i + 1]
 
 
-    def HeartBeat(self,user:str):
+    async def HeartBeat(self,user:str):
         self.logger.info(f"心跳检测开始")
         for module in self.modules:
-            module.HeartBeat(user)
+            await module.HeartBeat(user)
 
     def StartUp(self):
         print("管线初始化")

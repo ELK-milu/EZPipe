@@ -1,3 +1,4 @@
+import asyncio
 import json
 import threading
 import logging
@@ -19,8 +20,8 @@ class GPTSoVit_TTS_Module(BaseModule):
     def StartUp(self):
         if self.session is None:
             self.session = session
-        self.HeartBeat("")
-    def HeartBeat(self,user:str):
+        asyncio.run(self.HeartBeat(""))
+    async def HeartBeat(self,user:str):
         if self.session:
             try:
                 # 发送HEAD请求（轻量级，不下载响应体）
@@ -36,7 +37,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                 }
         else:
             self.session = session
-            self.HeartBeat(user)
+            await self.HeartBeat(user)
 
     def HandleInput(self, request: Any) -> bytes:
         return request.Input

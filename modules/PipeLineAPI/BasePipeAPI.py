@@ -87,7 +87,7 @@ class API_Service(ABC):
         @self.router.get("/heartbeat")
         async def process_input(user: str):
             """心跳请求"""
-            return self.pipeline.HeartBeat(user)
+            await self.pipeline.HeartBeat(user)
 
         # 收集所有模块路由
         for module in self.pipeline.modules:

@@ -1,3 +1,4 @@
+import asyncio
 import json
 import re
 import threading
@@ -150,7 +151,7 @@ class Dify_LLM_Module(BaseModule):
     def StartUp(self):
         if self.session is None:
             self.session = session
-        self.HeartBeat("")
+        asyncio.run(self.HeartBeat(""))
 
     def HandleInput(self, request: Any) -> str:
         json_str = request.model_dump_json()
