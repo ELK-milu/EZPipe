@@ -11,23 +11,10 @@ from starlette.responses import JSONResponse, StreamingResponse
 from starlette.background import BackgroundTask
 
 from modules.PipeLine.BasePipeLine import PipeLine
+from modules.utils.logger import get_logger
 
 # 配置logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-# 防止重复配置（新增）
-if not logger.handlers:
-    # 创建控制台处理器
-    console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)
-
-    # 创建格式化器
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    console_handler.setFormatter(formatter)
-
-    # 添加处理器到logger
-    logger.addHandler(console_handler)
+logger = get_logger(__name__)
 
 class API_Service(ABC):
     def __init__(self, pipeline: PipeLine, host: str = "0.0.0.0", port: int = 8000, workers: int = 1,

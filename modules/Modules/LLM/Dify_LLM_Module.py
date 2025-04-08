@@ -9,23 +9,10 @@ import requests
 
 from ..BaseModule import BaseModule
 from .DifyPost import PostChat,session
+from modules.utils.logger import get_logger
 
-# 配置logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-# 防止重复添加处理器
-if not logger.handlers:
-    # 创建控制台处理器
-    console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)
-
-    # 创建格式化器
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    console_handler.setFormatter(formatter)
-
-    # 添加处理器到logger
-    logger.addHandler(console_handler)
+# 获取logger实例
+logger = get_logger(__name__)
 
 class Dify_LLM_Module(BaseModule):
     class Answer_Chunk:

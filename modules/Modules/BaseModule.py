@@ -9,7 +9,7 @@ from datetime import datetime
 
 import requests
 from fastapi import APIRouter
-from utils.logger import get_logger
+from modules.utils.logger import get_logger
 
 if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine

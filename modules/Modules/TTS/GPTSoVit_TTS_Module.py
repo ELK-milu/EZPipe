@@ -7,6 +7,10 @@ from fastapi import requests
 
 from ..BaseModule import BaseModule
 from .SovitsPost import PostChat,session
+from modules.utils.logger import get_logger
+
+# 获取logger实例
+logger = get_logger(__name__)
 
 class GPTSoVit_TTS_Module(BaseModule):
 
