@@ -9,6 +9,7 @@ from datetime import datetime
 
 import requests
 from fastapi import APIRouter
+from utils.logger import get_logger
 
 if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine
@@ -29,7 +30,7 @@ class BaseModule(ABC):
         # 新增路由相关属性
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
-        self.logger : logging.Logger = None
+        self.logger = get_logger(self.__class__.__name__)
         self.RegisterRoutes()
 
 

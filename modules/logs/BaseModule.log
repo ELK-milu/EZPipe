@@ -1,0 +1,63 @@
+2025-04-08 00:52:41 - LCBot.BaseModule - INFO - 模块 Dify_LLM_Module 初始化完成
+2025-04-08 00:52:41 - LCBot.BaseModule - INFO - 模块 GPTSoVit_TTS_Module 初始化完成
+2025-04-08 00:52:46 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 00:53:09 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 00:53:12 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:43 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 00:53:50 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 00:53:58 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:02 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:05 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:36 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 00:54:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 00:54:44 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:45 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:49 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:21:57 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 01:23:52 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，不创建新线程
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:16 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:17 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:19 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:20 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:22 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:23 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:25 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:08 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 01:27:29 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:34:32 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 

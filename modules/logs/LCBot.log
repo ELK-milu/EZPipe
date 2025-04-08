@@ -1,0 +1,270 @@
+2025-04-08 00:52:41 - LCBot.BaseModule - INFO - 模块 Dify_LLM_Module 初始化完成
+2025-04-08 00:52:41 - LCBot.BaseModule - INFO - 模块 GPTSoVit_TTS_Module 初始化完成
+2025-04-08 00:52:41 - LCBot.TTS - INFO - TTS模块初始化完成，会话已创建
+2025-04-08 00:52:46 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 00:53:08 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 你好！...
+2025-04-08 00:53:08 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.02秒
+2025-04-08 00:53:08 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:08 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 我是佼佼仔，...
+2025-04-08 00:53:08 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 一个AI问答助手。...
+2025-04-08 00:53:08 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 我可以帮助你解答问题、提供信息和支持。...
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 很高兴认识你！...
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 开始为用户 user 处理文本: ...
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:09 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.47秒
+2025-04-08 00:53:09 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.93秒
+2025-04-08 00:53:09 - LCBot.TTS - INFO - TTS响应状态码: 400
+2025-04-08 00:53:09 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.86秒
+2025-04-08 00:53:09 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:09 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.73秒
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:09 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.68秒
+2025-04-08 00:53:09 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:09 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 共发送 1 个数据块，总计 30 字节
+2025-04-08 00:53:09 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:09 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 00:53:09 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:12 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:12 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:13 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:13 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:14 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:14 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:43 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 00:53:48 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 展馆的主要内容通常包括展览的实物、多媒体...
+2025-04-08 00:53:48 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:53:48 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:49 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:49 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 实物可能包括展品、艺术品、历史文物等；多...
+2025-04-08 00:53:49 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:53:49 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:49 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:49 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 增加参观的趣味性和参与感。...
+2025-04-08 00:53:49 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:53:49 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:49 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:49 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 具体的内容还会根据展馆的主题和定位有所不...
+2025-04-08 00:53:49 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 您提到的展厅、珠宝、手表专卖店等，...
+2025-04-08 00:53:50 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 它们的展示内容可能会更加注重产品的展示和...
+2025-04-08 00:53:50 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 请问您想了解哪方面的展馆内容呢？...
+2025-04-08 00:53:50 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.01秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 开始为用户 user 处理文本: ...
+2025-04-08 00:53:50 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.01秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - TTS响应状态码: 400
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:53:50 - LCBot.TTS - INFO - 共发送 1 个数据块，总计 30 字节
+2025-04-08 00:53:50 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 00:53:58 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:58 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:59 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:53:59 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:02 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:02 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:05 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:05 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:07 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:07 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:36 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 00:54:38 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 展馆的主要内容通常包括各类展品、多媒体展...
+2025-04-08 00:54:38 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:54:38 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:54:38 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 具体来说，...
+2025-04-08 00:54:38 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:38 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.16秒
+2025-04-08 00:54:38 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:54:38 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:38 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 可能包括历史文物、科技产品、艺术品、以及...
+2025-04-08 00:54:38 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:54:38 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:54:38 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 不同的展馆根据其主题和功能会有所侧重，...
+2025-04-08 00:54:39 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 比如科技馆更侧重于科技展品和互动体验，...
+2025-04-08 00:54:39 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 开始为用户 user 处理文本: 而博物馆则可能更注重历史和艺术的展示。...
+2025-04-08 00:54:39 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.00秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - TTS响应状态码: 200
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 开始为用户 user 处理文本: ...
+2025-04-08 00:54:39 - LCBot.SovitsPost - INFO - TTS请求完成，耗时: 0.01秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - TTS响应状态码: 400
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 第一个数据块处理完成，耗时: 0.0秒
+2025-04-08 00:54:39 - LCBot.TTS - INFO - 共发送 1 个数据块，总计 30 字节
+2025-04-08 00:54:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 00:54:44 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:44 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:45 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:45 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:49 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:49 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:51 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:51 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 00:54:51 - LCBot.TTS - ERROR - TTS错误: 'user'
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:21:53 - LCBot.Pipeline - INFO - 管线初始化
+2025-04-08 01:21:53 - LCBot.TTS - INFO - TTS模块初始化会话
+2025-04-08 01:21:56 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:21:56 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:21:56 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:21:56 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:21:57 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 01:23:46 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:23:46 - LCBot.Pipeline - INFO - [Pipeline] 清理用户 user 的资源
+2025-04-08 01:23:46 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:23:46 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:23:46 - LCBot.Pipeline - INFO - [Pipeline] 清理用户 user 的资源
+2025-04-08 01:23:49 - LCBot.Pipeline - INFO - 管线初始化
+2025-04-08 01:23:49 - LCBot.TTS - INFO - TTS模块初始化会话
+2025-04-08 01:23:51 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:23:51 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:23:51 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:23:51 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:23:52 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:24:13 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: 你好！...
+2025-04-08 01:24:13 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:24:13 - LCBot.Pipeline - INFO - [Pipeline] 清理用户 user 的资源
+2025-04-08 01:24:13 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:24:13 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:24:13 - LCBot.Pipeline - INFO - [Pipeline] 用户 user 已断开连接，停止添加数据
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，不创建新线程
+2025-04-08 01:24:13 - LCBot.Pipeline - INFO - [Pipeline] 清理用户 user 的资源
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:16 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 2.70秒
+2025-04-08 01:24:16 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:16 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:17 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 4.19秒
+2025-04-08 01:24:17 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:17 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:19 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 5.67秒
+2025-04-08 01:24:19 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:19 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:20 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 7.37秒
+2025-04-08 01:24:20 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:20 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:22 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 8.61秒
+2025-04-08 01:24:22 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:22 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:23 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 10.10秒
+2025-04-08 01:24:23 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:23 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:25 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 11.57秒
+2025-04-08 01:24:25 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:25 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:31 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 17.43秒
+2025-04-08 01:24:31 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:24:31 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 17.82秒
+2025-04-08 01:24:31 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:05 - LCBot.Pipeline - INFO - 管线初始化
+2025-04-08 01:27:05 - LCBot.TTS - INFO - TTS模块初始化会话
+2025-04-08 01:27:07 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:27:07 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:27:07 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:27:07 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:27:08 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: {"think": "", "respo...
+2025-04-08 01:27:29 - LCBot.TTS - INFO - [TTS] 开始为用户 user 处理文本: 您好，...
+2025-04-08 01:27:29 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:27:29 - LCBot.Pipeline - INFO - [Pipeline] 清理用户 user 的资源
+2025-04-08 01:27:29 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:27:29 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:27:29 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:29 - LCBot.Pipeline - INFO - [Pipeline] 清理用户 user 的资源
+2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:32 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 2.74秒
+2025-04-08 01:27:32 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:32 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:33 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 4.19秒
+2025-04-08 01:27:33 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:33 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:35 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 5.82秒
+2025-04-08 01:27:35 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:35 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:36 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 7.27秒
+2025-04-08 01:27:36 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:36 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:38 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 8.51秒
+2025-04-08 01:27:38 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:38 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:39 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 9.96秒
+2025-04-08 01:27:39 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:39 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:41 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 11.55秒
+2025-04-08 01:27:41 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:41 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:47 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 17.67秒
+2025-04-08 01:27:47 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:47 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:27:48 - LCBot.SovitsPost - INFO - [SovitsPost] 用户 user TTS请求发送完成，耗时: 18.02秒
+2025-04-08 01:27:48 - LCBot.TTS - ERROR - [TTS] 错误: 'user'
+2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-08 01:27:48 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 的任务完成
+2025-04-08 01:34:31 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:34:31 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:34:31 - LCBot.Pipeline - INFO - [Pipeline] 强制清理用户 user 的资源
+2025-04-08 01:34:31 - LCBot.Pipeline - INFO - [Pipeline] 标记用户 user 已断开连接
+2025-04-08 01:34:32 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
