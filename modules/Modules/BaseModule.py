@@ -213,6 +213,10 @@ class BaseModule(ABC):
                 self.user_threads[user].start()
                 print(f"[{self.__class__.__name__}] 模块启动线程服务 :{user} {self.user_threads[user].ident}")
 
+            # 预初始化下一个模块的处理线程
+            if self.next_model is not None:
+                await self.next_model.GetService(streamly, user, None)
+
 
         except Exception as e:
             print(f"[{self.__class__.__name__}] 启动服务时出错: {str(e)}")
