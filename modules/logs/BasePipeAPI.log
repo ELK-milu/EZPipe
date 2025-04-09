@@ -12535,3 +12535,531 @@
 2025-04-08 21:57:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
 2025-04-08 21:58:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
 2025-04-08 21:58:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-09 11:07:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-09 11:07:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-09 11:07:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-09 11:07:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-09 11:07:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 引擎预热完成
+2025-04-09 11:08:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2361551203584
+2025-04-09 11:08:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 你好！
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据博物馆展馆通常是指用于展示和保存人类文化遗产和科学珍品的场所。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这些展馆包括很多类型，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据比如科技馆、自然历史博物馆、艺术博物馆等。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (52524 字节)
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 你好！转语音处理完毕
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.599秒, 总计 52524 字节
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.599秒
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 博物馆展馆通常是指用于展示和保存人类文化
+2025-04-09 11:08:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 博物馆展馆通常是指用于展示和保存人类文化
+2025-04-09 11:08:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你提到的科技馆、珠宝店、手表专卖店以及博物馆等都属于这一类别。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据博物馆展馆不仅展示展品，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据还通过教育活动和展览提高公众的知识水平和文化素养。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据比如绍兴科技馆展示了科技成果，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据北航杭州创新研究院的航空航天科普体验展厅则侧重于航空航天知识的科普，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据临平区气象科普基地则专注于气象科学的普及。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这些场所都是公众了解科学知识、文化和艺术的重要窗口。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 2.760秒
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (408364 字节)
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 博物馆展馆通常是指用于展示和保存人类文化遗产和科学珍品的场所。转语音处理完毕
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.640秒, 总计 408364 字节
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.644秒
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 比如科技馆、自然历史博物馆、艺术博物馆等
+2025-04-09 11:08:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 比如科技馆、自然历史博物馆、艺术博物馆等
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (303404 字节)
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 比如科技馆、自然历史博物馆、艺术博物馆等。转语音处理完毕
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.135秒, 总计 303404 字节
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.136秒
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 还通过教育活动和展览提高公众的知识水平和
+2025-04-09 11:08:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 还通过教育活动和展览提高公众的知识水平和
+2025-04-09 11:08:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (316204 字节)
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 还通过教育活动和展览提高公众的知识水平和文化素养。转语音处理完毕
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.449秒, 总计 316204 字节
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.452秒
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这些场所都是公众了解科学知识、文化和艺术
+2025-04-09 11:08:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 这些场所都是公众了解科学知识、文化和艺术
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (339244 字节)
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 这些场所都是公众了解科学知识、文化和艺术的重要窗口。转语音处理完毕
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.296秒, 总计 339244 字节
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.298秒
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 临平区气象科普基地则专注于气象科学的普及
+2025-04-09 11:08:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 临平区气象科普基地则专注于气象科学的普及
+2025-04-09 11:08:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (288044 字节)
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 临平区气象科普基地则专注于气象科学的普及。转语音处理完毕
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.132秒, 总计 288044 字节
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.134秒
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你提到的科技馆、珠宝店、手表专卖店以及博
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 你提到的科技馆、珠宝店、手表专卖店以及博
+2025-04-09 11:08:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (387884 字节)
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 你提到的科技馆、珠宝店、手表专卖店以及博物馆等都属于这一类别。转语音处理完毕
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.415秒, 总计 387884 字节
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.420秒
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 北航杭州创新研究院的航空航天科普体验展厅
+2025-04-09 11:08:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 北航杭州创新研究院的航空航天科普体验展厅
+2025-04-09 11:08:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (439084 字节)
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 北航杭州创新研究院的航空航天科普体验展厅则侧重于航空航天知识的科普，转语音处理完毕
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.836秒, 总计 439084 字节
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.836秒
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 博物馆展馆不仅展示展品，
+2025-04-09 11:08:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 博物馆展馆不仅展示展品，
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (154924 字节)
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 博物馆展馆不仅展示展品，转语音处理完毕
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.634秒, 总计 154924 字节
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.635秒
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 比如绍兴科技馆展示了科技成果，
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 比如绍兴科技馆展示了科技成果，
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-09 11:08:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (231724 字节)
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 比如绍兴科技馆展示了科技成果，转语音处理完毕
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.956秒, 总计 231724 字节
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.958秒
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这些展馆包括很多类型，
+2025-04-09 11:08:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 这些展馆包括很多类型，
+2025-04-09 11:08:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (162604 字节)
+2025-04-09 11:08:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 这些展馆包括很多类型，转语音处理完毕
+2025-04-09 11:08:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.742秒, 总计 162604 字节
+2025-04-09 11:08:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.742秒
+2025-04-09 11:08:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:08:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:08:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:08:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:08:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:08:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:08:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:08:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:08:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:08:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:08:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-09 11:08:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-09 11:08:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-09 11:08:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-09 11:08:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2361551676128
+2025-04-09 11:08:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-09 11:08:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据关于车路云方面的政策，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 关于车路云方面的政策，
+2025-04-09 11:08:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 关于车路云方面的政策，
+2025-04-09 11:08:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我了解的信息与您提供的内容并不是直接相关。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据车路云涉及交通、信息技术和政策等多个领域，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据相关政策可能包括科技部、工业和信息化部等部门的文件。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据您如果需要了解具体政策内容，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据建议查询相关部门的官方网站或咨询专业人士获取详细信息。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (147244 字节)
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 关于车路云方面的政策，转语音处理完毕
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.795秒, 总计 147244 字节
+2025-04-09 11:08:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.797秒
+2025-04-09 11:08:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我了解的信息与您提供的内容并不是直接相关
+2025-04-09 11:08:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 我了解的信息与您提供的内容并不是直接相关
+2025-04-09 11:08:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我可以提供一些与您提供的内容相关的软件系统制作和售后等服务信息。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.348秒
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (254764 字节)
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 我了解的信息与您提供的内容并不是直接相关。转语音处理完毕
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.302秒, 总计 254764 字节
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.306秒
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 建议查询相关部门的官方网站或咨询专业人士
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 建议查询相关部门的官方网站或咨询专业人士
+2025-04-09 11:08:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:08:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:08:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (323884 字节)
+2025-04-09 11:08:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 建议查询相关部门的官方网站或咨询专业人士获取详细信息。转语音处理完毕
+2025-04-09 11:08:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.542秒, 总计 323884 字节
+2025-04-09 11:08:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.547秒
+2025-04-09 11:08:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我可以提供一些与您提供的内容相关的软件系
+2025-04-09 11:08:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 我可以提供一些与您提供的内容相关的软件系
+2025-04-09 11:08:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:08:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:08:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (367404 字节)
+2025-04-09 11:08:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 我可以提供一些与您提供的内容相关的软件系统制作和售后等服务信息。转语音处理完毕
+2025-04-09 11:08:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.855秒, 总计 367404 字节
+2025-04-09 11:08:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.858秒
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 您如果需要了解具体政策内容，
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 您如果需要了解具体政策内容，
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (193324 字节)
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 您如果需要了解具体政策内容，转语音处理完毕
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.913秒, 总计 193324 字节
+2025-04-09 11:08:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.917秒
+2025-04-09 11:08:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 车路云涉及交通、信息技术和政策等多个领域
+2025-04-09 11:08:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 车路云涉及交通、信息技术和政策等多个领域
+2025-04-09 11:08:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (280364 字节)
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 车路云涉及交通、信息技术和政策等多个领域，转语音处理完毕
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.313秒, 总计 280364 字节
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.316秒
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 相关政策可能包括科技部、工业和信息化部等
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 相关政策可能包括科技部、工业和信息化部等
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-09 11:08:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.508秒, 总计 0 字节
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.508秒
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2361551203584 的资源
+2025-04-09 11:08:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2361551676128 的资源
+2025-04-09 11:09:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-09 11:09:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-09 11:09:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2361551678672
+2025-04-09 11:09:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据了解，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 了解，
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 了解，
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据车路云主题的画作可以展现智能交通系统。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据可以画一辆现代感十足的汽车，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据车身下是智能道路，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据上有监控摄像头和传感器，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据旁边是云计算中心的现代化建筑群，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据背景可以是城市夜景，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据展现智慧城市的概念。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你可以使用裸眼3D、全息影像等技术增强视觉效果。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (85804 字节)
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 了解，转语音处理完毕
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.048秒, 总计 85804 字节
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.050秒
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据具体实现需要结合你的技术能力和所需要的细节。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 车路云主题的画作可以展现智能交通系统。
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 车路云主题的画作可以展现智能交通系统。
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据需要我提供更多相关技术的建议吗？到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 2.255秒
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (244524 字节)
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 车路云主题的画作可以展现智能交通系统。转语音处理完毕
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.387秒, 总计 244524 字节
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.389秒
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 旁边是云计算中心的现代化建筑群，
+2025-04-09 11:09:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 旁边是云计算中心的现代化建筑群，
+2025-04-09 11:09:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (203564 字节)
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 旁边是云计算中心的现代化建筑群，转语音处理完毕
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.026秒, 总计 203564 字节
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.027秒
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 具体实现需要结合你的技术能力和所需要的细
+2025-04-09 11:09:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 具体实现需要结合你的技术能力和所需要的细
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (277804 字节)
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 具体实现需要结合你的技术能力和所需要的细节。转语音处理完毕
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.294秒, 总计 277804 字节
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.298秒
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 需要我提供更多相关技术的建议吗？
+2025-04-09 11:09:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 需要我提供更多相关技术的建议吗？
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (193324 字节)
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 需要我提供更多相关技术的建议吗？转语音处理完毕
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.979秒, 总计 193324 字节
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.982秒
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 可以画一辆现代感十足的汽车，
+2025-04-09 11:09:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 可以画一辆现代感十足的汽车，
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (193324 字节)
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 可以画一辆现代感十足的汽车，转语音处理完毕
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.940秒, 总计 193324 字节
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.944秒
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 展现智慧城市的概念。
+2025-04-09 11:09:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 展现智慧城市的概念。
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (139564 字节)
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 展现智慧城市的概念。转语音处理完毕
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.707秒, 总计 139564 字节
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.709秒
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 车身下是智能道路，
+2025-04-09 11:09:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 车身下是智能道路，
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (103724 字节)
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 车身下是智能道路，转语音处理完毕
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.555秒, 总计 103724 字节
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.557秒
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你可以使用裸眼3D、全息影像等技术增强视
+2025-04-09 11:09:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 你可以使用裸眼3D、全息影像等技术增强视
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (323884 字节)
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 你可以使用裸眼3D、全息影像等技术增强视觉效果。转语音处理完毕
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.436秒, 总计 323884 字节
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.439秒
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 上有监控摄像头和传感器，
+2025-04-09 11:09:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 上有监控摄像头和传感器，
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (162604 字节)
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 上有监控摄像头和传感器，转语音处理完毕
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.836秒, 总计 162604 字节
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.840秒
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 背景可以是城市夜景，
+2025-04-09 11:09:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 背景可以是城市夜景，
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (144684 字节)
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 背景可以是城市夜景，转语音处理完毕
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.804秒, 总计 144684 字节
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.806秒
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [TTS] 输入数据为None，无法处理
+2025-04-09 11:09:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.384秒
+2025-04-09 11:09:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:09:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:09:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:09:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:09:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:09:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:09:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:09:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:09:52 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:09:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:09:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-09 11:09:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-09 11:09:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-09 11:09:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-09 11:09:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2361551678672 的资源
+2025-04-09 11:18:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2395380231424
+2025-04-09 11:18:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据博物馆展馆是展示和保存人类文化遗产和自然历史的重要场所。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 博物馆展馆是展示和保存人类文化遗产和自然
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据例如绍兴科技馆、内蒙古自治区科技馆等，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据它们通过丰富的展品和互动体验，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据让参观者了解科学知识和技术发展。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据此外，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据还有一些特化的展馆，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据如北航杭州创新研究院航空航天科普体验展厅，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据专注于某一主题，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据提供更深入的专业知识学习体验。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据
+
+从您的描述来看，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这些展馆不仅包括了传统的展览展示功能，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据还可能包含了实验室、多媒体展示区、互动区等多种类型的空间。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据常见的应用场所包括展厅、珠宝、手表专卖店、博物馆、展示馆、图书馆、科技馆、档案馆、娱乐厅、展览会等，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.809秒
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据甚至商场大卖场、酒店宾馆等公共场所，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 例如绍兴科技馆、内蒙古自治区科技馆等，
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据旨在通过各种形式的展示和互动，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据使更多的公众能够了解和接触到不同的文化和科学知识。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据
+
+您是否对某个具体的展馆或主题感兴趣？到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据或者是想了解更多关于这些展馆的详细信息？到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.298秒
+2025-04-09 11:19:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.072秒
+2025-04-09 11:19:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 还有一些特化的展馆，
+2025-04-09 11:19:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:19:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.685秒
+2025-04-09 11:19:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+
+从您的描述来看，
+2025-04-09 11:19:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.655秒
+2025-04-09 11:19:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:19:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 甚至商场大卖场、酒店宾馆等公共场所，
+2025-04-09 11:19:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:19:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.214秒
+2025-04-09 11:19:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 旨在通过各种形式的展示和互动，
+2025-04-09 11:19:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:19:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.803秒
+2025-04-09 11:19:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-09 11:19:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.329秒
+2025-04-09 11:19:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 常见的应用场所包括展厅、珠宝、手表专卖店
+2025-04-09 11:19:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:19:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:19:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:19:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 2.420秒
+2025-04-09 11:19:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 让参观者了解科学知识和技术发展。
+2025-04-09 11:19:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:19:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.994秒
+2025-04-09 11:19:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 使更多的公众能够了解和接触到不同的文化和
+2025-04-09 11:19:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:19:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.370秒
+2025-04-09 11:19:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 它们通过丰富的展品和互动体验，
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.864秒
+2025-04-09 11:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 或者是想了解更多关于这些展馆的详细信息？
+2025-04-09 11:19:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.068秒
+2025-04-09 11:19:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 如北航杭州创新研究院航空航天科普体验展厅
+2025-04-09 11:19:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.253秒
+2025-04-09 11:19:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-09 11:19:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.380秒
+2025-04-09 11:19:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 专注于某一主题，
+2025-04-09 11:19:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.609秒
+2025-04-09 11:19:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 还可能包含了实验室、多媒体展示区、互动区
+2025-04-09 11:19:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.606秒
+2025-04-09 11:19:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 提供更深入的专业知识学习体验。
+2025-04-09 11:19:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.941秒
+2025-04-09 11:19:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+
+您是否对某个具体的展馆或主题感兴趣？
+2025-04-09 11:19:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.015秒
+2025-04-09 11:19:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 此外，
+2025-04-09 11:19:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.379秒
+2025-04-09 11:19:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这些展馆不仅包括了传统的展览展示功能，
+2025-04-09 11:19:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.102秒
+2025-04-09 11:19:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:19:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:19:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:19:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:19:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:19:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:19:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:19:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:19:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:19:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:19:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-09 11:19:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-09 11:19:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-09 11:20:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2395380231424 的资源
+2025-04-09 11:26:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1973306498352
+2025-04-09 11:26:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-09 11:26:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:26:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据博物馆展馆通常是展示人类历史、艺术、科学或自然的综合性场所。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 博物馆展馆通常是展示人类历史、艺术、科学
+2025-04-09 11:26:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据它们收集、保护并展示各种文物、艺术品或是自然标本。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据常见的博物馆展馆包括科学馆、历史博物馆、艺术馆、自然历史博物馆等。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据
+
+您提到的“绍兴科技馆”、“内蒙古自治区科技馆”、“北航杭州创新研究院航空航天科普体验展厅”、“临平区气象科普基地”“MUSEUM OF 科博教育 SCIENCE EDUCATION”等，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这些都是具体类型的博物馆或展览场所，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据它们侧重于特定的主题，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.532秒
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 它们收集、保护并展示各种文物、艺术品或是
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据如科技、航空航天、气象科普等，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据旨在通过互动展品或展览项目，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据增强公众对特定领域的理解和兴趣。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据
+
+此外，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据根据您的描述，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这样的展示场所还广泛应用于展厅、珠宝、手表专卖店等多种场景，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据作为短期或长期展示的平台。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这些场所的功能不仅局限于展示，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据还包括教育和娱乐的功能，到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据能够带给参观者丰富的学习体验。到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 4.104秒
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.291秒
+2025-04-09 11:26:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 常见的博物馆展馆包括科学馆、历史博物馆、
+2025-04-09 11:26:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:26:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.520秒
+2025-04-09 11:26:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+
+您提到的“绍兴科技馆”、“内蒙古自治
+2025-04-09 11:26:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:26:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:26:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:26:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 3.246秒
+2025-04-09 11:26:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:26:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这些都是具体类型的博物馆或展览场所，
+2025-04-09 11:26:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:26:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.053秒
+2025-04-09 11:26:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 它们侧重于特定的主题，
+2025-04-09 11:26:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.696秒
+2025-04-09 11:26:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 如科技、航空航天、气象科普等，
+2025-04-09 11:26:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:26:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:26:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.041秒
+2025-04-09 11:26:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 旨在通过互动展品或展览项目，
+2025-04-09 11:26:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.836秒
+2025-04-09 11:26:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:26:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 增强公众对特定领域的理解和兴趣。
+2025-04-09 11:26:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:26:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-09 11:26:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-09 11:26:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-09 11:26:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-09 11:26:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.015秒
+2025-04-09 11:26:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+
+此外，
+2025-04-09 11:26:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.376秒
+2025-04-09 11:26:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 根据您的描述，
+2025-04-09 11:26:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.570秒
+2025-04-09 11:26:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这样的展示场所还广泛应用于展厅、珠宝、手
+2025-04-09 11:26:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.670秒
+2025-04-09 11:26:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 作为短期或长期展示的平台。
+2025-04-09 11:26:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.816秒
+2025-04-09 11:26:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这些场所的功能不仅局限于展示，
+2025-04-09 11:26:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.857秒
+2025-04-09 11:26:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 还包括教育和娱乐的功能，
+2025-04-09 11:26:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.713秒
+2025-04-09 11:26:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 能够带给参观者丰富的学习体验。
+2025-04-09 11:26:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.905秒
+2025-04-09 11:26:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-09 11:26:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.336秒
+2025-04-09 11:26:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-09 11:26:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.341秒
+2025-04-09 11:26:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:26:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:26:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:26:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:26:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:26:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:26:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:26:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-09 11:26:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-09 11:26:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-09 11:26:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-09 11:26:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-09 11:26:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-09 11:27:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1973306498352 的资源
+2025-04-09 11:27:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1973306818368
+2025-04-09 11:27:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-09 11:27:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-09 11:27:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-09 11:27:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-09 11:27:52 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-09 11:27:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-09 11:27:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1973306818368 的资源
