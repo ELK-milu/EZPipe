@@ -31,11 +31,14 @@ class Dify_LLM_Module(BaseModule):
             self.conversation_id = ""
             self.final_json= ""
             self.ENDSIGN = "LLMEND"
+            self.startTime = time.time()
 
             self.tempResponse = ""
             self.sentences = []
             self.IsFirst = True
             self.WaitCount = 1  # 减少等待的句子数量，从3改为1
+
+            self.StartReceive = False
 
         def GetTempMsg(self):
             # 使用正向预查分割保留标点符号
@@ -165,7 +168,6 @@ class Dify_LLM_Module(BaseModule):
         temp_streamly : bool = data["LLM"]["streamly"]
         self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=temp_streamly)
         first_sentence_sent = False
-        request_start = time.time()
         """
         处理LLM模型对话的服务
         Args:
@@ -218,7 +220,7 @@ class Dify_LLM_Module(BaseModule):
                 if temp_streamly and self.answer_chunk.ReadyToResponse():
                     if not first_sentence_sent:
                         # 计算首次响应时间
-                        elapsed = time.time() - request_start
+                        elapsed = time.time() - self.answer_chunk.startTime
                         logger.info(f"[Dify] 首次响应耗时: {elapsed:.2f}s | 句子数: {len(self.answer_chunk.sentences)}")
                         first_sentence_sent = True
                     for sentence in self.answer_chunk.sentences:
@@ -264,6 +266,11 @@ class Dify_LLM_Module(BaseModule):
         prefix = 'data: {"event": "message"'
         if not response.strip().startswith(prefix):
             return answer.GetThinking(), answer.GetResponse()
+
+        if not answer.StartReceive:
+            elapsed = time.time() - answer.startTime
+            logger.info(f"[Dify] 首次接收到文字响应耗时: {elapsed:.2f}s")
+            answer.StartReceive = True
 
         # 有时返回的输出结果太长了，只能分几段输出，导致json.loads报错
         if streamly:
