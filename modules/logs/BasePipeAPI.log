@@ -13063,3 +13063,397 @@
 2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
 2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
 2025-04-09 11:27:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1973306818368 的资源
+2025-04-14 20:08:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:10:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:10:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2101634899632
+2025-04-14 20:10:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-14 20:10:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:10:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-14 20:10:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-14 20:10:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-14 20:10:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据杭州已经落地的项目包括嵊州星宿小昆村。到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:10:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 杭州已经落地的项目包括嵊州星宿小昆村。
+2025-04-14 20:10:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这个项目投入运营并取得了一定成效。到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:10:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据此外，到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:10:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据杭州还在未来乡村、特色小镇等领域推进战略合作，到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:10:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.367秒
+2025-04-14 20:10:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据未来会有更多项目落地。到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:10:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这个项目投入运营并取得了一定成效。
+2025-04-14 20:10:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.084秒
+2025-04-14 20:10:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 此外，
+2025-04-14 20:10:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.359秒
+2025-04-14 20:10:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 杭州还在未来乡村、特色小镇等领域推进战略
+2025-04-14 20:10:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [GPTSoVit_TTS_Module] 输出错误: ERROR: 
+2025-04-14 20:10:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:10:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 2.303秒
+2025-04-14 20:10:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 未来会有更多项目落地。
+2025-04-14 20:10:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [GPTSoVit_TTS_Module] 输出错误: ERROR: 
+2025-04-14 20:10:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:10:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.745秒
+2025-04-14 20:10:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:10:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-14 20:10:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-14 20:10:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-14 20:10:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-14 20:10:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2101634899632 的资源
+2025-04-14 20:12:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:13:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:14:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:14:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2482479934336
+2025-04-14 20:14:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-14 20:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我叫佼佼仔，到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.336秒
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我叫佼佼仔，
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据是一名AI问答助手。到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我可以帮助你了解电子签名系统等相关信息，到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.474秒
+2025-04-14 20:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 是一名AI问答助手。
+2025-04-14 20:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据也可以提供其他你感兴趣的知识哦！到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据有什么想了解的内容吗？到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 4.741秒
+2025-04-14 20:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我可以帮助你了解电子签名系统等相关信息，
+2025-04-14 20:14:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.238秒
+2025-04-14 20:14:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 也可以提供其他你感兴趣的知识哦！
+2025-04-14 20:14:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.042秒
+2025-04-14 20:14:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 有什么想了解的内容吗？
+2025-04-14 20:14:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.944秒
+2025-04-14 20:14:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:14:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-14 20:14:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-14 20:14:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-14 20:14:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-14 20:14:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-14 20:14:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-14 20:14:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-14 20:14:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-14 20:14:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-14 20:14:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-14 20:14:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-14 20:14:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-14 20:14:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-14 20:14:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2482479934336 的资源
+2025-04-14 20:15:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:16:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:16:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:16:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2482480333008
+2025-04-14 20:16:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-14 20:16:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:16:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-14 20:16:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.004秒
+2025-04-14 20:16:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:16:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:16:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我叫佼佼仔，到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:16:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我叫佼佼仔，
+2025-04-14 20:16:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [GPTSoVit_TTS_Module] 输出错误: ERROR: 
+2025-04-14 20:16:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.012秒
+2025-04-14 20:16:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:16:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-14 20:16:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-14 20:16:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据是一个AI问答助手。到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:16:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 是一个AI问答助手。
+2025-04-14 20:16:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [GPTSoVit_TTS_Module] 输出错误: ERROR: 
+2025-04-14 20:16:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.917秒
+2025-04-14 20:16:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2482478052064
+2025-04-14 20:16:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 输出错误: ERROR: 
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我可以帮助你了解到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我可以帮助你了解
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 12.071秒
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-14 20:16:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:16:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.683秒
+2025-04-14 20:16:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-14 20:16:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-14 20:16:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2482480333008 的资源
+2025-04-14 20:16:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-14 20:17:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我可以帮助你了解到 GPTSoVit_TTS_Module 输入队列
+2025-04-14 20:17:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我可以帮助你了解
+2025-04-14 20:17:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 180.618秒
+2025-04-14 20:17:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-14 20:17:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.591秒
+2025-04-14 20:17:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-14 20:17:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-17 15:37:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:38:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:38:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:45:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:46:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:47:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:47:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:48:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:48:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:49:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:50:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:51:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:53:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:55:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:55:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:56:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:57:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 15:58:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:35:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:35:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:35:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2780980807760
+2025-04-17 17:35:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-17 17:35:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-17 17:35:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-17 17:35:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-17 17:35:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据不知道，到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:35:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 不知道，
+2025-04-17 17:35:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你可以查看一下日历或者手机上的日历应用来确定今天是周几。到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:35:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.629秒
+2025-04-17 17:35:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你可以查看一下日历或者手机上的日历应用来
+2025-04-17 17:35:52 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.301秒
+2025-04-17 17:35:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-17 17:35:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-17 17:35:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-17 17:35:56 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-17 17:35:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-17 17:35:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-17 17:35:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-17 17:36:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-17 17:36:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-17 17:36:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-17 17:36:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-17 17:36:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-17 17:36:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-17 17:36:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2780980807760 的资源
+2025-04-17 17:36:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:37:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:37:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:37:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2780981285072
+2025-04-17 17:37:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-17 17:37:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我没有查看实时日期的功能，到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:37:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我没有查看实时日期的功能，
+2025-04-17 17:37:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据所以无法告诉您今天是周几。到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:37:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据请问您想知道哪一天呢？到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:37:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.876秒
+2025-04-17 17:37:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 所以无法告诉您今天是周几。
+2025-04-17 17:37:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.620秒
+2025-04-17 17:37:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 请问您想知道哪一天呢？
+2025-04-17 17:37:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.712秒
+2025-04-17 17:37:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-17 17:37:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-17 17:37:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-17 17:37:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-17 17:37:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-17 17:37:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-17 17:37:52 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-17 17:37:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-17 17:37:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-17 17:37:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-17 17:37:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-17 17:37:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-17 17:37:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-17 17:38:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2780981285072 的资源
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 156.215秒
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 40.397秒
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.382秒
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-17 17:38:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-17 17:38:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:39:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-17 17:39:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2780981288240
+2025-04-17 17:39:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-17 17:39:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我不确定今天的日期，到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:39:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我不确定今天的日期，
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你可以查看一下日历或者手机上的日历应用来确认今天是周几。到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据如果有其他关于互动茶几的问题，到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.077秒
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你可以查看一下日历或者手机上的日历应用来
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据欢迎咨询。到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:39:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 2.135秒
+2025-04-17 17:39:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-17 17:39:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.360秒
+2025-04-17 17:39:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 如果有其他关于互动茶几的问题，
+2025-04-17 17:39:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-17 17:39:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.950秒
+2025-04-17 17:39:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 欢迎咨询。
+2025-04-17 17:39:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.563秒
+2025-04-17 17:39:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-17 17:39:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-17 17:39:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.344秒
+2025-04-17 17:39:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-17 17:39:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-17 17:39:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-17 17:39:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-17 17:39:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-17 17:39:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-17 17:39:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-17 17:39:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-17 17:39:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-17 17:39:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-17 17:39:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-17 17:39:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-17 17:39:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.666秒
+2025-04-17 17:39:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-17 17:39:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-17 17:39:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-17 17:39:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-17 17:39:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-17 17:39:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-17 17:39:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-17 17:39:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-17 17:39:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-17 17:39:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-17 17:39:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-17 17:39:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-17 17:39:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-17 17:39:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2780981288240 的资源
+2025-04-17 17:40:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:22:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:22:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:24:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:27:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:28:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:28:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:28:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:28:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:31:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 10:32:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 14:28:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 14:29:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 14:29:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 14:29:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2780981288624
+2025-04-18 14:29:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-18 14:29:56 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:29:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:29:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:29:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-18 14:29:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据有什么可以帮助你的吗？到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:29:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:29:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.327秒
+2025-04-18 14:29:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:29:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 2.015秒
+2025-04-18 14:29:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 有什么可以帮助你的吗？
+2025-04-18 14:30:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.646秒
+2025-04-18 14:30:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-18 14:30:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:30:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.329秒
+2025-04-18 14:30:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-18 14:30:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:30:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-18 14:30:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:30:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-18 14:30:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-18 14:30:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-18 14:30:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-18 14:30:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-18 14:30:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-18 14:30:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-18 14:30:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-18 14:30:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-18 14:30:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-18 14:30:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-18 14:30:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-18 14:30:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-18 14:30:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-18 14:30:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:30:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-18 14:30:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.520秒
+2025-04-18 14:30:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:30:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:30:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-18 14:30:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-18 14:30:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-18 14:30:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-18 14:30:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-18 14:30:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-18 14:30:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-18 14:30:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-18 14:30:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-18 14:30:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-18 14:30:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-18 14:30:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2780981288624 的资源
+2025-04-18 14:30:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-18 14:31:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2780980214080
+2025-04-18 14:31:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-18 14:31:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:31:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-18 14:31:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.003秒
+2025-04-18 14:31:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据欢迎咨询。到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:31:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 欢迎咨询。
+2025-04-18 14:31:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.003秒
+2025-04-18 14:31:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据请问需要了解杭州向正科技有限公司的哪些信息呢？到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:31:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 请问需要了解杭州向正科技有限公司的哪些信
+2025-04-18 14:31:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据比如联系方式、地址或官方网站等。到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:31:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:31:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 2.049秒
+2025-04-18 14:31:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.415秒
+2025-04-18 14:31:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:31:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 比如联系方式、地址或官方网站等。
+2025-04-18 14:31:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:31:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.016秒
+2025-04-18 14:31:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-18 14:31:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.329秒
+2025-04-18 14:31:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-18 14:31:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:31:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-18 14:31:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:31:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-18 14:31:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-18 14:31:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-18 14:31:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-18 14:31:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-18 14:31:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-18 14:31:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-18 14:31:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-18 14:31:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-18 14:31:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-18 14:31:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.428秒
+2025-04-18 14:31:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-18 14:31:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-18 14:31:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-18 14:31:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-18 14:31:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-18 14:31:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-18 14:31:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-18 14:31:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-18 14:31:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-18 14:31:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-18 14:31:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-18 14:31:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-18 14:31:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-18 14:31:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2780980214080 的资源

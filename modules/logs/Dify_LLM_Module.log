@@ -46598,3 +46598,704 @@ Response:╡╘нО╧щу╧╧щм╗Ёёйгу╧й╬хкюЮюЗй╥║╒руйУ║╒©фя╖╩Рвтх╩╣двш╨оптЁ║кЫ║ёкЭцгйу╪╞║╒╠
 2025-04-09 11:27:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
 2025-04-09 11:27:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
 2025-04-09 11:27:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ╫Ииэоб╡╘нО╧щу╧╧щ,╤т╩╟ID: 
+2025-04-14 20:10:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"╨╪жщря╬╜спддп╘бД╣ьоНд©","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"╨╪жщря╬╜спддп╘бД╣ьоНд©","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-14 20:10:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-14 20:10:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-14 20:10:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ╨╪жщря╬╜спддп╘бД╣ьоНд©,╤т╩╟ID: 
+2025-04-14 20:10:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-14 20:10:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:18 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:18 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:18 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:10:18 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 4.41s
+2025-04-14 20:10:18 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщ
+2025-04-14 20:10:18 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣д
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Ас
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщ
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпг
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкч
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ё
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 4.96s | ╬ДвсйЩ: 1
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ё
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦Ж
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хК
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣ц
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: уБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё
+2025-04-14 20:10:19 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБ
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╢кмБё╛
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тз
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсР
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ь
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВ
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤Ю
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:10:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╨╪жщря╬╜бД╣ь╣доНд©╟Эю╗Асжщпгкчп║ю╔╢Е║ёуБ╦ЖоНд©м╤хКткс╙╡╒х║╣цакр╩╤╗Ёип╖║ё╢кмБё╛╨╪жщ╩╧тзн╢ю╢оГ╢Е║╒льи╚п║уР╣хаЛсРмф╫Ьу╫бт╨овВё╛н╢ю╢╩Асп╦Э╤ЮоНд©бД╣ь║ё
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"╫Ииэр╩обдЦвт╪╨","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"╫Ииэр╩обдЦвт╪╨","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ╫Ииэр╩обдЦвт╪╨,╤т╩╟ID: 
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 1.02s
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨ц
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 1.05s | ╬ДвсйЩ: 1
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: дЦ╨цё║
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫п
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝
+2025-04-14 20:14:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝вп
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: нр╫пы╝ы╝впё╛
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAI
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢П
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ё
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: йгр╩цШAIнй╢ПжЗйж║ё
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвс
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ь
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: нр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©ирт
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤
+2025-04-14 20:14:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оК
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщ
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбП
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:14:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩цШAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б╣Гвсг╘цШо╣мЁ╣хоЮ╧ьпео╒ё╛р╡©иртлА╧╘фДкШдЦ╦ппкх╓╣дж╙й╤е╤ё║спй╡ц╢оКак╫Б╣ддзхщбПё©
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"╫ИиэобдЦвт╪╨","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"╫ИиэобдЦвт╪╨","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ╫ИиэобдЦвт╪╨,╤т╩╟ID: 
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 0.92s
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨ц
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 0.92s | ╬ДвсйЩ: 1
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: дЦ╨цё║
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫п
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝
+2025-04-14 20:16:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝
+2025-04-14 20:16:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝вп
+2025-04-14 20:16:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛
+2025-04-14 20:16:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: нр╫пы╝ы╝впё╛
+2025-04-14 20:16:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦Ж
+2025-04-14 20:16:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAI
+2025-04-14 20:16:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢П
+2025-04-14 20:16:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢ПжЗйж
+2025-04-14 20:16:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢ПжЗйж║ё
+2025-04-14 20:16:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: йгр╩╦ЖAIнй╢ПжЗйж║ё
+2025-04-14 20:16:38 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢ПжЗйж║ёнр©ирт
+2025-04-14 20:16:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢ПжЗйж║ёнр©ирт╟ОжЗ
+2025-04-14 20:16:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦ
+2025-04-14 20:16:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║нр╫пы╝ы╝впё╛йгр╩╦ЖAIнй╢ПжЗйж║ёнр©ирт╟ОжЗдЦак╫Б
+2025-04-17 17:35:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"║ё╫ЯлЛйгжэ╪╦","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"║ё╫ЯлЛйгжэ╪╦","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-17 17:35:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-17 17:35:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-17 17:35:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ║ё╫ЯлЛйгжэ╪╦,╤т╩╟ID: 
+2025-04-17 17:35:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-17 17:35:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 3.55s
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣ю
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 3.58s | ╬ДвсйЩ: 1
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╡╩ж╙╣юё╛
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩об
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обху
+2025-04-17 17:35:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъ
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩З
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣д
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дху
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗ
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сц
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛ
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйг
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:35:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:╡╩ж╙╣юё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥╤╗╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:37:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"║ё╫ЯлЛйгжэ╪╦","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"║ё╫ЯлЛйгжэ╪╦","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-17 17:37:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-17 17:37:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-17 17:37:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ║ё╫ЯлЛйгжэ╪╦,╤т╩╟ID: 
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 0.68s
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэ
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 0.87s | ╬ДвсйЩ: 1
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫрт
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗
+2025-04-17 17:37:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦Фкъ
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛ
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйг
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнй
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗ
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣ю
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юдд
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛ
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдь
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: гКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:37:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нрц╩сп╡И©╢й╣й╠хуфз╣д╧╕дэё╛кЫртнч╥╗╦ФкъдЗ╫ЯлЛйгжэ╪╦║ёгКнйдЗоКж╙╣юддр╩лЛдьё©
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"║ё╫ЯлЛйгжэ╪╦","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"║ё╫ЯлЛйгжэ╪╦","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: ║ё╫ЯлЛйгжэ╪╦,╤т╩╟ID: 
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 0.67s
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣д
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфз
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 0.85s | ╬ДвсйЩ: 1
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩об
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обху
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъ
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩З
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣д
+2025-04-17 17:39:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дху
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗ
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сц
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛ
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйг
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧Шсп
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБ
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: хГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-17 17:39:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:нр╡╩х╥╤╗╫ЯлЛ╣дхуфзё╛дЦ©ирт╡И©╢р╩обхуюЗ╩Руъйж╩Зио╣дхуюЗс╕сцю╢х╥хо╫ЯлЛйгжэ╪╦║ёхГ╧ШспфДкШ╧ьсз╩╔╤╞╡Х╪╦╣днйлБё╛╩╤с╜вия╞║ё
+2025-04-18 14:29:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"дЦ╨ц","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"дЦ╨ц","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: дЦ╨ц,╤т╩╟ID: 
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:29:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:29:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 2.49s
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨ц
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 2.51s | ╬ДвсйЩ: 1
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: дЦ╨цё║
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗ
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣д
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбП
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:29:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║спй╡ц╢©ирт╟ОжЗдЦ╣дбПё©
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"дЦ╨ц","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"дЦ╨ц","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪н╙сц╩╖ user ╢╕юМнд╠╬: {"streamly":true,"us...
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ©╙й╪гКгС╤т╩╟: дЦ╨ц,╤т╩╟ID: 
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] оЛс╕в╢л╛бК: 200
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:31:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢н╫сйу╣╫ндвжоЛс╕╨дй╠: 0.70s
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨ц
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] йв╢ноЛс╕╨дй╠: 0.75s | ╬ДвсйЩ: 1
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: дЦ╨цё║
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ё
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╩╤с╜вия╞║ё
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнй
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщ
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоР
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣д
+2025-04-18 14:31:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дь
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: гКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГ
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ╥╒км╬Двс: ╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё
+2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:дЦ╨цё║╩╤с╜вия╞║ёгКнйпХр╙ак╫Б╨╪жщоРуЩ©ф╪╪споч╧╚к╬╣дддп╘пео╒дьё©╠ххГа╙о╣╥╫й╫║╒╣ьж╥╩Р╧ы╥╫мЬу╬╣х║ё

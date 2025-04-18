@@ -54,7 +54,7 @@ def warm_up_tts_service():
 # 解析命令行参数
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    "--host", type=str, default="127.0.0.1", required=False, help="host ip, localhost, 0.0.0.0"
+    "--host", type=str, default="192.168.10.118", required=False, help="host ip, localhost, 0.0.0.0"
 )
 parser.add_argument("--port", type=int, default=3421, required=False, help="grpc server port")
 parser.add_argument("--workers", type=int, default=4, required=False, help="grpc server workers")
