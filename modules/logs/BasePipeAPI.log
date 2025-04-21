@@ -13457,3 +13457,1210 @@
 2025-04-18 14:31:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
 2025-04-18 14:31:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
 2025-04-18 14:31:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2780980214080 的资源
+2025-04-21 11:36:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:36:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1992161603152
+2025-04-21 11:36:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:36:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:36:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:36:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:36:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-21 11:36:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 2.257秒
+2025-04-21 11:36:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.344秒
+2025-04-21 11:36:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:36:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:36:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:36:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:36:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:36:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:36:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:36:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:36:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:36:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:36:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:36:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:36:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-21 11:36:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.287秒
+2025-04-21 11:36:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:36:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:36:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 11:36:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1992161603152 的资源
+2025-04-21 11:40:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:40:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2455952649328
+2025-04-21 11:40:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:40:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:40:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:40:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:40:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:40:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:40:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:40:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:40:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:40:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-21 11:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 11:40:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2455952649328 的资源
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 176.311秒
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.362秒
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:43:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:51:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:51:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530122816
+2025-04-21 11:51:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:51:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:51:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我知道的更多的是关于云展厅和机器人展示的技术内容。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我知道的更多的是关于云展厅和机器人展示的
+2025-04-21 11:51:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据关于车路云一体化，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这是一个涉及车联网、智能交通系统以及云计算等领域的综合性技术应用。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据它通过在车辆、道路和云服务器之间建立即时通信，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据提高交通效率，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据减少交通事故，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据提升驾驶体验。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据目前这个领域还在不断发展和探索中，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 2.273秒
+2025-04-21 11:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 关于车路云一体化，
+2025-04-21 11:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据技术也在不断进步和完善。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据您如果对此感兴趣，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据可以了解更多具体的案例和应用。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.705秒
+2025-04-21 11:51:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这是一个涉及车联网、智能交通系统以及云计
+2025-04-21 11:51:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据如果您想深入了解车路云一体化的具体信息，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据可以参考相关行业报告或者专业文章。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 5.009秒
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.530秒
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 11:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530122816 的资源
+2025-04-21 11:52:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:53:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530521152
+2025-04-21 11:53:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:53:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-21 11:53:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据欢迎咨询。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.470秒
+2025-04-21 11:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 欢迎咨询。
+2025-04-21 11:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.413秒
+2025-04-21 11:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据杭州向正科技有限公司的客服电话是0571-85381397，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 杭州向正科技有限公司的客服电话是0571
+2025-04-21 11:53:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据工作时间的客服电话是15381141097，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据公司的邮箱是1872967921@qq.com，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据官方网站是http://www.plusbe.com。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据如果你有任何问题或需要帮助，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据请随时告诉我！到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 4.149秒
+2025-04-21 11:53:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:53:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:53:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:53:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 5.896秒
+2025-04-21 11:53:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 工作时间的客服电话是1538114109
+2025-04-21 11:53:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:53:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.301秒
+2025-04-21 11:53:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:53:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 公司的邮箱是1872967921@qq.
+2025-04-21 11:53:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:53:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.182秒
+2025-04-21 11:53:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 官方网站是http://www.plus
+2025-04-21 11:53:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:53:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.978秒
+2025-04-21 11:53:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 如果你有任何问题或需要帮助，
+2025-04-21 11:53:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:53:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.859秒
+2025-04-21 11:53:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 请随时告诉我！
+2025-04-21 11:53:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:53:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.648秒
+2025-04-21 11:53:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-21 11:53:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.368秒
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-21 11:53:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.471秒
+2025-04-21 11:53:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:53:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:53:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:53:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:53:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:53:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:53:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:53:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:53:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:53:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:53:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-21 11:53:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:53:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 11:53:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530521152 的资源
+2025-04-21 11:53:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:54:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530467408
+2025-04-21 11:54:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据你好！到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 你好！
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.005秒
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我叫佼佼仔，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我叫佼佼仔，
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据是一个AI问答助手，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据专门帮助解答关于电子签名产品的问题。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.699秒
+2025-04-21 11:54:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 是一个AI问答助手，
+2025-04-21 11:54:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据电子签名系统是一种高科技产品，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据可以在触摸屏上进行签名、拍照和留言，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.813秒
+2025-04-21 11:54:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 专门帮助解答关于电子签名产品的问题。
+2025-04-21 11:54:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据并自动记录存储这些内容，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据非常适合应用于各种展览和展示场所。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据如果你有任何具体问题，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据欢迎详细描述哦！到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.961秒
+2025-04-21 11:54:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.659秒
+2025-04-21 11:54:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 电子签名系统是一种高科技产品，
+2025-04-21 11:54:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.868秒
+2025-04-21 11:54:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 可以在触摸屏上进行签名、拍照和留言，
+2025-04-21 11:54:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:54:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.979秒
+2025-04-21 11:54:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:54:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 并自动记录存储这些内容，
+2025-04-21 11:54:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.736秒
+2025-04-21 11:54:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 非常适合应用于各种展览和展示场所。
+2025-04-21 11:54:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:54:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.907秒
+2025-04-21 11:54:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 如果你有任何具体问题，
+2025-04-21 11:54:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:54:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.717秒
+2025-04-21 11:54:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 欢迎详细描述哦！
+2025-04-21 11:54:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:54:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.597秒
+2025-04-21 11:54:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-21 11:54:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.397秒
+2025-04-21 11:54:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:54:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:54:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:54:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:54:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:54:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:54:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-21 11:54:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.539秒
+2025-04-21 11:54:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:54:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:54:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:54:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:54:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:54:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:54:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:54:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:54:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:54:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:54:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-21 11:54:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:54:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 11:54:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530467408 的资源
+2025-04-21 11:54:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:55:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:55:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530122960
+2025-04-21 11:55:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:55:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据秋天，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 秋天，
+2025-04-21 11:55:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据是一幅多彩的画卷。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据金黄与深棕交织，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.778秒
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 是一幅多彩的画卷。
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据落叶如蝴蝶般翩翩起舞，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据铺满了小径两旁。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据微风轻拂，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.662秒
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据带来丝丝凉意，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 金黄与深棕交织，
+2025-04-21 11:55:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据却也让人感到宁静与舒适。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据稻田里，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.753秒
+2025-04-21 11:55:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 落叶如蝴蝶般翩翩起舞，
+2025-04-21 11:55:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据沉甸甸的谷穗在风中轻轻摇曳，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据丰收的喜悦洋溢在每个人脸上。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据远处，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据山峦被秋色渲染得到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 4.072秒
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:55:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [GPTSoVit_TTS_Module] 输出错误: ERROR: 
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - pipeline出现错误,强行终止
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.803秒
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 11:55:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530122960 的资源
+2025-04-21 11:55:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:56:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:57:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:58:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530706384
+2025-04-21 11:58:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:58:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据好的，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 好的，
+2025-04-21 11:58:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据春天来了，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据万物复苏。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据田野里，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据绿草如茵，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.724秒
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据花儿争艳，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 春天来了，
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据一片生机勃勃的景象。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据鸟儿在枝头欢唱，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.441秒
+2025-04-21 11:58:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 万物复苏。
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据小溪流水潺潺。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据人们换上轻装，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.465秒
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 田野里，
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据踏青赏花，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据享受大自然的馈赠。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据春风拂面，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据温暖而柔和。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.175秒
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.121秒
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 11:58:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530706384 的资源
+2025-04-21 11:58:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 11:58:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530709312
+2025-04-21 11:58:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 11:58:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据夏天的小作文：
+夏天来了，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 夏天的小作文：
+夏天来了，
+2025-04-21 11:58:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据阳光炽热，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据万物生长。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据蝉鸣声此起彼伏，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据仿佛是大自然的乐章。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据蓝天白云下，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.970秒
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 阳光炽热，
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据绿树成荫，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据是孩子们嬉戏的最佳场所。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据冰淇淋成了人们的最爱，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.650秒
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 万物生长。
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据冷饮店前总是排起长队。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据傍晚时分，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据散步在湖边或海边，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.471秒
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 蝉鸣声此起彼伏，
+2025-04-21 11:58:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据微风拂面，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据凉爽宜人。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据夜晚，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据萤火虫点点，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据星空璀璨，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.639秒
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 仿佛是大自然的乐章。
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据为夏日平添了几分浪漫。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 4.075秒
+2025-04-21 11:58:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.755秒
+2025-04-21 11:58:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 蓝天白云下，
+2025-04-21 11:58:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:58:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.515秒
+2025-04-21 11:58:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 绿树成荫，
+2025-04-21 11:58:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.443秒
+2025-04-21 11:58:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 是孩子们嬉戏的最佳场所。
+2025-04-21 11:58:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:58:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.715秒
+2025-04-21 11:58:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 冰淇淋成了人们的最爱，
+2025-04-21 11:58:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:58:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.674秒
+2025-04-21 11:58:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 冷饮店前总是排起长队。
+2025-04-21 11:58:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:58:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.735秒
+2025-04-21 11:58:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 傍晚时分，
+2025-04-21 11:58:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.472秒
+2025-04-21 11:58:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 散步在湖边或海边，
+2025-04-21 11:58:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:58:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.637秒
+2025-04-21 11:58:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 微风拂面，
+2025-04-21 11:58:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.526秒
+2025-04-21 11:58:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:58:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 凉爽宜人。
+2025-04-21 11:58:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.474秒
+2025-04-21 11:58:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 夜晚，
+2025-04-21 11:58:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:58:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.480秒
+2025-04-21 11:58:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 萤火虫点点，
+2025-04-21 11:58:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:58:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.857秒
+2025-04-21 11:58:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 星空璀璨，
+2025-04-21 11:58:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.568秒
+2025-04-21 11:58:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 为夏日平添了几分浪漫。
+2025-04-21 11:58:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.678秒
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-21 11:58:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 11:58:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.380秒
+2025-04-21 11:58:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: None
+2025-04-21 11:58:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.451秒
+2025-04-21 11:58:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 11:58:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 2/10
+2025-04-21 11:58:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 3/10
+2025-04-21 11:58:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 4/10
+2025-04-21 11:58:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 5/10
+2025-04-21 11:58:51 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 6/10
+2025-04-21 11:58:52 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 7/10
+2025-04-21 11:58:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 8/10
+2025-04-21 11:58:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 9/10
+2025-04-21 11:58:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 10/10
+2025-04-21 11:58:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 连续超时10次，退出处理循环
+2025-04-21 11:58:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 11:58:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 11:58:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530709312 的资源
+2025-04-21 11:59:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 13:41:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 13:42:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 13:42:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2666530702864
+2025-04-21 13:42:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: {"streamly":true,"us
+2025-04-21 13:42:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据春天来了，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 春天来了，
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.017秒
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据万物复苏。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 万物复苏。
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.007秒
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据温暖的阳光穿透薄雾，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 温暖的阳光穿透薄雾，
+2025-04-21 13:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据洒在生机勃勃的大地上。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据花儿们竞相开放，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据红的、黄的、紫的，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据竞相展示美丽。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.270秒
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 13:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 13:42:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.783秒
+2025-04-21 13:42:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 13:42:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 13:42:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 13:42:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2666530702864 的资源
+2025-04-21 14:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:15:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:15:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:16:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:16:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:17:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:17:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:18:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:18:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:19:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:19:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2260579676800
+2025-04-21 14:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: string indices must be integers
+2025-04-21 14:19:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2260579676800 的资源
+2025-04-21 14:19:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:21:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:21:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2257475641008
+2025-04-21 14:21:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: string indices must be integers
+2025-04-21 14:21:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2257475641008 的资源
+2025-04-21 14:21:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:22:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:22:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2841525132352
+2025-04-21 14:22:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: string indices must be integers
+2025-04-21 14:22:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2841525132352 的资源
+2025-04-21 14:23:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:23:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:23:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2746938334368
+2025-04-21 14:23:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: string indices must be integers
+2025-04-21 14:23:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2746938334368 的资源
+2025-04-21 14:26:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:26:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2690359402160
+2025-04-21 14:26:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: string indices must be integers
+2025-04-21 14:26:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2690359402160 的资源
+2025-04-21 14:28:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:28:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1477460073632
+2025-04-21 14:28:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: the JSON object must be str, bytes or bytearray, not APIRequest
+2025-04-21 14:28:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1477460073632 的资源
+2025-04-21 14:29:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2083052751504
+2025-04-21 14:29:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: 'APIRequest' object is not subscriptable
+2025-04-21 14:29:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2083052751504 的资源
+2025-04-21 14:29:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:31:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2287065336464
+2025-04-21 14:31:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: 'APIRequest' object is not subscriptable
+2025-04-21 14:31:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2287065336464 的资源
+2025-04-21 14:35:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:35:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2056827277168
+2025-04-21 14:35:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: 'APIRequest' object is not subscriptable
+2025-04-21 14:35:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2056827277168 的资源
+2025-04-21 14:40:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:40:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_3002158978864
+2025-04-21 14:40:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 帮我做一幅画，主题是车路云
+2025-04-21 14:40:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 0.001秒
+2025-04-21 14:40:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:40:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:40:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:40:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:40:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 14:40:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 14:40:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 14:40:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 14:40:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 14:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 14:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 14:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:40:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 14:40:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_3002158978864 的资源
+2025-04-21 14:40:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:41:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:42:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:42:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1942809520400
+2025-04-21 14:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 介绍下你自己
+2025-04-21 14:42:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 处理队列数据时出错: 'user'
+2025-04-21 14:42:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:42:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:42:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:42:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:42:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 14:42:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 14:42:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 14:42:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 14:42:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 14:42:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 14:42:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 14:42:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:42:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 14:42:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1942809520400 的资源
+2025-04-21 14:44:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:44:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2108865751024
+2025-04-21 14:44:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 帮我做一幅画，主题是车路云
+2025-04-21 14:44:54 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 处理队列数据时出错: 'user'
+2025-04-21 14:44:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:44:56 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:44:57 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:44:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:44:59 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 14:45:00 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 14:45:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 14:45:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 14:45:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 14:45:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 14:45:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 14:45:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:45:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 14:45:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2108865751024 的资源
+2025-04-21 14:45:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:47:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:47:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2537718196208
+2025-04-21 14:47:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: can only concatenate str (not "dict") to str
+2025-04-21 14:47:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2537718196208 的资源
+2025-04-21 14:48:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:48:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2256050300912
+2025-04-21 14:48:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: can only concatenate str (not "dict") to str
+2025-04-21 14:48:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2256050300912 的资源
+2025-04-21 14:48:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:48:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2146574641136
+2025-04-21 14:48:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: the JSON object must be str, bytes or bytearray, not APIRequest
+2025-04-21 14:48:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2146574641136 的资源
+2025-04-21 14:49:15 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1973311812416
+2025-04-21 14:49:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: can only concatenate str (not "dict") to str
+2025-04-21 14:49:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1973311812416 的资源
+2025-04-21 14:50:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:50:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2510277220336
+2025-04-21 14:50:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [API] 处理请求错误: can only concatenate str (not "dict") to str
+2025-04-21 14:50:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2510277220336 的资源
+2025-04-21 14:51:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:51:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_3098711795696
+2025-04-21 14:51:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 展馆的主要内容是什么
+2025-04-21 14:51:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 处理队列数据时出错: 'user'
+2025-04-21 14:51:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:51:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:51:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:51:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:51:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 14:51:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 14:51:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 14:51:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 14:51:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 14:51:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 14:51:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 14:51:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:51:48 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 14:51:50 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_3098711795696 的资源
+2025-04-21 14:52:58 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:53:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2462258014192
+2025-04-21 14:53:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 杭州已经有哪些落地项目
+2025-04-21 14:53:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 处理队列数据时出错: 'user'
+2025-04-21 14:53:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:53:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:53:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:53:06 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:53:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 14:53:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 14:53:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 14:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 14:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 14:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 14:53:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2462258014192 的资源
+2025-04-21 14:54:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:54:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1901723883504
+2025-04-21 14:54:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 介绍下你自己
+2025-04-21 14:54:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - ERROR - [Dify_LLM_Module] 处理队列数据时出错: 'user'
+2025-04-21 14:54:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:54:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:54:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:54:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:54:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:54:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 14:54:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 14:54:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1901723883504 的资源
+2025-04-21 14:59:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 14:59:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2324411688944
+2025-04-21 14:59:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 展馆的主要内容是什么
+2025-04-21 14:59:37 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.901秒
+2025-04-21 14:59:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 14:59:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 14:59:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 14:59:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 14:59:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 14:59:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 14:59:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 14:59:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2324411688944 的资源
+2025-04-21 15:04:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 15:04:55 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2930589796144
+2025-04-21 15:04:56 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 杭州已经有哪些落地项目
+2025-04-21 15:05:01 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 5.798秒
+2025-04-21 15:05:02 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 15:05:03 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 15:05:04 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 15:05:05 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 15:05:07 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 15:05:08 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 15:05:09 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 15:05:10 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 15:05:11 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 15:05:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 15:05:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 15:05:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 15:05:12 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 15:05:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2930589796144 的资源
+2025-04-21 15:06:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_2503966232976
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - user:user
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - OutEntryInput:有哪些车路云相关的政策
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - user:user
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - OutEntryInput:有哪些车路云相关的政策
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 有哪些车路云相关的政策
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - Thread_Task user:user
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - LLM:True
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 开始为用户 user 处理文本: 有哪些车路云相关的政策...
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 开始请求对话: 有哪些车路云相关的政策,对话ID: 
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 响应状态码: 200
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 首次接收到文字响应耗时: 0.61s
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您
+2025-04-21 15:06:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 首次响应耗时: 1.11s | 句子数: 1
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 我不确定您具体想了解哪方面的车路云相关政策，
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统
+2025-04-21 15:06:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 车路云通常指的是融合通信技术、智能交通系统和云计算技术，
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 应用于智能交通和智慧城市建设中。
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车
+2025-04-21 15:06:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 您可以提供更具体的信息或领域，
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:我不确定您具体想了解哪方面的车路云相关政策，车路云通常指的是融合通信技术、智能交通系统和云计算技术，应用于智能交通和智慧城市建设中。这类政策可能涉及交通管理、智能网联汽车、基础设施建设和大数据应用等方面。您可以提供更具体的信息或领域，我将尽力为您查找相关信息。
+2025-04-21 15:06:36 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 3.706秒
+2025-04-21 15:06:38 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 15:06:39 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 15:06:40 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 15:06:41 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 15:06:42 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 15:06:43 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 15:06:44 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 15:06:45 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 15:06:46 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 15:06:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 15:06:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 15:06:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 15:06:47 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 已处理完成，不再输出数据
+2025-04-21 15:06:49 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_2503966232976 的资源
+2025-04-21 15:06:53 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 15:07:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - 心跳检测开始
+2025-04-21 15:14:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 15:14:13 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 15:14:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 15:14:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 15:14:14 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 引擎预热完成
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 收到用户 user 的请求，连接ID: user_1732516722384
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 从队列获取数据: 帮我做一幅画，主题是车路云
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - Thread_Task user:user
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - LLM:True
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 开始为用户 user 处理文本: 帮我做一幅画，主题是车路云...
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 开始请求对话: 帮我做一幅画，主题是车路云,对话ID: 
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 响应状态码: 200
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:14:16 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 首次接收到文字响应耗时: 0.59s
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [GPTSoVit_TTS_Module] 连续空队列超时次数: 1/10
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 首次响应耗时: 1.09s | 句子数: 1
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 了解到你想要一幅以“车路云”为主题的画。
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据了解到你想要一幅以“车路云”为主题的画。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 了解到你想要一幅以“车路云”为主题的画。
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 了解到你想要一幅以“车路云”为主题的画。
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 虽然我目前无法直接创作画作，
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据虽然我目前无法直接创作画作，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你
+2025-04-21 15:14:17 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 但我可以帮你构思一个创意概念。
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据但我可以帮你构思一个创意概念。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 我们可以考虑结合裸眼3D或全息影像等技术，
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据我们可以考虑结合裸眼3D或全息影像等技术，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统
+2025-04-21 15:14:18 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 展现智能车载系统与道路智能化、云计算技术的完美融合场景。
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据展现智能车载系统与道路智能化、云计算技术的完美融合场景。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (203564 字节)
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 了解到你想要一幅以“车路云”为主题的画。转语音处理完毕
+2025-04-21 15:14:19 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 2.073秒, 总计 203564 字节
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 3.078秒
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 周围是智能交通灯和智能路牌，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据周围是智能交通灯和智能路牌，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 同时展示云计算中心的虚拟图像，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据同时展示云计算中心的虚拟图像，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 虽然我目前无法直接创作画作，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 虽然我目前无法直接创作画作，
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 体现数据传输和处理的过程。
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据体现数据传输和处理的过程。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有
+2025-04-21 15:14:20 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 这样的作品既富有科技感，
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据这样的作品既富有科技感，到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 又能很好地传达“车路云”一体化的主题。
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据又能很好地传达“车路云”一体化的主题。到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (172844 字节)
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 虽然我目前无法直接创作画作，转语音处理完毕
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.915秒, 总计 172844 字节
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.918秒
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 但我可以帮你构思一个创意概念。
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 但我可以帮你构思一个创意概念。
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] 发送句子: 希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据希望这能激发你更多的创意！到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify] think:
+Response:了解到你想要一幅以“车路云”为主题的画。虽然我目前无法直接创作画作，但我可以帮你构思一个创意概念。我们可以考虑结合裸眼3D或全息影像等技术，展现智能车载系统与道路智能化、云计算技术的完美融合场景。具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，周围是智能交通灯和智能路牌，同时展示云计算中心的虚拟图像，体现数据传输和处理的过程。这样的作品既富有科技感，又能很好地传达“车路云”一体化的主题。希望这能激发你更多的创意！
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:21 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 处理队列数据完成，耗时: 5.537秒
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (162604 字节)
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 但我可以帮你构思一个创意概念。转语音处理完毕
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.114秒, 总计 162604 字节
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.115秒
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 我们可以考虑结合裸眼3D或全息影像等技术
+2025-04-21 15:14:22 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 我们可以考虑结合裸眼3D或全息影像等技术
+2025-04-21 15:14:23 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 1/10
+2025-04-21 15:14:24 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 2/10
+2025-04-21 15:14:25 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 3/10
+2025-04-21 15:14:26 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 4/10
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 5/10
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (275244 字节)
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 我们可以考虑结合裸眼3D或全息影像等技术，转语音处理完毕
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 4.876秒, 总计 275244 字节
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 4.878秒
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 展现智能车载系统与道路智能化、云计算技术
+2025-04-21 15:14:27 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 展现智能车载系统与道路智能化、云计算技术
+2025-04-21 15:14:28 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 6/10
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 7/10
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (352044 字节)
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 展现智能车载系统与道路智能化、云计算技术的完美融合场景。转语音处理完毕
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.860秒, 总计 352044 字节
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.863秒
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 具体可以包括一辆智能驾驶汽车在未来的城市
+2025-04-21 15:14:29 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 具体可以包括一辆智能驾驶汽车在未来的城市
+2025-04-21 15:14:30 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 8/10
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 9/10
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (336684 字节)
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 具体可以包括一辆智能驾驶汽车在未来的城市道路上行驶，转语音处理完毕
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.537秒, 总计 336684 字节
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.540秒
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 周围是智能交通灯和智能路牌，
+2025-04-21 15:14:31 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 周围是智能交通灯和智能路牌，
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - WARNING - [Dify_LLM_Module] 连续空队列超时次数: 10/10
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 连续超时10次，退出处理循环
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 用户 user 的处理线程已停止
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module]执行结束 下一个模块是 [GPTSoVit_TTS_Module] 
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [Dify_LLM_Module] 添加数据None到 GPTSoVit_TTS_Module 输入队列
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (180524 字节)
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 周围是智能交通灯和智能路牌，转语音处理完毕
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.874秒, 总计 180524 字节
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.876秒
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 同时展示云计算中心的虚拟图像，
+2025-04-21 15:14:32 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 同时展示云计算中心的虚拟图像，
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (185644 字节)
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 同时展示云计算中心的虚拟图像，转语音处理完毕
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.884秒, 总计 185644 字节
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.886秒
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 体现数据传输和处理的过程。
+2025-04-21 15:14:33 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 体现数据传输和处理的过程。
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 发送数据块 给用户 user (175404 字节)
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 用户 user 的文本: 体现数据传输和处理的过程。转语音处理完毕
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 1.068秒, 总计 175404 字节
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 1.070秒
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 从队列获取数据: 这样的作品既富有科技感，
+2025-04-21 15:14:34 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 开始为用户 user 处理文本: 这样的作品既富有科技感，
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 响应状态码: 200
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [TTS] 完整响应耗时: 0.741秒, 总计 0 字节
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 处理队列数据完成，耗时: 0.741秒
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 的处理线程已停止
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [GPTSoVit_TTS_Module] 用户 user 已请求停止处理，不再输出数据
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 请求已取消: user
+2025-04-21 15:14:35 - LCBot.modules.PipeLineAPI.BasePipeAPI - INFO - [API] 清理连接 user_1732516722384 的资源

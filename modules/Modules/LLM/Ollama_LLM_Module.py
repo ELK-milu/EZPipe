@@ -32,7 +32,7 @@ class Ollama_LLM_Module(BaseModule):
             self.response_string += content
 
 
-    def HandleInput(self, request: Any) -> str:
+    def HandleEntryInput(self, request: Any) -> str:
         return request.Input
 
     """LLM对话模块（输入类型：str，输出类型：str）"""

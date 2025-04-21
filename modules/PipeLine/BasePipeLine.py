@@ -15,6 +15,7 @@ class PipeLine:
         
         # 用户队列和状态管理
         self.user_queues: Dict[str, asyncio.Queue] = {}  # 异步队列
+        self.use_request :Dict[str,Any] = {}  # 用户请求数据json
         self.active_users: Dict[str, bool] = {}
         self.lock = asyncio.Lock()
         self.main_loop = asyncio.get_event_loop()
@@ -280,6 +281,8 @@ class PipeLine:
         """销毁Pipeline及所有模块"""
         for module in self.modules:
             module.Destroy()
+
+        del self.use_request
 
     def WaitForCompletion(self, user: str, timeout: float = 30) -> None:
         """等待用户任务完成 (不推荐使用，可能导致阻塞)"""

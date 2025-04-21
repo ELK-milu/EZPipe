@@ -46,7 +46,7 @@ class FunASR_ASR_Module(BaseModule):
                 asyncio.set_event_loop(self.loops[user])
             return self.loops[user]
 
-    def HandleInput(self, request: Any) -> bytes:
+    def HandleEntryInput(self, request: Any) -> bytes:
         """处理输入数据"""
         try:
             input_data = request.Input

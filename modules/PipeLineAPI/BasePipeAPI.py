@@ -183,7 +183,8 @@ class API_Service(ABC):
             #await self.pipeline._cleanup_user(request.user)
 
     def HandleInput(self, request: APIRequest) -> Any:  # 注意这里使用子类的APIRequest类型
-        return self.pipeline.modules[request.Entry].HandleInput(request)
+        # 将入口模块作为处理的返回值
+        return self.pipeline.modules[request.Entry].HandleEntryInput(request)
 
     def Run(self):
         """启动API服务"""

@@ -1,4 +1,5 @@
 import asyncio
+import json
 from abc import ABC, abstractmethod
 from typing import Optional, TYPE_CHECKING, Dict, Any
 import queue
@@ -15,19 +16,27 @@ if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine
     from modules.PipeLineAPI.BasePipeAPI import API_Service
 
+
+# 获取logger实例
+logger = get_logger(__name__)
+
 class BaseModule(ABC):
     def __init__(self):
+        # 用户级资源管理
         self.stop_events: Dict[str, threading.Event] = {}
         self.next_model: Optional["BaseModule"] = None
         self.pipeline: Optional["PipeLine"] = None
         self.user_threads: Dict[str, threading.Thread] = {}
         self.user_InputQueue: Dict[str, queue.Queue] = {} # 接受输入的队列
+        self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
+
         self.output: Any = None
         self.thread_timeout = 120.0  # 线程超时时间（秒）
-        self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
         self.answer_chunk = None
         self.session : requests.Session = None  # 会话管理，用于长连接
+
         # 新增路由相关属性
+        self.logger = logger
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
         self.logger = get_logger(self.__class__.__name__)
@@ -72,11 +81,13 @@ class BaseModule(ABC):
     class Module_Config:
         streamly: bool = False
 
-    # 每个子模块需要实现的抽象方法，自定义输入数据，返回服务端请求体处理后的数据
-    @abstractmethod
-    def HandleInput(self,request: Any) -> Any:
-        processed_data = request
-        return processed_data
+    # 每个子模块需要实现的抽象方法，自定义输入数据，返回服务端请求体处理后的数据，并实现参数初始化
+    def HandleEntryInput(self, request: Any) -> Any:
+        json_str = request.model_dump_json()
+        data = json.loads(json_str)  # 直接获取字典，无需解析
+        logger.info("user:" + data["user"])
+        self.pipeline.use_request[data["user"]] = data
+        return data["Input"]
 
     @abstractmethod
     def Thread_Task(self, streamly: bool, user: str, input_data: Any, response_func, next_func) -> Any:
@@ -379,7 +390,11 @@ class BaseModule(ABC):
         if self.session:
             self.session.close()
             print(f"[{self.__class__.__name__}] 已关闭会话")
-        
+
+        if user in self.user_Request:
+            del self.user_Request[user]
+            print(f"[{self.__class__.__name__}] 已删除用户 {user} 的请求资源")
+
         # 清空所有字典
         self.user_threads.clear()
         self.stop_events.clear()

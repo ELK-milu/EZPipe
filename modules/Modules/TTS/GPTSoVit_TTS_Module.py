@@ -15,9 +15,6 @@ from ..BaseModule import BaseModule
 from .SovitsPost import PostChat, session
 from modules.utils.logger import get_logger
 
-# 获取logger实例
-logger = get_logger(__name__)
-
 class GPTSoVit_TTS_Module(BaseModule):
     def __init__(self):
         super().__init__()
@@ -37,9 +34,9 @@ class GPTSoVit_TTS_Module(BaseModule):
             common_phrases = ["你好", "谢谢", "我明白了", "请继续"]
             for phrase in common_phrases:
                 self.preload_text(phrase)
-            logger.info("[TTS] 引擎预热完成")
+            self.logger.info("[TTS] 引擎预热完成")
         except Exception as e:
-            logger.error(f"[TTS] 引擎预热失败: {e}")
+            self.logger.error(f"[TTS] 引擎预热失败: {e}")
 
     def preload_text(self, text):
         """预加载常用文本到缓存"""
@@ -58,7 +55,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                     
                     if audio_data:
                         self.cache[cache_key] = audio_data
-                        logger.info(f"[TTS] 预加载文本成功: {text[:10]}...")
+                        self.logger.info(f"[TTS] 预加载文本成功: {text[:10]}...")
                         
                     # 控制缓存大小
                     if len(self.cache) > self.cache_max_size:
@@ -66,7 +63,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                         oldest_key = next(iter(self.cache))
                         del self.cache[oldest_key]
         except Exception as e:
-            logger.error(f"[TTS] 预加载失败: {e}")
+            self.logger.error(f"[TTS] 预加载失败: {e}")
 
     def _get_cache_key(self, text):
         """生成缓存键"""
@@ -81,7 +78,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                     "status": "success",
                 }
             except Exception as e:
-                logger.error(f"[TTS] 心跳失败: {e}")
+                self.logger.error(f"[TTS] 心跳失败: {e}")
                 return {
                     "status": "failed",
                     "error": str(e),
@@ -89,9 +86,6 @@ class GPTSoVit_TTS_Module(BaseModule):
         else:
             self.session = session
             await self.HeartBeat(user)
-
-    def HandleInput(self, request: Any) -> bytes:
-        return request.Input
 
     def should_batch_texts(self, texts):
         """判断文本是否应该合并处理"""
@@ -142,7 +136,7 @@ class GPTSoVit_TTS_Module(BaseModule):
         if input_data is None:
             # 预启动加载模型
             PostChat(streamly=False, user=user, text="预热")
-            logger.warning(f"[TTS] 输入数据为None，无法处理")
+            self.logger.warning(f"[TTS] 输入数据为None，无法处理")
             return b''
         
         # 处理当前输入的文本
@@ -154,7 +148,7 @@ class GPTSoVit_TTS_Module(BaseModule):
         retry_count = 0
         start_time = time.time()
 
-        logger.info(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}")
+        self.logger.info(f"[TTS] 开始为用户 {user} 处理文本: {input_data[:20]}")
         
         if self.session is None:
             self.session = session
@@ -162,12 +156,12 @@ class GPTSoVit_TTS_Module(BaseModule):
         # 检查缓存
         cache_key = self._get_cache_key(input_data)
         if cache_key in self.cache:
-            logger.info(f"[TTS] 缓存命中: {input_data[:20]}")
+            self.logger.info(f"[TTS] 缓存命中: {input_data[:20]}")
             chunk = self.cache[cache_key]
             chunk_size = len(chunk)
             
-            logger.info(f"[TTS] 发送缓存数据 给用户 {user} ({chunk_size} 字节)")
-            logger.info(f"[TTS] 用户 {user} 的文本转语音处理完毕 (缓存)")
+            self.logger.info(f"[TTS] 发送缓存数据 给用户 {user} ({chunk_size} 字节)")
+            self.logger.info(f"[TTS] 用户 {user} 的文本转语音处理完毕 (缓存)")
             
             # 调用回调函数输出数据
             response_func(streamly, user, chunk)
@@ -178,7 +172,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                 
             # 记录缓存响应时间
             elapsed = time.time() - start_time
-            logger.info(f"[TTS] 缓存响应耗时: {elapsed:.3f}秒")
+            self.logger.info(f"[TTS] 缓存响应耗时: {elapsed:.3f}秒")
             return b''
             
         while retry_count <= max_retries:
@@ -189,7 +183,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                 if not chat_response.ok:
                     raise Exception(f"合成失败，状态码: {chat_response.status_code}")
 
-                logger.info(f"[TTS] 响应状态码: {chat_response.status_code}")
+                self.logger.info(f"[TTS] 响应状态码: {chat_response.status_code}")
                 
                 # 累积完整的音频数据用于缓存
                 full_audio = b''
@@ -200,12 +194,12 @@ class GPTSoVit_TTS_Module(BaseModule):
                         break
 
                     if not chunk:  # 跳过空块
-                        logger.warning("[TTS] 收到空数据块")
+                        self.logger.warning("[TTS] 收到空数据块")
                         continue
                         
                     # 检查是否应该停止处理
                     if user in self.stop_events and self.stop_events[user].is_set():
-                        logger.info(f"[TTS] 用户 {user} 已请求停止处理")
+                        self.logger.info(f"[TTS] 用户 {user} 已请求停止处理")
                         break
                         
                     # 累积音频数据
@@ -213,8 +207,8 @@ class GPTSoVit_TTS_Module(BaseModule):
                     
                     # 处理数据块
                     chunk_size = len(chunk)
-                    logger.info(f"[TTS] 发送数据块 给用户 {user} ({chunk_size} 字节)")
-                    logger.info(f"[TTS] 用户 {user} 的文本: {input_data}转语音处理完毕")
+                    self.logger.info(f"[TTS] 发送数据块 给用户 {user} ({chunk_size} 字节)")
+                    self.logger.info(f"[TTS] 用户 {user} 的文本: {input_data}转语音处理完毕")
                     
                     # 调用回调函数输出数据块
                     response_func(streamly, user, chunk)
@@ -225,7 +219,7 @@ class GPTSoVit_TTS_Module(BaseModule):
                 
                 # 记录完整响应时间
                 elapsed = time.time() - start_time
-                logger.info(f"[TTS] 完整响应耗时: {elapsed:.3f}秒, 总计 {len(full_audio)} 字节")
+                self.logger.info(f"[TTS] 完整响应耗时: {elapsed:.3f}秒, 总计 {len(full_audio)} 字节")
                 
                 # 添加到缓存
                 if full_audio and len(input_data) > 2:  # 只缓存有意义的内容
@@ -241,15 +235,15 @@ class GPTSoVit_TTS_Module(BaseModule):
             except Exception as e:
                 retry_count += 1
                 error_msg = f"[TTS] 错误: {str(e)}"
-                logger.error(error_msg)
+                self.logger.error(error_msg)
                 
                 if retry_count <= max_retries:
-                    logger.warning(f"[TTS] 处理失败，正在重试 ({retry_count}/{max_retries})")
+                    self.logger.warning(f"[TTS] 处理失败，正在重试 ({retry_count}/{max_retries})")
                     # 短暂等待后重试
                     time.sleep(0.1)
                 else:
                     # 达到最大重试次数，通知调用者出现错误
-                    logger.error(f"[TTS] 达到最大重试次数 ({max_retries})，放弃处理")
+                    self.logger.error(f"[TTS] 达到最大重试次数 ({max_retries})，放弃处理")
                     response_func(streamly, user, f"ERROR: {str(e)}".encode())
                     next_func(streamly, user, self.ENDSIGN)
                     return b''  # 返回空字节作为完成标记
@@ -271,5 +265,5 @@ class GPTSoVit_TTS_Module(BaseModule):
             return None
             
         except Exception as e:
-            logger.error(f"音频处理失败: {str(e)}")
+            self.logger.error(f"音频处理失败: {str(e)}")
             return None

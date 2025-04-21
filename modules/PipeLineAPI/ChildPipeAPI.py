@@ -20,3 +20,13 @@ class TextToSpeechAPIService(API_Service):
         class Config:
             extra = "allow"  # 允许额外字段（可选）
 
+class TextToVideoHumanAPIService(API_Service):
+    class APIRequest(API_Service.APIRequest):
+        Input: str  # 指定输入为str类型
+        temperature: float = 0.7  # 带默认值的新参数
+        max_length: int = 100
+        conversation_id: str = ""
+        message_id: str = ""
+        class Config:
+            extra = "allow"  # 允许额外字段（可选）
+

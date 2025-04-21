@@ -466,3 +466,358 @@
 2025-04-18 14:40:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
 2025-04-18 14:40:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
 2025-04-18 14:40:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 11:36:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 11:36:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 11:36:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 11:36:24 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 11:36:24 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 11:36:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 
+2025-04-21 11:36:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:36:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (1/3)
+2025-04-21 11:36:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:36:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (2/3)
+2025-04-21 11:36:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:36:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (3/3)
+2025-04-21 11:36:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:36:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 达到最大重试次数 (3)，放弃处理
+2025-04-21 11:36:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 输入数据为None，无法处理
+2025-04-21 11:39:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 11:39:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 11:39:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 11:39:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 11:39:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (1/3)
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (2/3)
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (3/3)
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:43:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 达到最大重试次数 (3)，放弃处理
+2025-04-21 11:51:32 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 11:51:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 11:51:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 11:51:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 11:51:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 11:51:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 我知道的更多的是关于云展厅和机器人展示的
+2025-04-21 11:51:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:51:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (295724 字节)
+2025-04-21 11:51:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 我知道的更多的是关于云展厅和机器人展示的技术内容。转语音处理完毕
+2025-04-21 11:51:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 2.270秒, 总计 295724 字节
+2025-04-21 11:51:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 关于车路云一体化，
+2025-04-21 11:51:46 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:51:46 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (139564 字节)
+2025-04-21 11:51:46 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 关于车路云一体化，转语音处理完毕
+2025-04-21 11:51:46 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.703秒, 总计 139564 字节
+2025-04-21 11:51:46 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 这是一个涉及车联网、智能交通系统以及云计
+2025-04-21 11:51:47 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:51:47 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 1.530秒, 总计 0 字节
+2025-04-21 11:53:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 你好！
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (55084 字节)
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 你好！转语音处理完毕
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.469秒, 总计 55084 字节
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 欢迎咨询。
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (80684 字节)
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 欢迎咨询。转语音处理完毕
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.410秒, 总计 80684 字节
+2025-04-21 11:53:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 杭州向正科技有限公司的客服电话是0571
+2025-04-21 11:53:16 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:16 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (551724 字节)
+2025-04-21 11:53:16 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 杭州向正科技有限公司的客服电话是0571-85381397，转语音处理完毕
+2025-04-21 11:53:16 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 5.889秒, 总计 551724 字节
+2025-04-21 11:53:16 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 工作时间的客服电话是1538114109
+2025-04-21 11:53:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (334124 字节)
+2025-04-21 11:53:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 工作时间的客服电话是15381141097，转语音处理完毕
+2025-04-21 11:53:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 1.293秒, 总计 334124 字节
+2025-04-21 11:53:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 公司的邮箱是1872967921@qq.
+2025-04-21 11:53:19 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:19 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (298284 字节)
+2025-04-21 11:53:19 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 公司的邮箱是1872967921@qq.com，转语音处理完毕
+2025-04-21 11:53:19 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 1.181秒, 总计 298284 字节
+2025-04-21 11:53:19 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 官方网站是http://www.plus
+2025-04-21 11:53:20 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:20 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (195884 字节)
+2025-04-21 11:53:20 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 官方网站是http://www.plusbe.com。转语音处理完毕
+2025-04-21 11:53:20 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.972秒, 总计 195884 字节
+2025-04-21 11:53:20 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 如果你有任何问题或需要帮助，
+2025-04-21 11:53:21 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:21 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (190764 字节)
+2025-04-21 11:53:21 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 如果你有任何问题或需要帮助，转语音处理完毕
+2025-04-21 11:53:21 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.856秒, 总计 190764 字节
+2025-04-21 11:53:21 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 请随时告诉我！
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (126764 字节)
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 请随时告诉我！转语音处理完毕
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.645秒, 总计 126764 字节
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (1/3)
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (2/3)
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (3/3)
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:53:22 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 达到最大重试次数 (3)，放弃处理
+2025-04-21 11:53:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 输入数据为None，无法处理
+2025-04-21 11:54:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 你好！
+2025-04-21 11:54:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 缓存命中: 你好！
+2025-04-21 11:54:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送缓存数据 给用户 user (55084 字节)
+2025-04-21 11:54:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本转语音处理完毕 (缓存)
+2025-04-21 11:54:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 缓存响应耗时: 0.003秒
+2025-04-21 11:54:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 我叫佼佼仔，
+2025-04-21 11:54:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (83244 字节)
+2025-04-21 11:54:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 我叫佼佼仔，转语音处理完毕
+2025-04-21 11:54:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.694秒, 总计 83244 字节
+2025-04-21 11:54:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 是一个AI问答助手，
+2025-04-21 11:54:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (185644 字节)
+2025-04-21 11:54:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 是一个AI问答助手，转语音处理完毕
+2025-04-21 11:54:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.811秒, 总计 185644 字节
+2025-04-21 11:54:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 专门帮助解答关于电子签名产品的问题。
+2025-04-21 11:54:07 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:07 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (216364 字节)
+2025-04-21 11:54:07 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 专门帮助解答关于电子签名产品的问题。转语音处理完毕
+2025-04-21 11:54:07 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.957秒, 总计 216364 字节
+2025-04-21 11:54:07 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 电子签名系统是一种高科技产品，
+2025-04-21 11:54:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (198444 字节)
+2025-04-21 11:54:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 电子签名系统是一种高科技产品，转语音处理完毕
+2025-04-21 11:54:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.863秒, 总计 198444 字节
+2025-04-21 11:54:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 可以在触摸屏上进行签名、拍照和留言，
+2025-04-21 11:54:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (239404 字节)
+2025-04-21 11:54:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 可以在触摸屏上进行签名、拍照和留言，转语音处理完毕
+2025-04-21 11:54:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.970秒, 总计 239404 字节
+2025-04-21 11:54:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 并自动记录存储这些内容，
+2025-04-21 11:54:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (152364 字节)
+2025-04-21 11:54:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 并自动记录存储这些内容，转语音处理完毕
+2025-04-21 11:54:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.732秒, 总计 152364 字节
+2025-04-21 11:54:10 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 非常适合应用于各种展览和展示场所。
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (216364 字节)
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 非常适合应用于各种展览和展示场所。转语音处理完毕
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.903秒, 总计 216364 字节
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 如果你有任何具体问题，
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (154924 字节)
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 如果你有任何具体问题，转语音处理完毕
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.717秒, 总计 154924 字节
+2025-04-21 11:54:11 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 欢迎详细描述哦！
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (98604 字节)
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 欢迎详细描述哦！转语音处理完毕
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.594秒, 总计 98604 字节
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (1/3)
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (2/3)
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:54:12 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (3/3)
+2025-04-21 11:54:13 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:54:13 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 达到最大重试次数 (3)，放弃处理
+2025-04-21 11:54:17 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 输入数据为None，无法处理
+2025-04-21 11:55:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 秋天，
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (108844 字节)
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 秋天，转语音处理完毕
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.776秒, 总计 108844 字节
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 是一幅多彩的画卷。
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (131884 字节)
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 是一幅多彩的画卷。转语音处理完毕
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.656秒, 总计 131884 字节
+2025-04-21 11:55:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 金黄与深棕交织，
+2025-04-21 11:55:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:55:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (157484 字节)
+2025-04-21 11:55:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 金黄与深棕交织，转语音处理完毕
+2025-04-21 11:55:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.752秒, 总计 157484 字节
+2025-04-21 11:55:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 落叶如蝴蝶般翩翩起舞，
+2025-04-21 11:55:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:55:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (183084 字节)
+2025-04-21 11:55:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 落叶如蝴蝶般翩翩起舞，转语音处理完毕
+2025-04-21 11:55:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 1.803秒, 总计 183084 字节
+2025-04-21 11:58:03 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 好的，
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (65324 字节)
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 好的，转语音处理完毕
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.722秒, 总计 65324 字节
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 春天来了，
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (80684 字节)
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 春天来了，转语音处理完毕
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.438秒, 总计 80684 字节
+2025-04-21 11:58:04 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 万物复苏。
+2025-04-21 11:58:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (90924 字节)
+2025-04-21 11:58:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 万物复苏。转语音处理完毕
+2025-04-21 11:58:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.464秒, 总计 90924 字节
+2025-04-21 11:58:05 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 田野里，
+2025-04-21 11:58:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:06 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 1.120秒, 总计 0 字节
+2025-04-21 11:58:31 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 夏天的小作文：
+夏天来了，
+2025-04-21 11:58:32 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:32 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (271404 字节)
+2025-04-21 11:58:32 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 夏天的小作文：
+夏天来了，转语音处理完毕
+2025-04-21 11:58:32 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.967秒, 总计 271404 字节
+2025-04-21 11:58:32 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 阳光炽热，
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (144684 字节)
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 阳光炽热，转语音处理完毕
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.649秒, 总计 144684 字节
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 万物生长。
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (73004 字节)
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 万物生长。转语音处理完毕
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.470秒, 总计 73004 字节
+2025-04-21 11:58:33 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 蝉鸣声此起彼伏，
+2025-04-21 11:58:34 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:34 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (154924 字节)
+2025-04-21 11:58:34 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 蝉鸣声此起彼伏，转语音处理完毕
+2025-04-21 11:58:34 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.638秒, 总计 154924 字节
+2025-04-21 11:58:34 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 仿佛是大自然的乐章。
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (142124 字节)
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 仿佛是大自然的乐章。转语音处理完毕
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.754秒, 总计 142124 字节
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 蓝天白云下，
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (111404 字节)
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 蓝天白云下，转语音处理完毕
+2025-04-21 11:58:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.514秒, 总计 111404 字节
+2025-04-21 11:58:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 绿树成荫，
+2025-04-21 11:58:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (85804 字节)
+2025-04-21 11:58:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 绿树成荫，转语音处理完毕
+2025-04-21 11:58:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.441秒, 总计 85804 字节
+2025-04-21 11:58:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 是孩子们嬉戏的最佳场所。
+2025-04-21 11:58:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (147244 字节)
+2025-04-21 11:58:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 是孩子们嬉戏的最佳场所。转语音处理完毕
+2025-04-21 11:58:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.714秒, 总计 147244 字节
+2025-04-21 11:58:37 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 冰淇淋成了人们的最爱，
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (137004 字节)
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 冰淇淋成了人们的最爱，转语音处理完毕
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.673秒, 总计 137004 字节
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 冷饮店前总是排起长队。
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (149804 字节)
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 冷饮店前总是排起长队。转语音处理完毕
+2025-04-21 11:58:38 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.734秒, 总计 149804 字节
+2025-04-21 11:58:39 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 傍晚时分，
+2025-04-21 11:58:39 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:39 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (90924 字节)
+2025-04-21 11:58:39 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 傍晚时分，转语音处理完毕
+2025-04-21 11:58:39 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.471秒, 总计 90924 字节
+2025-04-21 11:58:39 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 散步在湖边或海边，
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (154924 字节)
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 散步在湖边或海边，转语音处理完毕
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.635秒, 总计 154924 字节
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 微风拂面，
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (111404 字节)
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 微风拂面，转语音处理完毕
+2025-04-21 11:58:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.525秒, 总计 111404 字节
+2025-04-21 11:58:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 凉爽宜人。
+2025-04-21 11:58:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (93484 字节)
+2025-04-21 11:58:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 凉爽宜人。转语音处理完毕
+2025-04-21 11:58:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.473秒, 总计 93484 字节
+2025-04-21 11:58:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 夜晚，
+2025-04-21 11:58:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (93484 字节)
+2025-04-21 11:58:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 夜晚，转语音处理完毕
+2025-04-21 11:58:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.479秒, 总计 93484 字节
+2025-04-21 11:58:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 萤火虫点点，
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (211244 字节)
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 萤火虫点点，转语音处理完毕
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.854秒, 总计 211244 字节
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 星空璀璨，
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (103724 字节)
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 星空璀璨，转语音处理完毕
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.567秒, 总计 103724 字节
+2025-04-21 11:58:43 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 为夏日平添了几分浪漫。
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送数据块 给用户 user (154924 字节)
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本: 为夏日平添了几分浪漫。转语音处理完毕
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 0.677秒, 总计 154924 字节
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (1/3)
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (2/3)
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 处理失败，正在重试 (3/3)
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 错误: 合成失败，状态码: 400
+2025-04-21 11:58:44 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - ERROR - [TTS] 达到最大重试次数 (3)，放弃处理
+2025-04-21 11:58:45 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - WARNING - [TTS] 输入数据为None，无法处理
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 春天来了，
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 缓存命中: 春天来了，
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送缓存数据 给用户 user (80684 字节)
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本转语音处理完毕 (缓存)
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 缓存响应耗时: 0.010秒
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 万物复苏。
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 缓存命中: 万物复苏。
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 发送缓存数据 给用户 user (90924 字节)
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 用户 user 的文本转语音处理完毕 (缓存)
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 缓存响应耗时: 0.004秒
+2025-04-21 13:42:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 开始为用户 user 处理文本: 温暖的阳光穿透薄雾，
+2025-04-21 13:42:25 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 响应状态码: 200
+2025-04-21 13:42:25 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 完整响应耗时: 1.783秒, 总计 0 字节
+2025-04-21 14:13:59 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:14:00 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:14:00 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:14:01 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:14:01 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:20:46 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:20:47 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:20:47 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:20:48 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:20:48 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:22:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:22:35 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:22:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:22:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:22:36 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:23:40 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:23:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:23:41 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:23:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:23:42 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:26:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:26:23 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:26:24 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:26:24 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:26:24 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:28:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:28:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:28:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:28:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:28:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:29:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:29:08 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:29:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:29:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:29:09 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:31:55 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:31:55 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:31:56 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:31:56 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:31:56 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成
+2025-04-21 14:35:17 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 你好...
+2025-04-21 14:35:17 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 谢谢...
+2025-04-21 14:35:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 我明白了...
+2025-04-21 14:35:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 预加载文本成功: 请继续...
+2025-04-21 14:35:18 - LCBot.modules.Modules.TTS.GPTSoVit_TTS_Module - INFO - [TTS] 引擎预热完成

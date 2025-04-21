@@ -47299,3 +47299,2395 @@ Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£ÇëÎÊÐèÒªÁË½âº¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄÄÄÐ©ÐÅÏ¢ÄØ£¿±ÈÈçÁªÏµ·
 Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£ÇëÎÊÐèÒªÁË½âº¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄÄÄÐ©ÐÅÏ¢ÄØ£¿±ÈÈçÁªÏµ·½Ê½¡¢µØÖ·»ò¹Ù·½ÍøÕ¾µÈ¡£
 2025-04-18 14:31:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
 Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£ÇëÎÊÐèÒªÁË½âº¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄÄÄÐ©ÐÅÏ¢ÄØ£¿±ÈÈçÁªÏµ·½Ê½¡¢µØÖ·»ò¹Ù·½ÍøÕ¾µÈ¡£
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"ÓÐÄÄÐ©³µÂ·ÔÆÏà¹ØµÄÕþ²ß","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"ÓÐÄÄÐ©³µÂ·ÔÆÏà¹ØµÄÕþ²ß","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: ÓÐÄÄÐ©³µÂ·ÔÆÏà¹ØµÄÕþ²ß,¶Ô»°ID: 
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:36:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:36:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:36:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:36:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:40:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:40:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:40:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿,¶Ô»°ID: 
+2025-04-21 11:40:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:40:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:40:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"³µÂ·ÔÆÒ»Ìå»¯ÀëÎÒÃÇÓÐ¶àÔ¶","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"³µÂ·ÔÆÒ»Ìå»¯ÀëÎÒÃÇÓÐ¶àÔ¶","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: ³µÂ·ÔÆÒ»Ìå»¯ÀëÎÒÃÇÓÐ¶àÔ¶,¶Ô»°ID: 
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.62s
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀ
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚ
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆ
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹Ìü
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈË
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾
+2025-04-21 11:51:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼Êõ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 1.04s | ¾ä×ÓÊý: 1
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸ö
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËã
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼Êõ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£Ëü
+2025-04-21 11:51:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ý
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍ
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ìá¸ß½»Í¨Ð§ÂÊ£¬
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¼õÉÙ½»Í¨ÊÂ¹Ê£¬
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÌáÉý¼ÝÊ»ÌåÑé¡£
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°
+2025-04-21 11:51:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸ö
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼Êõ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£Äú
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸Àý
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£
+2025-04-21 11:51:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄú
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏë
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌå
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹Ø
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨Òµ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:51:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÎÒÖªµÀµÄ¸ü¶àµÄÊÇ¹ØÓÚÔÆÕ¹ÌüºÍ»úÆ÷ÈËÕ¹Ê¾µÄ¼¼ÊõÄÚÈÝ¡£¹ØÓÚ³µÂ·ÔÆÒ»Ìå»¯£¬ÕâÊÇÒ»¸öÉæ¼°³µÁªÍø¡¢ÖÇÄÜ½»Í¨ÏµÍ³ÒÔ¼°ÔÆ¼ÆËãµÈÁìÓòµÄ×ÛºÏÐÔ¼¼ÊõÓ¦ÓÃ¡£ËüÍ¨¹ýÔÚ³µÁ¾¡¢µÀÂ·ºÍÔÆ·þÎñÆ÷Ö®¼ä½¨Á¢¼´Ê±Í¨ÐÅ£¬Ìá¸ß½»Í¨Ð§ÂÊ£¬¼õÉÙ½»Í¨ÊÂ¹Ê£¬ÌáÉý¼ÝÊ»ÌåÑé¡£Ä¿Ç°Õâ¸öÁìÓò»¹ÔÚ²»¶Ï·¢Õ¹ºÍÌ½Ë÷ÖÐ£¬¼¼ÊõÒ²ÔÚ²»¶Ï½ø²½ºÍÍêÉÆ¡£ÄúÈç¹û¶Ô´Ë¸ÐÐËÈ¤£¬¿ÉÒÔÁË½â¸ü¶à¾ßÌåµÄ°¸ÀýºÍÓ¦ÓÃ¡£Èç¹ûÄúÏëÉîÈëÁË½â³µÂ·ÔÆÒ»Ìå»¯µÄ¾ßÌåÐÅÏ¢£¬¿ÉÒÔ²Î¿¼Ïà¹ØÐÐÒµ±¨¸æ»òÕß×¨ÒµÎÄÕÂ¡£
+2025-04-21 11:53:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"ÄãºÃ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"ÄãºÃ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:53:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:53:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: ÄãºÃ,¶Ô»°ID: 
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.76s
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 0.80s | ¾ä×ÓÊý: 1
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÄãºÃ£¡
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: »¶Ó­×ÉÑ¯¡£
+2025-04-21 11:53:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝ
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏò
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þ
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ05
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ057
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-8
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-853
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-8538
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-853813
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-8538139
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬
+2025-04-21 11:53:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼ä
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þ
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ1
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ153
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ1538
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ153811
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ1538114
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ153811410
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ1538114109
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄ
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏä
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ18
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ187
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872
+2025-04-21 11:53:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ18729
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ187296
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ18729679
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ187296792
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇ
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plus
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄã
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎ
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»ò
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬Çë
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬
+2025-04-21 11:53:12 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:53:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡»¶Ó­×ÉÑ¯¡£º¼ÖÝÏòÕý¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ¿Í·þµç»°ÊÇ0571-85381397£¬¹¤×÷Ê±¼äµÄ¿Í·þµç»°ÊÇ15381141097£¬¹«Ë¾µÄÓÊÏäÊÇ1872967921@qq.com£¬¹Ù·½ÍøÕ¾ÊÇhttp://www.plusbe.com¡£Èç¹ûÄãÓÐÈÎºÎÎÊÌâ»òÐèÒª°ïÖú£¬ÇëËæÊ±¸æËßÎÒ£¡
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"Çë¼òµ¥½éÉÜÒ»ÏÂÄã×Ô¼º","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"850763a1-1c98-46a4-ad41-93ab305a6d9c","message_id":"c627bda8-9a6d-4658-82c8-5eabdd00349c","text":"Çë¼òµ¥½éÉÜÒ»ÏÂÄã×Ô¼º","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: Çë¼òµ¥½éÉÜÒ»ÏÂÄã×Ô¼º,¶Ô»°ID: 850763a1-1c98-46a4-ad41-93ab305a6d9c
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.61s
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 0.65s | ¾ä×ÓÊý: 1
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÄãºÃ£¡
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½Ð
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÎÒ½ÐÙ®Ù®×Ð£¬
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸ö
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAI
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ð
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚ
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×Ó
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£
+2025-04-21 11:54:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×Ó
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©Ãû
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥Ãþ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯
+2025-04-21 11:54:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄã
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌå
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸
+2025-04-21 11:54:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊö
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: »¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:54:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÄãºÃ£¡ÎÒ½ÐÙ®Ù®×Ð£¬ÊÇÒ»¸öAIÎÊ´ðÖúÊÖ£¬×¨ÃÅ°ïÖú½â´ð¹ØÓÚµç×ÓÇ©Ãû²úÆ·µÄÎÊÌâ¡£µç×ÓÇ©ÃûÏµÍ³ÊÇÒ»ÖÖ¸ß¿Æ¼¼²úÆ·£¬¿ÉÒÔÔÚ´¥ÃþÆÁÉÏ½øÐÐÇ©Ãû¡¢ÅÄÕÕºÍÁôÑÔ£¬²¢×Ô¶¯¼ÇÂ¼´æ´¢ÕâÐ©ÄÚÈÝ£¬·Ç³£ÊÊºÏÓ¦ÓÃÓÚ¸÷ÖÖÕ¹ÀÀºÍÕ¹Ê¾³¡Ëù¡£Èç¹ûÄãÓÐÈÎºÎ¾ßÌåÎÊÌâ£¬»¶Ó­ÏêÏ¸ÃèÊöÅ¶£¡
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"Çë°ïÎÒÉú³É100×Ö×óÓÒµÄÃèÐ´ÇïÌìµÄÐ¡É¢ÎÄ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"850763a1-1c98-46a4-ad41-93ab305a6d9c","message_id":"9bbe414c-3f24-456d-958e-46137172bfd8","text":"Çë°ïÎÒÉú³É100×Ö×óÓÒµÄÃèÐ´ÇïÌìµÄÐ¡É¢ÎÄ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: Çë°ïÎÒÉú³É100×Ö×óÓÒµÄÃèÐ´ÇïÌìµÄÐ¡É¢ÎÄ,¶Ô»°ID: 850763a1-1c98-46a4-ad41-93ab305a6d9c
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:55:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.61s
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 0.74s | ¾ä×ÓÊý: 1
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÇïÌì£¬
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²Ê
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»Æ
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓë
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ½ð»ÆÓëÉî×Ø½»Ö¯£¬
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èç
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ã
+2025-04-21 11:55:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæ
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæ
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆð
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌ
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁË
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·ç
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Î¢·çÇá·÷£¬
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ´øÀ´Ë¿Ë¿Á¹Òâ£¬
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË
+2025-04-21 11:55:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²Óë
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾Ìï
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: µ¾ÌïÀï£¬
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³Á
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³Áµé
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³Áµéµé
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹È
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËë
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·ç
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐ
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇá
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕ
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄ
+2025-04-21 11:55:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃ
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑó
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒç
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚ
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈË
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ô¶´¦£¬
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½ÂÍ
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½ÂÍ±»
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½ÂÍ±»Çï
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½ÂÍ±»ÇïÉ«
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½ÂÍ±»ÇïÉ«äÖÈ¾
+2025-04-21 11:55:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÇïÌì£¬ÊÇÒ»·ù¶à²ÊµÄ»­¾í¡£½ð»ÆÓëÉî×Ø½»Ö¯£¬ÂäÒ¶Èçºûµû°ãôæôæÆðÎè£¬ÆÌÂúÁËÐ¡¾¶Á½ÅÔ¡£Î¢·çÇá·÷£¬´øÀ´Ë¿Ë¿Á¹Òâ£¬È´Ò²ÈÃÈË¸Ðµ½Äþ¾²ÓëÊæÊÊ¡£µ¾ÌïÀï£¬³ÁµéµéµÄ¹ÈËëÔÚ·çÖÐÇáÇáÒ¡Ò·£¬·áÊÕµÄÏ²ÔÃÑóÒçÔÚÃ¿¸öÈËÁ³ÉÏ¡£Ô¶´¦£¬É½ÂÍ±»ÇïÉ«äÖÈ¾µÃ
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"Éú³É100×Ö×óÓÒµÄÐ¡×÷ÎÄ£¬¹ØÓÚ´ºÌì","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"Éú³É100×Ö×óÓÒµÄÐ¡×÷ÎÄ£¬¹ØÓÚ´ºÌì","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: Éú³É100×Ö×óÓÒµÄÐ¡×÷ÎÄ£¬¹ØÓÚ´ºÌì,¶Ô»°ID: 
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:02 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.68s
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 0.71s | ¾ä×ÓÊý: 1
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ºÃµÄ£¬
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌì
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ´ºÌìÀ´ÁË£¬
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÍòÎï¸´ËÕ¡£
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÌïÒ°Àï£¬
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ
+2025-04-21 11:58:03 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²Ý
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈç
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÂÌ²ÝÈçÒð£¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ù
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕù
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: »¨¶ùÕùÑÞ£¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ª
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ù
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚ
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Äñ¶ùÔÚÖ¦Í·»¶³ª£¬
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡Ïª
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äý
+2025-04-21 11:58:04 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ð¡ÏªÁ÷Ë®äýäý¡£
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏ
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÈËÃÇ»»ÉÏÇá×°£¬
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤Çà
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ì¤ÇàÉÍ»¨£¬
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄ
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷Ãæ
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷Ãæ£¬
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ´º·ç·÷Ãæ£¬
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷Ãæ£¬ÎÂÅ¯
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷Ãæ£¬ÎÂÅ¯¶ø
+2025-04-21 11:58:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷Ãæ£¬ÎÂÅ¯¶øÈáºÍ
+2025-04-21 11:58:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ºÃµÄ£¬´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÌïÒ°Àï£¬ÂÌ²ÝÈçÒð£¬»¨¶ùÕùÑÞ£¬Ò»Æ¬Éú»ú²ª²ªµÄ¾°Ïó¡£Äñ¶ùÔÚÖ¦Í·»¶³ª£¬Ð¡ÏªÁ÷Ë®äýäý¡£ÈËÃÇ»»ÉÏÇá×°£¬Ì¤ÇàÉÍ»¨£¬ÏíÊÜ´ó×ÔÈ»µÄÀ¡Ôù¡£´º·ç·÷Ãæ£¬ÎÂÅ¯¶øÈáºÍ¡£
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"Éú³É100×Ö×óÓÒµÄÐ¡×÷ÎÄ£¬¹ØÓÚÏÄÌì","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"84a5aa82-0d49-48b7-a784-892337b79e24","message_id":"dced5d13-6ddd-4d1e-868a-461a93c642e7","text":"Éú³É100×Ö×óÓÒµÄÐ¡×÷ÎÄ£¬¹ØÓÚÏÄÌì","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: Éú³É100×Ö×óÓÒµÄÐ¡×÷ÎÄ£¬¹ØÓÚÏÄÌì,¶Ô»°ID: 84a5aa82-0d49-48b7-a784-892337b79e24
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.51s
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌì
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌì
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 0.71s | ¾ä×ÓÊý: 1
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ã
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ñô¹â³ãÈÈ£¬
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎï
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÍòÎïÉú³¤¡£
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õ
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃù
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´Ë
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ²õÃùÉù´ËÆð±Ë·ü£¬
+2025-04-21 11:58:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ð
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: À¶Ìì°×ÔÆÏÂ£¬
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³É
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÂÌÊ÷³ÉÒñ£¬
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁË
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬Àä
+2025-04-21 11:58:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒû
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµê
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇ
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅ
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍí
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: °øÍíÊ±·Ö£¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚ
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»ò
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: É¢²½ÔÚºþ±ß»òº£±ß£¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Î¢·ç·÷Ãæ£¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒË
+2025-04-21 11:58:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Á¹Ë¬ÒËÈË¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ò¹Íí£¬
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æ
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµã
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ó©»ð³æµãµã£¬
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õ
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÐÇ¿Õè­è²£¬
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬Îª
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕ
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½Ìí
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·Ö
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 11:58:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:ÏÄÌìµÄÐ¡×÷ÎÄ£º
+ÏÄÌìÀ´ÁË£¬Ñô¹â³ãÈÈ£¬ÍòÎïÉú³¤¡£²õÃùÉù´ËÆð±Ë·ü£¬·Â·ðÊÇ´ó×ÔÈ»µÄÀÖÕÂ¡£À¶Ìì°×ÔÆÏÂ£¬ÂÌÊ÷³ÉÒñ£¬ÊÇº¢×ÓÃÇæÒÏ·µÄ×î¼Ñ³¡Ëù¡£±ùä¿ÁÜ³ÉÁËÈËÃÇµÄ×î°®£¬ÀäÒûµêÇ°×ÜÊÇÅÅÆð³¤¶Ó¡£°øÍíÊ±·Ö£¬É¢²½ÔÚºþ±ß»òº£±ß£¬Î¢·ç·÷Ãæ£¬Á¹Ë¬ÒËÈË¡£Ò¹Íí£¬Ó©»ð³æµãµã£¬ÐÇ¿Õè­è²£¬ÎªÏÄÈÕÆ½ÌíÁË¼¸·ÖÀËÂþ¡£
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"Ð´Ò»Æª100×Ö×óÓÒ¹ØÓÚ´ºÌìµÄÎÄÕÂ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"Ð´Ò»Æª100×Ö×óÓÒ¹ØÓÚ´ºÌìµÄÎÄÕÂ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: {"streamly":true,"us...
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: Ð´Ò»Æª100×Ö×óÓÒ¹ØÓÚ´ºÌìµÄÎÄÕÂ,¶Ô»°ID: 
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 1.55s
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌì
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 1.63s | ¾ä×ÓÊý: 1
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ´ºÌìÀ´ÁË£¬
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÍòÎï¸´ËÕ¡£
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄ
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚ
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ª
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´ó
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ù
+2025-04-21 13:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾º
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: »¨¶ùÃÇ¾ºÏà¿ª·Å£¬
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºì
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»Æ
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×Ï
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬¾º
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬¾ºÏà
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬¾ºÏàÕ¹Ê¾
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬¾ºÏàÕ¹Ê¾ÃÀÀö
+2025-04-21 13:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:´ºÌìÀ´ÁË£¬ÍòÎï¸´ËÕ¡£ÎÂÅ¯µÄÑô¹â´©Í¸±¡Îí£¬È÷ÔÚÉú»ú²ª²ªµÄ´óµØÉÏ¡£»¨¶ùÃÇ¾ºÏà¿ª·Å£¬ºìµÄ¡¢»ÆµÄ¡¢×ÏµÄ£¬¾ºÏàÕ¹Ê¾ÃÀÀö¡£
+2025-04-21 14:22:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:23:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"½éÉÜÏÂÄã×Ô¼º","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"½éÉÜÏÂÄã×Ô¼º","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:26:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:29:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"ÓÐÄÄÐ©³µÂ·ÔÆÏà¹ØµÄÕþ²ß","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"ÓÐÄÄÐ©³µÂ·ÔÆÏà¹ØµÄÕþ²ß","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:29:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - input_data:ÓÐÄÄÐ©³µÂ·ÔÆÏà¹ØµÄÕþ²ß
+2025-04-21 14:31:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"³µÂ·ÔÆÒ»Ìå»¯ÀëÎÒÃÇÓÐ¶àÔ¶","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"³µÂ·ÔÆÒ»Ìå»¯ÀëÎÒÃÇÓÐ¶àÔ¶","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:35:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:35:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ
+2025-04-21 14:40:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:40:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ
+2025-04-21 14:40:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:40:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ
+2025-04-21 14:40:11 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - input_data:°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ
+2025-04-21 14:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"½éÉÜÏÂÄã×Ô¼º","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"½éÉÜÏÂÄã×Ô¼º","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:½éÉÜÏÂÄã×Ô¼º
+2025-04-21 14:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"½éÉÜÏÂÄã×Ô¼º","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"½éÉÜÏÂÄã×Ô¼º","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:½éÉÜÏÂÄã×Ô¼º
+2025-04-21 14:42:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - input_data:½éÉÜÏÂÄã×Ô¼º
+2025-04-21 14:44:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:44:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ
+2025-04-21 14:44:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - DifyHandleEntryInput:{"streamly":true,"user":"user","Input":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 14:44:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:°ïÎÒ×öÒ»·ù»­£¬Ö÷ÌâÊÇ³µÂ·ÔÆ
+2025-04-21 14:51:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´
+2025-04-21 14:51:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´
+2025-04-21 14:53:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿
+2025-04-21 14:53:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿
+2025-04-21 14:54:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - useruser
+2025-04-21 14:54:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:½éÉÜÏÂÄã×Ô¼º
+2025-04-21 14:54:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - useruser
+2025-04-21 14:54:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:½éÉÜÏÂÄã×Ô¼º
+2025-04-21 14:54:21 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - Thread_Task user:user
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - user:user
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - user:user
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - Thread_Task user:user
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´...
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: Õ¹¹ÝµÄÖ÷ÒªÄÚÈÝÊÇÊ²Ã´,¶Ô»°ID: 
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 14:59:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 0.94s
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹Ý
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 1.09s | ¾ä×ÓÊý: 1
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·
+2025-04-21 14:59:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½Ìå
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎï
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½Ìå
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄ
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹Ý
+2025-04-21 14:59:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹Ý
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶à
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØ
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·
+2025-04-21 14:59:36 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»ò
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄ
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹Ý
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»ò
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝ
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏë
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒ
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 14:59:37 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:Õ¹¹ÝµÄÄÚÈÝ¶àÖÖ¶àÑù£¬Ö÷Òª°üÀ¨Õ¹Æ·Õ¹Ê¾¡¢»¥¶¯ÌåÑé¡¢¶àÃ½ÌåÑÝÊ¾µÈ¡£ÕâÐ©ÄÚÈÝ¿ÉÒÔÊÇÊµÎïÕ¹Æ·£¬Ò²¿ÉÒÔÊÇÍ¨¹ý¶àÃ½ÌåÉè±¸Õ¹Ê¾µÄÐéÄâÄÚÈÝ¡£²»Í¬µÄÕ¹¹ÝÓÐ²»Í¬µÄÖØµã£¬±ÈÈç¿Æ¼¼¹Ý¿ÉÄÜ¸ü²àÖØÓÚ¿ÆÑ§ÖªÊ¶µÄÕ¹Ê¾ºÍ»¥¶¯ÌåÑé£¬¶ø²©Îï¹ÝÔò¿ÉÄÜ¸ü¶àµØÕ¹Ê¾ÀúÊ·ÎÄÎï»òÒÕÊõÆ·¡£Èç¹ûÓÐ¾ßÌåµÄÕ¹¹ÝÀàÐÍ»òÄÚÈÝÏëÁË½â£¬¿ÉÒÔ¸æËßÎÒÅ¶£¡
+2025-04-21 15:04:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - user:user
+2025-04-21 15:04:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿
+2025-04-21 15:04:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - user:user
+2025-04-21 15:04:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - OutEntryInput:º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - Thread_Task user:user
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÎªÓÃ»§ user ´¦ÀíÎÄ±¾: º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿...
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ¿ªÊ¼ÇëÇó¶Ô»°: º¼ÖÝÒÑ¾­ÓÐÄÄÐ©ÂäµØÏîÄ¿,¶Ô»°ID: 
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ÏìÓ¦×´Ì¬Âë: 200
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´Î½ÓÊÕµ½ÎÄ×ÖÏìÓ¦ºÄÊ±: 1.32s
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝ
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄ
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØ
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] Ê×´ÎÏìÓ¦ºÄÊ±: 1.64s | ¾ä×ÓÊý: 1
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1.
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐ
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü
+2025-04-21 15:04:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£º
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁù
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹Ìü
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2.
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞ
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º
+2025-04-21 15:04:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶Èë
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃ
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: 
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3.
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´å
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£º
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨Éè
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²
+2025-04-21 15:04:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ª
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´ú
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´å
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: 
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓë
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁË
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´å
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄ
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: ²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©
+2025-04-21 15:05:00 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚ
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍ
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏ
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓò
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] ·¢ËÍ¾ä×Ó: 
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£
+2025-04-21 15:05:01 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:º¼ÖÝµÄÂäµØÏîÄ¿°üÀ¨¶à¸ö·½Ãæ£¬±ÈÈç£º
+
+1. **ÖÇ»Û³ÇÊÐÕ¹Ìü**£ºÁùÅÌË®ÖÇ»Û³ÇÊÐÕ¹ÌüµÄ¶àÃ½Ìå¼¯³É¹©Ó¦ÉÌ¡£
+2. **áÓÖÝÐÇËÞÐ¡À¥´å**£º¸ÃÏîÄ¿ÒÑ¾­Í¶ÈëÔËÓª²¢È¡µÃÁËÒ»¶¨µÄ³ÉÐ§¡£
+3. **Î´À´Ïç´åÑÐ¾¿**£ºÍ¶×Ê½¨ÉèÁË°²¼ªÐÂÊ±´úÏç´åÑÐ¾¿Ôº£¬²ÎÓëÁËÖ®½­Î´À´Ïç´å²úÒµ¹²¸»ÁªÃË£¬²¢Éî»¯Î´À´Ïç´åÁìÓòµÄÕ½ÂÔºÏ×÷¡£
+
+ÕâÐ©ÏîÄ¿ÌåÏÖÁË¹«Ë¾ÔÚÖÇ»Û³ÇÊÐ½¨Éè¡¢Î´À´Ïç´å·¢Õ¹ºÍÎÄ»¯¿Æ¼¼ÈÚºÏµÈÁìÓòµÄ·¢Õ¹³É¹û¡£

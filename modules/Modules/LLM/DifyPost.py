@@ -32,3 +32,13 @@ class PostChat:
     def GetResponse(self):
         return self.response
 
+
+if __name__ == '__main__':
+    # 生成文本
+    response = PostChat(
+        streamly=True,
+        conversation_id="",
+        user="user-1",
+        text="你是谁？"
+    ).GetResponse()
+    print(response.content)

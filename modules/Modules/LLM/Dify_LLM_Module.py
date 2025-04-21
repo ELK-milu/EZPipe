@@ -12,8 +12,6 @@ from ..BaseModule import BaseModule
 from .DifyPost import PostChat,session
 from modules.utils.logger import get_logger
 
-# 获取logger实例
-logger = get_logger(__name__)
 
 class Dify_LLM_Module(BaseModule):
     class Answer_Chunk:
@@ -76,7 +74,7 @@ class Dify_LLM_Module(BaseModule):
         def PrintSentences(self):
             # 打印完整句子
             for sentence in self.sentences:
-                logger.info(f"句子: {sentence}")
+                self.logger.info(f"句子: {sentence}")
 
         def GetThinking(self) -> str:
             return self.think_string
@@ -100,7 +98,7 @@ class Dify_LLM_Module(BaseModule):
                     "status": "success",
                 }
             except requests.exceptions.RequestException as e:
-                logger.error(f"Heartbeat failed: {e}")
+                self.logger.error(f"Heartbeat failed: {e}")
 
     def register_module_routes(self):
         @self.router.get("/messages")
@@ -156,17 +154,13 @@ class Dify_LLM_Module(BaseModule):
             self.session = session
         asyncio.run(self.HeartBeat(""))
 
-    def HandleInput(self, request: Any) -> str:
-        json_str = request.model_dump_json()
-        logger.info(json_str)
-        return json_str
-
     """LLM对话模块（输入类型：str，输出类型：str）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> str:
-        data = json.loads(input_data)
-        logger.info("LLM:" + str(data["LLM"]["streamly"]))
+        self.logger.info("Thread_Task user:" + user)
+        data = self.pipeline.use_request[user]
+        self.logger.info("LLM:" + str(data["LLM"]["streamly"]))
         temp_streamly : bool = data["LLM"]["streamly"]
-        self.answer_chunk = self.Answer_Chunk(text=data["Input"], user=user, streamly=temp_streamly)
+        self.answer_chunk = self.Answer_Chunk(text=input_data, user=user, streamly=temp_streamly)
         first_sentence_sent = False
         """
         处理LLM模型对话的服务
@@ -178,31 +172,31 @@ class Dify_LLM_Module(BaseModule):
         Returns:
             str: 字符串
         """
-        logger.info(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
+        self.logger.info(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
         try:
             if not self.session:
                 self.session = session
-            logger.info(f"[Dify] 开始请求对话: {data['Input']},对话ID: {data['conversation_id']}")
-            chat_response = PostChat(streamly=True, user=user, text=data["Input"], conversation_id=data["conversation_id"]).GetResponse()
-            logger.info(f"[Dify] 响应状态码: {chat_response.status_code}")
+            self.logger.info(f"[Dify] 开始请求对话: {input_data},对话ID: {data['conversation_id']}")
+            chat_response = PostChat(streamly=True, user=user, text=input_data, conversation_id=data["conversation_id"]).GetResponse()
+            self.logger.info(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0
             # 循环处理响应中的数据块
             for chunk in chat_response.iter_content(chunk_size=None):
                 decoded = chunk.decode('utf-8')
                 self.extract_think_response(self.answer_chunk, decoded, True)
-                logger.info(f"[Dify] think:{self.answer_chunk.GetThinking()}\nResponse:{self.answer_chunk.GetResponse()}")
+                self.logger.info(f"[Dify] think:{self.answer_chunk.GetThinking()}\nResponse:{self.answer_chunk.GetResponse()}")
 
                 if self.stop_events[user].is_set():
                     break
 
                 if not chunk:  # 跳过空块
-                    logger.warning("[Dify] 收到空数据块")
+                    self.logger.warning("[Dify] 收到空数据块")
                     continue
                 # 检查是否应该停止处理
                 if user in self.stop_events and self.stop_events[user].is_set():
-                    logger.info(f"[Dify] 用户 {user} 已请求停止处理")
+                    self.logger.info(f"[Dify] 用户 {user} 已请求停止处理")
                     break
                 # 处理数据块
                 # 调用回调函数输出数据块,回调响应流式但不传输给下一个模块
@@ -221,10 +215,10 @@ class Dify_LLM_Module(BaseModule):
                     if not first_sentence_sent:
                         # 计算首次响应时间
                         elapsed = time.time() - self.answer_chunk.startTime
-                        logger.info(f"[Dify] 首次响应耗时: {elapsed:.2f}s | 句子数: {len(self.answer_chunk.sentences)}")
+                        self.logger.info(f"[Dify] 首次响应耗时: {elapsed:.2f}s | 句子数: {len(self.answer_chunk.sentences)}")
                         first_sentence_sent = True
                     for sentence in self.answer_chunk.sentences:
-                        logger.info(f"[Dify] 发送句子: {sentence}")
+                        self.logger.info(f"[Dify] 发送句子: {sentence}")
                         next_func(streamly, user, sentence)
 
                 # 流式返回
@@ -242,7 +236,7 @@ class Dify_LLM_Module(BaseModule):
             # 只返回给下一个模块最终的回复，不包含思考过程，当然这部分可通过一些模块参数自定义
             if not self.answer_chunk.streamly:
                 next_func(streamly, user, self.answer_chunk.GetResponse())
-                logger.info(f"[Dify] 发送句子: {self.answer_chunk.GetResponse()}")
+                self.logger.info(f"[Dify] 发送句子: {self.answer_chunk.GetResponse()}")
             # 当流式返回给下一个模块，但是还有剩余的数据块时，将剩余的数据块返回给下一个模块
             elif self.answer_chunk.tempResponse is not None:
                 next_func(streamly, user, self.answer_chunk.tempResponse)
@@ -252,7 +246,7 @@ class Dify_LLM_Module(BaseModule):
         except Exception as e:
             # 处理异常
             error_msg = f"[Dify] 错误: {str(e)}"
-            logger.error(error_msg)
+            self.logger.error(error_msg)
             # 通知调用者出现错误
             response_func(streamly, user, f"ERROR: {str(e)}".encode())
             next_func(streamly, user, self.ENDSIGN)
@@ -269,7 +263,7 @@ class Dify_LLM_Module(BaseModule):
 
         if not answer.StartReceive:
             elapsed = time.time() - answer.startTime
-            logger.info(f"[Dify] 首次接收到文字响应耗时: {elapsed:.2f}s")
+            self.logger.info(f"[Dify] 首次接收到文字响应耗时: {elapsed:.2f}s")
             answer.StartReceive = True
 
         # 有时返回的输出结果太长了，只能分几段输出，导致json.loads报错
