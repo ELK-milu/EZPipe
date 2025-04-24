@@ -138,9 +138,13 @@ class GPTSoVit_TTS_Module(BaseModule):
             PostChat(streamly=False, user=user, text="预热")
             self.logger.warning(f"[TTS] 输入数据为None，无法处理")
             return b''
-        
+
+        data = self.pipeline.use_request[user]
+
+        tempStreamly = data["TTS"]["streamly"]
+
         # 处理当前输入的文本
-        return self.process_single_text(streamly, user, input_data, response_func, next_func)
+        return self.process_single_text(tempStreamly, user, input_data, response_func, next_func)
 
     def process_single_text(self, streamly: bool, user: str, input_data: str, response_func, next_func) -> bytes:
         """处理单条文本"""

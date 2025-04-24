@@ -61,3 +61,25 @@
 2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已断开连接，停止处理
 2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] 用户 user 已处理完成，不再输出数据
 2025-04-08 01:34:32 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] 检查用户连接状态时出错: 
+2025-04-21 15:14:16 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 15:49:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:06:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:07:46 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:10:39 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:15:57 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:16:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:20:46 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:21:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:33:50 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 16:37:26 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 17:06:19 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 19:32:47 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-21 19:37:56 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 19:56:44 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 19:58:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 19:59:27 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 20:00:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 20:10:53 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 20:25:58 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 20:28:48 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-04-24 20:29:37 - LCBot.modules.Modules.BaseModule - INFO - user:user

@@ -49691,3 +49691,2006 @@ Response:杭州的落地项目包括多个方面，比如：
 3. **未来乡村研究**：投资建设了安吉新时代乡村研究院，参与了之江未来乡村产业共富联盟，并深化未来乡村领域的战略合作。
 
 这些项目体现了公司在智慧城市建设、未来乡村发展和文化科技融合等领域的发展成果。
+2025-04-21 17:30:27 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:30:27 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:30:27 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:30:27 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你,对话ID: 
+2025-04-21 17:30:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:30:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:30:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - ERROR - [Dify] 错误: 'user'
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你好","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你好","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你好,对话ID: 
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:32:41 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 1.22s
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 1.25s | 句子数: 1
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。
+2025-04-21 17:32:42 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 很高兴为您服务。
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:32:43 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！很高兴为您服务。请问有什么问题我可以帮助您吗？
+2025-04-21 17:34:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你好","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你好","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:34:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:34:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:34:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你好,对话ID: 
+2025-04-21 17:34:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"嗯","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"嗯","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:34:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:34:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:34:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 嗯,对话ID: 
+2025-04-21 17:34:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:34:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:34:38 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:34:38 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:34:38 - LCBot.modules.Modules.LLM.Dify_LLM_Module - ERROR - [Dify] 错误: 'user'
+2025-04-21 17:36:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你好","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你好","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你好,对话ID: 
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.43s
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.46s | 句子数: 1
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是05
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是057
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-8
+2025-04-21 17:36:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-853
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-8538
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-853813
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-8538139
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 杭州向正科技有限公司的服务热线是0571-85381397，
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是1
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是153
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是1538
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是153811
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是1538114
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是153811410
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是1538114109
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 节假日专线是15381141097，
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果
+2025-04-21 17:36:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你如果有任何问题或者需要帮助，
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 都可以通过这些联系方式联系我们。
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 同时，
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（18
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（187
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（18729
+2025-04-21 17:36:48 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（187296
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（18729679
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（187296792
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你也可以通过我们的客服QQ（1872967921）进行咨询，
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plus
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）
+2025-04-21 17:36:49 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:36:50 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！杭州向正科技有限公司的服务热线是0571-85381397，节假日专线是15381141097，你如果有任何问题或者需要帮助，都可以通过这些联系方式联系我们。同时，你也可以通过我们的客服QQ（1872967921）进行咨询，或者访问我们的公司官网（http://www.plusbe.com）获取更多信息。希望你能满意！
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你好","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你好","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你好,对话ID: 
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.45s
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.49s | 句子数: 1
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 有什么可以帮助你的吗？
+2025-04-21 17:40:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你想要了解关于杭州向正科技有限公司的更多信息吗？
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、地址
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、地址或者是
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、地址或者是他们的
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、地址或者是他们的产品
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、地址或者是他们的产品和服务
+2025-04-21 17:40:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！有什么可以帮助你的吗？你想要了解关于杭州向正科技有限公司的更多信息吗？比如联系方式、地址或者是他们的产品和服务呢
+2025-04-21 17:40:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，小女员","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"50f317d3-f66a-4d26-ba2a-da25bb3eff95","message_id":"ae287364-176e-42c6-b632-3e13618edc54","text":"，小女员","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:40:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:40:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:40:47 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，小女员,对话ID: 50f317d3-f66a-4d26-ba2a-da25bb3eff95
+2025-04-21 17:40:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你写是吧","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"50f317d3-f66a-4d26-ba2a-da25bb3eff95","message_id":"ae287364-176e-42c6-b632-3e13618edc54","text":"你写是吧","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:40:58 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，那是谁谁写程序啊？我","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"50f317d3-f66a-4d26-ba2a-da25bb3eff95","message_id":"ae287364-176e-42c6-b632-3e13618edc54","text":"，那是谁谁写程序啊？我","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:40:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:40:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:40:59 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你写是吧,对话ID: 50f317d3-f66a-4d26-ba2a-da25bb3eff95
+2025-04-21 17:41:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，你要不过来看看方杰","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"50f317d3-f66a-4d26-ba2a-da25bb3eff95","message_id":"ae287364-176e-42c6-b632-3e13618edc54","text":"，你要不过来看看方杰","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:41:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:41:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:41:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，你要不过来看看方杰,对话ID: 50f317d3-f66a-4d26-ba2a-da25bb3eff95
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 3.61s
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 3.65s | 句子数: 1
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 您好，
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 有什么信息或者问题需要帮助的吗？
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅
+2025-04-21 17:41:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:10 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:41:20 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:您好，有什么信息或者问题需要帮助的吗？比如您是想了解某个地方的城镇会客厅或展厅的相关信息？
+2025-04-21 17:41:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，现在你那你不用","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"50f317d3-f66a-4d26-ba2a-da25bb3eff95","message_id":"4ed614b0-4609-4991-bc87-03e12d5524d6","text":"，现在你那你不用","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:41:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:41:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:41:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，现在你那你不用,对话ID: 50f317d3-f66a-4d26-ba2a-da25bb3eff95
+2025-04-21 17:41:26 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:41:26 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:26 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:41:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:41:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - ERROR - [Dify] 错误: 'user'
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你好","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你好","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你好,对话ID: 
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:05 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.43s
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.45s | 句子数: 1
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 需要帮助吗？
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 如果你有任何问题，
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 比如咨询联系方式、产品信息或者服务内容，
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:06 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！需要帮助吗？如果你有任何问题，比如咨询联系方式、产品信息或者服务内容，都可以告诉我。
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，我小象","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"c177b53d-2d65-4ecd-bb96-d778b23aa103","message_id":"27e9628b-f1cd-4e59-88dc-a5021eff91ee","text":"，我小象","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，我小象,对话ID: c177b53d-2d65-4ecd-bb96-d778b23aa103
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.58s
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.61s | 句子数: 1
+2025-04-21 17:42:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 请告诉我更多一些，
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你是想了解智慧农业生产平台的产品详情，
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请告诉我更多一些，你是想了解智慧农业生产平台的产品详情，还是有其他问题呢？
+2025-04-21 17:42:33 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，喂","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"c177b53d-2d65-4ecd-bb96-d778b23aa103","message_id":"0b71a9c5-44e1-4e50-b6a7-057a77d3520a","text":"，喂","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，喂,对话ID: c177b53d-2d65-4ecd-bb96-d778b23aa103
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.53s
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.56s | 句子数: 1
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息
+2025-04-21 17:42:34 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 请问具体想了解什么信息呢？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 比如智慧农业生产平台的功能、操作方法，
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:42:35 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！请问具体想了解什么信息呢？比如智慧农业生产平台的功能、操作方法，还是其他相关问题？
+2025-04-21 17:45:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"你好","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"你好","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 你好,对话ID: 
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.46s
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.49s | 句子数: 1
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你好！
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 欢迎咨询，
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解
+2025-04-21 17:45:31 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 您需要了解杭州向正科技有限公司的哪些信息呢？
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:32 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:你好！欢迎咨询，您需要了解杭州向正科技有限公司的哪些信息呢？如服务热线、地址或者官网等。
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，帮我写一篇100 字的小作文","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"13899c0e-7b4b-43be-937e-78dfc35ff5b0","message_id":"9baef902-580b-4c5b-9a3c-fb611cef14f2","text":"，帮我写一篇100 字的小作文","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，帮我写一篇100 字的小作文,对话ID: 13899c0e-7b4b-43be-937e-78dfc35ff5b0
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.56s
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.59s | 句子数: 1
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 好的，
+2025-04-21 17:45:52 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于
+2025-04-21 17:45:53 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子
+2025-04-21 17:45:53 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名
+2025-04-21 17:45:53 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的
+2025-04-21 17:45:53 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短
+2025-04-21 17:45:53 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写
+2025-04-21 17:45:54 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 融合了数字手写、图像识别和多媒体技术。
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 参观者可以在触摸屏上自由书写、签名并留言，
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以
+2025-04-21 17:45:55 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 系统会自动以图片格式保存。
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 还可以配备摄像头，
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 游客可以拍摄视频。
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 所有内容会在显示屏上循环播放，
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:56 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:45:57 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，关于电子签名系统的短文可以这样写：
+
+电子签名系统是一个高科技产品，融合了数字手写、图像识别和多媒体技术。参观者可以在触摸屏上自由书写、签名并留言，系统会自动以图片格式保存。还可以配备摄像头，游客可以拍摄视频。所有内容会在显示屏上循环播放，供人们查询和浏览。
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，今天是周几","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"13899c0e-7b4b-43be-937e-78dfc35ff5b0","message_id":"c77a4eb8-fb24-48ba-a316-4606745fd2e6","text":"，今天是周几","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，今天是周几,对话ID: 13899c0e-7b4b-43be-937e-78dfc35ff5b0
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.56s
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是
+2025-04-21 17:46:07 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.75s | 句子数: 1
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 今天是周几，
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 取决于你提问的具体日期。
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你可以告诉我一下日期，
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是
+2025-04-21 17:46:08 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:46:09 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是周几，取决于你提问的具体日期。你可以告诉我一下日期，或者我可以通过网络查询确定今天是周几。
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"写一篇100 字的作文","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"","message_id":"","text":"写一篇100 字的作文","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 写一篇100 字的作文,对话ID: 
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:13 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.68s
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.71s | 句子数: 1
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 好的，
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的1
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的10
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子
+2025-04-21 17:49:14 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 集签名、拍照、留言等功能于一体。
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 参观者可以通过触摸屏自由书写，
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 签名等。
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统
+2025-04-21 17:49:15 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 系统能够自动以图片格式记录存储这些内容，
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 并且可以配合摄像头录制视频。
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 这些内容可以在显示屏上循环播放，
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。
+2025-04-21 17:49:16 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 方便查询。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 它不仅提升了参观体验，
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:17 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:好的，下面是一篇关于电子签名系统的100字作文：
+
+电子签名系统是一个高科技产品，集签名、拍照、留言等功能于一体。参观者可以通过触摸屏自由书写，签名等。系统能够自动以图片格式记录存储这些内容，并且可以配合摄像头录制视频。这些内容可以在显示屏上循环播放，方便查询。它不仅提升了参观体验，还为馆方提供了丰富的信息资源。
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"，今天是周几","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"d8ddbbf3-c9ee-47d5-845a-4118a9af0985","message_id":"f75f0d08-fa81-4fec-a9d6-8fe5f084a31c","text":"，今天是周几","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ，今天是周几,对话ID: d8ddbbf3-c9ee-47d5-845a-4118a9af0985
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:22 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.43s
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.58s | 句子数: 1
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 今天是哪一天，
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 我无法确定，
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 因为我没有实时查询日期的功能。
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日
+2025-04-21 17:49:23 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:49:24 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:今天是哪一天，我无法确定，因为我没有实时查询日期的功能。你可以查看设备上的时钟或者日历来知道今天是周几。
+2025-04-21 17:50:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"最高的山，叫什么名字","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"d8ddbbf3-c9ee-47d5-845a-4118a9af0985","message_id":"a7017668-38b3-4c66-bf2f-a770a03ba36c","text":"最高的山，叫什么名字","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:50:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:50:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:50:28 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 最高的山，叫什么名字,对话ID: d8ddbbf3-c9ee-47d5-845a-4118a9af0985
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.60s
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.94s | 句子数: 1
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 最高的山是珠穆朗玛峰，
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于
+2025-04-21 17:50:29 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:30 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:最高的山是珠穆朗玛峰，位于中国和尼泊尔边境。
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"？第二高的呢","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"d8ddbbf3-c9ee-47d5-845a-4118a9af0985","message_id":"b4e9f17a-edcc-4b64-83dc-6de24e0f218d","text":"？第二高的呢","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: ？第二高的呢,对话ID: d8ddbbf3-c9ee-47d5-845a-4118a9af0985
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:39 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.58s
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.87s | 句子数: 1
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 第二高的山是乔戈里峰，
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 也被称为(K2)，
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:40 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:第二高的山是乔戈里峰，也被称为(K2)，位于中国和巴基斯坦的边境。
+2025-04-21 17:50:44 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - {"streamly":true,"user":"user","Input":"走走走","Entry":0,"temperature":1.0,"max_length":1024,"conversation_id":"d8ddbbf3-c9ee-47d5-845a-4118a9af0985","message_id":"afb9990c-85b9-4258-98b9-ceff9d2326b0","text":"走走走","history":null,"LLM":{"streamly":true},"TTS":{"streamly":false}}
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - LLM:True
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始为用户 user 处理文本: {"streamly":true,"us...
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 开始请求对话: 走走走,对话ID: d8ddbbf3-c9ee-47d5-845a-4118a9af0985
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 响应状态码: 200
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次接收到文字响应耗时: 0.53s
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 首次响应耗时: 0.64s | 句子数: 1
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 走走走，
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 保持活力哦！
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你
+2025-04-21 17:50:45 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 如果你有任何问题或者需要更多信息，
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] 发送句子: 随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。
+2025-04-21 17:50:46 - LCBot.modules.Modules.LLM.Dify_LLM_Module - INFO - [Dify] think:
+Response:走走走，保持活力哦！如果你有任何问题或者需要更多信息，随时告诉我。

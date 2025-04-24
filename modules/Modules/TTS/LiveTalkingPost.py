@@ -3,7 +3,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import time
 
-url = "http://117.50.245.216:8010/human"
+url = "http://117.50.245.216:8010/"
 
 # 创建连接池和重试策略
 retry_strategy = Retry(
@@ -34,21 +34,28 @@ session.headers.update({
 
 
 class PostChat:
-    def __init__(self, interrupt, sessionid, text):
+    def __init__(self, interrupt,type, sessionid, text,reffile,reftext):
         self.payload = {
             "text": text,
-            "type": "echo",
-            "interrupt" : True,
+            "type": type,
+            "interrupt" : interrupt,
             "sessionid": sessionid,
+            "reffile" : reffile,
+            "reftext": reftext
         }
+
+        print(f"请求参数: {self.payload}")
         # 设置合理的超时时间，避免长时间等待
         timeout = (3.0, 10.0)  # (连接超时，读取超时)
+        self.url = url
+
+        postURl = self.url + "human"
         
         # 使用全局session发送请求，复用TCP连接
         start_time = time.time()
         try:
             self.response = session.post(
-                url, 
+                postURl,
                 json=self.payload, 
                 stream=False,
                 timeout=timeout
@@ -56,19 +63,15 @@ class PostChat:
             elapsed = time.time() - start_time
             # 如果请求时间超过100ms，记录下来用于调试
             if elapsed > 0.1:
-                print(f"[TTS_POST] 请求耗时: {elapsed:.3f}秒, 文本长度: {len(text)}")
+                print(f"请求耗时: {elapsed:.3f}秒, 文本长度: {len(text)}")
         except requests.exceptions.RequestException as e:
-            print(f"[TTS_POST] 请求异常: {e}")
-            # 创建一个空响应对象
-            self.response = type('obj', (object,), {
-                'ok': False,
-                'status_code': 500,
-                'text': f"连接错误: {str(e)}",
-                'iter_content': lambda chunk_size: []
-            })
+            print(f"请求异常: {e}")
 
     def GetResponse(self):
         return self.response
+
+    def GetURL(self):
+        return self.url
         
     def PrintAnswer(self):
         return self.response.text  # 返回存储的响应内容
