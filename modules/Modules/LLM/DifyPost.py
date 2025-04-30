@@ -6,7 +6,7 @@ url = "http://localhost/v1/chat-messages"
 # 在程序启动时创建全局Session并配置headers
 session = requests.Session()
 session.headers.update({
-    'Authorization': 'Bearer app-UyKS3jl2oXtiMU6t2FV9r3iG',
+    'Authorization': 'Bearer app-5NYcfDmCigqLgwGoPSD0HtrQ',
     'Content-Type': 'application/json',
     'Connection': 'Keep-Alive'
 })
