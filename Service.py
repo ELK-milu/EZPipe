@@ -54,10 +54,11 @@ def warm_up_tts_service():
 # 解析命令行参数
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    "--host", type=str, default="192.168.10.118", required=False, help="host ip, localhost, 0.0.0.0"
+    "--host", type=str, default="192.168.30.46", required=False, help="host ip, localhost, 0.0.0.0"
 )
 parser.add_argument("--port", type=int, default=3421, required=False, help="grpc server port")
 parser.add_argument("--workers", type=int, default=4, required=False, help="grpc server workers")
+parser.add_argument("--config", type=str, default="Config.yaml", required=False, help="grpc server workers")
 args = parser.parse_args()
 
 # 初始化全局logger
@@ -86,7 +87,8 @@ if __name__ == "__main__":
         pipeline=pipeline,
         host=args.host,
         port=args.port,
-        workers=args.workers
+        workers=args.workers,
+        configName= args.config
     )
     #service.Print_Request_Schema()
     service_logger.info(f"服务已启动，监听地址: {args.host}:{args.port}")

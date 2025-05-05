@@ -9,7 +9,7 @@ from typing import Optional, Any, Dict
 import requests
 
 from ..BaseModule import BaseModule
-from .DifyPost import PostChat,session
+from .DifyPost import PostChat,session,SetSessionConfig,url
 from modules.utils.logger import get_logger
 
 
@@ -93,10 +93,8 @@ class Dify_LLM_Module(BaseModule):
         if self.session:
             try:
                 # 发送HEAD请求（轻量级，不下载响应体）
-                self.session.head("http://localhost/v1/conversations", timeout=10)
-                return {
-                    "status": "success",
-                }
+                request = self.session.head(f"{url}/conversations", timeout=10)
+                return request.status_code
             except requests.exceptions.RequestException as e:
                 self.logger.error(f"Heartbeat failed: {e}")
 
@@ -152,6 +150,9 @@ class Dify_LLM_Module(BaseModule):
     def StartUp(self):
         if self.session is None:
             self.session = session
+        # 预热LLM引擎
+            SetSessionConfig(seturl= self.pipeline.config["LLM"]["Dify"]["url"],
+                             headerkey=self.pipeline.config["LLM"]["Dify"]["headerkey"])
         asyncio.run(self.HeartBeat(""))
 
     """LLM对话模块（输入类型：str，输出类型：str）"""

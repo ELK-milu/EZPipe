@@ -12,12 +12,14 @@ from starlette.background import BackgroundTask
 
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.utils.logger import get_logger
+from modules.utils.ConfigLoader import read_config
+
 
 # 配置logger
 logger = get_logger(__name__)
 
 class API_Service(ABC):
-    def __init__(self, pipeline: PipeLine, host: str = "0.0.0.0", port: int = 8000, workers: int = 1,
+    def __init__(self, pipeline: PipeLine, host: str = "0.0.0.0", port: int = 8000, workers: int = 1,configName = "Config.yaml",
                  post_router: str = "/input"):
         self.pipeline = pipeline
         self.host = host
@@ -28,6 +30,8 @@ class API_Service(ABC):
         self.router = APIRouter()
         self._register_routes()
         self.logger = logger
+        self.configName = configName
+        self.config = None
         # 用于跟踪活跃的连接
         self.active_connections = set()
 
@@ -207,7 +211,11 @@ class API_Service(ABC):
             port=self.port,
             loop="asyncio"
         )
+
+        self.config = read_config(self.configName)
+
         self.pipeline.logger = self.logger
+        self.pipeline.config = self.config
         self.pipeline.StartUp()
         # 启动服务器
         server = uvicorn.Server(config)

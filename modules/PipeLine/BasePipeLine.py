@@ -12,7 +12,8 @@ class PipeLine:
         # 初始化模块实例
         self.modules = [m() for m in modules]
         self._link_instances()
-        
+        self.config: Dict = None
+
         # 用户队列和状态管理
         self.user_queues: Dict[str, asyncio.Queue] = {}  # 异步队列
         self.use_request :Dict[str,Any] = {}  # 用户请求数据json

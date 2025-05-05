@@ -25,6 +25,7 @@ parser.add_argument(
 )
 parser.add_argument("--port", type=int, default=3422, required=False, help="grpc server port")
 parser.add_argument("--workers", type=int, default=4, required=False, help="grpc server workers")
+parser.add_argument("--config", type=str, default="VideoHumanConfig.yaml", required=False, help="grpc server workers")
 args = parser.parse_args()
 
 # 初始化全局logger
@@ -48,7 +49,8 @@ if __name__ == "__main__":
         pipeline=pipeline,
         host=args.host,
         port=args.port,
-        workers=args.workers
+        workers=args.workers,
+        configName = args.config
     )
     #service.Print_Request_Schema()
     service_logger.info(f"服务已启动，监听地址: {args.host}:{args.port}")

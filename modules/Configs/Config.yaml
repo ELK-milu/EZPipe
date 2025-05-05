@@ -1,0 +1,4 @@
+LLM:
+  Dify:
+    url: http://localhost/v1/chat
+    headerkey: app-5NYcfDmCigqLgwGoPSD0HtrQ
