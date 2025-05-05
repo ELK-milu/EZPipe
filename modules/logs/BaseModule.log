@@ -1,66 +1,66 @@
-2025-04-08 00:52:41 - LCBot.BaseModule - INFO - Ä£¿é Dify_LLM_Module ³õÊ¼»¯Íê³É
-2025-04-08 00:52:41 - LCBot.BaseModule - INFO - Ä£¿é GPTSoVit_TTS_Module ³õÊ¼»¯Íê³É
-2025-04-08 00:52:46 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
-2025-04-08 00:53:09 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 00:53:12 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:43 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
-2025-04-08 00:53:50 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 00:53:58 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:02 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:05 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:36 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
-2025-04-08 00:54:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 00:54:44 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:45 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:49 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:21:57 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
-2025-04-08 01:23:52 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
-2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬²»´´½¨ÐÂÏß³Ì
-2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:16 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:17 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:19 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:20 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:22 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:23 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:25 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:08 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
-2025-04-08 01:27:29 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ¶Ï¿ªÁ¬½Ó£¬Í£Ö¹´¦Àí
-2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ÓÃ»§ user ÒÑ´¦ÀíÍê³É£¬²»ÔÙÊä³öÊý¾Ý
-2025-04-08 01:34:32 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ¼ì²éÓÃ»§Á¬½Ó×´Ì¬Ê±³ö´í: 
+2025-04-08 00:52:41 - LCBot.BaseModule - INFO - Ä£ï¿½ï¿½ Dify_LLM_Module ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:52:41 - LCBot.BaseModule - INFO - Ä£ï¿½ï¿½ GPTSoVit_TTS_Module ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:52:46 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
+2025-04-08 00:53:09 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:12 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:14 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:43 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
+2025-04-08 00:53:50 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:58 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:53:59 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:02 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:05 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:07 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:36 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
+2025-04-08 00:54:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:44 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:45 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:49 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 00:54:51 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:21:57 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
+2025-04-08 01:23:52 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:13 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:16 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:17 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:19 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:20 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:22 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:23 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:25 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:24:31 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:08 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
+2025-04-08 01:27:29 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:30 - LCBot.BaseModule - INFO - [Dify_LLM_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:32 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:33 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:35 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:36 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:38 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:39 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:41 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:47 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:27:48 - LCBot.BaseModule - INFO - [GPTSoVit_TTS_Module] ï¿½Ã»ï¿½ user ï¿½Ñ´ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2025-04-08 01:34:32 - LCBot.BaseModule - ERROR - [Dify_LLM_Module] ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬Ê±ï¿½ï¿½ï¿½ï¿½: 
 2025-04-21 15:14:16 - LCBot.modules.Modules.BaseModule - INFO - user:user
 2025-04-21 15:49:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
 2025-04-21 16:06:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
@@ -83,176 +83,31 @@
 2025-04-24 20:25:58 - LCBot.modules.Modules.BaseModule - INFO - user:user
 2025-04-24 20:28:48 - LCBot.modules.Modules.BaseModule - INFO - user:user
 2025-04-24 20:29:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:27:55 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:36:44 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:37:00 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:37:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:39:17 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:39:45 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:05 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:08 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:31 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:48:48 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:06 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:13 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:13 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:19 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:38 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:53:38 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:54:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:54:02 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:54:08 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:54:45 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:55:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:55:10 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 16:55:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:10 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:36 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:39 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:39 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:42 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:42 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:00:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:00 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:00 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:00 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:31 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:31 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:36 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:47 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:01:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:02:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:02:13 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:02:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:02:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:02:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:02:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:11:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:14:45 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:15:25 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:15:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:16:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:17:02 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:18:19 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:21:53 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:21:55 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:22:13 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:22:52 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:22:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:23:20 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:23:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:24:35 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:25:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:25:16 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:25:26 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:25:26 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:25:36 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:25:36 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:26:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:27:39 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:27:59 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:28:06 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:28:06 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:28:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:28:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:28:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:28:14 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:30:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:49:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:50:12 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:51:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:51:51 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:52:37 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:53:23 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:55:26 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:57:35 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:57:52 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:57:53 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:19 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:36 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:36 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:44 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:44 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 17:58:57 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:02:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:02:40 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:03:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:03:59 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:04:26 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:04:58 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-28 18:06:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:38:44 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:38:48 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:38:48 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:38:57 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:38:57 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:03 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:22 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:22 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:31 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:31 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:40 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:41 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:58 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:39:58 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:40:09 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:40:09 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:40:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:40:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 10:40:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 11:07:39 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 11:08:17 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 11:08:41 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 11:09:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 11:09:49 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 17:01:05 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 17:01:20 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 17:02:02 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 20:56:59 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 20:58:50 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:05:07 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:06:13 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:07:41 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:08:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:08:58 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:09:34 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:10:17 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:15:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-29 21:17:12 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-30 11:54:57 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-30 11:55:20 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-30 12:05:02 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-30 12:08:55 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-04-30 12:10:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
-2025-05-05 11:22:52 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 11:54:25 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 11:55:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:06:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:08:51 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:11:07 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:11:55 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 11:54:25 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 11:55:24 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:06:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:08:51 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:11:07 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:11:55 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:24:13 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:26:28 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:33:11 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:38:26 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:45:33 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:46:35 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:48:18 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:50:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 14:51:01 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:26:54 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:27:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:29:38 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:30:43 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:31:32 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:32:16 - LCBot.modules.Modules.BaseModule - INFO - user:user
+2025-05-05 15:34:10 - LCBot.modules.Modules.BaseModule - INFO - user:user

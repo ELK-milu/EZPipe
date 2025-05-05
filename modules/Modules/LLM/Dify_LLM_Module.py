@@ -9,7 +9,7 @@ from typing import Optional, Any, Dict
 import requests
 
 from ..BaseModule import BaseModule
-from .DifyPost import PostChat,session,SetSessionConfig,url
+from .DifyPost import PostChat,SetSessionConfig
 from modules.utils.logger import get_logger
 
 
@@ -24,7 +24,7 @@ class Dify_LLM_Module(BaseModule):
             self.response_string = ""
             self.full_content = ""
             self.Is_End = False
-            self.session: requests.Session = None  # 单会话，用于长连接，暂未使用多会话
+
             self.message_id = ""
             self.conversation_id = ""
             self.final_json= ""
@@ -92,23 +92,25 @@ class Dify_LLM_Module(BaseModule):
     async def HeartBeat(self,user:str):
         if self.session:
             try:
+
                 # 发送HEAD请求（轻量级，不下载响应体）
-                request = self.session.head(f"{url}/conversations", timeout=10)
+                request = self.session.head(f"{self.url}/conversations", timeout=10)
                 return request.status_code
             except requests.exceptions.RequestException as e:
                 self.logger.error(f"Heartbeat failed: {e}")
 
     def register_module_routes(self):
+        self.logger.info(f"[Dify] 注册模块路由: {self.url}")
         @self.router.get("/messages")
         async def get_conversations(user:str, conversation_id: str):
             """获取历史会话"""
             # 调用Dify API获取数据（示例实现）
-            result = self.session.get(url = f"http://localhost/v1/messages?user={user}&conversation_id={conversation_id}")
+            result = self.session.get(url = f"{self.url}/messages?user={user}&conversation_id={conversation_id}")
             return result.json()
         @self.router.get("/conversations")
         async def get_conversations(user:str, last_id: str = None,limit: int = 20):
             """获取用户会话列表"""
-            result = self.session.get(url = f"http://localhost/v1/conversations?user={user}&last_id={last_id}&limit={limit}")
+            result = self.session.get(url = f"{self.url}/conversations?user={user}&last_id={last_id}&limit={limit}")
             # 调用Dify API获取数据（示例实现）
             return result.json()
 
@@ -120,7 +122,7 @@ class Dify_LLM_Module(BaseModule):
             payload = {
                 "user": user
             }
-            result = self.session.delete(url = f"http://localhost/v1/conversations/{conversation_id}",json = payload)
+            result = self.session.delete(url = f"{self.url}/conversations/{conversation_id}",json = payload)
                 # 调用Dify API删除会话
             return result.json()
 
@@ -136,24 +138,20 @@ class Dify_LLM_Module(BaseModule):
                 "user": user
             }
             """会话重命名"""
-            result = self.session.post(url=f"http://localhost/v1/conversations/{conversation_id}/name", json=payload)
+            result = self.session.post(url=f"{self.url}/conversations/{conversation_id}/name", json=payload)
             # 调用Dify API更新会话名称
             return result.json()
 
         @self.router.get("/messages/suggested")
         async def rename_conversation(user:str,conversation_id: str):
             """会话重命名"""
-            result = self.session.get(url=f"http://localhost/v1/messages/{conversation_id}/suggested?user={user}")
+            result = self.session.get(url=f"{self.url}/messages/{conversation_id}/suggested?user={user}")
             # 调用Dify API更新会话名称
             return result.json()
 
     def StartUp(self):
         if self.session is None:
-            self.session = session
-        # 预热LLM引擎
-            SetSessionConfig(seturl= self.pipeline.config["LLM"]["Dify"]["url"],
-                             headerkey=self.pipeline.config["LLM"]["Dify"]["headerkey"])
-        asyncio.run(self.HeartBeat(""))
+            self.session,self.url = SetSessionConfig(seturl=self.pipeline.config["LLM"]["Dify"]["url"],headerkey=self.pipeline.config["LLM"]["Dify"]["headerkey"])
 
     """LLM对话模块（输入类型：str，输出类型：str）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> str:
@@ -176,10 +174,9 @@ class Dify_LLM_Module(BaseModule):
         self.logger.info(f"[Dify] 开始为用户 {user} 处理文本: {input_data[:20]}...")
         chat_response = None
         try:
-            if not self.session:
-                self.session = session
             self.logger.info(f"[Dify] 开始请求对话: {input_data},对话ID: {data['conversation_id']}")
-            chat_response = PostChat(streamly=True, user=user, text=input_data, conversation_id=data["conversation_id"]).GetResponse()
+            chat_response = PostChat(streamly=True, user=user, text=input_data, conversation_id=data["conversation_id"],
+                                     session = self.session).GetResponse()
             self.logger.info(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0

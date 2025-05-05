@@ -27,7 +27,7 @@ class PipeLine:
         # 设置模块的pipeline引用
         for module in self.modules:
             module.pipeline = self
-            
+
         # 任务并发控制
         self.active_tasks = threading.BoundedSemaphore(5)
 
@@ -50,6 +50,7 @@ class PipeLine:
         for module in self.modules:
             module.logger = self.logger
             module.StartUp()
+            module.RegisterRoutes()
 
     async def add_chunk(self, user: str, chunk: Any) -> None:
         """添加数据块到用户队列"""

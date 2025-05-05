@@ -34,13 +34,12 @@ class BaseModule(ABC):
         self.thread_timeout = 120.0  # 线程超时时间（秒）
         self.answer_chunk = None
         self.session : requests.Session = None  # 会话管理，用于长连接
-
+        self.url = None
         # 新增路由相关属性
         self.logger = logger
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
         self.logger = get_logger(self.__class__.__name__)
-        self.RegisterRoutes()
 
 
     # 初始化方法，用于模块被添加进PipeLine并启动API服务后自动调用

@@ -11,19 +11,21 @@ session.headers.update({
     'Connection': 'Keep-Alive'
 })
 
-def SetSessionConfig(seturl,headerkey):
-    print("DifyConfig已加载")
-    global url
-    global session
+def SetSessionConfig(seturl, headerkey):
     url = seturl
+    session = requests.Session()
+    session.headers.clear()
     session.headers.update({
         'Authorization': f'Bearer {headerkey}',
         'Content-Type': 'application/json',
         'Connection': 'Keep-Alive'
     })
+    print(f"DifyConfig URL已设置为{seturl}, headerkey为{headerkey}")
+    return session, seturl  # Return both the session and url
+
 class PostChat:
     # userID 和 ConversationID对应的会话不存在会报错404
-    def __init__(self, streamly,conversation_id,user, text):
+    def __init__(self, streamly,conversation_id,user, text,session):
         self.payload = {
             "inputs": {},
             "query": text,
@@ -35,10 +37,6 @@ class PostChat:
         # 使用全局session发送请求，复用TCP连接
         self.response = session.post(f"{url}/chat-messages", json=self.payload, stream=streamly)
         self.response.encoding = 'utf-8'
-
-    def GetSession(self):
-        return session
-
     def GetResponse(self):
         return self.response
 
@@ -49,6 +47,7 @@ if __name__ == '__main__':
         streamly=True,
         conversation_id="",
         user="user-1",
-        text="你是谁？"
+        text="你是谁？",
+        session=session
     ).GetResponse()
     print(response.content)
