@@ -1,2 +1,4 @@
 /.cursor/
-/modules/logs/*.log
+/.idea/
+/.idea/pipeline.iml
+/.idea/.gitignore
