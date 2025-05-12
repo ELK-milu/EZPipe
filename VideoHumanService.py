@@ -1,8 +1,5 @@
 import argparse
-from typing import Any
 import sys
-import time
-import threading
 
 from pathlib import Path
 
@@ -12,8 +9,7 @@ from pathlib import Path
 project_root = Path(__file__).resolve().parent.parent
 
 sys.path.append(str(project_root))
-from modules.Modules.TTS.LiveTalking_Module import LiveTalking_Module
-from modules.Modules.LLM.Dify_LLM_Module import Dify_LLM_Module
+from modules.Modules.LLM.Dify.Dify_LLM_Module import Dify_LLM_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToVideoHumanAPIService
 from modules.utils.logger import setup_root_logger, get_logger
@@ -21,7 +17,7 @@ from modules.utils.logger import setup_root_logger, get_logger
 # 解析命令行参数
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    "--host", type=str, default="192.168.10.118", required=False, help="host ip, localhost, 0.0.0.0"
+    "--host", type=str, default="192.168.30.46", required=False, help="host ip, localhost, 0.0.0.0"
 )
 parser.add_argument("--port", type=int, default=3422, required=False, help="grpc server port")
 parser.add_argument("--workers", type=int, default=4, required=False, help="grpc server workers")
@@ -39,7 +35,7 @@ service_logger.info("服务启动中...")
 # 创建Pipeline
 pipeline = PipeLine.create_pipeline(
 Dify_LLM_Module,
-    LiveTalking_Module
+    #LiveTalking_Module
 )
 
 # 启动服务

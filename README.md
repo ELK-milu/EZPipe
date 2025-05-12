@@ -38,7 +38,7 @@
 在pipeline目录下输入下列命令启动服务
 
 ```bash
-python Pipeline.py --host 127.0.0.1 --port 3421
+python Service.py --host 127.0.0.1 --port 3421
 ```
 
 你可以通过在代码中添加或删除模块来选择pipeline启用的服务：

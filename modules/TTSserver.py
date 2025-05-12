@@ -1,4 +1,3 @@
-from typing import Any
 import sys
 
 from pathlib import Path
@@ -10,10 +9,7 @@ project_root = Path(__file__).resolve().parent.parent
 
 sys.path.append(str(project_root))
 from Modules.ASR.FunASR_ASR_Module import FunASR_ASR_Module
-from Modules.TTS.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
-from Modules.LLM.Ollama_LLM_Module import Ollama_LLM_Module
 from PipeLine.BasePipeLine import PipeLine
-from PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
 from PipeLineAPI.ASR_LLM_TTS_pipeAPI import ASR_LLM_TTS_pipeAPI
 
 # 测试用例

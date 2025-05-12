@@ -1,5 +1,4 @@
 import argparse
-from typing import Any
 import sys
 import time
 import threading
@@ -12,18 +11,15 @@ from pathlib import Path
 project_root = Path(__file__).resolve().parent.parent
 
 sys.path.append(str(project_root))
-from modules.Modules.ASR.FunASR_ASR_Module import FunASR_ASR_Module
-from modules.Modules.TTS.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
-from modules.Modules.LLM.Ollama_LLM_Module import Ollama_LLM_Module
-from modules.Modules.LLM.Dify_LLM_Module import Dify_LLM_Module
+from modules.Modules.TTS.GPTSovits.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
+from modules.Modules.LLM.Dify.Dify_LLM_Module import Dify_LLM_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
-from modules.PipeLineAPI.ASR_LLM_TTS_pipeAPI import ASR_LLM_TTS_pipeAPI
 from modules.utils.logger import setup_root_logger, get_logger
 
 def warm_up_tts_service():
     """预热TTS服务，减少首次请求响应时间"""
-    from modules.Modules.TTS.SovitsPost import PostChat
+    from modules.Modules.TTS.GPTSovits.SovitsPost import PostChat
     service_logger = get_logger("Service")
     service_logger.info("正在预热TTS服务...")
     
