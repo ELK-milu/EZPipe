@@ -1,43 +1,52 @@
 import requests
 import json
 
-url = "http://localhost/v1"
+URL = "http://localhost/v1"
 
 # 在程序启动时创建全局Session并配置headers
-session = requests.Session()
-session.headers.update({
+SESSION = requests.Session()
+SESSION.headers.update({
     'Authorization': 'Bearer app-5NYcfDmCigqLgwGoPSD0HtrQ',
     'Content-Type': 'application/json',
     'Connection': 'Keep-Alive'
 })
 
 def SetSessionConfig(seturl, headerkey):
-    url = seturl
-    session = requests.Session()
-    session.headers.clear()
-    session.headers.update({
+    global URL
+    global SESSION
+    SESSION.close()
+    URL = seturl
+    SESSION = requests.Session()
+    SESSION.headers.clear()
+    SESSION.headers.update({
         'Authorization': f'Bearer {headerkey}',
         'Content-Type': 'application/json',
         'Connection': 'Keep-Alive'
     })
     print(f"DifyConfig URL已设置为{seturl}, headerkey为{headerkey}")
-    return session, seturl  # Return both the session and url
+    return SESSION, seturl  # Return both the session and url
 
 class PostChat:
     # userID 和 ConversationID对应的会话不存在会报错404
-    def __init__(self, streamly,conversation_id,user, text,session):
+    def __init__(self, streamly,session):
         self.payload = {
             "inputs": {},
-            "query": text,
+            "query": "text",
             "response_mode": "streaming",
-            "conversation_id": conversation_id,
-            "user": user,
+            "conversation_id": "",
+            "user": "user",
             "files": []
         }
+        self.session = session
+        self.streamly = streamly
+
+    def Post(self,text,conversation_id,user):
+        self.payload["query"] = text
+        self.payload["conversation_id"] = conversation_id
+        self.payload["user"] = user
         # 使用全局session发送请求，复用TCP连接
-        self.response = session.post(f"{url}/chat-messages", json=self.payload, stream=streamly)
+        self.response = self.session.post(f"{URL}/chat-messages", json=self.payload, stream=self.streamly)
         self.response.encoding = 'utf-8'
-    def GetResponse(self):
         return self.response
 
 
@@ -52,7 +61,7 @@ if __name__ == '__main__':
 
         user="user-1",
         text="你是谁？",
-        session=session
+        session=SESSION
     ).GetResponse()
     i = 0
     for chunk in response.iter_content(chunk_size=None):

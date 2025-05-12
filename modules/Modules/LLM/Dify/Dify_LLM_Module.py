@@ -152,6 +152,8 @@ class Dify_LLM_Module(BaseModule):
     def StartUp(self):
         if self.session is None:
             self.session,self.url = SetSessionConfig(seturl=self.pipeline.config["LLM"]["Dify"]["url"],headerkey=self.pipeline.config["LLM"]["Dify"]["headerkey"])
+            self.RequestSender =  PostChat(streamly=True,session = self.session)
+
 
     """LLM对话模块（输入类型：str，输出类型：str）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func,next_func) -> str:
@@ -175,8 +177,7 @@ class Dify_LLM_Module(BaseModule):
         chat_response = None
         try:
             self.logger.info(f"[Dify] 开始请求对话: {input_data},对话ID: {data['conversation_id']}")
-            chat_response = PostChat(streamly=True, user=user, text=input_data, conversation_id=data["conversation_id"],
-                                     session = self.session).GetResponse()
+            chat_response = self.RequestSender.Post(text=input_data, conversation_id=data["conversation_id"], user=user)
             self.logger.info(f"[Dify] 响应状态码: {chat_response.status_code}")
             # 用于统计处理的数据块
             chunk_count = 0

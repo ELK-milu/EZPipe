@@ -16,28 +16,28 @@ if TYPE_CHECKING:
     from modules.PipeLine.BasePipeLine import PipeLine
     from modules.PipeLineAPI.BasePipeAPI import API_Service
 
-
-# 获取logger实例
-logger = get_logger(__name__)
-
 class BaseModule(ABC):
     def __init__(self):
-        # 用户级资源管理
-        self.stop_events: Dict[str, threading.Event] = {}
+        # 工作流模块资源
         self.next_model: Optional["BaseModule"] = None
         self.pipeline: Optional["PipeLine"] = None
+
+        # 用户级资源管理
+        self.stop_events: Dict[str, threading.Event] = {}
         self.user_threads: Dict[str, threading.Thread] = {}
         self.user_InputQueue: Dict[str, queue.Queue] = {} # 接受输入的队列
         self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
-        self.TimeOut = 30  # 超时时间（秒）
 
+        # 请求处理相关变量
+        self.TimeOut = 30  # 超时时间（秒）
         self.output: Any = None
         self.thread_timeout = 120.0  # 线程超时时间（秒）
         self.answer_chunk = None
         self.session : requests.Session = None  # 会话管理，用于长连接
         self.url = None
-        # 新增路由相关属性
-        self.logger = logger
+        self.RequestSender = None
+
+        # 新增路由相关变量
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
         self.logger = get_logger(self.__class__.__name__)
@@ -85,7 +85,7 @@ class BaseModule(ABC):
     def HandleEntryInput(self, request: Any) -> Any:
         json_str = request.model_dump_json()
         data = json.loads(json_str)  # 直接获取字典，无需解析
-        logger.info("user:" + data["user"])
+        self.logger.info("user:" + data["user"])
         self.pipeline.use_request[data["user"]] = data
         return data["Input"]
 
