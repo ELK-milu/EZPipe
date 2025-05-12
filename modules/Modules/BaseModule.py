@@ -29,6 +29,7 @@ class BaseModule(ABC):
         self.user_threads: Dict[str, threading.Thread] = {}
         self.user_InputQueue: Dict[str, queue.Queue] = {} # 接受输入的队列
         self.streaming_status: Dict[str, bool] = {}  # 跟踪用户的流式处理状态
+        self.TimeOut = 30  # 超时时间（秒）
 
         self.output: Any = None
         self.thread_timeout = 120.0  # 线程超时时间（秒）
@@ -265,7 +266,7 @@ class BaseModule(ABC):
 
         # 持续处理队列中的数据，直到收到停止信号
         timeout_counter = 0  # 新增超时计数器
-        max_continuous_timeout = 10  # 最大连续超时次数（秒），可调整或作为配置参数
+        max_continuous_timeout = self.TimeOut  # 最大连续超时次数（秒），可调整或作为配置参数
 
         while not self.stop_events[user].is_set():
             try:

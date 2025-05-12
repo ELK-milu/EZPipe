@@ -2,3 +2,10 @@ LLM:
   Dify:
     url: http://localhost/v1/chat
     headerkey: app-uZdChxVBRe32nk5LvoMiqYSk
+TTS:
+  Doubao:
+    appid: "4487078679"
+    token: "HvLwi9jvzAOExH7hzbIxEndcZq3C28Dm"
+    cluster: "volcano_tts"
+    host: "openspeech.bytedance.com"
+    voice_type: "zh_female_linjianvhai_moon_bigtts"  # 可根据需要修改发音人
