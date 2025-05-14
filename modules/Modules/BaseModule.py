@@ -61,13 +61,13 @@ class BaseModule(ABC):
     # Update方法，用于一些持续性的输出，例如心跳连接
     async def HeartBeat(self,user:str):
         '''
-        while self.session:
+        if self.session:
             try:
                 # 发送HEAD请求（轻量级，不下载响应体）
-                self.session.head("http://localhost/v1", timeout=10)
+                request = self.session.head(f"{self.url}", timeout=10)
+                return request.status_code
             except requests.exceptions.RequestException as e:
-                print(f"Heartbeat failed: {e}")
-            time.sleep(0.5)
+                self.logger.error(f"Heartbeat failed: {e}")
         '''
         pass
 

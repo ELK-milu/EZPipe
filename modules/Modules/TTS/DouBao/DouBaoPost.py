@@ -1,26 +1,20 @@
 # coding=utf-8
-import asyncio
 import base64
-import re
+import io
 import time
+import wave
+
+import pyaudio
 from requests.adapters import HTTPAdapter
-
 import requests
-import websockets
-import uuid
-import json
-import gzip
-import copy
-import os
-from datetime import datetime
-
 from urllib3 import Retry
+import uuid
 
 # 默认请求头
 default_header = bytearray(b'\x11\x10\x11\x00')
 TOKEN = "HvLwi9jvzAOExH7hzbIxEndcZq3C28Dm"
 HOST = "openspeech.bytedance.com"
-API_URL = f"wss://{HOST}/api/v1/tts/ws_binary"
+API_URL = f"https://{HOST}/api/v1/tts"
 
 # 创建连接池和重试策略
 retry_strategy = Retry(
@@ -57,26 +51,35 @@ def SetSessionConfig(token, host):
     global SESSION
     TOKEN = token
     HOST = host
-    API_URL = f"wss://{HOST}/api/v1/tts/ws_binary"
-    session = requests.Session()
-    session.headers.clear()
+    API_URL = f"https://{HOST}/api/v1/tts"
+    SESSION.close()
+    SESSION = requests.Session()
+
+    SESSION.mount('http://', ADAPTER)
+    SESSION.mount('https://', ADAPTER)
+
+    SESSION.headers.clear()
     # 更新会话头信息
-    session.headers.update({
+    SESSION.headers.update({
         "Authorization": f"Bearer; {TOKEN}",
         "Content-Type": "application/json",
     })
-    session.mount('http://', ADAPTER)
-    session.mount('https://', ADAPTER)
     print(f"DouBaoPost URL已设置为{API_URL}, token为{TOKEN}")
-    return session, API_URL  # Return both the session and url
+    return SESSION, API_URL  # Return both the session and url
+
+
+def uuidv4():
+    """生成UUIDv4"""
+    return str(uuid.uuid4())
 
 
 class PostChat:
-    def __init__(self,appid,cluster,voice_type):
+    def __init__(self,appid,cluster,session):
         # 配置参数
         self.appid = appid
         self.cluster = cluster
-        self.voice_type = voice_type # 可根据需要修改发音人
+        self.voice_type = None # 可根据需要修改发音人
+        self.session = session
 
         # 基础请求模板
         self.payload  = {
@@ -89,8 +92,8 @@ class PostChat:
                 "uid": "user"
             },
             "audio": {
-                "voice_type": voice_type,
-                "encoding": "mp3",
+                "voice_type": "zh_female_linjianvhai_moon_bigtts",
+                "encoding": "wav",
                 "speed_ratio": 1.0,
                 "volume_ratio": 1.0,
                 "pitch_ratio": 1.0,
@@ -103,59 +106,78 @@ class PostChat:
             }
         }
 
-    def Post(self,user,text):
+    def Post(self,user,text,voice_type):
         # 基础请求模板
-        self.payload  = {
-            "app": {
-                "appid": self.appid,
-                "token": "access_token",
-                "cluster": self.cluster
-            },
-            "user": {
-                "uid": user
-            },
-            "audio": {
-                "voice_type": self.voice_type,
-                "encoding": "mp3",
-                "speed_ratio": 1.0,
-                "volume_ratio": 1.0,
-                "pitch_ratio": 1.0,
-            },
-            "request": {
-                "reqid": "uuid",
-                "text": text,
-                "text_type": "plain",
-                "operation": "query"
-            }
-        }
+        self.payload["user"]["uid"] = user
+        self.payload["request"]["text"] = text
+        self.payload["audio"]["voice_type"] = voice_type
+        self.payload["request"]["reqid"] = uuidv4()
 
-
-        print(f"请求参数: {self.payload}")
         timeout = (3.0, 10.0)  # (连接超时，读取超时)
         start_time = time.time()
-        try:
-            self.response = SESSION.post(
-                "https://openspeech.bytedance.com/api/v1/tts",
-                json=self.payload,
-                stream=False,
-                timeout=timeout
-            )
-            elapsed = time.time() - start_time
-            print(f"请求耗时: {elapsed:.2f}秒")
-        except requests.exceptions.RequestException as e:
-            print(f"请求异常: {e}")
-    def GetResponse(self):
+        self.response = self.session.post(
+            API_URL,
+            json=self.payload,
+            stream=False,
+            timeout=timeout
+        )
         return self.response
-
-    def GetURL(self):
-        return self.url
 
     def PrintAnswer(self):
         return self.response.text  # 返回存储的响应内容
 
+def PlayAudio(audio_bytes):
+    """直接播放WAV格式音频字节流"""
+    try:
+        p = pyaudio.PyAudio()
+        # 使用wave模块解析内存中的音频数据
+        with wave.open(io.BytesIO(audio_bytes), 'rb') as wf:
+            stream = p.open(
+                format=p.get_format_from_width(wf.getsampwidth()),
+                channels=wf.getnchannels(),
+                rate=wf.getframerate(),
+                output=True
+            )
+
+            # 流式播放（每次读取4KB）
+            data = wf.readframes(4096)
+            while data:
+                stream.write(data)
+                data = wf.readframes(4096)
+
+            # 安全释放资源
+            stream.stop_stream()
+            stream.close()
+            p.terminate()
+
+    except Exception as e:
+        print(f"播放失败：{str(e)}")
+
+
+
+
 if __name__ == '__main__':
-    response = PostChat().GetResponse()
-    audio_data = base64.b64decode(response.json().get('data'))
-    #保存为demo.mp3文件
-    with open('demo.mp3', 'wb') as f:
-        f.write(audio_data)
+    session, api_url = SetSessionConfig(TOKEN, HOST)
+
+    # 创建TTS实例
+    tts = PostChat(
+        appid="4487078679",  # 替换实际appid
+        cluster="volcano_tts",  # 替换实际cluster
+        session=session
+    )
+
+    # 发送合成请求
+    response = tts.Post(
+        user="test_user",
+        text="欢迎使用字节跳动语音合成服务",
+        voice_type="zh_female_linjianvhai_moon_bigtts"  # 使用默认发音人
+    )
+
+    if response.status_code == 200:
+        for chunk in response.iter_content(chunk_size=None):
+            response_data = response.json()
+            print(response_data)
+            if 'data' in response_data:
+                audio_data = base64.b64decode(response_data['data'])
+                # 直接播放无需保存
+                PlayAudio(audio_data)  # <-- 关键调用

@@ -10,6 +10,7 @@ project_root = Path(__file__).resolve().parent.parent
 
 sys.path.append(str(project_root))
 from modules.Modules.TTS.GPTSovits.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
+from modules.Modules.TTS.DouBao.DouBao_TTS_Module import Doubao_TTS_Module
 from modules.Modules.LLM.Dify.Dify_LLM_Module import Dify_LLM_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
@@ -38,7 +39,7 @@ service_logger.info("服务启动中...")
 # 创建Pipeline
 pipeline = PipeLine.create_pipeline(
     Dify_LLM_Module,
-    GPTSoVit_TTS_Module
+    Doubao_TTS_Module
 )
 
 # 启动服务

@@ -8,4 +8,4 @@ TTS:
     token: "HvLwi9jvzAOExH7hzbIxEndcZq3C28Dm"
     cluster: "volcano_tts"
     host: "openspeech.bytedance.com"
-    voice_type: "zh_female_linjianvhai_moon_bigtts"  # 可根据需要修改发音人
+    url: "https://openspeech.bytedance.com/tts/v1/tts"

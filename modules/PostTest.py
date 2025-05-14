@@ -1,5 +1,7 @@
 import base64
+import io
 import json
+import wave
 
 import pyaudio
 import requests
@@ -24,7 +26,8 @@ class PostChat:
             "conversation_id":conversation_id,
             "message_id" : "",
             "LLM":{"streamly":True},
-            "TTS":{"streamly":True},
+            "TTS":{"streamly":True,
+                   "voice": "zh_female_linjianvhai_moon_bigtts"},
         }
         self.streamly = streamly
         self.response = requests.request("POST", url, json=self.payload, headers=headers,stream=streamly)
@@ -36,6 +39,36 @@ class PostChat:
     def PrintAnswer(self):
         return self.text  # 返回存储的响应内容
 
+
+def PlayAudio(audio_bytes):
+    """直接播放WAV格式音频字节流"""
+    try:
+        p = pyaudio.PyAudio()
+        # 使用wave模块解析内存中的音频数据
+        with wave.open(io.BytesIO(audio_bytes), 'rb') as wf:
+            stream = p.open(
+                format=p.get_format_from_width(wf.getsampwidth()),
+                channels=wf.getnchannels(),
+                rate=wf.getframerate(),
+                output=True
+            )
+
+            # 流式播放（每次读取4KB）
+            data = wf.readframes(4096)
+            while data:
+                stream.write(data)
+                data = wf.readframes(4096)
+
+            # 安全释放资源
+            stream.stop_stream()
+            stream.close()
+            p.terminate()
+
+    except Exception as e:
+        print(f"播放失败：{str(e)}")
+
+
+
 if __name__ == "__main__":
     # 启动 main 服务
     ps = PostChat(streamly=True,user="user",
@@ -43,14 +76,6 @@ if __name__ == "__main__":
 
     from queue import Queue
     audio_queue = Queue()  # 示例队列
-
-    p = pyaudio.PyAudio()
-    stream = p.open(
-        format=pyaudio.paInt16,
-        channels=1,
-        rate=32000,  # 根据实际音频采样率调整
-        output=True
-    )
 
     for chunk in ps.iter_content(chunk_size=None):
         if chunk:
@@ -65,8 +90,5 @@ if __name__ == "__main__":
             elif chunk_data.get("type") == "audio/wav":
                 # 3. Base64解码
                 audio_bytes = base64.b64decode(chunk_data['chunk'])
-
-                # 4. 放入队列
-                audio_queue.put(audio_bytes)
-                stream.write(audio_bytes)
+                PlayAudio(audio_bytes)
                 print(f"接收到音频")

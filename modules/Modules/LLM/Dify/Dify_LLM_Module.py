@@ -92,7 +92,6 @@ class Dify_LLM_Module(BaseModule):
     async def HeartBeat(self,user:str):
         if self.session:
             try:
-
                 # 发送HEAD请求（轻量级，不下载响应体）
                 request = self.session.head(f"{self.url}/conversations", timeout=10)
                 return request.status_code
