@@ -1,0 +1,9 @@
+派蒙:
+  中立:
+    reffile: "/root/派蒙_中立.wav"
+    reftext: "可恶，怎么又是盗宝团！海灯节就快到了，也不知道安分一点。"
+邻家女孩:
+  awake: "/workspace/AwakeAudio/邻家女孩_awake.mp3"
+  中立:
+    reffile: "zh_female_linjianvhai_moon_bigtts"
+    reftext: ""

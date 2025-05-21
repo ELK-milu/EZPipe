@@ -9,3 +9,9 @@ TTS:
     cluster: "volcano_tts"
     host: "openspeech.bytedance.com"
     url: "https://openspeech.bytedance.com/tts/v1/tts"
+  LiveTalking:
+    url: "http://117.50.245.216:8010"
+    interrupt: false
+    type : "echo"
+
+

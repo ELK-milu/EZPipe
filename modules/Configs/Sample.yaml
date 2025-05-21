@@ -1,0 +1,11 @@
+LLM:
+  Dify:
+    url: 你的Dify服务地址
+    headerkey: 工作流的headerkey
+TTS:
+  Doubao:
+    appid: 火山引擎APPid
+    token: 你的token
+    cluster: "volcano_tts"
+    host: "openspeech.bytedance.com"
+    url: "https://openspeech.bytedance.com/tts/v1/tts"

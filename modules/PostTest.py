@@ -27,7 +27,8 @@ class PostChat:
             "message_id" : "",
             "LLM":{"streamly":True},
             "TTS":{"streamly":True,
-                   "voice": "zh_female_linjianvhai_moon_bigtts"},
+                   "voice": "派蒙",
+                   "emotion": "中立"},
         }
         self.streamly = streamly
         self.response = requests.request("POST", url, json=self.payload, headers=headers,stream=streamly)

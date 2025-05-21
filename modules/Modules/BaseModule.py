@@ -1,6 +1,8 @@
 import asyncio
 import json
+import os
 from abc import ABC, abstractmethod
+from io import StringIO
 from typing import Optional, TYPE_CHECKING, Dict, Any
 import queue
 import threading
@@ -10,6 +12,8 @@ from datetime import datetime
 
 import requests
 from fastapi import APIRouter
+from ruamel.yaml import YAML
+
 from modules.utils.logger import get_logger
 
 if TYPE_CHECKING:
@@ -41,7 +45,7 @@ class BaseModule(ABC):
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
         self.logger = get_logger(self.__class__.__name__)
-
+        self.Model_Config = None
 
     # 初始化方法，用于模块被添加进PipeLine并启动API服务后自动调用
     def StartUp(self):
@@ -52,11 +56,12 @@ class BaseModule(ABC):
         """模块自定义路由注册入口"""
         self.register_module_routes()
 
+
     # 注册路由方法，可以由子类实现，用于注册模块专属的API
     # 子类可重写此方法添加自定义路由
     def register_module_routes(self):
         """供子类重写的路由注册方法"""
-        pass
+
 
     # Update方法，用于一些持续性的输出，例如心跳连接
     async def HeartBeat(self,user:str):
@@ -77,9 +82,6 @@ class BaseModule(ABC):
         user: str  # 用户标识
         Input: Any  # 输入数据
 
-    # 一个模块参数自定义的类，如有需要可拓展和使用
-    class Module_Config:
-        streamly: bool = False
 
     # 每个子模块需要实现的抽象方法，自定义输入数据，返回服务端请求体处理后的数据，并实现参数初始化
     def HandleEntryInput(self, request: Any) -> Any:

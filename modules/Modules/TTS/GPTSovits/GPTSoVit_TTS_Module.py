@@ -1,5 +1,6 @@
 import asyncio
 import json
+import os
 import threading
 import logging
 import time
@@ -12,15 +13,15 @@ import requests
 import numpy as np
 
 from modules.Modules.BaseModule import BaseModule
+from modules.utils.ConfigLoader import read_config
 from .SovitsPost import PostChat, session
 from modules.utils.logger import get_logger
 
 class GPTSoVit_TTS_Module(BaseModule):
     def __init__(self):
         super().__init__()
-        self.thread_pool = ThreadPoolExecutor(max_workers=4)  # 创建线程池
-        self.min_batch_length = 8  # 短于此长度的文本会被合并处理
-        self.max_batch_length = 100  # 最大批处理文本长度
+        self.ENDSIGN = "ENDSOVITS"
+        self.Module_Config =read_config(os.path.dirname(os.path.abspath(__file__)) +  "/Config.yaml")
 
     def StartUp(self):
         if self.session is None:
@@ -107,11 +108,19 @@ class GPTSoVit_TTS_Module(BaseModule):
         data = self.pipeline.use_request[user]
 
         tempStreamly = data["TTS"]["streamly"]
+        ref_audio = self.Module_Config[data["TTS"]["voice"]][data["TTS"]["emotion"]]["reffile"]
+        prompt_text = self.Module_Config[data["TTS"]["voice"]][data["TTS"]["emotion"]]["reftext"]
 
         # 处理当前输入的文本
-        return self.process_single_text(tempStreamly, user, input_data, response_func, next_func)
+        return self.process_single_text(streamly = tempStreamly,
+                                        user = user,
+                                        input_data = input_data,
+                                        ref_audio = ref_audio,
+                                        prompt_text = prompt_text,
+                                        response_func = response_func,
+                                        next_func = next_func)
 
-    def process_single_text(self, streamly: bool, user: str, input_data: str, response_func, next_func) -> bytes:
+    def process_single_text(self, streamly: bool, user: str, input_data: str,ref_audio:str,prompt_text:str, response_func, next_func) -> bytes:
         """处理单条文本"""
         max_retries = 3
         retry_count = 0
@@ -126,7 +135,7 @@ class GPTSoVit_TTS_Module(BaseModule):
         while retry_count <= max_retries:
             try:
                 # 发送文本到TTS服务
-                chat_response = PostChat(streamly=False, user=user, text=input_data).GetResponse()
+                chat_response = PostChat(streamly=False, user=user, text=input_data,ref_audio_path=ref_audio, prompt_text=prompt_text ).GetResponse()
                 
                 if not chat_response.ok:
                     raise Exception(f"合成失败，状态码: {chat_response.status_code}")

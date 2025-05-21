@@ -4,14 +4,11 @@ from collections.abc import Mapping
 
 default_config_file = "Config.yaml"
 
-
 def get_project_dir():
     """获取项目根目录"""
     return os.path.dirname(os.path.abspath(__file__))
 
-def read_config(configFile = "Config.yaml"):
-    global default_config_file
-    default_config_file = configFile
+def read_config(configFile = "/../Configs/Config.yaml"):
     """读取配置文件"""
     yaml = YAML()
     yaml.preserve_quotes = True
@@ -29,9 +26,9 @@ def load_config(config_path=None):
        str: 配置文件路径（相对路径或默认路径）
     """
     config_file = config_path
-    if os.path.exists(get_project_dir() + "/../Configs/" + config_path):
-        config_file = get_project_dir() + "/../Configs/" + config_path
-    print("config_path:", config_file)
+    print("config_path:", config_path)
+    if os.path.exists(config_path):
+        config_file = config_path
     return config_file
 
 

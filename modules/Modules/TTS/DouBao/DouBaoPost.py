@@ -106,7 +106,7 @@ class PostChat:
             }
         }
 
-    def Post(self,user,text,voice_type):
+    def Post(self,user,text,voice_type,emotion):
         # 基础请求模板
         self.payload["user"]["uid"] = user
         self.payload["request"]["text"] = text

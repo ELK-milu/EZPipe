@@ -2,6 +2,7 @@ import asyncio
 import base64
 import json
 import logging
+import os
 from abc import abstractmethod, ABC
 from typing import Any, Dict, AsyncGenerator
 from fastapi import FastAPI, HTTPException, APIRouter, Request
@@ -190,6 +191,10 @@ class API_Service(ABC):
         # 将入口模块作为处理的返回值
         return self.pipeline.modules[request.Entry].HandleEntryInput(request)
 
+    def get_project_dir(self):
+        """获取项目根目录"""
+        return os.path.dirname(os.path.abspath(__file__))
+
     def Run(self):
         """启动API服务"""
         # 首先检查pipeline是否通过验证
@@ -212,7 +217,7 @@ class API_Service(ABC):
             loop="asyncio"
         )
 
-        self.config = read_config(self.configName)
+        self.config = read_config( self.get_project_dir() + "/../Configs/Config.yaml")
 
         self.pipeline.logger = self.logger
         self.pipeline.config = self.config

@@ -1,44 +1,51 @@
 import asyncio
-import json
-import threading
-import logging
+import os
 import time
-import re
-from typing import Optional, Any, Dict, List
-from concurrent.futures import ThreadPoolExecutor
-import hashlib
-
-import requests
-import numpy as np
 
 from modules.Modules.BaseModule import BaseModule
-from .LiveTalkingPost import PostChat, session,url
-from modules.utils.logger import get_logger
+from .LiveTalkingPost import PostChat, SetSessionConfig
+from modules.utils.ConfigLoader import read_config
 
 class LiveTalking_Module(BaseModule):
     def __init__(self):
         super().__init__()
         self.ENDSIGN = "ENDTALKING"
-        self.cache = {}  # 简单的缓存系统
-        self.cache_max_size = 100  # 最大缓存条目数
-        self.thread_pool = ThreadPoolExecutor(max_workers=4)  # 创建线程池
-        self.min_batch_length = 8  # 短于此长度的文本会被合并处理
-        self.max_batch_length = 100  # 最大批处理文本长度
+        self.Module_Config =read_config(os.path.dirname(os.path.abspath(__file__)) +  "/Config.yaml")
 
     def StartUp(self):
         if self.session is None:
-            self.session = session
-        # 预热TTS引擎
-        try:
-            asyncio.run(self.HeartBeat(""))
-        except Exception as e:
-            self.logger.error(f"引擎预热失败: {e}")
+            self.session,self.url = SetSessionConfig(self.pipeline.config["TTS"]["LiveTalking"]["url"],
+                                                     None)
+            self.RequestSender = PostChat(interrupt= self.pipeline.config["TTS"]["LiveTalking"]["interrupt"],
+                                          type=self.pipeline.config["TTS"]["LiveTalking"]["type"],
+                                          url=self.url,
+                                          session=self.session)
+
+    def register_module_routes(self):
+        super().register_module_routes()
+        @self.router.get("/awake")
+        async def Awake(sessionid: int, voice: str):
+            """
+            json格式:
+            {
+                "sessionid":0,
+                "filepath":"",
+            }
+            """
+            result = self.session.post(url = f"{self.url}/humanaudio",
+                                       json = {
+                                           "sessionid": sessionid,
+                                           "filepath": self.Module_Config[voice]["awake"],
+                                       })
+            return result.json()
+
+
 
     async def HeartBeat(self, user: str):
         if self.session:
             try:
                 # 发送HEAD请求（轻量级，不下载响应体）
-                self.session.head(url, timeout=5)
+                self.session.head(self.url, timeout=5)
                 return {
                     "status": "success",
                 }
@@ -48,9 +55,7 @@ class LiveTalking_Module(BaseModule):
                     "status": "failed",
                     "error": str(e),
                 }
-        else:
-            self.session = session
-            await self.HeartBeat(user)
+
 
     """语音合成模块（输入类型：str，输出类型：bytes）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func, next_func) -> bytes:
@@ -67,6 +72,8 @@ class LiveTalking_Module(BaseModule):
         """
         # 检查input_data是否为None
         jsonInfo = self.pipeline.use_request[user]
+        reffile = self.Module_Config[jsonInfo["TTS"]["voice"]][jsonInfo["TTS"]["emotion"]]["reffile"]
+        reftext = self.Module_Config[jsonInfo["TTS"]["voice"]][jsonInfo["TTS"]["emotion"]]["reftext"]
         if input_data is None:
             # 预启动加载模型
             self.logger.warning(f"输入数据为None，无法处理")
@@ -74,12 +81,12 @@ class LiveTalking_Module(BaseModule):
 
         # 处理当前输入的文本
         return self.process_single_text(streamly = streamly,
-                                        interrupt = jsonInfo["LiveTalking"]["interrupt"],
-                                        type = jsonInfo["LiveTalking"]["type"],
+                                        interrupt = jsonInfo["TTS"]["interrupt"],
+                                        type = self.pipeline.config["TTS"]["LiveTalking"]["type"],
                                         user = user,
-                                        sessionid = jsonInfo["LiveTalking"]["sessionid"],
-                                        reftext = jsonInfo["LiveTalking"]["reftext"],
-                                        reffile = jsonInfo["LiveTalking"]["reffile"],
+                                        sessionid = jsonInfo["TTS"]["sessionid"],
+                                        reftext = reftext,
+                                        reffile = reffile,
                                         input_data = input_data,
                                         response_func = response_func,
                                         next_func = next_func)
@@ -88,12 +95,14 @@ class LiveTalking_Module(BaseModule):
         """处理单条文本"""
         start_time = time.time()
         self.logger.info(f"开始为用户 {user} 处理文本: {input_data}")
-
-        if self.session is None:
-            self.session = session
         try:
             # 发送文本到LiveTalking服务
-            chat_response = PostChat(interrupt=interrupt,type = type, sessionid=sessionid, text=input_data,reftext=reftext,reffile=reffile).GetResponse()
+            self.RequestSender = PostChat(interrupt=interrupt,type = type,url = self.url, session=self.session)
+
+            chat_response = self.RequestSender.Post(text = input_data,
+                                                    sessionid = sessionid,
+                                                   reffile = reffile,
+                                                   reftext = reftext)
 
             if not chat_response.ok:
                 raise Exception(f"合成失败，状态码: {chat_response.status_code}")

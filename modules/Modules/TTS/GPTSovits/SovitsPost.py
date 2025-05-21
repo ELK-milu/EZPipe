@@ -63,13 +63,13 @@ RESP:
 '''
 
 class PostChat:
-    def __init__(self, streamly, user, text):
+    def __init__(self, streamly, user, text,ref_audio_path,prompt_text):
         self.payload = {
             "text": text,
             "text_lang": "auto",
-            "ref_audio_path": "./GPT_SoVITS/models/派蒙_中立.wav",
+            "ref_audio_path": ref_audio_path,
             "aux_ref_audio_paths": [],
-            "prompt_text": "可恶，怎么又是盗宝团！海灯节就快到了，也不知道安分一点。",
+            "prompt_text": prompt_text,
             "prompt_lang": "zh",
             "top_k": 5,
             "top_p": 1,

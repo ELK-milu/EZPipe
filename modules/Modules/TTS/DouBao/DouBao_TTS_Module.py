@@ -1,6 +1,7 @@
 import asyncio
 import base64
 import json
+import os
 import threading
 import logging
 import time
@@ -13,6 +14,7 @@ import requests
 import numpy as np
 
 from modules.Modules.BaseModule import BaseModule
+from modules.utils.ConfigLoader import read_config
 from .DouBaoPost import PostChat, SetSessionConfig
 from modules.utils.logger import get_logger
 
@@ -20,8 +22,8 @@ from modules.utils.logger import get_logger
 class Doubao_TTS_Module(BaseModule):
     def __init__(self):
         super().__init__()
-        self.min_batch_length = 8  # 短于此长度的文本会被合并处理
-        self.max_batch_length = 100  # 最大批处理文本长度
+        self.ENDSIGN = "ENDDouBaoTTS"
+        self.Module_Config =read_config(os.path.dirname(os.path.abspath(__file__)) +  "/Config.yaml")
 
     def StartUp(self):
         if self.session is None:
@@ -30,6 +32,7 @@ class Doubao_TTS_Module(BaseModule):
             self.RequestSender = PostChat(appid= self.pipeline.config["TTS"]["Doubao"]["appid"],
                                           cluster=self.pipeline.config["TTS"]["Doubao"]["cluster"],
                                           session=self.session)
+
 
     async def HeartBeat(self, user: str):
         if self.session:
@@ -62,11 +65,12 @@ class Doubao_TTS_Module(BaseModule):
         data = self.pipeline.use_request[user]
 
         tempStreamly = data["TTS"]["streamly"]
-        voice_type = data["TTS"]["voice"]
+        voice_type = self.Module_Config[data["TTS"]["voice"]]["voice_type"]
+        emotin = self.Module_Config[data["TTS"]["voice"]]["emotions"][data["TTS"]["emotion"]]
         # 处理当前输入的文本
-        return self.process_single_text(tempStreamly, voice_type, user, input_data, response_func, next_func)
+        return self.process_single_text(tempStreamly, voice_type,emotin, user, input_data, response_func, next_func)
 
-    def process_single_text(self, streamly: bool,voice_type:str, user: str, input_data: str, response_func, next_func) -> bytes:
+    def process_single_text(self, streamly: bool,voice_type:str,emotion:str, user: str, input_data: str, response_func, next_func) -> bytes:
         """处理单条文本"""
         max_retries = 3
         retry_count = 0
@@ -79,7 +83,8 @@ class Doubao_TTS_Module(BaseModule):
                 # 发送文本到TTS服务
                 chat_response = self.RequestSender.Post(user = user,
                                                         text= input_data,
-                                                        voice_type = voice_type)
+                                                        voice_type = voice_type,
+                                                        emotion = emotion,)
 
                 if not chat_response.ok:
                     raise Exception(f"合成失败，状态码: {chat_response.status_code}")

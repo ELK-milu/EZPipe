@@ -99,6 +99,7 @@ class Dify_LLM_Module(BaseModule):
                 self.logger.error(f"Heartbeat failed: {e}")
 
     def register_module_routes(self):
+        super().register_module_routes()
         self.logger.info(f"[Dify] 注册模块路由: {self.url}")
         @self.router.get("/messages")
         async def get_conversations(user:str, conversation_id: str):

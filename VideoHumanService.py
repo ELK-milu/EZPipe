@@ -10,6 +10,7 @@ project_root = Path(__file__).resolve().parent.parent
 
 sys.path.append(str(project_root))
 from modules.Modules.LLM.Dify.Dify_LLM_Module import Dify_LLM_Module
+from modules.Modules.TTS.LiveTalking.LiveTalking_Module import LiveTalking_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToVideoHumanAPIService
 from modules.utils.logger import setup_root_logger, get_logger
@@ -35,7 +36,7 @@ service_logger.info("服务启动中...")
 # 创建Pipeline
 pipeline = PipeLine.create_pipeline(
 Dify_LLM_Module,
-    #LiveTalking_Module
+    LiveTalking_Module
 )
 
 # 启动服务
