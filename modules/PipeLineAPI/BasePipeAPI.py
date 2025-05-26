@@ -5,6 +5,8 @@ import logging
 import os
 from abc import abstractmethod, ABC
 from typing import Any, Dict, AsyncGenerator
+
+import fastapi_cdn_host
 from fastapi import FastAPI, HTTPException, APIRouter, Request
 import uvicorn
 from pydantic import BaseModel
@@ -14,8 +16,8 @@ from starlette.background import BackgroundTask
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.utils.logger import get_logger
 from modules.utils.ConfigLoader import read_config
-
-
+from modules.utils.AudioChange import convert_audio_to_wav
+from fastapi_cdn_host import AssetUrl
 # 配置logger
 logger = get_logger(__name__)
 
@@ -29,12 +31,12 @@ class API_Service(ABC):
         self.app = FastAPI(title="API Service")
         self.post_router = post_router
         self.router = APIRouter()
-        self._register_routes()
         self.logger = logger
         self.configName = configName
         self.config = None
         # 用于跟踪活跃的连接
         self.active_connections = set()
+        self._register_routes()
 
     class APIRequest(BaseModel):
         """API请求模型"""
@@ -46,6 +48,11 @@ class API_Service(ABC):
     def _register_routes(self):
         """注册API路由"""
 
+        self.config = read_config( self.get_project_dir() + "/../Configs/Config.yaml")
+
+        self.pipeline.logger = self.logger
+        self.pipeline.config = self.config
+        self.pipeline.StartUp()
         @self.router.post(f"{self.post_router}")
         async def process_input(request: Dict[str, Any], req: Request):
             """调用管线服务"""
@@ -54,7 +61,8 @@ class API_Service(ABC):
                 raise HTTPException(status_code=400, detail="必须提供用户ID")
 
             # 为每个连接生成唯一标识符
-            connection_id = f"{user_id}_{id(req)}"
+            #connection_id = f"{user_id}_{id(req)}"
+            connection_id = f"{user_id}"
             self.logger.info(f"[API] 收到用户 {user_id} 的请求，连接ID: {connection_id}")
 
             try:
@@ -217,11 +225,14 @@ class API_Service(ABC):
             loop="asyncio"
         )
 
-        self.config = read_config( self.get_project_dir() + "/../Configs/Config.yaml")
-
-        self.pipeline.logger = self.logger
-        self.pipeline.config = self.config
-        self.pipeline.StartUp()
         # 启动服务器
         server = uvicorn.Server(config)
         self.loop.run_until_complete(server.serve())
+        fastapi_cdn_host.patch_docs(app = self.app,
+        cdn_host = AssetUrl(
+            js='/../../UI/swagger-ui.js',
+            css='/../../UI/swagger-ui.css',
+            redoc='/../../UI/redoc.standalone.js',
+            favicon='/../../UI/sad.ico',
+        )
+        )

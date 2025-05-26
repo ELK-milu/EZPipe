@@ -10,7 +10,6 @@ class LiveTalking_Module(BaseModule):
     def __init__(self):
         super().__init__()
         self.ENDSIGN = "ENDTALKING"
-        self.Module_Config =read_config(os.path.dirname(os.path.abspath(__file__)) +  "/Config.yaml")
 
     def StartUp(self):
         if self.session is None:
@@ -23,8 +22,8 @@ class LiveTalking_Module(BaseModule):
 
     def register_module_routes(self):
         super().register_module_routes()
-        @self.router.get("/awake")
-        async def Awake(sessionid: int, voice: str):
+        @self.router.post("/awake")
+        async def Awake(user: str, voice: str):
             """
             json格式:
             {
@@ -32,10 +31,12 @@ class LiveTalking_Module(BaseModule):
                 "filepath":"",
             }
             """
+            awakePath = self.Module_Config[voice]["awake"]
+            self.logger.info(f"发送请求sessionid:{user},filepath:{awakePath},到 {self.url}/humanaudio")
             result = self.session.post(url = f"{self.url}/humanaudio",
                                        json = {
-                                           "sessionid": sessionid,
-                                           "filepath": self.Module_Config[voice]["awake"],
+                                           "sessionid": int(user),
+                                           "filepath": awakePath,
                                        })
             return result.json()
 

@@ -38,6 +38,18 @@ class Dify_LLM_Module(BaseModule):
 
             self.StartReceive = False
 
+        def GetFinalContent(self,flag):
+            self.Is_End = flag
+            # 服务端替客户端处理成Json再返回
+            self.final_json = json.dumps({
+                "think": self.GetThinking(),
+                "response": self.GetResponse(),
+                "conversation_id": self.conversation_id,
+                "message_id": self.message_id,
+                "Is_End": self.Is_End
+            })
+            return self.final_json
+
         def GetTempMsg(self):
             # 使用正向预查分割保留标点符号
             split_pattern = r'(?<=[，,!?。！？])'
@@ -201,13 +213,7 @@ class Dify_LLM_Module(BaseModule):
                 # 调用回调函数输出数据块,回调响应流式但不传输给下一个模块
 
                 # 服务端替客户端处理成Json再返回
-                self.answer_chunk.final_json = json.dumps({
-                    "think": self.answer_chunk.GetThinking(),
-                    "response": self.answer_chunk.GetResponse(),
-                    "conversation_id": self.answer_chunk.conversation_id,
-                    "message_id": self.answer_chunk.message_id,
-                    "Is_End": self.answer_chunk.Is_End
-                })
+                self.answer_chunk.final_json = self.answer_chunk.GetFinalContent(False)
 
                 # 流式传输给下一个模块
                 if temp_streamly and self.answer_chunk.ReadyToResponse():
@@ -223,12 +229,11 @@ class Dify_LLM_Module(BaseModule):
                 # 流式返回
                 if streamly :
                     response_func(streamly, user, self.answer_chunk.final_json)
-
                 chunk_count += 1
+            self.answer_chunk.final_json = self.answer_chunk.GetFinalContent(True)
             # 输出统计信息
             #logger.info(f"[Dify] 共发送 {chunk_count} 个数据块，最终输出:")
-            if not streamly:
-                response_func(streamly, user, self.answer_chunk.final_json)
+            response_func(streamly, user, self.answer_chunk.final_json)
             # 标记处理完成,并返回LLM最终的响应结果
             # response_func(streamly, user, None)
 
@@ -246,8 +251,9 @@ class Dify_LLM_Module(BaseModule):
             # 处理异常
             error_msg = f"[Dify] 错误: {str(e)}"
             self.logger.error(error_msg)
+            self.answer_chunk.final_json = self.answer_chunk.GetFinalContent(True)
             # 通知调用者出现错误
-            response_func(streamly, user, f"ERROR: {str(e)}".encode())
+            response_func(streamly, user, self.answer_chunk.final_json)
             next_func(streamly, user, self.ENDSIGN)
 
             return ""  # 返回空字节作为完成标记

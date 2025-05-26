@@ -1,29 +1,19 @@
-import asyncio
 import base64
 import json
-import os
-import threading
-import logging
 import time
 import re
-from typing import Optional, Any, Dict, List
-from concurrent.futures import ThreadPoolExecutor
-import hashlib
+from typing import Optional, Any, Dict, List, AsyncGenerator
 
 import requests
-import numpy as np
+from starlette.responses import StreamingResponse
 
 from modules.Modules.BaseModule import BaseModule
-from modules.utils.ConfigLoader import read_config
 from .DouBaoPost import PostChat, SetSessionConfig
-from modules.utils.logger import get_logger
-
 
 class Doubao_TTS_Module(BaseModule):
     def __init__(self):
         super().__init__()
         self.ENDSIGN = "ENDDouBaoTTS"
-        self.Module_Config =read_config(os.path.dirname(os.path.abspath(__file__)) +  "/Config.yaml")
 
     def StartUp(self):
         if self.session is None:
@@ -33,6 +23,55 @@ class Doubao_TTS_Module(BaseModule):
                                           cluster=self.pipeline.config["TTS"]["Doubao"]["cluster"],
                                           session=self.session)
 
+    def register_module_routes(self):
+        super().register_module_routes()
+        @self.router.post("/awake")
+        async def Awake(user: str, voice: str):
+            """
+            json格式:
+            {
+                "user":0,
+                "voice":"",
+            }
+            """
+            return StreamingResponse(
+                content=self.generate_stream(user,voice),
+                media_type="text/event-stream",
+            )
+
+    async def generate_stream(self,user,voice) -> AsyncGenerator[str, None]:
+        awakeText = self.Module_Config[voice]["awake_text"]
+        # 第一条文本数据
+        # 服务端替客户端处理成Json再返回
+        final_json = json.dumps({
+            "think": "",
+            "response": awakeText,
+            "conversation_id": "",
+            "message_id": "",
+            "Is_End": True
+        })
+        yield json.dumps({
+            "type": "text",
+            "chunk": final_json
+        })+ "\n"
+
+        # 第二条音频数据
+        print(self.GetAbsPath() + self.Module_Config[voice]["awake_audio"])
+        awakeAudioPath = self.GetAbsPath() + self.Module_Config[voice]["awake_audio"]
+        try:
+            with open(awakeAudioPath, 'rb') as f:
+                yield json.dumps({
+                    "type": "audio/wav",
+                    "chunk": base64.b64encode(f.read()).decode("utf-8")
+                }) + "\n"
+        except Exception as e:
+            yield json.dumps({
+                "type": "error",
+                "chunk": f"文件加载失败: {str(e)}"
+            }) + "\n"
+        finally:
+            # 关闭文件
+            f.close()
 
     async def HeartBeat(self, user: str):
         if self.session:

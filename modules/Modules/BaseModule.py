@@ -1,4 +1,5 @@
 import asyncio
+import inspect
 import json
 import os
 from abc import ABC, abstractmethod
@@ -14,6 +15,7 @@ import requests
 from fastapi import APIRouter
 from ruamel.yaml import YAML
 
+from modules.utils.ConfigLoader import read_config
 from modules.utils.logger import get_logger
 
 if TYPE_CHECKING:
@@ -40,12 +42,15 @@ class BaseModule(ABC):
         self.session : requests.Session = None  # 会话管理，用于长连接
         self.url = None
         self.RequestSender = None
+        self.IsLastModel : bool = False
 
         # 新增路由相关变量
         self.router: APIRouter = APIRouter()
         self.ENDSIGN = None
         self.logger = get_logger(self.__class__.__name__)
-        self.Model_Config = None
+        self.Module_Config =None
+        if os.path.exists(self.GetAbsPath() +  "/Config.yaml") :
+            self.Module_Config = read_config(self.GetAbsPath() + "/Config.yaml")
 
     # 初始化方法，用于模块被添加进PipeLine并启动API服务后自动调用
     def StartUp(self):
@@ -90,6 +95,10 @@ class BaseModule(ABC):
         self.logger.info("user:" + data["user"])
         self.pipeline.use_request[data["user"]] = data
         return data["Input"]
+
+    def GetAbsPath(self):
+        """获取调用者（子类）所在文件的绝对路径"""
+        return os.path.dirname(os.path.abspath(inspect.getfile(self.__class__)))
 
     @abstractmethod
     def Thread_Task(self, streamly: bool, user: str, input_data: Any, response_func, next_func) -> Any:
@@ -195,6 +204,22 @@ class BaseModule(ABC):
         return user in self.pipeline.disconnect_events and self.pipeline.disconnect_events[user].is_set()
 
 
+    def PutMessage(self,create:bool, user:str,input_data: Any):
+        """
+        将信息放入到队列
+
+        Args:
+            create: 如果用户队列不存在，则创建
+            user: 用户标识
+            input_data: 输入数据
+        """
+        if create:
+            if user not in self.user_InputQueue:
+                self.user_InputQueue[user] = queue.Queue()
+        # 如果有输入数据，添加到队列
+        if input_data is not None:
+            self.user_InputQueue[user].put(input_data)
+            print(f"[{self.__class__.__name__}] 添加初始数据到用户 {user} 的输入队列")
 
     async def GetService(self, streamly: bool, user: str, input_data: Any) -> None:
         """
@@ -215,9 +240,7 @@ class BaseModule(ABC):
                 self.user_InputQueue[user] = queue.Queue()
             
             # 如果有输入数据，添加到队列
-            if input_data is not None:
-                self.user_InputQueue[user].put(input_data)
-                print(f"[{self.__class__.__name__}] 添加初始数据到用户 {user} 的输入队列")
+            self.PutMessage(False,user, input_data)
             
             # 创建并启动处理线程
             if user not in self.user_threads or not self.user_threads[user].is_alive():

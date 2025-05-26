@@ -21,7 +21,6 @@ class GPTSoVit_TTS_Module(BaseModule):
     def __init__(self):
         super().__init__()
         self.ENDSIGN = "ENDSOVITS"
-        self.Module_Config =read_config(os.path.dirname(os.path.abspath(__file__)) +  "/Config.yaml")
 
     def StartUp(self):
         if self.session is None:
