@@ -1,18 +1,21 @@
 import asyncio
+import base64
 import json
 import os
 import threading
 import logging
 import time
 import re
-from typing import Optional, Any, Dict, List
+from typing import Optional, Any, Dict, List, AsyncGenerator
 from concurrent.futures import ThreadPoolExecutor
 import hashlib
 
 import requests
 import numpy as np
+from starlette.responses import StreamingResponse
 
 from modules.Modules.BaseModule import BaseModule
+from modules.utils.AudioChange import convert_audio_to_wav
 from modules.utils.ConfigLoader import read_config
 from .SovitsPost import PostChat, session
 from modules.utils.logger import get_logger
@@ -31,9 +34,58 @@ class GPTSoVit_TTS_Module(BaseModule):
         except Exception as e:
             self.logger.error(f"[TTS] 引擎预热失败: {e}")
 
-    def _get_cache_key(self, text):
-        """生成缓存键"""
-        return hashlib.md5(text.encode('utf-8')).hexdigest()
+    def register_module_routes(self):
+        super().register_module_routes()
+        @self.router.post("/awake")
+        async def Awake(user: str, voice: str):
+            """
+            json格式:
+            {
+                "user":0,
+                "voice":"",
+            }
+            """
+            return StreamingResponse(
+                content=self.generate_stream(user,voice),
+                media_type="text/event-stream",
+            )
+
+    async def generate_stream(self,user,voice) -> AsyncGenerator[str, None]:
+        awakeText = self.Module_Config[voice]["awake_text"]
+        # 第一条文本数据
+        # 服务端替客户端处理成Json再返回
+        final_json = json.dumps({
+            "think": "",
+            "response": awakeText,
+            "conversation_id": "",
+            "message_id": "",
+            "Is_End": True
+        })
+        yield json.dumps({
+            "type": "text",
+            "chunk": final_json
+        })+ "\n"
+
+        # 第二条音频数据
+        print(self.GetAbsPath() + self.Module_Config[voice]["awake_audio"])
+        awakeAudioPath = self.GetAbsPath() + self.Module_Config[voice]["awake_audio"]
+        try:
+            with open(awakeAudioPath, 'rb') as f:
+                wav_audio = convert_audio_to_wav(f.read(), set_sample_rate=24000)
+                yield json.dumps({
+                    "type": "audio/wav",
+                    "chunk": base64.b64encode(wav_audio).decode("utf-8")
+                }) + "\n"
+        except Exception as e:
+            yield json.dumps({
+                "type": "error",
+                "chunk": f"文件加载失败: {str(e)}"
+            }) + "\n"
+        finally:
+            # 关闭文件
+            f.close()
+
+
 
     async def HeartBeat(self, user: str):
         if self.session:
@@ -52,38 +104,6 @@ class GPTSoVit_TTS_Module(BaseModule):
         else:
             self.session = session
             await self.HeartBeat(user)
-
-    def should_batch_texts(self, texts):
-        """判断文本是否应该合并处理"""
-        # 按标点符号拆分句子
-        if not texts or len(texts) <= 1:
-            return False
-            
-        # 如果所有文本都很短，应该批处理
-        return all(len(text) < self.min_batch_length for text in texts)
-        
-    def batch_process_texts(self, texts):
-        """合并短文本进行处理"""
-        batched_texts = []
-        current_batch = ""
-        
-        for text in texts:
-            # 如果添加当前文本会超出最大长度，先保存当前批次
-            if len(current_batch) + len(text) > self.max_batch_length:
-                if current_batch:
-                    batched_texts.append(current_batch)
-                current_batch = text
-            else:
-                if current_batch:
-                    current_batch += "，" + text
-                else:
-                    current_batch = text
-                    
-        # 添加最后一个批次
-        if current_batch:
-            batched_texts.append(current_batch)
-            
-        return batched_texts
 
     """语音合成模块（输入类型：str，输出类型：bytes）"""
     def Thread_Task(self, streamly: bool, user: str, input_data: str, response_func, next_func) -> bytes:
@@ -107,8 +127,10 @@ class GPTSoVit_TTS_Module(BaseModule):
         data = self.pipeline.use_request[user]
 
         tempStreamly = data["TTS"]["streamly"]
-        ref_audio = self.Module_Config[data["TTS"]["voice"]][data["TTS"]["emotion"]]["reffile"]
-        prompt_text = self.Module_Config[data["TTS"]["voice"]][data["TTS"]["emotion"]]["reftext"]
+        voice = data["TTS"]["voice"]
+        emotion = data["TTS"]["emotion"]
+        ref_audio = self.Module_Config[voice][emotion]["reffile"]
+        prompt_text = self.Module_Config[voice][emotion]["reftext"]
 
         # 处理当前输入的文本
         return self.process_single_text(streamly = tempStreamly,
@@ -188,22 +210,3 @@ class GPTSoVit_TTS_Module(BaseModule):
                     next_func(streamly, user, self.ENDSIGN)
                     return b''  # 返回空字节作为完成标记
 
-    def ProcessAudio(self, audio_data):
-        try:
-            # 直接处理音频数据，不进行额外的格式转换
-            if isinstance(audio_data, bytes):
-                audio_data = np.frombuffer(audio_data, dtype=np.int16)
-            
-            # 使用更高效的音频处理方式
-            audio_data = audio_data.astype(np.float32) / 32768.0
-            
-            # 减少音频处理步骤
-            if len(audio_data) > 0:
-                # 直接返回处理后的音频数据
-                return audio_data.tobytes()
-            
-            return None
-            
-        except Exception as e:
-            self.logger.error(f"音频处理失败: {str(e)}")
-            return None

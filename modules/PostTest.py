@@ -27,7 +27,7 @@ class PostChat:
             "message_id" : "",
             "LLM":{"streamly":True},
             "TTS":{"streamly":True,
-                   "voice": "派蒙",
+                   "voice": "佼佼仔",
                    "emotion": "中立"},
         }
         self.streamly = streamly
@@ -73,7 +73,7 @@ def PlayAudio(audio_bytes):
 if __name__ == "__main__":
     # 启动 main 服务
     ps = PostChat(streamly=True,user="user",
-             text="帮我开下灯",conversation_id="").GetResponse()
+             text="介绍下你自己",conversation_id="").GetResponse()
 
     from queue import Queue
     audio_queue = Queue()  # 示例队列

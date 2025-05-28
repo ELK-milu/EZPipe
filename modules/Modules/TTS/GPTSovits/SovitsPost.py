@@ -66,7 +66,7 @@ class PostChat:
     def __init__(self, streamly, user, text,ref_audio_path,prompt_text):
         self.payload = {
             "text": text,
-            "text_lang": "auto",
+            "text_lang": "zh",
             "ref_audio_path": ref_audio_path,
             "aux_ref_audio_paths": [],
             "prompt_text": prompt_text,
@@ -76,9 +76,9 @@ class PostChat:
             "temperature": 1,
             "text_split_method": "cut0",
             "return_fragment": False,
-            "batch_size": 2,  # 增加batch_size以加速处理
+            "batch_size": 8,  # 增加batch_size以加速处理
             "batch_threshold": 0.75,
-            "split_bucket": True,
+            "split_bucket": False,
             "speed_factor": 1.0,
             "streaming_mode": streamly,
             "seed": -1,
@@ -127,6 +127,16 @@ class PostChat:
 if __name__ == "__main__":
     # 启动 main 服务
     start = time.time()
-    chat = PostChat(streamly=False, user="user", text="测试一下TTS服务的响应速度")
+    chat = PostChat(streamly=False, user="user", text="你好，请问有什么我可以帮助你的吗？",ref_audio_path="./GPT_SoVITS/models/佼佼仔_中立.wav", prompt_text="今天，我将带领大家穿越时空，去到未来的杭州。")
     response = chat.GetResponse()
     print(f"请求总耗时: {time.time() - start:.3f}秒, 状态码: {response.status_code}")
+    # +++ 新增保存音频逻辑 +++
+    if response.status_code == 200:
+        # 定义输出路径（按需修改）
+        output_path = "./output.wav"
+        # 二进制写入模式保存音频
+        with open(output_path, "wb") as f:
+            f.write(response.content)
+        print(f"音频已保存至: {output_path}")
+    else:
+        print("请求失败，错误信息:", response.text)

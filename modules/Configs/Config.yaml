@@ -13,5 +13,7 @@ TTS:
     url: "http://192.168.30.46:8010"
     interrupt: false
     type : "echo"
+  GPTSoVITS:
+    url: "http://127.0.0.1:8090/tts"
 
 

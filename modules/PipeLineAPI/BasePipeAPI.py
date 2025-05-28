@@ -155,9 +155,10 @@ class API_Service(ABC):
                 response_data = None
                 if isinstance(chunk, bytes):
                     # 二进制数据（如音频）编码为base64
+                    wav_audio = convert_audio_to_wav(chunk, set_sample_rate=24000)
                     response_data = {
                         "type": "audio/wav",
-                        "chunk": base64.b64encode(chunk).decode("utf-8")
+                        "chunk": base64.b64encode(wav_audio).decode("utf-8")
                     }
                 elif isinstance(chunk, str):
                     # 文本数据直接输出

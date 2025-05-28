@@ -8,6 +8,7 @@ import requests
 from starlette.responses import StreamingResponse
 
 from modules.Modules.BaseModule import BaseModule
+from modules.utils.AudioChange import convert_audio_to_wav
 from .DouBaoPost import PostChat, SetSessionConfig
 
 class Doubao_TTS_Module(BaseModule):
@@ -60,9 +61,10 @@ class Doubao_TTS_Module(BaseModule):
         awakeAudioPath = self.GetAbsPath() + self.Module_Config[voice]["awake_audio"]
         try:
             with open(awakeAudioPath, 'rb') as f:
+                wav_audio = convert_audio_to_wav(f.read(), set_sample_rate=24000)
                 yield json.dumps({
                     "type": "audio/wav",
-                    "chunk": base64.b64encode(f.read()).decode("utf-8")
+                    "chunk": base64.b64encode(wav_audio).decode("utf-8")
                 }) + "\n"
         except Exception as e:
             yield json.dumps({
