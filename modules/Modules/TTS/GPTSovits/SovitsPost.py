@@ -66,7 +66,7 @@ class PostChat:
     def __init__(self, streamly, user, text,ref_audio_path,prompt_text):
         self.payload = {
             "text": text,
-            "text_lang": "zh",
+            "text_lang": "auto",
             "ref_audio_path": ref_audio_path,
             "aux_ref_audio_paths": [],
             "prompt_text": prompt_text,
@@ -80,7 +80,7 @@ class PostChat:
             "batch_threshold": 0.75,
             "split_bucket": False,
             "speed_factor": 1.0,
-            "streaming_mode": streamly,
+            "streaming_mode": False,
             "seed": -1,
             "parallel_infer": True,  # 确保并行推理开启
             "repetition_penalty": 1.35
