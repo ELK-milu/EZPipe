@@ -55,6 +55,7 @@ POST:
     "seed": -1,                   # int. 随机种子
     "parallel_infer": True,       # bool. 是否并行推理
     "repetition_penalty": 1.35    # float. T2S 模型的重复惩罚。
+    "return_fragment": false  # bool. 是否分段返回片段
 }
 ```
 RESP:
@@ -66,35 +67,38 @@ class PostChat:
     def __init__(self, streamly, user, text,ref_audio_path,prompt_text):
         self.payload = {
             "text": text,
-            "text_lang": "auto",
+            "text_lang": "zh",
             "ref_audio_path": ref_audio_path,
             "aux_ref_audio_paths": [],
             "prompt_text": prompt_text,
             "prompt_lang": "zh",
-            "top_k": 10,
+            "top_k": 5,
             "top_p": 1,
             "temperature": 1,
-            "text_split_method": "cut0",
-            "return_fragment": False,
-            "batch_size": 24,  # 增加batch_size以加速处理
+            "text_split_method": "cut6",
+            "return_fragment": False,# 确保分段返回片段
+            "batch_size": 8,  # 增加batch_size以加速处理
             "batch_threshold": 0.75,
-            "split_bucket": False,
+            "split_bucket": True,
             "speed_factor": 1.0,
             "streaming_mode": False,
             "seed": -1,
-            "parallel_infer": True,  # 确保并行推理开启
+            "parallel_infer": False,  # 并行推理开启
             "repetition_penalty": 1.35
         }
         self.streamly = streamly
-        
+
+        '''
         # 添加短文本优化，减少TTS处理时间
         if text and len(text) <= 5:  # 对于非常短的文本
             self.payload["batch_size"] = 1  # 减小batch_size
             self.payload["parallel_infer"] = True
+        '''
             
         # 设置合理的超时时间，避免长时间等待
         timeout = (15.0, 15.0)  # (连接超时，读取超时)
-        
+
+        '''
         # 使用全局session发送请求，复用TCP连接
         start_time = time.time()
         try:
@@ -117,6 +121,14 @@ class PostChat:
                 'text': f"连接错误: {str(e)}",
                 'iter_content': lambda chunk_size: []
             })
+        '''
+
+        self.response = session.post(
+            url,
+            json=self.payload,
+            stream=streamly,
+            timeout=timeout
+        )
 
     def GetResponse(self):
         return self.response

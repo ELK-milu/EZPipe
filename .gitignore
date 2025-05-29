@@ -6,5 +6,6 @@
 /modules/Configs/JJZConfig.yaml
 /modules/Configs/MCPConfig.yaml
 /modules/Configs/VideoHumanConfig.yaml
+/modules/logs/*
 .wav
 .pyc

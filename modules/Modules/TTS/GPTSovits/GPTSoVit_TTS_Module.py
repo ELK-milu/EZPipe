@@ -178,8 +178,6 @@ class GPTSoVit_TTS_Module(BaseModule):
                         break
 
                     # 处理数据块
-                    chunk_size = len(chunk)
-                    self.logger.info(f"[TTS] 发送数据块 给用户 {user} ({chunk_size} 字节)")
                     self.logger.info(f"[TTS] 用户 {user} 的文本: {input_data}转语音处理完毕")
                     
                     # 调用回调函数输出数据块
