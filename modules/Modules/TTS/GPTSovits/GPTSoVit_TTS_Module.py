@@ -91,7 +91,7 @@ class GPTSoVit_TTS_Module(BaseModule):
         if self.session:
             try:
                 # 发送HEAD请求（轻量级，不下载响应体）
-                self.session.head("http://127.0.0.1:8090/", timeout=5)
+                self.session.head("http://127.0.0.1:8090/ping", timeout=5)
                 return {
                     "status": "success",
                 }

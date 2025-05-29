@@ -71,12 +71,12 @@ class PostChat:
             "aux_ref_audio_paths": [],
             "prompt_text": prompt_text,
             "prompt_lang": "zh",
-            "top_k": 5,
+            "top_k": 10,
             "top_p": 1,
             "temperature": 1,
             "text_split_method": "cut0",
             "return_fragment": False,
-            "batch_size": 8,  # 增加batch_size以加速处理
+            "batch_size": 24,  # 增加batch_size以加速处理
             "batch_threshold": 0.75,
             "split_bucket": False,
             "speed_factor": 1.0,
@@ -93,7 +93,7 @@ class PostChat:
             self.payload["parallel_infer"] = True
             
         # 设置合理的超时时间，避免长时间等待
-        timeout = (3.0, 10.0)  # (连接超时，读取超时)
+        timeout = (15.0, 15.0)  # (连接超时，读取超时)
         
         # 使用全局session发送请求，复用TCP连接
         start_time = time.time()

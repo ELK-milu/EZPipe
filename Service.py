@@ -40,7 +40,7 @@ service_logger.info("服务启动中...")
 # 创建Pipeline
 pipeline = PipeLine.create_pipeline(
     Dify_LLM_Module,
-    GPTSoVit_TTS_Module
+    Doubao_TTS_Module
 )
 
 # 启动服务
