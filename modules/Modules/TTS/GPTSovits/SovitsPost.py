@@ -79,12 +79,13 @@ class PostChat:
             "return_fragment": False,# 确保分段返回片段
             "batch_size": 8,  # 增加batch_size以加速处理
             "batch_threshold": 0.75,
-            "split_bucket": True,
+            "split_bucket": False,
             "speed_factor": 1.0,
             "streaming_mode": False,
             "seed": -1,
-            "parallel_infer": False,  # 并行推理开启
-            "repetition_penalty": 1.35
+            "parallel_infer": True,  # 并行推理开启
+            "repetition_penalty": 1.35,
+            "sample_steps": 16
         }
         self.streamly = streamly
 

@@ -16,6 +16,7 @@ def get_method_names() -> list:
     return list(METHODS.keys())
 
 
+# 装饰器，通过函数名注册函数到METHODS字典中
 def register_method(name):
     def decorator(func):
         METHODS[name] = func
