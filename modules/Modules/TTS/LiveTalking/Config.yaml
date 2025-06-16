@@ -7,3 +7,8 @@
   中立:
     reffile: "zh_female_linjianvhai_moon_bigtts"
     reftext: ""
+磁性解说男声:
+  awake: "/workspace/AwakeAudio/邻家女孩_awake.mp3"
+  中立:
+    reffile: "zh_male_jieshuonansheng_mars_bigtts"
+    reftext: ""

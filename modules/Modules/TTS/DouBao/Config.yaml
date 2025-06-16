@@ -10,3 +10,9 @@
   voice_type: "zh_female_linjianvhai_moon_bigtts"
   emotions:
     中立: ""
+磁性解说男声:
+  awake_text: "你好，请问有什么我可以帮助你的吗？"
+  awake_audio: "/../../../../AwakeAudio/邻家女孩_awake.wav"
+  voice_type: "zh_male_jieshuonansheng_mars_bigtts"
+  emotions:
+    中立: ""

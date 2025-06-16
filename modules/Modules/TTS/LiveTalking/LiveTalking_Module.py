@@ -82,7 +82,7 @@ class LiveTalking_Module(BaseModule):
 
         # 处理当前输入的文本
         return self.process_single_text(streamly = streamly,
-                                        interrupt = jsonInfo["TTS"]["interrupt"],
+                                        interrupt = self.pipeline.config["TTS"]["LiveTalking"]["interrupt"],
                                         type = self.pipeline.config["TTS"]["LiveTalking"]["type"],
                                         user = user,
                                         sessionid = jsonInfo["TTS"]["sessionid"],

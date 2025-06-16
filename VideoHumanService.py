@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 from modules.Modules.TTS.GPTSovits.GPTSoVit_TTS_Module import GPTSoVit_TTS_Module
-
+from modules.Modules.TTS.DouBao.DouBao_TTS_Module import Doubao_TTS_Module
 # 获取项目根目录路径
 
 project_root = Path(__file__).resolve().parent.parent
@@ -37,7 +37,7 @@ service_logger.info("服务启动中...")
 # 创建Pipeline
 pipeline = PipeLine.create_pipeline(
 Dify_LLM_Module,
-    GPTSoVit_TTS_Module,
+    LiveTalking_Module,
 )
 
 # 启动服务

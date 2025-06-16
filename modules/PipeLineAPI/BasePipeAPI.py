@@ -48,7 +48,7 @@ class API_Service(ABC):
     def _register_routes(self):
         """注册API路由"""
 
-        self.config = read_config( self.get_project_dir() + "/../Configs/Config.yaml")
+        self.config = read_config( self.get_project_dir() + f"/../Configs/{self.configName}")
 
         self.pipeline.logger = self.logger
         self.pipeline.config = self.config
