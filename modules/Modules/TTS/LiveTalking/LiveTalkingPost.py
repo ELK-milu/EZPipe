@@ -38,8 +38,8 @@ class PostChat:
             "type": type,
             "interrupt" : interrupt,
             "sessionid": None,
-            "reffile" : "邻家女孩",
-            "reftext": "中立"
+            "voice" : "邻家女孩",
+            "emotion": "中立"
         }
 
         self.url = url
@@ -47,11 +47,11 @@ class PostChat:
         self.session = session
         self.timeout = 10
 
-    def Post(self,text,sessionid,reffile,reftext):
+    def Post(self, text, sessionid, voice, emotion):
         self.payload["text"] = text
         self.payload["sessionid"] = sessionid
-        self.payload["reffile"] = reffile
-        self.payload["reftext"] = reftext
+        self.payload["voice"] = voice
+        self.payload["emotion"] = emotion
         # 使用全局session发送请求，复用TCP连接
 
         self.response = self.session.post(

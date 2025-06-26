@@ -1,5 +1,8 @@
 import argparse
+import asyncio
 import sys
+import threading
+import time
 
 from pathlib import Path
 
@@ -16,6 +19,8 @@ from modules.Modules.LLM.Dify.Dify_LLM_Module import Dify_LLM_Module
 from modules.PipeLine.BasePipeLine import PipeLine
 from modules.PipeLineAPI.ChildPipeAPI import TextToSpeechAPIService
 from modules.utils.logger import setup_root_logger, get_logger
+from modules.PostTest import Test as StartTest
+
 
 
 # 解析命令行参数
@@ -43,6 +48,12 @@ pipeline = PipeLine.create_pipeline(
     GPTSoVit_TTS_Module
 )
 
+def start_test_delayed():
+    # 等待服务完全启动
+    time.sleep(2)
+    # 在新的事件循环中运行测试
+    asyncio.run(StartTest(f"http://{args.host}:{args.port}/input"))
+
 # 启动服务
 if __name__ == "__main__":
 
@@ -55,5 +66,13 @@ if __name__ == "__main__":
     )
     #service.Print_Request_Schema()
     service_logger.info(f"服务已启动，监听地址: {args.host}:{args.port}")
+
+    # 在单独线程中启动测试任务
+    test_thread = threading.Thread(target=start_test_delayed)
+    test_thread.daemon = True
+    test_thread.start()
+    # 阻塞在RUN了
     service.Run()
+
+
 

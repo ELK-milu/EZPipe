@@ -86,13 +86,13 @@ class LiveTalking_Module(BaseModule):
                                         type = self.pipeline.config["TTS"]["LiveTalking"]["type"],
                                         user = user,
                                         sessionid = jsonInfo["TTS"]["sessionid"],
-                                        reftext = reftext,
-                                        reffile = reffile,
+                                        voice=reffile,
+                                        emotion= reftext,
                                         input_data = input_data,
                                         response_func = response_func,
                                         next_func = next_func)
 
-    def process_single_text(self, streamly: bool,type:str,interrupt:bool,reftext:str,reffile:str,user: str,sessionid:int, input_data: str, response_func, next_func) -> bytes:
+    def process_single_text(self, streamly: bool, type:str, interrupt:bool, emotion:str, voice:str, user: str, sessionid:int, input_data: str, response_func, next_func) -> bytes:
         """处理单条文本"""
         start_time = time.time()
         self.logger.info(f"开始为用户 {user} 处理文本: {input_data}")
@@ -102,8 +102,8 @@ class LiveTalking_Module(BaseModule):
 
             chat_response = self.RequestSender.Post(text = input_data,
                                                     sessionid = sessionid,
-                                                   reffile = reffile,
-                                                   reftext = reftext)
+                                                    voice= voice,
+                                                    emotion= emotion)
 
             if not chat_response.ok:
                 raise Exception(f"合成失败，状态码: {chat_response.status_code}")

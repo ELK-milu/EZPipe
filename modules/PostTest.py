@@ -1,3 +1,4 @@
+import asyncio
 import base64
 import io
 import json
@@ -68,6 +69,19 @@ def PlayAudio(audio_bytes):
     except Exception as e:
         print(f"播放失败：{str(e)}")
 
+
+async def Test(testurl):
+    # 3m后启动
+    await asyncio.sleep(3)
+    global url
+    url = testurl
+    print(f"开始测试接口,url:{url}")
+    ps = PostChat(streamly=True,user="user",
+             text="<repeat>介绍下你自己</repeat>",conversation_id="").GetResponse()
+    for chunk in ps.iter_content(chunk_size=None):
+        if chunk:
+            pass
+            #print(chunk)
 
 
 if __name__ == "__main__":
