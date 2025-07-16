@@ -3,7 +3,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import time
 
-URL = "http://117.50.245.216:8010"
+URL = "http://117.50.184.42:8010"
 
 # 在程序启动时创建全局Session并配置headers
 SESSION = requests.Session()

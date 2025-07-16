@@ -10,3 +10,9 @@
   中立:
     reffile: "./GPT_SoVITS/models/佼佼仔_中立.wav"
     reftext: "今天，我将带领大家穿越时空，去到未来的杭州。"
+邻家女孩:
+  awake_text: "你好，请问有什么我可以帮助你的吗？"
+  awake_audio: "/../../../../AwakeAudio/佼佼仔_awake.wav"
+  中立:
+    reffile: "./GPT_SoVITS/models/佼佼仔_中立.wav"
+    reftext: "今天，我将带领大家穿越时空，去到未来的杭州。"

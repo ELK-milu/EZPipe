@@ -102,6 +102,19 @@ class API_Service(ABC):
             """心跳请求"""
             await self.pipeline.HeartBeat(user)
 
+
+        @self.router.get("/interrupt_talk")
+        async def interrupt(user: str):
+            """中断用户请求"""
+            self.logger.info(f"[API] 收到用户 {user} 的中断请求")
+            # 强制清理该用户的所有连接
+            await self.pipeline._force_cleanup_user(user)
+            return JSONResponse(
+                content={"status": "success", "message": f"已中断用户 {user} 的所有请求"},
+                status_code=200
+            )
+
+
         # 收集所有模块路由
         for module in self.pipeline.modules:
             self.app.include_router(

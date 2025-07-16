@@ -28,7 +28,8 @@ class PostChat:
             "message_id" : "",
             "LLM":{"streamly":True},
             "TTS":{"streamly":True,
-                   "voice": "佼佼仔",
+                   "voice": "邻家女孩",
+                   "sessionid": 319652,
                    "emotion": "中立"},
         }
         self.streamly = streamly

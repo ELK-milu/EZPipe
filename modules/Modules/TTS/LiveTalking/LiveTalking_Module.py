@@ -1,8 +1,14 @@
 import asyncio
+import base64
+import json
 import os
 import time
+from typing import AsyncGenerator
+
+from starlette.responses import StreamingResponse
 
 from modules.Modules.BaseModule import BaseModule
+from modules.utils.AudioChange import convert_audio_to_wav
 from .LiveTalkingPost import PostChat, SetSessionConfig
 from modules.utils.ConfigLoader import read_config
 
@@ -31,6 +37,7 @@ class LiveTalking_Module(BaseModule):
                 "filepath":"",
             }
             """
+            '''
             awakePath = self.Module_Config[voice]["awake"]
             self.logger.info(f"发送请求sessionid:{user},filepath:{awakePath},到 {self.url}/humanaudio")
             result = self.session.post(url = f"{self.url}/humanaudio",
@@ -39,6 +46,48 @@ class LiveTalking_Module(BaseModule):
                                            "filepath": awakePath,
                                        })
             return result.json()
+            '''
+            return StreamingResponse(
+                content=self.generate_stream(user,voice),
+                media_type="text/event-stream",
+            )
+
+
+
+    async def generate_stream(self,user,voice) -> AsyncGenerator[str, None]:
+        awakeText = self.Module_Config[voice]["awake_text"]
+        # 第一条文本数据
+        # 服务端替客户端处理成Json再返回
+        final_json = json.dumps({
+            "think": "",
+            "response": awakeText,
+            "conversation_id": "",
+            "message_id": "",
+            "Is_End": True
+        })
+        yield json.dumps({
+            "type": "text",
+            "chunk": final_json
+        })+ "\n"
+
+        # 第二条音频数据
+        print(self.GetAbsPath() + self.Module_Config[voice]["awake_audio"])
+        awakeAudioPath = self.GetAbsPath() + self.Module_Config[voice]["awake_audio"]
+        try:
+            with open(awakeAudioPath, 'rb') as f:
+                wav_audio = convert_audio_to_wav(f.read(), set_sample_rate=24000)
+                yield json.dumps({
+                    "type": "audio/wav",
+                    "chunk": base64.b64encode(wav_audio).decode("utf-8")
+                }) + "\n"
+        except Exception as e:
+            yield json.dumps({
+                "type": "error",
+                "chunk": f"文件加载失败: {str(e)}"
+            }) + "\n"
+        finally:
+            # 关闭文件
+            f.close()
 
 
 

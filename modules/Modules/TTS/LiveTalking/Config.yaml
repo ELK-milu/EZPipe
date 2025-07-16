@@ -1,14 +1,24 @@
 派蒙:
+  awake_text: "你好，请问有什么我可以帮助你的吗？"
+  awake_audio: "/../../../../AwakeAudio/邻家女孩_awake.wav"
   中立:
     reffile: "/root/派蒙_中立.wav"
     reftext: "可恶，怎么又是盗宝团！海灯节就快到了，也不知道安分一点。"
 邻家女孩:
-  awake: "/workspace/AwakeAudio/邻家女孩_awake.mp3"
+  awake_text: "你好，请问有什么我可以帮助你的吗？"
+  awake_audio: "/../../../../AwakeAudio/邻家女孩_awake.wav"
   中立:
     reffile: "zh_female_linjianvhai_moon_bigtts"
     reftext: ""
 磁性解说男声:
-  awake: "/workspace/AwakeAudio/邻家女孩_awake.mp3"
+  awake_text: "你好，请问有什么我可以帮助你的吗？"
+  awake_audio: "/../../../../AwakeAudio/邻家女孩_awake.wav"
   中立:
     reffile: "zh_male_jieshuonansheng_mars_bigtts"
+    reftext: ""
+测试:
+  awake_text: "你好，请问有什么我可以帮助你的吗？"
+  awake_audio: "/../../../../AwakeAudio/邻家女孩_awake.wav"
+  中立:
+    reffile: ""
     reftext: ""

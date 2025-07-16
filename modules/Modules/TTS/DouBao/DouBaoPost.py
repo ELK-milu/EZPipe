@@ -170,7 +170,8 @@ if __name__ == '__main__':
     response = tts.Post(
         user="test_user",
         text="欢迎使用字节跳动语音合成服务",
-        voice_type="zh_female_linjianvhai_moon_bigtts"  # 使用默认发音人
+        voice_type="zh_female_linjianvhai_moon_bigtts",  # 使用默认发音人
+        emotion="neutral"  # 可以根据需要设置情感
     )
 
     if response.status_code == 200:
@@ -181,3 +182,10 @@ if __name__ == '__main__':
                 audio_data = base64.b64decode(response_data['data'])
                 # 直接播放无需保存
                 PlayAudio(audio_data)  # <-- 关键调用
+
+                # 保存为本地WAV文件
+                with wave.open("output_audio.wav", "wb") as wf:
+                    wf.setnchannels(1)  # 假设是单声道
+                    wf.setsampwidth(2)  # 假设采样宽度为2字节（16位）
+                    wf.setframerate(24000)  # 假设采样率为24000Hz
+                    wf.writeframes(audio_data)

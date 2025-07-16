@@ -140,7 +140,7 @@ class PostChat:
 if __name__ == "__main__":
     # 启动 main 服务
     start = time.time()
-    chat = PostChat(streamly=False, user="user", text="你好，请问有什么我可以帮助你的吗？",ref_audio_path="./GPT_SoVITS/models/佼佼仔_中立.wav", prompt_text="今天，我将带领大家穿越时空，去到未来的杭州。")
+    chat = PostChat(streamly=False, user="user", text="你好，我是杭州交投集团的形象代表佼佼崽。请问有什么我可以帮助你的吗？",ref_audio_path="./GPT_SoVITS/models/佼佼仔_中立.wav", prompt_text="今天，我将带领大家穿越时空，去到未来的杭州。")
     response = chat.GetResponse()
     print(f"请求总耗时: {time.time() - start:.3f}秒, 状态码: {response.status_code}")
     # +++ 新增保存音频逻辑 +++
